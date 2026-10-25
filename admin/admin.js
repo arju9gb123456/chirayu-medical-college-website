@@ -132,7 +132,7 @@
       desc: 'Which website design visitors see first, and the footer visitor counter.',
       groups: [
         { h: 'Website design', fields: [
-          { k: 'theme', l: 'Default design', t: 'select', opts: [['cinema', 'Cinematic dark'], ['clean', 'Clean bright'], ['bold', 'Bold & energetic']], hint: 'Shown to visitors who have not picked a design themselves.' },
+          { k: 'theme', l: 'Default design', t: 'select', opts: [['classic', 'Original'], ['cinema', 'Cinematic dark'], ['clean', 'Clean bright'], ['bold', 'Bold & energetic']], hint: 'Shown to visitors who have not picked a design themselves.' },
           { k: 'themeSwitcher', l: 'Show the design switcher in the top bar', t: 'check' } ] },
         { h: 'Visitor counter', fields: [{ k: 'visitorBase', l: 'Starting visitor count', t: 'number' }] }
       ] }
@@ -177,7 +177,7 @@
     });
     c.blocks = c.blocks || {};
     if (typeof c.visitorBase !== 'number') c.visitorBase = parseInt(c.visitorBase, 10) || 0;
-    if (['cinema', 'clean', 'bold'].indexOf(c.theme) < 0) c.theme = 'cinema';
+    if (['classic', 'cinema', 'clean', 'bold'].indexOf(c.theme) < 0) c.theme = 'classic';
     if (typeof c.themeSwitcher !== 'boolean') c.themeSwitcher = true;
     return c;
   }

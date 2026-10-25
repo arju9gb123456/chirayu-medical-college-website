@@ -17,12 +17,13 @@ supabase/schema.sql     Database tables, security rules, storage bucket
 vercel.json             Static hosting config (no build step)
 ```
 
-## Three designs
+## Four designs
 
-The site ships with three complete designs, switched with `data-theme` on `<html>`:
+The site ships with four complete designs, switched with `data-theme` on `<html>`:
 
 | Design | Look |
 |---|---|
+| `classic` | **Original** (default): light hero, 3D coverflow photo cards, aurora glow, particles, Bricolage Grotesque |
 | `cinema` | Cinematic dark: full-screen photo slider, serif headings (Fraunces), teal glow |
 | `clean` | Clean bright: split hero with rounded photo, Plus Jakarta Sans, soft gradients |
 | `bold` | Bold & energetic: blob-framed photo, sticker, Unbounded, coral/yellow blocks |

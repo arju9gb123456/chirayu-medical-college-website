@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="cinema">
+<html lang="en" data-theme="classic">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Chirayu Medical College & Hospital: Leading healthcare in Bhopal led by Dr. Ajay Goenka. Watch 'LOVE COVID' documentary on our mission & success against COVID-19.">
 <meta name="keywords" content="Chirayu Medical College Bhopal, Best Hospital in Bhopal, Dr. Ajay Goenka, Chirayu Hospital Contact, Top Multi-speciality Hospital MP, COVID-19 Warriors">
 <meta name="author" content="Dr. Ajay Goenka">
-<meta name="theme-color" content="#06161C">
+<meta name="theme-color" content="#0A8E97">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <link rel="canonical" href="https://www.chirayuhospital.com/">
 
@@ -57,7 +57,7 @@
 <script>
 window.addEventListener('error',function(e){var t=e.target;if(!t||t.tagName!=='IMG'||t.dataset.fb)return;t.dataset.fb=1;t.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E8F98"/><stop offset="1" stop-color="#073A44"/></linearGradient></defs><rect width="800" height="600" fill="url(#g)"/><path d="M0 330h250l20-20 20 20h28l16 28 26-150 28 180 16-56h60l30-24 30 24h256" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="6"/></svg>');},true);
 document.documentElement.classList.add('js');
-try{var _t=localStorage.getItem('cmch_theme');if(_t==='cinema'||_t==='clean'||_t==='bold')document.documentElement.setAttribute('data-theme',_t);}catch(e){}
+try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||_t==='clean'||_t==='bold')document.documentElement.setAttribute('data-theme',_t);}catch(e){}
 </script>
 
 <link rel="preconnect" href="https://i.ytimg.com">
@@ -69,7 +69,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='cinema'||_t==='clean'||_t
 <link rel="preload" href="assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" type="image/svg+xml" href="assets/img/emblem.svg">
 <link rel="apple-touch-icon" href="assets/img/emblem.svg">
-<link rel="stylesheet" href="assets/css/style.css?v=20261025-t4">
+<link rel="stylesheet" href="assets/css/style.css?v=20261025-t5">
 </head>
 <body>
 
@@ -132,6 +132,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='cinema'||_t==='clean'||_t
       <li class="hide-md"><a href="ccms/" target="_blank" rel="noopener">CMS Login</a></li>
       <li class="theme-switch" role="radiogroup" aria-label="Website design">
         <span class="theme-switch__label">Design</span>
+        <button type="button" role="radio" data-theme-set="classic" aria-checked="false" title="Original design"><i class="swatch swatch--classic"></i><span>Original</span></button>
         <button type="button" role="radio" data-theme-set="cinema" aria-checked="false" title="Cinematic dark"><i class="swatch swatch--cinema"></i><span>Cinematic</span></button>
         <button type="button" role="radio" data-theme-set="clean" aria-checked="false" title="Clean bright"><i class="swatch swatch--clean"></i><span>Clean</span></button>
         <button type="button" role="radio" data-theme-set="bold" aria-checked="false" title="Bold &amp; energetic"><i class="swatch swatch--bold"></i><span>Bold</span></button>
@@ -200,6 +201,8 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='cinema'||_t==='clean'||_t
 
 <!-- ===== HERO — slides from content/home.json → hero.slides. Layout and slide transition change with the design (data-theme) ===== -->
 <section class="hero" aria-roledescription="carousel" aria-label="Main Slider" tabindex="-1">
+  <div class="hero__ambient" aria-hidden="true" data-bind="hero-ambient"></div>
+  <canvas class="hero__particles" aria-hidden="true"></canvas>
   <div class="hero__deco" aria-hidden="true"><i class="hd hd--1"></i><i class="hd hd--2"></i><i class="hd hd--3"></i><i class="hd hd--4"></i></div>
   <div class="hero__outline" aria-hidden="true" data-parallax-x="0.25">CHIRAYU</div>
   <div class="hero__ecg" aria-hidden="true"><svg viewBox="0 0 1600 90" preserveAspectRatio="none"><path class="trace-bg"/><path class="trace"/><circle class="blip" r="5" cx="-10" cy="55"/></svg></div>
@@ -558,6 +561,6 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='cinema'||_t==='clean'||_t
 
 <script src="assets/js/config.js?v=20261025-t3"></script>
 <script src="assets/vendor/lenis.min.js?v=1.1.13" defer></script>
-<script src="assets/js/main.js?v=20261025-t4" defer></script>
+<script src="assets/js/main.js?v=20261025-t5" defer></script>
 </body>
 </html>

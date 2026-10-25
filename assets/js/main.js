@@ -94,7 +94,11 @@
   function renderHero(h) {
     var slides = (h && h.slides) || [];
     bind('hero-media').innerHTML = slides.map(function (s, i) {
-      return '<figure class="hs' + (i === 0 ? ' is-active' : '') + '"><img src="' + esc(s.img) + '" alt=""' + (i ? ' loading="lazy"' : ' fetchpriority="high"') + '></figure>';
+      return '<figure class="hs' + (i === 0 ? ' is-active' : '') + '" data-i="' + i + '"><img src="' + esc(s.img) + '" alt=""' + (i ? ' loading="lazy"' : ' fetchpriority="high"') + '>' +
+        '<span class="hs__glare"></span><figcaption class="hs__cap"><b>' + esc(s.capTitle || s.title) + '</b><span>' + esc(s.capSub || '') + '</span></figcaption></figure>';
+    }).join('');
+    bind('hero-ambient').innerHTML = slides.map(function (s, i) {
+      return '<div class="amb' + (i === 0 ? ' is-on' : '') + '" style="background-image:url(\'' + esc(s.img) + '\')"></div>';
     }).join('');
     bind('hero-tabs').innerHTML = slides.map(function (s, i) {
       return '<button type="button" class="htab" aria-label="Go to slide ' + (i + 1) + ': ' + esc(s.title) + '"><span class="htab__t">' + esc(s.capTitle || s.title) + '</span><span class="htab__bar"><i></i></span></button>';
@@ -224,6 +228,33 @@
 
   function restartAnim(el) { if (!el) return; el.style.animation = 'none'; void el.offsetWidth; el.style.animation = ''; }
 
+  function isClassic() { return document.documentElement.getAttribute('data-theme') === 'classic'; }
+
+  /* Original design: slides are 3D coverflow cards */
+  function layoutFlow() {
+    var cards = $$('.hs'), n = cards.length;
+    if (!isClassic()) {
+      cards.forEach(function (c) { c.style.transform = c.style.opacity = c.style.zIndex = c.style.filter = c.style.transition = ''; });
+      return;
+    }
+    var narrow = window.innerWidth < 640;
+    cards.forEach(function (c, k) {
+      var off = ((k - hero.i) % n + n) % n;
+      if (off > n / 2) off -= n;
+      var x, z, ry, sc, op, zi, f;
+      if (off === 0) { x = 0; z = 0; ry = 0; sc = 1; op = 1; zi = 10; f = 'none'; }
+      else if (Math.abs(off) === 1) { x = off * (narrow ? 34 : 46); z = -220; ry = -off * 28; sc = .82; op = .85; zi = 5; f = 'saturate(.7) brightness(.85)'; }
+      else { x = off * 60; z = -420; ry = -off * 35; sc = .6; op = 0; zi = 1; f = 'none'; }
+      c.style.transition = '';
+      c.style.transform = 'translate(-50%,-50%) translateX(' + x + '%) translateZ(' + z + 'px) rotateY(' + ry + 'deg) scale(' + sc + ')';
+      c.style.opacity = op;
+      c.style.zIndex = zi;
+      c.style.filter = f;
+      c.dataset.cursor = off === 0 ? '' : (off < 0 ? 'Prev' : 'Next');
+    });
+    $$('.amb').forEach(function (a, k) { a.classList.toggle('is-on', k === hero.i); });
+  }
+
   function paintSlides(prev) {
     var figs = $$('.hs'), tabs = $$('.htab');
     figs.forEach(function (f, k) {
@@ -243,6 +274,7 @@
     });
     var num = $('[data-hero-num]');
     if (num) num.textContent = pad(hero.i + 1);
+    layoutFlow();
   }
 
   function go(idx) {
@@ -273,7 +305,25 @@
 
     var media = $('.hero__media');
     media.dataset.cursor = 'Next';
-    media.addEventListener('click', function () { go(hero.i + 1); });
+    media.addEventListener('click', function (e) {
+      var card = e.target.closest && e.target.closest('.hs');
+      if (isClassic() && card) { var k = +card.dataset.i; go(k === hero.i ? hero.i + 1 : k); return; }
+      go(hero.i + 1);
+    });
+    window.addEventListener('resize', layoutFlow);
+    // Original design: active card tilts toward the pointer with a glare
+    if (finePointer && !reduce) {
+      media.addEventListener('mousemove', function (e) {
+        if (!isClassic()) return;
+        var c = $$('.hs')[hero.i];
+        if (!c || !(e.target.closest && e.target.closest('.hs') === c)) return;
+        var r = c.getBoundingClientRect(), px = (e.clientX - r.left) / r.width, py = (e.clientY - r.top) / r.height;
+        c.style.transition = 'transform .15s ease-out';
+        c.style.transform = 'translate(-50%,-50%) rotateY(' + ((px - .5) * 12) + 'deg) rotateX(' + ((.5 - py) * 10) + 'deg) scale(1.02)';
+        c.style.setProperty('--gx', px * 100 + '%'); c.style.setProperty('--gy', py * 100 + '%');
+      });
+      media.addEventListener('mouseleave', function () { if (isClassic()) layoutFlow(); });
+    }
 
     // pause while the visitor is looking at the slider controls / photo (not in the full-bleed design)
     [$('.hero__nav'), $('.hero__visual')].forEach(function (el) {
@@ -315,8 +365,8 @@
   }
 
   /* ---------------- Design (theme) switch ---------------- */
-  var THEMES = ['cinema', 'clean', 'bold'];
-  var THEME_COLORS = { cinema: '#06161C', clean: '#0A8E97', bold: '#FFC94A' };
+  var THEMES = ['classic', 'cinema', 'clean', 'bold'];
+  var THEME_COLORS = { classic: '#0A8E97', cinema: '#06161C', clean: '#0A8E97', bold: '#FFC94A' };
   var themeUser = null;
   try { themeUser = localStorage.getItem('cmch_theme'); } catch (e) { /* storage blocked */ }
   if (THEMES.indexOf(themeUser) < 0) themeUser = null;
@@ -405,6 +455,56 @@
       }
       requestAnimationFrame(frame);
     })(t0);
+  }
+
+  /* ---------------- Hero particles (Original design) ---------------- */
+  function initParticles() {
+    var cv = $('.hero__particles');
+    if (!cv || reduce) return;
+    var ctx = cv.getContext('2d'), dpr = Math.min(2, window.devicePixelRatio || 1), W = 0, H = 0, pts = [], mouse = { x: -999, y: -999 }, visible = true, scrolling = 0, wasOn = false;
+    function size() {
+      W = cv.offsetWidth; H = cv.offsetHeight;
+      if (!W || !H) return;
+      cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var count = Math.round(Math.min(48, W * H / 24000));
+      pts = [];
+      for (var i = 0; i < count; i++) pts.push({ x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .3, vy: (Math.random() - .5) * .3, r: Math.random() * 1.8 + .8, plus: Math.random() < .12 });
+    }
+    size(); window.addEventListener('resize', size);
+    hero.el.addEventListener('mousemove', function (e) { var r = cv.getBoundingClientRect(); mouse.x = e.clientX - r.left; mouse.y = e.clientY - r.top; });
+    hero.el.addEventListener('mouseleave', function () { mouse.x = mouse.y = -999; });
+    new IntersectionObserver(function (en) { visible = en[0].isIntersecting; }).observe(hero.el);
+    window.addEventListener('scroll', function () { scrolling = performance.now(); }, { passive: true });
+    (function frame() {
+      var on = isClassic();
+      if (on && !wasOn) size();
+      wasOn = on;
+      if (on && visible && W && performance.now() - scrolling > 160) {
+        ctx.clearRect(0, 0, W, H);
+        for (var i = 0; i < pts.length; i++) {
+          var p = pts[i], dx = p.x - mouse.x, dy = p.y - mouse.y, dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 120) { p.x += dx / dist * 1.4; p.y += dy / dist * 1.4; }
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > W) p.vx *= -1;
+          if (p.y < 0 || p.y > H) p.vy *= -1;
+          ctx.fillStyle = 'rgba(10,142,151,.45)';
+          if (p.plus) { ctx.fillRect(p.x - 4, p.y - 1, 8, 2); ctx.fillRect(p.x - 1, p.y - 4, 2, 8); }
+          else { ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.283); ctx.fill(); }
+          for (var j = i + 1; j < pts.length; j++) {
+            var q = pts[j], ex = p.x - q.x, ey = p.y - q.y, d2 = ex * ex + ey * ey;
+            if (d2 < 11000) {
+              ctx.strokeStyle = 'rgba(10,142,151,' + (0.14 * (1 - d2 / 11000)) + ')';
+              ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+            }
+          }
+          if (dist < 160 && mouse.x > 0) {
+            ctx.strokeStyle = 'rgba(10,142,151,' + (0.35 * (1 - dist / 160)) + ')';
+            ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(mouse.x, mouse.y); ctx.stroke();
+          }
+        }
+      }
+      requestAnimationFrame(frame);
+    })();
   }
 
   /* ---------------- Count-up ---------------- */
@@ -802,6 +902,7 @@
   initPanels();
   initVideo();
   initECG();
+  initParticles();
 
   /* Pause looping CSS animations while their section is off-screen */
   function initOffscreenPause() {
