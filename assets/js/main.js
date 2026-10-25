@@ -330,10 +330,11 @@
     var len = tr.getTotalLength(), seg = 360;
     tr.style.strokeDasharray = seg + ' ' + len;
     if (reduce) { tr.style.strokeDasharray = 'none'; blip.style.display = 'none'; return; }
-    var t0 = performance.now(), period = 5200, visible = true;
+    var t0 = performance.now(), period = 5200, visible = true, scrolling = 0;
     new IntersectionObserver(function (en) { visible = en[0].isIntersecting; }).observe(svg);
+    window.addEventListener('scroll', function () { scrolling = performance.now(); }, { passive: true });
     (function frame(now) {
-      if (visible) {
+      if (visible && now - scrolling > 160) {
         var p = ((now - t0) % period) / period, at = p * (len + seg);
         tr.style.strokeDashoffset = -(at - seg);
         var pt = tr.getPointAtLength(Math.min(at, len));
@@ -352,7 +353,7 @@
     function size() {
       W = cv.offsetWidth; H = cv.offsetHeight;
       cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      var count = Math.round(Math.min(70, W * H / 18000));
+      var count = Math.round(Math.min(48, W * H / 24000));
       pts = [];
       for (var i = 0; i < count; i++) pts.push({ x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .3, vy: (Math.random() - .5) * .3, r: Math.random() * 1.8 + .8, plus: Math.random() < .12 });
     }
@@ -360,8 +361,10 @@
     hero.el.addEventListener('mousemove', function (e) { var r = cv.getBoundingClientRect(); mouse.x = e.clientX - r.left; mouse.y = e.clientY - r.top; });
     hero.el.addEventListener('mouseleave', function () { mouse.x = mouse.y = -999; });
     new IntersectionObserver(function (en) { visible = en[0].isIntersecting; }).observe(cv);
+    var scrolling = 0;
+    window.addEventListener('scroll', function () { scrolling = performance.now(); }, { passive: true });
     (function frame() {
-      if (visible) {
+      if (visible && performance.now() - scrolling > 160) {
         ctx.clearRect(0, 0, W, H);
         for (var i = 0; i < pts.length; i++) {
           var p = pts[i], dx = p.x - mouse.x, dy = p.y - mouse.y, dist = Math.sqrt(dx * dx + dy * dy);
@@ -516,8 +519,8 @@
     if (reduce || !finePointer || typeof window.Lenis !== 'function') return;
     try {
       lenis = new window.Lenis({
-        lerp: 0.11,            // how quickly the page catches up to the wheel (higher = snappier)
-        wheelMultiplier: 0.95,
+        lerp: 0.12,            // how quickly the page catches up to the wheel (higher = snappier)
+        wheelMultiplier: 1,
         smoothWheel: true,
         syncTouch: false,      // phones keep their native scrolling
         prevent: function (node) { return !!(node.closest && node.closest('.drawer, .board__viewport, [data-lenis-prevent]')); }
