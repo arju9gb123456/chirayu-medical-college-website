@@ -4,9 +4,11 @@
   "installCommand": "echo 'Static site - nothing to install'",
   "buildCommand": "echo 'Static site - no build step'",
   "outputDirectory": ".",
-  "cleanUrls": false,
-  "trailingSlash": false,
   "headers": [
+    {
+      "source": "/admin/(.*)",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    },
     {
       "source": "/content/(.*)",
       "headers": [{ "key": "Cache-Control", "value": "no-cache" }]

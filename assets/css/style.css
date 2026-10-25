@@ -116,7 +116,8 @@ body.is-loaded .loader{visibility:hidden;transition:visibility 0s 1s}
 .topbar__social svg{width:14px;height:14px}
 
 /* ---------- Header ---------- */
-.header{position:sticky;top:0;z-index:900;background:rgba(255,255,255,.88);backdrop-filter:saturate(1.6) blur(14px);-webkit-backdrop-filter:saturate(1.6) blur(14px);border-bottom:1px solid transparent;transition:box-shadow .35s,border-color .35s}
+.header{position:sticky;top:0;z-index:900;background:rgba(255,255,255,.88);backdrop-filter:saturate(1.6) blur(14px);-webkit-backdrop-filter:saturate(1.6) blur(14px);border-bottom:1px solid transparent;transition:box-shadow .35s,border-color .35s,transform .5s var(--ease)}
+.header.is-hidden{transform:translateY(-102%)}
 .header.is-stuck{border-color:var(--line);box-shadow:0 10px 30px -22px rgba(6,47,55,.4)}
 .header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;height:var(--header-h);transition:height .35s var(--ease)}
 .header.is-stuck .wrap{height:66px}
@@ -578,6 +579,113 @@ button.nrow{text-align:left;width:100%}
 .sk{border-radius:var(--r-m);background:linear-gradient(90deg,var(--mint) 25%,#fff 50%,var(--mint) 75%);background-size:200% 100%;animation:sk 1.2s infinite}
 @keyframes sk{to{background-position:-200% 0}}
 
+
+/* =========================================================
+   Motion & hover layer
+   ========================================================= */
+
+/* Split headings: words rise in */
+.split .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.12em;margin-bottom:-.12em}
+.split .w>span{display:inline-block;transform:translateY(112%) rotate(5deg);transform-origin:0 100%;transition:transform 1s var(--ease);transition-delay:calc(var(--i)*45ms)}
+.split.is-visible .w>span{transform:none}
+
+/* Scroll-scrubbed lead text */
+.scrub .sw{color:rgba(20,52,58,.2);transition:color .45s ease}
+.scrub .sw.on{color:var(--text)}
+
+/* ECG icon in section kickers draws itself */
+.kick svg{stroke-dasharray:70;stroke-dashoffset:70;transition:stroke-dashoffset 1.6s var(--ease) .15s}
+.head.is-visible .kick svg,.about__body.is-visible .kick svg,.chair.is-visible .kick svg{stroke-dashoffset:0}
+html:not(.js) .kick svg{stroke-dashoffset:0}
+
+/* Image wipe reveals */
+.js .stack .stack__card{clip-path:inset(100% 0 0 0 round var(--r-l));transition:clip-path 1.4s var(--ease),transform .8s var(--ease)}
+.js .stack .stack__card--b{transition-delay:.3s,0s}
+.js .stack.is-visible .stack__card{clip-path:inset(0 0 0 0 round var(--r-l))}
+.js .stack .stack__card img{transform:scale(1.25);transition:transform 1.8s var(--ease)}
+.js .stack.is-visible .stack__card img{transform:scale(1)}
+.js .stack.is-visible:hover .stack__card img{transform:scale(1.06)}
+.stack__seal{transition:transform .6s var(--ease-spring)}
+.stack:hover .stack__seal{transform:scale(1.08) rotate(-6deg)}
+.js .hl[data-reveal] .hl__img{clip-path:inset(0 100% 0 0 round 18px);transition:clip-path 1.3s var(--ease) calc(var(--rd,0s) + .25s)}
+.js .hl.is-visible .hl__img{clip-path:inset(0 0 0 0 round 18px)}
+.js .nitem[data-reveal] .nitem__thumb{clip-path:inset(0 0 0 100% round 18px);transition:clip-path 1.2s var(--ease) calc(var(--rd,0s) + .2s)}
+.js .nitem.is-visible .nitem__thumb{clip-path:inset(0 0 0 0 round 18px)}
+.js .cat[data-reveal]{clip-path:inset(12% 12% 12% 12% round 28px);transition:opacity 1s var(--ease),transform 1s var(--ease),clip-path 1.2s var(--ease),filter .5s;transition-delay:var(--rd,0s),var(--rd,0s),var(--rd,0s),0s}
+.js .cat.is-visible{clip-path:inset(0 0 0 0 round 28px)}
+
+/* Spotlight that follows the pointer */
+.tabs,.notice,.accred{position:relative;isolation:isolate}
+.board{isolation:isolate}
+.spot{position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .4s;background:radial-gradient(420px circle at var(--sx,50%) var(--sy,50%),rgba(10,142,151,.14),transparent 45%)}
+:hover>.spot{opacity:1}
+.hl--big>.spot,.hl--ink>.spot,.hl--indigo>.spot,.board>.spot,.notice>.spot,.cta>.spot{background:radial-gradient(420px circle at var(--sx,50%) var(--sy,50%),rgba(255,255,255,.16),transparent 45%)}
+.hl::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1.5px;background:radial-gradient(260px circle at var(--sx,50%) var(--sy,50%),var(--teal-l),transparent 60%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:0;transition:opacity .4s;pointer-events:none;z-index:1}
+.hl:hover::before{opacity:1}
+
+/* Ripple */
+.ripple{position:absolute;border-radius:50%;background:currentColor;opacity:.28;transform:scale(0);animation:rip .7s var(--ease) forwards;pointer-events:none;z-index:3}
+@keyframes rip{to{transform:scale(1);opacity:0}}
+.flow__btn,.tabs__bar button{position:relative;overflow:hidden}
+
+/* Magnetic (uses `translate`, so it never fights transforms) */
+[data-magnetic]{transition:translate .45s var(--ease),transform .35s var(--ease),box-shadow .35s,background .25s,color .25s,border-color .3s}
+
+/* Hero mouse parallax (vars set on .hero) */
+.hero__show{translate:calc(var(--px,0) * -18px) calc(var(--py,0) * -14px)}
+.hero__copy{translate:calc(var(--px,0) * 8px) calc(var(--py,0) * 6px)}
+.float-chip--a{translate:calc(var(--px,0) * 34px) calc(var(--py,0) * 26px)}
+.float-chip--b{translate:calc(var(--px,0) * -30px) calc(var(--py,0) * -22px)}
+.hero__aurora{translate:calc(var(--px,0) * 50px) calc(var(--py,0) * 40px)}
+.hero__ring{translate:calc(var(--px,0) * -26px) calc(var(--py,0) * -20px)}
+
+/* Dropdown links cascade in */
+.drop a,.drop .drop__head{opacity:0;transform:translateY(8px);transition:opacity .3s,transform .45s var(--ease),background .2s,color .2s,padding .3s var(--ease);transition-delay:0s}
+.nav__item:hover>.drop a,.nav__item:focus-within>.drop a,.nav__item:hover>.drop .drop__head,.nav__item:focus-within>.drop .drop__head{opacity:1;transform:none;transition-delay:calc(var(--n,0) * 32ms),calc(var(--n,0) * 32ms),0s,0s,0s}
+.nav__link{transition:color .25s,background .25s,transform .35s var(--ease-spring)}
+.nav__link:hover{transform:translateY(-1px)}
+
+/* Drawer items slide in */
+.drawer details,.drawer>a.drawer__link,.drawer__cta{opacity:0;transform:translateX(36px);transition:opacity .35s,transform .5s var(--ease)}
+.drawer.is-open details,.drawer.is-open>a.drawer__link,.drawer.is-open .drawer__cta{opacity:1;transform:none;transition-delay:calc(var(--n,8) * 45ms + .12s)}
+
+/* Focus the hovered card: dim siblings */
+.cat{transition:filter .5s}
+.cats:hover .cat:not(:hover){filter:saturate(.45) brightness(.78)}
+.vgal:hover .vid:not(:hover) img{filter:saturate(.5) brightness(.7)}
+.news:hover .nitem:not(:hover){opacity:.72}
+.nitem{transition:border-color .4s,transform .5s var(--ease),box-shadow .5s,opacity .4s}
+
+/* Brand + footer niceties */
+.footer__brand>img{transition:transform .8s var(--ease-spring)}
+.footer__brand:hover>img{transform:rotate(-12deg) scale(1.08)}
+.timeline li{transition:transform .4s var(--ease)}
+.timeline li:hover{transform:translateY(-4px)}
+.hero__facts>div{transition:transform .4s var(--ease)}
+.hero__facts>div:hover{transform:translateY(-4px)}
+.hero__facts>div:hover b{color:var(--teal)}
+
+/* Custom cursor ring (desktop only) */
+.cursor{position:fixed;inset:0;pointer-events:none;z-index:5000;opacity:0;transition:opacity .3s}
+html:not(.has-cursor) .cursor{display:none}
+.cursor.is-on{opacity:1}
+.cursor__dot{position:fixed;left:0;top:0;width:6px;height:6px;margin:-3px 0 0 -3px;border-radius:50%;background:var(--teal);transition:background .3s,opacity .3s}
+.cursor__ring{position:fixed;left:0;top:0;width:38px;height:38px;margin:-19px 0 0 -19px;display:grid;place-items:center}
+.cursor__ring::before{content:"";position:absolute;inset:0;border-radius:50%;border:1.5px solid rgba(10,142,151,.55);transition:transform .4s var(--ease),background .3s,border-color .3s}
+.cursor.is-hover .cursor__ring::before{transform:scale(1.55);background:rgba(10,142,151,.08);border-color:rgba(10,142,151,.3)}
+.cursor.is-label .cursor__ring::before{transform:scale(2.3);background:var(--teal);border-color:var(--teal)}
+.cursor.is-label .cursor__dot{opacity:0}
+.cursor.is-down .cursor__ring::before{transform:scale(.75)}
+.cursor.is-dark .cursor__ring::before{border-color:rgba(255,255,255,.6)}
+.cursor.is-dark.is-hover .cursor__ring::before{background:rgba(255,255,255,.1)}
+.cursor.is-dark .cursor__dot{background:#fff}
+.cursor__label{position:relative;font:700 11.5px/1 var(--f-body);color:#fff;opacity:0;transform:scale(.5);transition:opacity .25s,transform .4s var(--ease-spring);white-space:nowrap}
+.cursor.is-label .cursor__label{opacity:1;transform:none}
+
+/* Draft preview badge */
+.preview-badge{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:4000;display:flex;align-items:center;gap:10px;padding:10px 18px;border-radius:999px;background:var(--ink);color:#fff;font-size:13.5px;font-weight:600;box-shadow:0 20px 40px -16px rgba(0,0,0,.5);white-space:nowrap}
+.preview-badge u{color:var(--teal-l);text-underline-offset:3px}
+
 /* =========================================================
    Responsive
    ========================================================= */
@@ -669,6 +777,10 @@ button.nrow{text-align:left;width:100%}
 }
 
 @media (prefers-reduced-motion:reduce){
+  .cursor{display:none!important}
+  .scrub .sw{color:inherit!important}
+  .js .stack .stack__card,.js .hl .hl__img,.js .nitem .nitem__thumb,.js .cat{clip-path:none!important}
+  .split .w>span{transform:none!important}
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
   .ticker__track,.board__track{animation:none!important}
   .board__viewport{overflow-y:auto}

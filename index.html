@@ -197,7 +197,7 @@ document.documentElement.classList.add('js');
   <div class="hero__ambient" aria-hidden="true" data-bind="hero-ambient"></div>
   <div class="hero__aurora" aria-hidden="true"><i></i><i></i><i></i></div>
   <canvas class="hero__particles" aria-hidden="true"></canvas>
-  <div class="hero__outline" aria-hidden="true">CHIRAYU</div>
+  <div class="hero__outline" aria-hidden="true" data-parallax-x="0.25">CHIRAYU</div>
   <div class="hero__ecg" aria-hidden="true"><svg viewBox="0 0 1600 90" preserveAspectRatio="none"><path class="trace-bg"/><path class="trace"/><circle class="blip" r="5" cx="-10" cy="55"/></svg></div>
 
   <div class="wrap hero__inner">
@@ -218,9 +218,9 @@ document.documentElement.classList.add('js');
       <a class="float-chip float-chip--a" href="acheivement/" aria-label="NABH Accreditation"><span class="fc-ic"><svg><use href="#i-shield"/></svg></span><span><b>NABH Accreditation</b>Achievements</span></a>
       <a class="float-chip float-chip--b" href="tel:07552709101" aria-label="Call 0755 2709101"><span class="fc-ic"><svg><use href="#i-heart"/></svg></span><span><b>Hospital Enquiry</b>0755 2709101/102/103</span></a>
       <div class="flow__ctrl">
-        <button class="flow__btn" type="button" data-prev aria-label="Previous slide"><svg><use href="#i-left"/></svg></button>
+        <button class="flow__btn" type="button" data-magnetic data-prev aria-label="Previous slide"><svg><use href="#i-left"/></svg></button>
         <div class="flow__dots" data-bind="hero-dots"></div>
-        <button class="flow__btn" type="button" data-next aria-label="Next slide"><svg><use href="#i-right"/></svg></button>
+        <button class="flow__btn" type="button" data-magnetic data-next aria-label="Next slide"><svg><use href="#i-right"/></svg></button>
       </div>
     </div>
   </div>
@@ -241,19 +241,19 @@ document.documentElement.classList.add('js');
 <section class="section" id="about-sev">
   <div class="wrap about">
     <div class="stack" data-reveal>
-      <div class="stack__card stack__card--a"><img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=75" alt="About Chirayu Hospital" loading="lazy"></div>
-      <div class="stack__card stack__card--b"><img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=700&q=75" alt="Hospital View 1" loading="lazy"></div>
+      <div class="stack__card stack__card--a"><img data-c="aboutImg1" src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=75" alt="About Chirayu Hospital" loading="lazy"></div>
+      <div class="stack__card stack__card--b" data-parallax="-0.06"><img data-c="aboutImg2" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=700&q=75" alt="Hospital View 1" loading="lazy"></div>
       <div class="stack__seal">
         <svg viewBox="0 0 150 150" aria-hidden="true"><defs><path id="circ" d="M75 75 m-58 0 a58 58 0 1 1 116 0 a58 58 0 1 1 -116 0"/></defs><text><textPath href="#circ">CHIRAYU CHARITABLE FOUNDATION • BHOPAL • </textPath></text></svg>
-        <div><b>1300</b><small>bed hospital</small></div>
+        <div><b data-count="1300">1300</b><small>bed hospital</small></div>
       </div>
     </div>
     <div class="about__body">
       <div class="kick"><svg><use href="#i-ecg"/></svg> Chirayu Charitable Foundation</div>
-      <h2 class="head__title">About Chirayu</h2>
-      <p class="lead">Every journey starts with a single step they say, and so did ours. In a small 20-bed hospital in the year 1992, an establishment that would grow into one of Central India's biggest healthcare group was born.</p>
-      <p>After 5 years of incredible hard work and a distant vision and efforts of our founder Dr. Ajay Goenka, we managed to upgrade into a premier super specialty hospital with 100 beds. Our mission of providing quality healthcare started showing promise.</p>
-      <p>In 2004, we started a Cardiac centre devoted to the treatment of those in need of critical cardiac care. From then on Chirayu just kept adding new feathers to its hat.........</p>
+      <h2 class="head__title" data-split>About Chirayu</h2>
+      <p class="lead" data-c="aboutLead" data-scrub>Every journey starts with a single step they say, and so did ours. In a small 20-bed hospital in the year 1992, an establishment that would grow into one of Central India's biggest healthcare group was born.</p>
+      <p data-c="aboutP1">After 5 years of incredible hard work and a distant vision and efforts of our founder Dr. Ajay Goenka, we managed to upgrade into a premier super specialty hospital with 100 beds. Our mission of providing quality healthcare started showing promise.</p>
+      <p data-c="aboutP2">In 2004, we started a Cardiac centre devoted to the treatment of those in need of critical cardiac care. From then on Chirayu just kept adding new feathers to its hat.........</p>
       <ol class="timeline">
         <li><b>1992</b><span>A small 20-bed hospital</span></li>
         <li><b>+5 yrs</b><span>Super specialty hospital with 100 beds</span></li>
@@ -273,19 +273,19 @@ document.documentElement.classList.add('js');
   <div class="wrap chair">
     <div class="portrait" data-tilt="10">
       <div class="portrait__frame" data-tilt-target>
-        <img src="assets/img/chairman-placeholder.svg" alt="Dr. Ajay Goenka" loading="lazy" width="412" height="468">
+        <img data-c="chairmanPhoto" src="assets/img/chairman-placeholder.svg" alt="Dr. Ajay Goenka" loading="lazy" width="412" height="468">
         <div class="portrait__name"><b>Dr. AJAY GOENKA</b><span>Chirayu Medical College &amp; Hospital</span></div>
       </div>
     </div>
     <div>
       <div class="kick"><svg><use href="#i-ecg"/></svg> Dr. AJAY GOENKA</div>
-      <p class="chair__quote">"The man you know, the Journey you don't"</p>
+      <p class="chair__quote" data-c="chairmanQuote" data-split>"The man you know, the Journey you don't"</p>
       <div class="chair__body">
-        <p>Here's the official documentary "LOVE COVID" which offers an insight into the vision of the man on a mission to fight COVID-19 with his "Chirayu Corona Warriors".</p>
-        <p>Join us on this journey as we unravel the success of Chirayu COVID-19 Centre.</p>
+        <p data-c="chairmanP1">Here's the official documentary "LOVE COVID" which offers an insight into the vision of the man on a mission to fight COVID-19 with his "Chirayu Corona Warriors".</p>
+        <p data-c="chairmanP2">Join us on this journey as we unravel the success of Chirayu COVID-19 Centre.</p>
       </div>
       <div class="sign">
-        <button type="button" class="play-btn" data-video="lwAhIOD_InU" data-title="Love Covid - A Tribute To Chirayu Corona Warriors | Documentary | Chirayu Hospital | Dr Ajay Goenka" aria-label="Play LOVE COVID Documentary"><span class="play-btn__ic"><svg><use href="#i-play"/></svg></span> LOVE COVID Documentary</button>
+        <button type="button" class="play-btn" data-magnetic data-c="chairmanVideo" data-c-attr="data-video" data-video="lwAhIOD_InU" data-title="Love Covid - A Tribute To Chirayu Corona Warriors | Documentary | Chirayu Hospital | Dr Ajay Goenka" aria-label="Play LOVE COVID Documentary"><span class="play-btn__ic"><svg><use href="#i-play"/></svg></span> LOVE COVID Documentary</button>
         <a class="btn btn--light btn--sm" href="chairmans-pen/" target="_blank" rel="noopener">Chairman&#8217;s Pen <svg><use href="#i-arrow"/></svg></a>
       </div>
     </div>
@@ -296,7 +296,7 @@ document.documentElement.classList.add('js');
 <section class="section" id="main-features">
   <div class="wrap">
     <div class="head">
-      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Chirayu</div><h2 class="head__title">Chirayu Covid Care Hospital</h2></div>
+      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Chirayu</div><h2 class="head__title" data-split>Chirayu Covid Care Hospital</h2></div>
       <a class="link-arrow" href="covid-19-updates/" target="_blank" rel="noopener">COVID-19 Updates <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="care">
@@ -324,7 +324,7 @@ document.documentElement.classList.add('js');
 <section class="section section--mint" id="media-gallery">
   <div class="wrap">
     <div class="head">
-      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Media</div><h2 class="head__title">Video Gallery</h2></div>
+      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Media</div><h2 class="head__title" data-split>Video Gallery</h2></div>
       <a class="link-arrow" href="https://www.youtube.com/channel/UCow1egPA2WNyKm3hX129cog/videos" target="_blank" rel="noopener">YouTube <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="vgal" data-bind="videos"></div>
@@ -335,18 +335,18 @@ document.documentElement.classList.add('js');
 <section class="section" id="testimonial">
   <div class="wrap">
     <div class="head">
-      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Hospital &amp; College</div><h2 class="head__title">Virtual Tour</h2></div>
+      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Hospital &amp; College</div><h2 class="head__title" data-split>Virtual Tour</h2></div>
       <a class="link-arrow" href="virtual-tour/" target="_blank" rel="noopener">Virtual Tour <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="panels">
       <div class="panel is-open" role="button" tabindex="0" aria-expanded="true">
-        <span class="panel__bg" style="background-image:url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=75')"></span>
+        <span class="panel__bg" data-c="tourHospitalImg" data-c-bg style="background-image:url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=75')"></span>
         <span class="panel__ic"><svg><use href="#i-hosp"/></svg></span>
         <span class="panel__tab">Hospital</span>
         <span class="panel__body"><h3>Hospital</h3><span class="chips"><span class="chip">Hospital View 1</span><span class="chip">Hospital View 2</span><span class="chip">Hospital View 3</span></span><a class="btn btn--light btn--sm" href="hospital-tour/">Hospital Virtual Tour <svg><use href="#i-arrow"/></svg></a></span>
       </div>
       <div class="panel" role="button" tabindex="0" aria-expanded="false">
-        <span class="panel__bg" style="background-image:url('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=75')"></span>
+        <span class="panel__bg" data-c="tourCollegeImg" data-c-bg style="background-image:url('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=75')"></span>
         <span class="panel__ic"><svg><use href="#i-college"/></svg></span>
         <span class="panel__tab">College</span>
         <span class="panel__body"><h3>College</h3><span class="chips"><span class="chip">College View 1</span><span class="chip">College View 2</span><span class="chip">College View 3</span></span><a class="btn btn--light btn--sm" href="college-tour/">College Virtual Tour <svg><use href="#i-arrow"/></svg></a></span>
@@ -359,7 +359,7 @@ document.documentElement.classList.add('js');
 <section class="section section--mint" id="banner-style6">
   <div class="wrap">
     <div class="head">
-      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Course Offered &amp; Hospital Empanalled With &amp; Achievements</div><h2 class="head__title">Course Offered &amp; Achievements</h2></div>
+      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Course Offered &amp; Hospital Empanalled With &amp; Achievements</div><h2 class="head__title" data-split>Course Offered &amp; Achievements</h2></div>
       <a class="link-arrow" href="acheivement/" target="_blank" rel="noopener">Achievements <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="bento">
@@ -367,7 +367,7 @@ document.documentElement.classList.add('js');
         <svg class="ecg-deco" viewBox="0 0 400 100" fill="none" stroke="#fff" stroke-width="3" aria-hidden="true"><path d="M0 60h120l10-10 10 10h14l8 14 14-66 14 76 8-24h28l16-12 16 12h142"/></svg>
         <span class="hl__ic"><svg><use href="#i-cap"/></svg></span>
         <h3>Course Offered</h3>
-        <a class="hl__img" href="courses-offered/" target="_blank" rel="noopener" aria-label="Courses Offered — View Detail"><img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=75" alt="Courses Offered" loading="lazy"></a>
+        <a class="hl__img" href="courses-offered/" target="_blank" rel="noopener" aria-label="Courses Offered — View Detail"><img data-c="courseImg" src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=75" alt="Courses Offered" loading="lazy"></a>
         <div class="hl__links">
           <a class="btn btn--light btn--sm" href="course-offered/" target="_blank" rel="noopener">View Detail <svg><use href="#i-arrow"/></svg></a>
           <a class="hl__icbtn" href="course-offered/" target="_blank" rel="noopener" aria-label="View Course Details"><svg><use href="#i-link"/></svg></a>
@@ -380,17 +380,17 @@ document.documentElement.classList.add('js');
           <p>Hospital Empanelled With</p>
           <div class="hl__links"><a class="link-arrow" href="hospital-accridated-with/" target="_blank" rel="noopener">View Detail <svg><use href="#i-arrow"/></svg></a></div>
         </div>
-        <a class="hl__img" href="hospital-accridated-with/" target="_blank" rel="noopener" aria-label="View Hospital Empanelled Details"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=75" alt="Hospital Empanalled" loading="lazy"></a>
+        <a class="hl__img" href="hospital-accridated-with/" target="_blank" rel="noopener" aria-label="View Hospital Empanelled Details"><img data-c="empanelImg" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=75" alt="Hospital Empanalled" loading="lazy"></a>
       </article>
       <article class="hl hl--ink" data-reveal>
         <span class="hl__ic"><svg><use href="#i-award"/></svg></span>
         <h3>Achievements</h3>
-        <a class="hl__img" href="acheivement/" target="_blank" rel="noopener" aria-label="View Achievement Details"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=75" alt="Achievements" loading="lazy"></a>
+        <a class="hl__img" href="acheivement/" target="_blank" rel="noopener" aria-label="View Achievement Details"><img data-c="achieveImg" src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=75" alt="Achievements" loading="lazy"></a>
         <div class="hl__links"><a class="link-arrow" href="acheivement/" target="_blank" rel="noopener">View Detail <svg><use href="#i-arrow"/></svg></a></div>
       </article>
       <article class="hl hl--indigo" data-reveal>
         <span class="hl__ic"><svg><use href="#i-bed"/></svg></span>
-        <h3>Academic Session 2021-22 PG Seats.</h3>
+        <h3 data-c="pgSeatsText">Academic Session 2021-22 PG Seats.</h3>
         <div class="hl__links"><a class="btn btn--light btn--sm" href="student-info/academic-session-pg-seats/" target="_blank" rel="noopener">Click Here <svg><use href="#i-arrow"/></svg></a></div>
       </article>
     </div>
@@ -408,7 +408,7 @@ document.documentElement.classList.add('js');
 <section class="section" id="blog">
   <div class="wrap">
     <div class="head">
-      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Events</div><h2 class="head__title">Latest News</h2></div>
+      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Events</div><h2 class="head__title" data-split>Latest News</h2></div>
       <a class="link-arrow" href="events/" target="_blank" rel="noopener">Events <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="news" data-bind="news"></div>
@@ -419,7 +419,7 @@ document.documentElement.classList.add('js');
 <section class="section section--mint" id="photo-gallery">
   <div class="wrap">
     <div class="head">
-      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Category</div><h2 class="head__title">Photo Gallery</h2></div>
+      <div><div class="kick"><svg><use href="#i-ecg"/></svg> Category</div><h2 class="head__title" data-split>Photo Gallery</h2></div>
       <a class="link-arrow" href="events/" target="_blank" rel="noopener">View Event <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="cats" data-bind="gallery"></div>
@@ -432,7 +432,7 @@ document.documentElement.classList.add('js');
     <div class="cta" data-reveal>
       <svg class="cta__deco" viewBox="0 0 600 200" fill="none" stroke="#fff" stroke-width="4" aria-hidden="true"><path d="M0 120h180l14-14 14 14h20l12 20 18-110 20 130 12-40h40l22-18 22 18h226"/></svg>
       <div>
-        <h2>Hospital Enquiry</h2>
+        <h2 data-split>Hospital Enquiry</h2>
         <address><b>Chirayu Medical College &amp; Hospital</b>Bhainsakhedi, Near Bairagarh (Bhopal-Indore Highway), Bhopal, M.P. – 462030</address>
       </div>
       <div class="cta__actions">
@@ -524,6 +524,10 @@ document.documentElement.classList.add('js');
 
 <button class="to-top" aria-label="Scroll to top"><svg viewBox="0 0 54 54" aria-hidden="true"><circle cx="27" cy="27" r="24"/></svg><svg class="arrow"><use href="#i-up"/></svg></button>
 
+<div class="cursor" aria-hidden="true"><span class="cursor__ring"><b class="cursor__label"></b></span><span class="cursor__dot"></span></div>
+
+<script src="assets/js/config.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
 <script src="assets/js/main.js" defer></script>
 </body>
 </html>

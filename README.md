@@ -1,49 +1,65 @@
 # Chirayu Medical College & Hospital — Website
 
-Modern redesign of the CMCH public website (cmchbhopal.com). Static HTML/CSS/JS, deployed on Vercel (auto-deploys on every push to `main`).
+Modern redesign of the CMCH public website (cmchbhopal.com). Static HTML/CSS/JS on Vercel (auto-deploys on every push to `main`).
 All existing links and content are kept as on the current site; only the design is new.
+Content is managed from the admin panel at **`/admin`** (Supabase backend).
 
 ## Structure
 
 ```
-index.html              Homepage (layout + static sections)
-content/home.json       Homepage content that changes often  ← admin edits this
-assets/css/style.css    All styles (shared by every page)
-assets/js/main.js       Animations + renders content/home.json
-assets/img/             Logo, placeholders
-images/                 Real CMCH photos go here
+index.html              Homepage layout
+assets/css/style.css    Site styles (shared by every page)
+assets/js/main.js       Animations + renders page content
+assets/js/config.js     Supabase URL + anon key  ← fill once
+content/home.json       Default/fallback homepage content (also the first seed)
+admin/                  Admin panel (/admin)
+supabase/schema.sql     Database tables, security rules, storage bucket
+vercel.json             Static hosting config (no build step)
 ```
 
-## Admin-managed content
+## How content flows
 
-The site is built so that an admin panel can maintain it without touching HTML.
-Everything that changes regularly on the homepage is read from `content/home.json`:
+```
+Admin panel (/admin) ──publish──▶ Supabase: site_content['home']
+                                        │
+Website (index.html) ◀──reads───────────┘   (falls back to content/home.json)
+```
 
-| Key              | Section on the page                        |
-|------------------|--------------------------------------------|
-| `hero.slides`    | Main 3D slider (image, title, text)        |
-| `hero.facts`     | Numbers under the hero (1992 / 1300 beds…) |
-| `ticker`         | Breaking News strip                        |
-| `notices`        | Important Notice tab                       |
-| `media`          | Media tab (YouTube IDs / links)            |
-| `upcomingEvents` | Upcoming Events tab (empty = "Coming soon")|
-| `studentInfo`    | Student Info live board                    |
-| `videos`         | Video Gallery (YouTube IDs)                |
-| `news`           | Latest News                                |
-| `gallery`        | Photo Gallery categories                   |
-| `visitorBase`    | Starting number for the visitor counter    |
+Publishing in the admin updates the live site instantly; no redeploy needed.
+Every publish keeps the previous version, so any change can be restored from **History**.
 
-New pages will follow the same pattern: one HTML layout + one `content/<page>.json`.
+## One-time Supabase setup
 
-## Images
+1. Create a project at supabase.com.
+2. **SQL Editor** → paste `supabase/schema.sql` → **Run**.
+   It creates the tables, row-level security, the public `site-media` bucket, and adds the first admin email.
+3. **Authentication → Users → Add user**: create the admin login (same email as in `site_admins`).
+4. **Project Settings → API**: copy *Project URL* and *anon public* key into `assets/js/config.js`, push.
+5. **Authentication → URL Configuration**: set *Site URL* to the live domain and add `https://<domain>/admin/` to *Redirect URLs* (for password reset emails).
+6. Open `/admin`, sign in, press **Publish** once to store the content in Supabase.
 
-Items with `"demo": true` use temporary web photos. Replace them with real CMCH photos:
-put the file in `images/` and change the `img` path (e.g. `"img": "images/slide1.jpg"`).
-If an image fails to load, the page shows a branded teal placeholder automatically.
+To add another editor: add their user in Authentication, then
+`insert into site_admins (email) values ('name@cmchbhopal.com');`
+
+The anon key is safe in the browser: the security rules only let `site_admins` change content or upload files.
+
+## What the admin can edit (homepage)
+
+Hero slider, hero numbers, breaking news, important notices, media tab, upcoming events,
+student info board, video gallery, latest news, photo gallery, About / Chairman / Virtual tour /
+Course section texts and photos, and the visitor counter.
+
+- Photos are compressed in the browser (max 2000px, WebP) before upload.
+- PDFs can be uploaded for any link field.
+- Drag items to reorder; the order in the admin is the order on the site.
+- **Preview** shows unpublished changes on the real site (`/?preview=draft`) before publishing.
+- Without Supabase configured, the admin runs in **draft mode**: edits stay in the browser and can be downloaded as `home.json`.
+
+Items marked *Demo photo* still use temporary web images; replace them with real CMCH photos.
 
 ## Run locally
 
-The homepage loads `content/home.json` with `fetch`, so open it through a server, not by double-clicking the file:
+Pages load content with `fetch`, so use a server instead of double-clicking the file:
 
 ```
 npx serve .        # or VS Code → Live Server, or `vercel dev`

@@ -1,6 +1,5 @@
 {
-  "_note": "Homepage content. Admin panel edits this file. Images marked demo:true are temporary web images — replace with real CMCH photos (put files in /images and change the path).",
-
+  "_note": "Homepage content. The admin panel (/admin) edits this through Supabase; this file is the fallback/seed. Images marked demo:true are temporary web images.",
   "hero": {
     "slides": [
       {
@@ -29,70 +28,264 @@
       }
     ],
     "facts": [
-      { "value": "1992", "unit": "", "label": "A small 20-bed hospital" },
-      { "value": "1300", "unit": "beds", "label": "Premier super specialty hospital" },
-      { "value": "2004", "unit": "", "label": "Cardiac centre started" }
+      {
+        "value": "1992",
+        "unit": "",
+        "label": "A small 20-bed hospital"
+      },
+      {
+        "value": "1300",
+        "unit": "beds",
+        "label": "Premier super specialty hospital"
+      },
+      {
+        "value": "2004",
+        "unit": "",
+        "label": "Cardiac centre started"
+      }
     ]
   },
-
+  "blocks": {
+    "aboutImg1": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=75",
+    "aboutImg2": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=700&q=75",
+    "aboutLead": "Every journey starts with a single step they say, and so did ours. In a small 20-bed hospital in the year 1992, an establishment that would grow into one of Central India's biggest healthcare group was born.",
+    "aboutP1": "After 5 years of incredible hard work and a distant vision and efforts of our founder Dr. Ajay Goenka, we managed to upgrade into a premier super specialty hospital with 100 beds. Our mission of providing quality healthcare started showing promise.",
+    "aboutP2": "In 2004, we started a Cardiac centre devoted to the treatment of those in need of critical cardiac care. From then on Chirayu just kept adding new feathers to its hat.........",
+    "chairmanPhoto": "assets/img/chairman-placeholder.svg",
+    "chairmanQuote": "\"The man you know, the Journey you don't\"",
+    "chairmanP1": "Here's the official documentary \"LOVE COVID\" which offers an insight into the vision of the man on a mission to fight COVID-19 with his \"Chirayu Corona Warriors\".",
+    "chairmanP2": "Join us on this journey as we unravel the success of Chirayu COVID-19 Centre.",
+    "chairmanVideo": "lwAhIOD_InU",
+    "tourHospitalImg": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=75",
+    "tourCollegeImg": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=75",
+    "courseImg": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=75",
+    "empanelImg": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=75",
+    "achieveImg": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=75",
+    "pgSeatsText": "Academic Session 2021-22 PG Seats."
+  },
   "ticker": [
-    { "tag": "15th January 2025", "color": "red", "text": "Aging through the lens of Physiology: Unlocking Longevity", "href": "psp.pdf" },
-    { "tag": "Academics", "color": "teal", "text": "General Medicine CME 09 Jul 2022", "href": "events/academics/cme-09-07-2022" },
-    { "tag": "National Festival", "color": "indigo", "text": "Chirayu Medical College & Hospital celebrates 75th Republic Day", "href": "events/national-festival/republic-day-26-january-2022" },
-    { "tag": "Sport", "color": "amber", "text": "International Day of Yoga(IDY) 21st June 2025", "href": "yoga.html" },
-    { "tag": "National Festival", "color": "indigo", "text": "Chirayu Medical College & Hospital celebrates 75th Independence Day", "href": "events/national-festival/75th-independence-day-of-india-15-august-2022" }
+    {
+      "tag": "15th January 2025",
+      "color": "red",
+      "text": "Aging through the lens of Physiology: Unlocking Longevity",
+      "href": "psp.pdf"
+    },
+    {
+      "tag": "Academics",
+      "color": "teal",
+      "text": "General Medicine CME 09 Jul 2022",
+      "href": "events/academics/cme-09-07-2022"
+    },
+    {
+      "tag": "National Festival",
+      "color": "indigo",
+      "text": "Chirayu Medical College & Hospital celebrates 75th Republic Day",
+      "href": "events/national-festival/republic-day-26-january-2022"
+    },
+    {
+      "tag": "Sport",
+      "color": "amber",
+      "text": "International Day of Yoga(IDY) 21st June 2025",
+      "href": "yoga.html"
+    },
+    {
+      "tag": "National Festival",
+      "color": "indigo",
+      "text": "Chirayu Medical College & Hospital celebrates 75th Independence Day",
+      "href": "events/national-festival/75th-independence-day-of-india-15-august-2022"
+    }
   ],
-
   "notices": [
-    { "text": "November Month Teaching Schedule for 8th Semester 2018 Main Batch, Final Part-I 2019 Main Batch, 4th Semester 2020 Main Batch and 1st Semester 2021 Main Batch uploaded.", "href": "student-info/teaching-schedule/" },
-    { "text": "Anaya Jajodia, presented a published paper in department of Obstetrics and Gynaecology at CMCH on 9, September 2022.", "href": "pdf/hospital-pdf/obs-gynae/Published-paper-presented-by-Anaya.pdf" },
-    { "text": "Foundation Course and Final Master Schedule Uploaded for MBBS 2021-22 Batch Phase-I.", "href": "phase-I/" },
-    { "text": "UG/PG Results uploaded.", "href": "examination-result/" },
-    { "text": "UG/PG Batch 2021-22 Admission list uploaded.", "href": "/student-info/ug-pg-students-admission-information/" }
+    {
+      "text": "November Month Teaching Schedule for 8th Semester 2018 Main Batch, Final Part-I 2019 Main Batch, 4th Semester 2020 Main Batch and 1st Semester 2021 Main Batch uploaded.",
+      "href": "student-info/teaching-schedule/"
+    },
+    {
+      "text": "Anaya Jajodia, presented a published paper in department of Obstetrics and Gynaecology at CMCH on 9, September 2022.",
+      "href": "pdf/hospital-pdf/obs-gynae/Published-paper-presented-by-Anaya.pdf"
+    },
+    {
+      "text": "Foundation Course and Final Master Schedule Uploaded for MBBS 2021-22 Batch Phase-I.",
+      "href": "phase-I/"
+    },
+    {
+      "text": "UG/PG Results uploaded.",
+      "href": "examination-result/"
+    },
+    {
+      "text": "UG/PG Batch 2021-22 Admission list uploaded.",
+      "href": "/student-info/ug-pg-students-admission-information/"
+    }
   ],
-
   "media": [
-    { "video": "lwAhIOD_InU", "title": "Love Covid - A Tribute To Chirayu Corona Warriors | Documentary | Chirayu Hospital | Dr Ajay Goenka" },
-    { "video": "dJN9XrfIWHE", "title": "Chirayu - The Lamp of Hope in the Darkness of COVID-19 | Documentary Film" },
-    { "video": "vythSvizgZk", "title": "A walkthrough video of all the facilities at Chirayu Medical College and Hospital" },
-    { "title": "MORE DETAILS", "href": "covid-19-updates/" }
+    {
+      "video": "lwAhIOD_InU",
+      "title": "Love Covid - A Tribute To Chirayu Corona Warriors | Documentary | Chirayu Hospital | Dr Ajay Goenka"
+    },
+    {
+      "video": "dJN9XrfIWHE",
+      "title": "Chirayu - The Lamp of Hope in the Darkness of COVID-19 | Documentary Film"
+    },
+    {
+      "video": "vythSvizgZk",
+      "title": "A walkthrough video of all the facilities at Chirayu Medical College and Hospital"
+    },
+    {
+      "title": "MORE DETAILS",
+      "href": "covid-19-updates/"
+    }
   ],
-
   "upcomingEvents": [],
-
   "studentInfo": [
-    { "text": "Important Notice from Dean", "isNew": true, "icon": "bell", "href": "student-info/important-notice-from-dean/" },
-    { "text": "UG/PG Fees Information (Session 2021 – 2022)", "icon": "file", "href": "details-of-fees-information/" },
-    { "text": "Academic Session 2020-21 PG Seats", "icon": "cap", "href": "student-info/academic-session-pg-seats/" },
-    { "text": "UG/PG Students Admission Information", "icon": "cap", "href": "student-info/ug-pg-students-admission-information" },
-    { "text": "Teaching Schedule", "isNew": true, "icon": "file", "href": "student-info/teaching-schedule/" },
-    { "text": "Examination Time Table", "icon": "file", "href": "student-info/examination-time-table/" }
+    {
+      "text": "Important Notice from Dean",
+      "isNew": true,
+      "icon": "bell",
+      "href": "student-info/important-notice-from-dean/"
+    },
+    {
+      "text": "UG/PG Fees Information (Session 2021 – 2022)",
+      "icon": "file",
+      "href": "details-of-fees-information/"
+    },
+    {
+      "text": "Academic Session 2020-21 PG Seats",
+      "icon": "cap",
+      "href": "student-info/academic-session-pg-seats/"
+    },
+    {
+      "text": "UG/PG Students Admission Information",
+      "icon": "cap",
+      "href": "student-info/ug-pg-students-admission-information"
+    },
+    {
+      "text": "Teaching Schedule",
+      "isNew": true,
+      "icon": "file",
+      "href": "student-info/teaching-schedule/"
+    },
+    {
+      "text": "Examination Time Table",
+      "icon": "file",
+      "href": "student-info/examination-time-table/"
+    }
   ],
-
   "videos": [
-    { "video": "lwAhIOD_InU", "tag": "Documentary", "title": "Love Covid - A Tribute To Chirayu Corona Warriors | Documentary | Chirayu Hospital | Dr Ajay Goenka" },
-    { "video": "dJN9XrfIWHE", "title": "Chirayu - The Lamp of Hope in the Darkness of COVID-19 | Documentary Film" },
-    { "video": "vythSvizgZk", "title": "A walkthrough video of all the facilities at Chirayu Medical College and Hospital" }
+    {
+      "video": "lwAhIOD_InU",
+      "tag": "Documentary",
+      "title": "Love Covid - A Tribute To Chirayu Corona Warriors | Documentary | Chirayu Hospital | Dr Ajay Goenka"
+    },
+    {
+      "video": "dJN9XrfIWHE",
+      "title": "Chirayu - The Lamp of Hope in the Darkness of COVID-19 | Documentary Film"
+    },
+    {
+      "video": "vythSvizgZk",
+      "title": "A walkthrough video of all the facilities at Chirayu Medical College and Hospital"
+    }
   ],
-
   "news": [
-    { "day": "29", "month": "October, 2022", "tag": "Academics", "color": "teal", "title": "Clinicopathological CME 29 October 2022", "href": "events/academics/cme-29-10-2022", "img": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=700&q=75", "demo": true },
-    { "day": "17", "month": "September, 2022", "tag": "Official", "color": "red", "title": "Raktdan Amrit Mahotsav {Blood Donation Camp} - 17 September 2022", "href": "events/official/raktdan-amrit-mahotsav-17-09-2022", "img": "https://images.unsplash.com/photo-1615461066841-6116e61058f4?auto=format&fit=crop&w=700&q=75", "demo": true },
-    { "day": "15", "month": "August, 2023", "tag": "National Festival", "color": "indigo", "title": "75th Independence Day of India: 15 August 2023", "href": "events/national-festival/75th-independence-day-of-india-15-august-2022", "img": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&w=700&q=75", "demo": true },
-    { "day": "13", "month": "August, 2022", "tag": "Academics", "color": "teal", "title": "Obstetrics & Gynaecology CME 13 Aug 2023", "href": "events/academics/cme-13-08-2022", "img": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=700&q=75", "demo": true },
-    { "day": "9", "month": "July, 2022", "tag": "Academics", "color": "teal", "title": "General Medicine CME 09 Jul 2023", "href": "events/academics/cme-09-07-2022", "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=700&q=75", "demo": true }
+    {
+      "day": "29",
+      "month": "October, 2022",
+      "tag": "Academics",
+      "color": "teal",
+      "title": "Clinicopathological CME 29 October 2022",
+      "href": "events/academics/cme-29-10-2022",
+      "img": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=700&q=75",
+      "demo": true
+    },
+    {
+      "day": "17",
+      "month": "September, 2022",
+      "tag": "Official",
+      "color": "red",
+      "title": "Raktdan Amrit Mahotsav {Blood Donation Camp} - 17 September 2022",
+      "href": "events/official/raktdan-amrit-mahotsav-17-09-2022",
+      "img": "https://images.unsplash.com/photo-1615461066841-6116e61058f4?auto=format&fit=crop&w=700&q=75",
+      "demo": true
+    },
+    {
+      "day": "15",
+      "month": "August, 2023",
+      "tag": "National Festival",
+      "color": "indigo",
+      "title": "75th Independence Day of India: 15 August 2023",
+      "href": "events/national-festival/75th-independence-day-of-india-15-august-2022",
+      "img": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&w=700&q=75",
+      "demo": true
+    },
+    {
+      "day": "13",
+      "month": "August, 2022",
+      "tag": "Academics",
+      "color": "teal",
+      "title": "Obstetrics & Gynaecology CME 13 Aug 2023",
+      "href": "events/academics/cme-13-08-2022",
+      "img": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=700&q=75",
+      "demo": true
+    },
+    {
+      "day": "9",
+      "month": "July, 2022",
+      "tag": "Academics",
+      "color": "teal",
+      "title": "General Medicine CME 09 Jul 2023",
+      "href": "events/academics/cme-09-07-2022",
+      "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=700&q=75",
+      "demo": true
+    }
   ],
-
   "gallery": [
-    { "title": "Academic", "href": "events/academics/", "img": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=75", "demo": true },
-    { "title": "National Festival", "href": "events/national-festival/", "img": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&w=800&q=75", "demo": true },
-    { "title": "Camps", "href": "events/camps/", "img": "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=800&q=75", "demo": true },
-    { "title": "Cultural", "href": "events/cultural/", "img": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=75", "demo": true },
-    { "title": "Oath taking/ Election", "href": "events/official/", "img": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=75", "demo": true },
-    { "title": "Official Events", "href": "events/oath-taking/", "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=800&q=75", "demo": true },
-    { "title": "Sports & Competition", "href": "events/sports/", "img": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=75", "demo": true },
-    { "title": "Convocation Ceremony", "href": "events/chirayu-foundation/", "img": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=75", "demo": true }
+    {
+      "title": "Academic",
+      "href": "events/academics/",
+      "img": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=75",
+      "demo": true
+    },
+    {
+      "title": "National Festival",
+      "href": "events/national-festival/",
+      "img": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&w=800&q=75",
+      "demo": true
+    },
+    {
+      "title": "Camps",
+      "href": "events/camps/",
+      "img": "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=800&q=75",
+      "demo": true
+    },
+    {
+      "title": "Cultural",
+      "href": "events/cultural/",
+      "img": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=75",
+      "demo": true
+    },
+    {
+      "title": "Oath taking/ Election",
+      "href": "events/official/",
+      "img": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=75",
+      "demo": true
+    },
+    {
+      "title": "Official Events",
+      "href": "events/oath-taking/",
+      "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=800&q=75",
+      "demo": true
+    },
+    {
+      "title": "Sports & Competition",
+      "href": "events/sports/",
+      "img": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=75",
+      "demo": true
+    },
+    {
+      "title": "Convocation Ceremony",
+      "href": "events/chirayu-foundation/",
+      "img": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=75",
+      "demo": true
+    }
   ],
-
   "visitorBase": 1284563
 }
