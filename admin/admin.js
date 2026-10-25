@@ -128,9 +128,14 @@
           { k: 'achieveImg', l: 'Achievements image', t: 'image' },
           { k: 'pgSeatsText', l: 'PG seats card text', t: 'text' } ] }
       ] },
-    { id: 'settings', path: '', title: 'Visitor counter', icon: 'users', type: 'object',
-      desc: 'Starting number for the visitor counter in the footer.',
-      groups: [{ h: '', fields: [{ k: 'visitorBase', l: 'Visitor count', t: 'number' }] }] }
+    { id: 'settings', path: '', title: 'Design & settings', icon: 'layout', type: 'object',
+      desc: 'Which website design visitors see first, and the footer visitor counter.',
+      groups: [
+        { h: 'Website design', fields: [
+          { k: 'theme', l: 'Default design', t: 'select', opts: [['cinema', 'Cinematic dark'], ['clean', 'Clean bright'], ['bold', 'Bold & energetic']], hint: 'Shown to visitors who have not picked a design themselves.' },
+          { k: 'themeSwitcher', l: 'Show the design switcher in the top bar', t: 'check' } ] },
+        { h: 'Visitor counter', fields: [{ k: 'visitorBase', l: 'Starting visitor count', t: 'number' }] }
+      ] }
   ];
   var SEC = {}; SECTIONS.forEach(function (s) { SEC[s.id] = s; });
 
@@ -157,8 +162,9 @@
   function secDirty(sec) {
     if (!S.saved) return true;
     var saved = JSON.parse(S.saved);
-    var a = sec.path ? getPath(S.data, sec.path) : S.data.visitorBase;
-    var b = sec.path ? getPath(saved, sec.path) : saved.visitorBase;
+    var pick = function (d) { return [d.visitorBase, d.theme, d.themeSwitcher]; };
+    var a = sec.path ? getPath(S.data, sec.path) : pick(S.data);
+    var b = sec.path ? getPath(saved, sec.path) : pick(saved);
     return JSON.stringify(a) !== JSON.stringify(b);
   }
 
@@ -171,6 +177,8 @@
     });
     c.blocks = c.blocks || {};
     if (typeof c.visitorBase !== 'number') c.visitorBase = parseInt(c.visitorBase, 10) || 0;
+    if (['cinema', 'clean', 'bold'].indexOf(c.theme) < 0) c.theme = 'cinema';
+    if (typeof c.themeSwitcher !== 'boolean') c.themeSwitcher = true;
     return c;
   }
 

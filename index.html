@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cinema">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Chirayu Medical College & Hospital: Leading healthcare in Bhopal led by Dr. Ajay Goenka. Watch 'LOVE COVID' documentary on our mission & success against COVID-19.">
 <meta name="keywords" content="Chirayu Medical College Bhopal, Best Hospital in Bhopal, Dr. Ajay Goenka, Chirayu Hospital Contact, Top Multi-speciality Hospital MP, COVID-19 Warriors">
 <meta name="author" content="Dr. Ajay Goenka">
-<meta name="theme-color" content="#0A8E97">
+<meta name="theme-color" content="#06161C">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <link rel="canonical" href="https://www.chirayuhospital.com/">
 
@@ -57,6 +57,7 @@
 <script>
 window.addEventListener('error',function(e){var t=e.target;if(!t||t.tagName!=='IMG'||t.dataset.fb)return;t.dataset.fb=1;t.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E8F98"/><stop offset="1" stop-color="#073A44"/></linearGradient></defs><rect width="800" height="600" fill="url(#g)"/><path d="M0 330h250l20-20 20 20h28l16 28 26-150 28 180 16-56h60l30-24 30 24h256" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="6"/></svg>');},true);
 document.documentElement.classList.add('js');
+try{var _t=localStorage.getItem('cmch_theme');if(_t==='cinema'||_t==='clean'||_t==='bold')document.documentElement.setAttribute('data-theme',_t);}catch(e){}
 </script>
 
 <link rel="preconnect" href="https://i.ytimg.com">
@@ -64,13 +65,11 @@ document.documentElement.classList.add('js');
 <link rel="dns-prefetch" href="https://www.youtube-nocookie.com">
 <link rel="dns-prefetch" href="https://translate.google.com">
 <link rel="dns-prefetch" href="https://static.elfsight.com">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+<link rel="preload" href="assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" type="image/svg+xml" href="assets/img/emblem.svg">
 <link rel="apple-touch-icon" href="assets/img/emblem.svg">
-<link rel="stylesheet" href="assets/css/style.css?v=20261025-2">
+<link rel="stylesheet" href="assets/css/style.css?v=20261025-t4">
 </head>
 <body>
 
@@ -122,15 +121,22 @@ document.documentElement.classList.add('js');
 <div class="topbar" id="web-top">
   <div class="wrap">
     <ul class="topbar__list">
-      <li><a class="topbar__item" href="mailto:info@cmchbhopal.com"><svg><use href="#i-mail"/></svg> info@cmchbhopal.com</a></li>
-      <li class="hide-sm"><a class="topbar__item" href="tel:07552709101"><svg><use href="#i-phone"/></svg> 0755 2709101/102/103</a></li>
-      <li class="hide-sm"><a class="topbar__item" href="sitemap/" target="_blank" rel="noopener"><svg><use href="#i-sitemap"/></svg> Sitemap</a></li>
+      <li class="hide-sm"><a class="topbar__item" href="mailto:info@cmchbhopal.com"><svg><use href="#i-mail"/></svg> info@cmchbhopal.com</a></li>
+      <li class="hide-lg"><a class="topbar__item" href="tel:07552709101"><svg><use href="#i-phone"/></svg> 0755 2709101/102/103</a></li>
+      <li class="hide-lg"><a class="topbar__item" href="sitemap/" target="_blank" rel="noopener"><svg><use href="#i-sitemap"/></svg> Sitemap</a></li>
       <li><a class="topbar__covid" href="covid-19-updates/" target="_blank" rel="noopener"><span class="emerg-dot"></span> COVID-19 Updates <span class="new">NEW</span></a></li>
     </ul>
     <ul class="topbar__list">
       <li class="hide-md"><a href="https://login.microsoftonline.com" target="_blank" rel="noopener">Web Mail</a></li>
       <li class="hide-md"><a href="https://zwinmail02.securehostdns.com/interface/root#/login" target="_blank" rel="noopener">Hod's Mail</a></li>
       <li class="hide-md"><a href="ccms/" target="_blank" rel="noopener">CMS Login</a></li>
+      <li class="theme-switch" role="radiogroup" aria-label="Website design">
+        <span class="theme-switch__label">Design</span>
+        <button type="button" role="radio" data-theme-set="cinema" aria-checked="false" title="Cinematic dark"><i class="swatch swatch--cinema"></i><span>Cinematic</span></button>
+        <button type="button" role="radio" data-theme-set="clean" aria-checked="false" title="Clean bright"><i class="swatch swatch--clean"></i><span>Clean</span></button>
+        <button type="button" role="radio" data-theme-set="bold" aria-checked="false" title="Bold &amp; energetic"><i class="swatch swatch--bold"></i><span>Bold</span></button>
+        <span class="theme-switch__ink" aria-hidden="true"></span>
+      </li>
       <li class="topbar__social">
         <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a><a href="https://www.youtube.com/channel/UCow1egPA2WNyKm3hX129cog/videos" target="_blank" rel="noopener" aria-label="YouTube"><svg><use href="#i-yt"/></svg></a><a href="#" target="_blank" rel="noopener" aria-label="Twitter"><svg><use href="#i-x"/></svg></a><a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-in"/></svg></a><a href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
       </li>
@@ -192,11 +198,9 @@ document.documentElement.classList.add('js');
 
 <main id="main">
 
-<!-- ===== HERO — 3D coverflow. Slides come from content/home.json → hero.slides ===== -->
+<!-- ===== HERO — slides from content/home.json → hero.slides. Layout and slide transition change with the design (data-theme) ===== -->
 <section class="hero" aria-roledescription="carousel" aria-label="Main Slider" tabindex="-1">
-  <div class="hero__ambient" aria-hidden="true" data-bind="hero-ambient"></div>
-  <div class="hero__aurora" aria-hidden="true"><i></i><i></i><i></i></div>
-  <canvas class="hero__particles" aria-hidden="true"></canvas>
+  <div class="hero__deco" aria-hidden="true"><i class="hd hd--1"></i><i class="hd hd--2"></i><i class="hd hd--3"></i><i class="hd hd--4"></i></div>
   <div class="hero__outline" aria-hidden="true" data-parallax-x="0.25">CHIRAYU</div>
   <div class="hero__ecg" aria-hidden="true"><svg viewBox="0 0 1600 90" preserveAspectRatio="none"><path class="trace-bg"/><path class="trace"/><circle class="blip" r="5" cx="-10" cy="55"/></svg></div>
 
@@ -207,23 +211,33 @@ document.documentElement.classList.add('js');
       <p class="hero__lede" data-in style="--d:3">( A Venture of Chirayu Charitable Foundation ) Every journey starts with a single step they say, and so did ours.</p>
       <div class="hero__actions" data-in style="--d:4">
         <a class="btn" data-magnetic href="about/" target="_blank" rel="noopener">About Us <svg><use href="#i-arrow"/></svg></a>
-        <a class="btn btn--ghost" data-magnetic href="virtual-tour/" target="_blank" rel="noopener">Virtual Tour</a>
+        <a class="btn btn--ghost" data-magnetic href="virtual-tour/" target="_blank" rel="noopener"><svg><use href="#i-play"/></svg> Virtual Tour</a>
       </div>
-      <div class="hero__facts" data-in style="--d:5" data-bind="hero-facts"></div>
     </div>
 
-    <div class="hero__show" data-in style="--d:2">
-      <div class="hero__ring" aria-hidden="true"><i></i></div>
-      <div class="flow" data-bind="hero-flow"></div>
+    <div class="hero__visual" data-in style="--d:2">
+      <div class="hero__media" data-bind="hero-media" aria-hidden="true"></div>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__sticker" aria-hidden="true">
+        <svg viewBox="0 0 160 160"><defs><path id="stk" d="M80 80 m-60 0 a60 60 0 1 1 120 0 a60 60 0 1 1 -120 0"/></defs><text><textPath href="#stk">NABH ACCREDITATION ✦ 1300 BEDS ✦ SINCE 1992 ✦ </textPath></text></svg>
+        <span><svg><use href="#i-heart"/></svg></span>
+      </div>
       <a class="float-chip float-chip--a" href="acheivement/" aria-label="NABH Accreditation"><span class="fc-ic"><svg><use href="#i-shield"/></svg></span><span><b>NABH Accreditation</b>Achievements</span></a>
       <a class="float-chip float-chip--b" href="tel:07552709101" aria-label="Call 0755 2709101"><span class="fc-ic"><svg><use href="#i-heart"/></svg></span><span><b>Hospital Enquiry</b>0755 2709101/102/103</span></a>
-      <div class="flow__ctrl">
-        <button class="flow__btn" type="button" data-magnetic data-prev aria-label="Previous slide"><svg><use href="#i-left"/></svg></button>
-        <div class="flow__dots" data-bind="hero-dots"></div>
-        <button class="flow__btn" type="button" data-magnetic data-next aria-label="Next slide"><svg><use href="#i-right"/></svg></button>
-      </div>
     </div>
   </div>
+
+  <div class="hero__bar"><div class="wrap">
+    <div class="hero__facts" data-in style="--d:5" data-bind="hero-facts"></div>
+    <div class="hero__nav" data-in style="--d:6">
+      <span class="hero__count" aria-hidden="true"><b data-hero-num>01</b><span>/ <i data-hero-total>03</i></span></span>
+      <div class="hero__tabs" data-bind="hero-tabs"></div>
+      <div class="hero__arrows">
+        <button class="hbtn" type="button" data-magnetic data-prev aria-label="Previous slide"><svg><use href="#i-left"/></svg></button>
+        <button class="hbtn" type="button" data-magnetic data-next aria-label="Next slide"><svg><use href="#i-right"/></svg></button>
+      </div>
+    </div>
+  </div></div>
 
   <div class="hero__foot"><div class="wrap">
     <span class="bpm"><svg><use href="#i-heart"/></svg> <span>Call <a href="tel:07552709101"><strong>0755 2709101/102/103</strong></a> <span class="sep">/</span> <a href="mailto:info@cmchbhopal.com"><strong>info@cmchbhopal.com</strong></a></span></span>
@@ -236,6 +250,20 @@ document.documentElement.classList.add('js');
   <div class="ticker__label"><span class="emerg-dot"></span> <span>Breaking <span class="txt-long">News</span></span></div>
   <div class="ticker__viewport"><div class="ticker__track" data-bind="ticker"></div></div>
 </div>
+
+<!-- ===== QUICK ACCESS (existing pages, one tap away) ===== -->
+<section class="quick" aria-label="Quick links">
+  <div class="wrap">
+    <div class="quick__grid">
+      <a class="qk" href="hospital-enquiry/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-hosp"/></svg></span><span class="qk__t">Hospital Enquiry</span><span class="qk__s">0755 2709101/102/103</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="virtual-tour/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-play"/></svg></span><span class="qk__t">Virtual Tour</span><span class="qk__s">Hospital &amp; College</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="student-info/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-cap"/></svg></span><span class="qk__t">Student Info</span><span class="qk__s">Notices, schedules, results</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="course-offered/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-file"/></svg></span><span class="qk__t">Course Offered</span><span class="qk__s">UG &amp; PG</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="career/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-award"/></svg></span><span class="qk__t">Career</span><span class="qk__s">Work with Chirayu</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="location-map/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-pin"/></svg></span><span class="qk__t">Location Map</span><span class="qk__s">Bhopal-Indore Highway</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
 
 <!-- ===== ABOUT CHIRAYU ===== -->
 <section class="section" id="about-sev">
@@ -267,6 +295,8 @@ document.documentElement.classList.add('js');
     </div>
   </div>
 </section>
+
+<div class="band" aria-hidden="true"><div class="band__track"><div class="band__set"><span>Chirayu Medical College &amp; Hospital</span><i>✦</i><span>Mission to Heal</span><i>✦</i><span>Since 1992</span><i>✦</i><span>1300 beds</span><i>✦</i><span>NABH Accreditation</span><i>✦</i></div><div class="band__set"><span>Chirayu Medical College &amp; Hospital</span><i>✦</i><span>Mission to Heal</span><i>✦</i><span>Since 1992</span><i>✦</i><span>1300 beds</span><i>✦</i><span>NABH Accreditation</span><i>✦</i></div></div></div>
 
 <!-- ===== DR. AJAY GOENKA + DOCUMENTARY ===== -->
 <section class="section section--ink" id="chairman">
@@ -526,8 +556,8 @@ document.documentElement.classList.add('js');
 
 <div class="cursor" aria-hidden="true"><span class="cursor__ring"><b class="cursor__label"></b></span><span class="cursor__dot"></span></div>
 
-<script src="assets/js/config.js?v=20261025-3"></script>
+<script src="assets/js/config.js?v=20261025-t3"></script>
 <script src="assets/vendor/lenis.min.js?v=1.1.13" defer></script>
-<script src="assets/js/main.js?v=20261025-2" defer></script>
+<script src="assets/js/main.js?v=20261025-t4" defer></script>
 </body>
 </html>

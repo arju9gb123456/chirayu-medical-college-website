@@ -89,18 +89,18 @@
   setTimeout(finishLoader, 5000); // safety net
 
   /* ---------------- Renderers ---------------- */
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+
   function renderHero(h) {
     var slides = (h && h.slides) || [];
-    bind('hero-ambient').innerHTML = slides.map(function (s, i) {
-      return '<div class="amb' + (i === 0 ? ' is-on' : '') + '" style="background-image:url(\'' + esc(s.img) + '\')"></div>';
+    bind('hero-media').innerHTML = slides.map(function (s, i) {
+      return '<figure class="hs' + (i === 0 ? ' is-active' : '') + '"><img src="' + esc(s.img) + '" alt=""' + (i ? ' loading="lazy"' : ' fetchpriority="high"') + '></figure>';
     }).join('');
-    bind('hero-flow').innerHTML = slides.map(function (s, i) {
-      return '<figure class="fcard" data-i="' + i + '" data-cursor="' + (i ? 'Open' : '') + '"><img src="' + esc(s.img) + '" alt="' + esc(s.title) + '"' + (i ? ' loading="lazy"' : '') + '>' +
-        '<span class="fcard__glare"></span><figcaption class="fcard__cap"><b>' + esc(s.capTitle || s.title) + '</b><span>' + esc(s.capSub || '') + '</span></figcaption></figure>';
+    bind('hero-tabs').innerHTML = slides.map(function (s, i) {
+      return '<button type="button" class="htab" aria-label="Go to slide ' + (i + 1) + ': ' + esc(s.title) + '"><span class="htab__t">' + esc(s.capTitle || s.title) + '</span><span class="htab__bar"><i></i></span></button>';
     }).join('');
-    bind('hero-dots').innerHTML = slides.map(function (s, i) {
-      return '<button type="button" aria-label="Go to slide ' + (i + 1) + '"><span class="bar"></span></button>';
-    }).join('');
+    var tot = $('[data-hero-total]');
+    if (tot) tot.textContent = pad(slides.length);
     bind('hero-facts').innerHTML = ((h && h.facts) || []).map(function (f) {
       return '<div><b><span data-count="' + esc(f.value) + '" data-count-hero>' + esc(f.value) + '</span>' + (f.unit ? ' <em>' + esc(f.unit) + '</em>' : '') + '</b><span>' + esc(f.label) + '</span></div>';
     }).join('');
@@ -188,11 +188,12 @@
     renderNews(c.news);
     renderGallery(c.gallery);
     applyBlocks(c.blocks);
+    applySiteSettings(c);
     visitors(c.visitorBase || 0);
   }
 
-  /* ---------------- Hero coverflow ---------------- */
-  var hero = { el: $('.hero'), slides: [], i: 0, timer: null, dur: 6500, paused: false };
+  /* ---------------- Hero slider ---------------- */
+  var hero = { el: $('.hero'), slides: [], i: 0, timer: null, dur: 6500, paused: false, leaveT: null };
 
   function splitWords(text, startIdx) {
     var n = startIdx || 0;
@@ -221,100 +222,161 @@
     }
   };
 
-  function layoutFlow() {
-    var cards = $$('.fcard'), n = cards.length;
-    if (!n) return;
-    var narrow = window.innerWidth < 640;
-    cards.forEach(function (c, k) {
-      var off = ((k - hero.i) % n + n) % n;
-      if (off > n / 2) off -= n;
-      var x, z, ry, sc, op, zi, f;
-      if (off === 0) { x = 0; z = 0; ry = 0; sc = 1; op = 1; zi = 10; f = 'none'; }
-      else if (Math.abs(off) === 1) {
-        x = off * (narrow ? 34 : 46); z = -220; ry = -off * 28; sc = .82; op = .85; zi = 5; f = 'saturate(.7) brightness(.85)';
-      } else { x = off * 60; z = -420; ry = -off * 35; sc = .6; op = 0; zi = 1; f = 'none'; }
-      c.style.transform = 'translate(-50%,-50%) translateX(' + x + '%) translateZ(' + z + 'px) rotateY(' + ry + 'deg) scale(' + sc + ')';
-      c.style.opacity = op;
-      c.style.zIndex = zi;
-      c.style.filter = f;
-      c.classList.toggle('is-active', off === 0);
-      c.setAttribute('aria-hidden', off === 0 ? 'false' : 'true');
-      c.dataset.cursor = off === 0 ? '' : (off < 0 ? 'Prev' : 'Next');
+  function restartAnim(el) { if (!el) return; el.style.animation = 'none'; void el.offsetWidth; el.style.animation = ''; }
+
+  function paintSlides(prev) {
+    var figs = $$('.hs'), tabs = $$('.htab');
+    figs.forEach(function (f, k) {
+      f.classList.remove('is-leaving');
+      if (k === prev && prev !== hero.i) f.classList.add('is-leaving');
+      f.classList.toggle('is-active', k === hero.i);
     });
-    $$('.flow__dots button').forEach(function (b, k) {
-      b.setAttribute('aria-current', k === hero.i ? 'true' : 'false');
-      b.style.setProperty('--dur', hero.dur + 'ms');
-      var bar = b.firstElementChild;
-      bar.style.animation = 'none'; void bar.offsetWidth; bar.style.animation = '';
+    var act = figs[hero.i];
+    if (act) { restartAnim(act); restartAnim($('img', act)); }
+    clearTimeout(hero.leaveT);
+    hero.leaveT = setTimeout(function () { $$('.hs.is-leaving').forEach(function (f) { f.classList.remove('is-leaving'); }); }, 1700);
+    tabs.forEach(function (t, k) {
+      t.setAttribute('aria-current', k === hero.i ? 'true' : 'false');
+      t.classList.toggle('is-done', k < hero.i);
+      t.style.setProperty('--dur', hero.dur + 'ms');
+      restartAnim($('.htab__bar i', t));
     });
-    $$('.amb').forEach(function (a, k) { a.classList.toggle('is-on', k === hero.i); });
+    var num = $('[data-hero-num]');
+    if (num) num.textContent = pad(hero.i + 1);
   }
 
-  function go(idx, user) {
+  function go(idx) {
     var n = hero.slides.length;
     if (!n) return;
+    var prev = hero.i;
     hero.i = (idx + n) % n;
-    layoutFlow();
+    if (prev === hero.i) { restart(); return; }
+    paintSlides(prev);
     heroTitle.show(hero.i);
     restart();
-    if (user) hero.el.classList.remove('is-paused');
   }
   function restart() {
     clearTimeout(hero.timer);
-    if (reduce || hero.paused) return;
+    if (reduce || hero.paused || hero.slides.length < 2) return;
     hero.timer = setTimeout(function () { go(hero.i + 1); }, hero.dur);
   }
+  function setPaused(on) {
+    hero.paused = on;
+    hero.el.classList.toggle('is-paused', on);
+    if (on) clearTimeout(hero.timer); else restart();
+  }
   function initHero() {
-    layoutFlow();
-    var show = $('.hero__show');
-    $('[data-prev]').addEventListener('click', function () { go(hero.i - 1, true); });
-    $('[data-next]').addEventListener('click', function () { go(hero.i + 1, true); });
-    $$('.flow__dots button').forEach(function (b, k) { b.addEventListener('click', function () { go(k, true); }); });
-    $$('.fcard').forEach(function (c) {
-      c.addEventListener('click', function () { var k = +c.dataset.i; if (k !== hero.i) go(k, true); });
-      if (finePointer && !reduce) {
-        c.addEventListener('mousemove', function (e) {
-          if (!c.classList.contains('is-active')) return;
-          var r = c.getBoundingClientRect(), px = (e.clientX - r.left) / r.width, py = (e.clientY - r.top) / r.height;
-          c.style.transform = 'translate(-50%,-50%) rotateY(' + ((px - .5) * 12) + 'deg) rotateX(' + ((.5 - py) * 10) + 'deg) scale(1.02)';
-          c.style.transition = 'transform .15s ease-out';
-          c.style.setProperty('--gx', px * 100 + '%'); c.style.setProperty('--gy', py * 100 + '%');
-        });
-        c.addEventListener('mouseleave', function () { c.style.transition = ''; layoutFlow(); });
-      }
+    paintSlides(-1);
+    $('[data-prev]').addEventListener('click', function () { go(hero.i - 1); });
+    $('[data-next]').addEventListener('click', function () { go(hero.i + 1); });
+    $$('.htab').forEach(function (b, k) { b.addEventListener('click', function () { go(k); }); });
+
+    var media = $('.hero__media');
+    media.dataset.cursor = 'Next';
+    media.addEventListener('click', function () { go(hero.i + 1); });
+
+    // pause while the visitor is looking at the slider controls / photo (not in the full-bleed design)
+    [$('.hero__nav'), $('.hero__visual')].forEach(function (el) {
+      el.addEventListener('mouseenter', function () {
+        if (el.classList.contains('hero__visual') && document.documentElement.getAttribute('data-theme') === 'cinema') return;
+        setPaused(true);
+      });
+      el.addEventListener('mouseleave', function () { if (hero.paused) setPaused(false); });
     });
-    show.addEventListener('mouseenter', function () { hero.paused = true; hero.el.classList.add('is-paused'); clearTimeout(hero.timer); });
-    show.addEventListener('mouseleave', function () { hero.paused = false; hero.el.classList.remove('is-paused'); go(hero.i); });
     hero.el.addEventListener('keydown', function (e) {
-      if (e.key === 'ArrowLeft') go(hero.i - 1, true);
-      if (e.key === 'ArrowRight') go(hero.i + 1, true);
+      if (e.key === 'ArrowLeft') go(hero.i - 1);
+      if (e.key === 'ArrowRight') go(hero.i + 1);
     });
-    var sx = 0;
-    show.addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; }, { passive: true });
-    show.addEventListener('touchend', function (e) {
-      var dx = e.changedTouches[0].clientX - sx;
-      if (Math.abs(dx) > 40) go(hero.i + (dx < 0 ? 1 : -1), true);
+    var sx = 0, sy = 0;
+    hero.el.addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; sy = e.touches[0].clientY; }, { passive: true });
+    hero.el.addEventListener('touchend', function (e) {
+      var dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) go(hero.i + (dx < 0 ? 1 : -1));
     });
     document.addEventListener('visibilitychange', function () { if (document.hidden) clearTimeout(hero.timer); else restart(); });
-    window.addEventListener('resize', layoutFlow);
 
-    // mouse parallax on the whole hero
+    // mouse parallax on the whole hero (CSS reads --px / --py)
     if (finePointer && !reduce) {
       var tx = 0, ty = 0, cx = 0, cy = 0, raf = null;
-      hero.el.addEventListener('mousemove', function (e) {
-        var r = hero.el.getBoundingClientRect();
-        tx = (e.clientX - r.left) / r.width - .5; ty = (e.clientY - r.top) / r.height - .5;
-        if (!raf) raf = requestAnimationFrame(step);
-      });
-      hero.el.addEventListener('mouseleave', function () { tx = ty = 0; if (!raf) raf = requestAnimationFrame(step); });
       var step = function () {
         cx += (tx - cx) * .08; cy += (ty - cy) * .08;
         hero.el.style.setProperty('--px', cx.toFixed(4));
         hero.el.style.setProperty('--py', cy.toFixed(4));
         raf = (Math.abs(tx - cx) + Math.abs(ty - cy) > .001) ? requestAnimationFrame(step) : null;
       };
+      hero.el.addEventListener('mousemove', function (e) {
+        var r = hero.el.getBoundingClientRect();
+        tx = (e.clientX - r.left) / r.width - .5; ty = (e.clientY - r.top) / r.height - .5;
+        if (!raf) raf = requestAnimationFrame(step);
+      });
+      hero.el.addEventListener('mouseleave', function () { tx = ty = 0; if (!raf) raf = requestAnimationFrame(step); });
     }
     restart();
+  }
+
+  /* ---------------- Design (theme) switch ---------------- */
+  var THEMES = ['cinema', 'clean', 'bold'];
+  var THEME_COLORS = { cinema: '#06161C', clean: '#0A8E97', bold: '#FFC94A' };
+  var themeUser = null;
+  try { themeUser = localStorage.getItem('cmch_theme'); } catch (e) { /* storage blocked */ }
+  if (THEMES.indexOf(themeUser) < 0) themeUser = null;
+
+  function currentTheme() { return document.documentElement.getAttribute('data-theme'); }
+  function syncSwitch() {
+    var t = currentTheme(), ink = $('.theme-switch__ink');
+    $$('[data-theme-set]').forEach(function (b) { b.setAttribute('aria-checked', b.dataset.themeSet === t ? 'true' : 'false'); });
+    var on = $('[data-theme-set="' + t + '"]');
+    if (on && ink && on.offsetWidth) { ink.style.width = on.offsetWidth + 'px'; ink.style.transform = 'translateX(' + on.offsetLeft + 'px)'; }
+  }
+  function applyTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    var meta = $('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', THEME_COLORS[t]);
+    syncSwitch();
+    // let layout-dependent pieces (tab ink, parallax) re-measure
+    setTimeout(function () { window.dispatchEvent(new Event('resize')); }, 80);
+  }
+  function setTheme(t, x, y) {
+    if (THEMES.indexOf(t) < 0 || t === currentTheme()) return;
+    themeUser = t;
+    try { localStorage.setItem('cmch_theme', t); } catch (e) { /* ignore */ }
+    if (!document.startViewTransition || reduce) { applyTheme(t); return; }
+    var r = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
+    var vt = document.startViewTransition(function () { applyTheme(t); });
+    vt.ready.then(function () {
+      document.documentElement.animate(
+        { clipPath: ['circle(0px at ' + x + 'px ' + y + 'px)', 'circle(' + r + 'px at ' + x + 'px ' + y + 'px)'] },
+        { duration: 800, easing: 'cubic-bezier(.22,.8,.24,1)', pseudoElement: '::view-transition-new(root)' });
+    }).catch(function () { /* transition skipped */ });
+  }
+  function initThemeSwitch() {
+    var btns = $$('[data-theme-set]');
+    btns.forEach(function (b, k) {
+      b.addEventListener('click', function (e) {
+        var r = b.getBoundingClientRect();
+        setTheme(b.dataset.themeSet, e.clientX || r.left + r.width / 2, e.clientY || r.top + r.height / 2);
+      });
+      b.addEventListener('keydown', function (e) {
+        var d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+        if (!d) return;
+        e.preventDefault();
+        var n = btns[(k + d + btns.length) % btns.length];
+        n.focus(); n.click();
+      });
+    });
+    syncSwitch();
+    if (document.fonts) document.fonts.ready.then(syncSwitch);
+    window.addEventListener('resize', syncSwitch);
+  }
+  /* Admin decides the default design and whether visitors may switch */
+  function applySiteSettings(c) {
+    var def = THEMES.indexOf(c.theme) > -1 ? c.theme : null;
+    if (c.themeSwitcher === false) {
+      document.documentElement.classList.add('no-switch');
+      if (def && def !== currentTheme()) applyTheme(def);
+    } else if (def && !themeUser && def !== currentTheme()) {
+      applyTheme(def);
+    }
   }
 
   /* ---------------- Hero ECG trace ---------------- */
@@ -343,53 +405,6 @@
       }
       requestAnimationFrame(frame);
     })(t0);
-  }
-
-  /* ---------------- Hero particles ---------------- */
-  function initParticles() {
-    var cv = $('.hero__particles');
-    if (!cv || reduce) return;
-    var ctx = cv.getContext('2d'), dpr = Math.min(2, window.devicePixelRatio || 1), W, H, pts = [], mouse = { x: -999, y: -999 }, visible = true;
-    function size() {
-      W = cv.offsetWidth; H = cv.offsetHeight;
-      cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      var count = Math.round(Math.min(48, W * H / 24000));
-      pts = [];
-      for (var i = 0; i < count; i++) pts.push({ x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .3, vy: (Math.random() - .5) * .3, r: Math.random() * 1.8 + .8, plus: Math.random() < .12 });
-    }
-    size(); window.addEventListener('resize', size);
-    hero.el.addEventListener('mousemove', function (e) { var r = cv.getBoundingClientRect(); mouse.x = e.clientX - r.left; mouse.y = e.clientY - r.top; });
-    hero.el.addEventListener('mouseleave', function () { mouse.x = mouse.y = -999; });
-    new IntersectionObserver(function (en) { visible = en[0].isIntersecting; }).observe(cv);
-    var scrolling = 0;
-    window.addEventListener('scroll', function () { scrolling = performance.now(); }, { passive: true });
-    (function frame() {
-      if (visible && performance.now() - scrolling > 160) {
-        ctx.clearRect(0, 0, W, H);
-        for (var i = 0; i < pts.length; i++) {
-          var p = pts[i], dx = p.x - mouse.x, dy = p.y - mouse.y, dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 120) { p.x += dx / dist * 1.4; p.y += dy / dist * 1.4; }
-          p.x += p.vx; p.y += p.vy;
-          if (p.x < 0 || p.x > W) p.vx *= -1;
-          if (p.y < 0 || p.y > H) p.vy *= -1;
-          ctx.fillStyle = 'rgba(10,142,151,.45)';
-          if (p.plus) { ctx.fillRect(p.x - 4, p.y - 1, 8, 2); ctx.fillRect(p.x - 1, p.y - 4, 2, 8); }
-          else { ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.283); ctx.fill(); }
-          for (var j = i + 1; j < pts.length; j++) {
-            var q = pts[j], ex = p.x - q.x, ey = p.y - q.y, d2 = ex * ex + ey * ey;
-            if (d2 < 11000) {
-              ctx.strokeStyle = 'rgba(10,142,151,' + (0.14 * (1 - d2 / 11000)) + ')';
-              ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
-            }
-          }
-          if (dist < 160 && mouse.x > 0) {
-            ctx.strokeStyle = 'rgba(10,142,151,' + (0.35 * (1 - dist / 160)) + ')';
-            ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(mouse.x, mouse.y); ctx.stroke();
-          }
-        }
-      }
-      requestAnimationFrame(frame);
-    })();
   }
 
   /* ---------------- Count-up ---------------- */
@@ -781,12 +796,12 @@
   };
 
   /* ---------------- Boot ---------------- */
+  initThemeSwitch();
   initDrawer();
   initTabs();
   initPanels();
   initVideo();
   initECG();
-  initParticles();
 
   /* Pause looping CSS animations while their section is off-screen */
   function initOffscreenPause() {
