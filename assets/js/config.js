@@ -6,7 +6,7 @@
    NEVER put the secret key (sb_secret_...) in this file.
    ========================================================= */
 window.CMCH_CONFIG = {
-  supabaseUrl: '',   // ← Project URL, e.g. 'https://abcdxyz.supabase.co'
+  supabaseUrl: 'https://jrzginnflqedtwqpqkyr.supabase.co',
   supabaseAnonKey: 'sb_publishable_z4EXydv_9pQggvIi1Pfw5g_Ht-z3htN',
   storageBucket: 'site-media'
 };
