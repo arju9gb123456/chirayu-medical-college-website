@@ -831,7 +831,13 @@
       btn.classList.add('is-busy'); btn.textContent = 'Signing in…';
       S.sb.auth.signInWithPassword({ email: f.email.value.trim(), password: f.password.value }).then(function (r) {
         btn.classList.remove('is-busy'); btn.textContent = 'Sign in';
-        if (r.error) { formError(f, r.error.message === 'Invalid login credentials' ? 'Email or password is wrong.' : r.error.message); return; }
+        if (r.error) {
+          var m = r.error.message || '';
+          if (m === 'Invalid login credentials') m = 'Email or password is wrong.';
+          else if (m === 'Email not confirmed') m = 'This email is not confirmed yet. In Supabase → Authentication → Users, confirm the user.';
+          else if (!m || m === '{}' || /fetch|network/i.test(m)) m = 'Could not reach the login server. Check the internet connection and try again.';
+          formError(f, m); return;
+        }
         enterSupabase(r.data.user);
       });
     });

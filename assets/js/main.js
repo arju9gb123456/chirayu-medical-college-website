@@ -41,7 +41,7 @@
     };
     if (CFG.supabaseUrl && CFG.supabaseAnonKey) {
       return fetch(CFG.supabaseUrl.replace(/\/$/, '') + '/rest/v1/site_content?key=eq.home&select=data', {
-        headers: { apikey: CFG.supabaseAnonKey, Authorization: 'Bearer ' + CFG.supabaseAnonKey }
+        headers: { apikey: CFG.supabaseAnonKey } // works with new sb_publishable_ keys and legacy anon keys
       }).then(function (r) {
         if (!r.ok) throw new Error('Supabase ' + r.status);
         return r.json();
