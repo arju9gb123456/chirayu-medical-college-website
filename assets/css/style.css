@@ -32,8 +32,12 @@
 }
 
 *,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{margin:0;font-family:var(--f-body);font-size:16px;line-height:1.65;color:var(--text);background:var(--bg);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:clip}
+/* Lenis smooth scroll: native smooth-scroll must be off or the two fight and stutter */
+html.smooth-scroll,html.smooth-scroll body{scroll-behavior:auto!important;height:auto}
+.lenis.lenis-stopped{overflow:hidden}
+.lenis.lenis-smooth iframe{pointer-events:none}
+body{margin:0;font-family:var(--f-body);font-size:16px;line-height:1.65;color:var(--text);background:var(--bg);overflow-x:clip;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
@@ -116,8 +120,8 @@ body.is-loaded .loader{visibility:hidden;transition:visibility 0s 1s}
 .topbar__social svg{width:14px;height:14px}
 
 /* ---------- Header ---------- */
-.header{position:sticky;top:0;z-index:900;background:rgba(255,255,255,.88);backdrop-filter:saturate(1.6) blur(14px);-webkit-backdrop-filter:saturate(1.6) blur(14px);border-bottom:1px solid transparent;transition:box-shadow .35s,border-color .35s,transform .5s var(--ease)}
-.header.is-hidden{transform:translateY(-102%)}
+.header{position:sticky;top:0;z-index:900;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:box-shadow .35s,border-color .35s,transform .5s var(--ease)}
+.header.is-hidden{transform:translateY(-102%);transition:transform .35s cubic-bezier(.4,0,.2,1),box-shadow .35s}
 .header.is-stuck{border-color:var(--line);box-shadow:0 10px 30px -22px rgba(6,47,55,.4)}
 .header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;height:var(--header-h);transition:height .35s var(--ease)}
 .header.is-stuck .wrap{height:66px}
@@ -229,7 +233,7 @@ body.is-loaded [data-in]{opacity:1;transform:none}
 .fcard__cap b{font-family:var(--f-display);font-size:22px;font-weight:700}
 .fcard__cap span{font-size:13px;opacity:.8}
 
-.float-chip{position:absolute;z-index:20;display:flex;align-items:center;gap:12px;padding:10px 16px 10px 10px;border-radius:16px;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.7);box-shadow:0 20px 40px -20px rgba(6,47,55,.4);font-size:12.5px;color:var(--muted);line-height:1.3;animation:floaty 6s ease-in-out infinite;transition:transform .3s var(--ease),box-shadow .3s}
+.float-chip{position:absolute;z-index:20;display:flex;align-items:center;gap:12px;padding:10px 16px 10px 10px;border-radius:16px;background:rgba(255,255,255,.97);border:1px solid rgba(255,255,255,.7);box-shadow:0 20px 40px -20px rgba(6,47,55,.4);font-size:12.5px;color:var(--muted);line-height:1.3;animation:floaty 6s ease-in-out infinite;transition:transform .3s var(--ease),box-shadow .3s}
 .float-chip b{display:block;font-size:14px;color:var(--ink)}
 .float-chip:hover{box-shadow:var(--shadow-teal);animation-play-state:paused}
 .fc-ic{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:var(--teal);color:#fff}
@@ -250,7 +254,7 @@ body.is-loaded [data-in]{opacity:1;transform:none}
 .hero.is-paused .flow__dots .bar{animation-play-state:paused}
 @keyframes fill{to{width:100%}}
 
-.hero__foot{border-top:1px solid var(--line);background:rgba(255,255,255,.7);backdrop-filter:blur(6px)}
+.hero__foot{border-top:1px solid var(--line);background:rgba(255,255,255,.86)}
 .hero__foot .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:56px;font-size:14px;color:var(--muted)}
 .bpm{display:flex;align-items:center;gap:10px}
 .bpm>svg{color:var(--red);animation:beat 1.2s infinite}
@@ -685,6 +689,9 @@ html:not(.has-cursor) .cursor{display:none}
 /* Draft preview badge */
 .preview-badge{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:4000;display:flex;align-items:center;gap:10px;padding:10px 18px;border-radius:999px;background:var(--ink);color:#fff;font-size:13.5px;font-weight:600;box-shadow:0 20px 40px -16px rgba(0,0,0,.5);white-space:nowrap}
 .preview-badge u{color:var(--teal-l);text-underline-offset:3px}
+
+/* Looping animations rest while their section is off-screen */
+.is-off,.is-off *,.is-off *::before,.is-off *::after{animation-play-state:paused!important}
 
 /* =========================================================
    Responsive

@@ -425,13 +425,19 @@
       scrubs.push({ el: el, words: $$('.sw', el) });
     });
   }
-  function updateScrub() {
-    var vh = window.innerHeight;
-    scrubs.forEach(function (s) {
+  function readScrub(vh) {
+    return scrubs.map(function (s) {
       var r = s.el.getBoundingClientRect();
-      if (r.bottom < 0 || r.top > vh) return;
+      if (r.bottom < 0 || r.top > vh) return -1;
       var p = Math.min(1, Math.max(0, (vh * .85 - r.top) / (r.height + vh * .35)));
-      var lit = Math.round(p * s.words.length);
+      return Math.round(p * s.words.length);
+    });
+  }
+  function writeScrub(lits) {
+    scrubs.forEach(function (s, k) {
+      var lit = lits[k];
+      if (lit < 0 || lit === s.lit) return;
+      s.lit = lit;
       for (var i = 0; i < s.words.length; i++) s.words[i].classList.toggle('on', i < lit);
     });
   }
@@ -444,34 +450,60 @@
       parallax.push({ el: el, y: parseFloat(el.dataset.parallax || 0), x: parseFloat(el.dataset.parallaxX || 0) });
     });
   }
-  function updateParallax() {
-    var vh = window.innerHeight;
+  /* Layout position is measured once (and on resize), so scrolling only
+     does math + one style write per element, never a layout read. */
+  function measureParallax() {
+    var y = window.scrollY;
     parallax.forEach(function (p) {
+      var prev = p.el.style.translate; p.el.style.translate = '';
       var r = p.el.getBoundingClientRect();
-      if (r.bottom < -200 || r.top > vh + 200) return;
-      var off = (r.top + r.height / 2 - vh / 2);
-      p.el.style.translate = (p.x ? (-window.scrollY * p.x).toFixed(1) + 'px ' : '0px ') + (p.y ? (off * p.y).toFixed(1) + 'px' : '0px');
+      p.top = r.top + y; p.h = r.height;
+      p.el.style.translate = prev;
+    });
+  }
+  function updateParallax(y, vh) {
+    parallax.forEach(function (p) {
+      var top = p.top - y;
+      if (top + p.h < -200 || top > vh + 200) return;
+      var off = top + p.h / 2 - vh / 2;
+      p.el.style.translate = (p.x ? (-y * p.x).toFixed(1) : '0') + 'px ' + (p.y ? (off * p.y).toFixed(1) : '0') + 'px';
     });
   }
 
   /* ---------------- Header / progress / to-top ---------------- */
   function initScroll() {
     var header = $('.header'), prog = $('.progress'), top = $('.to-top'), circle = $('.to-top circle');
-    var ticking = false, lastY = 0;
-    function update() {
-      var y = window.scrollY, max = document.documentElement.scrollHeight - window.innerHeight, p = max > 0 ? y / max : 0;
-      header.classList.toggle('is-stuck', y > 40);
-      header.classList.toggle('is-hidden', y > 500 && y > lastY + 4 && !document.body.classList.contains('no-scroll'));
-      if (y < lastY - 4 || y < 500) header.classList.remove('is-hidden');
-      lastY = y;
-      prog.style.transform = 'scaleX(' + p + ')';
-      top.classList.toggle('is-shown', y > 600);
-      circle.style.setProperty('--off', 151 - 151 * p);
-      updateScrub();
-      updateParallax();
-      ticking = false;
+    var ticking = false, anchorY = 0, hidden = false, docH = 0, vh = 0;
+    function measure() {
+      vh = window.innerHeight;
+      docH = document.documentElement.scrollHeight;
+      measureParallax();
     }
-    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+    function update() {
+      ticking = false;
+      // reads
+      var y = window.scrollY, max = docH - vh, p = max > 0 ? Math.min(1, y / max) : 0;
+      var lits = readScrub(vh);
+      // header: hide after scrolling down 120px, show after scrolling up 60px
+      if (y < 300 || document.body.classList.contains('no-scroll')) { hidden = false; anchorY = y; }
+      else if (!hidden && y - anchorY > 120) { hidden = true; anchorY = y; }
+      else if (hidden && anchorY - y > 60) { hidden = false; anchorY = y; }
+      else if ((hidden && y > anchorY) || (!hidden && y < anchorY)) anchorY = y;
+      // writes
+      header.classList.toggle('is-stuck', y > 40);
+      header.classList.toggle('is-hidden', hidden);
+      prog.style.transform = 'scaleX(' + p.toFixed(4) + ')';
+      top.classList.toggle('is-shown', y > 600);
+      circle.style.setProperty('--off', (151 - 151 * p).toFixed(1));
+      writeScrub(lits);
+      updateParallax(y, vh);
+    }
+    function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', function () { measure(); onScroll(); });
+    window.addEventListener('load', function () { measure(); onScroll(); });
+    if (document.fonts) document.fonts.ready.then(function () { measure(); onScroll(); });
+    measure();
     top.addEventListener('click', function () {
       if (lenis) lenis.scrollTo(0, { duration: 1.4 });
       else window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
@@ -483,7 +515,14 @@
   function initLenis() {
     if (reduce || !finePointer || typeof window.Lenis !== 'function') return;
     try {
-      lenis = new window.Lenis({ duration: 1.15, smoothWheel: true, wheelMultiplier: 1 });
+      lenis = new window.Lenis({
+        lerp: 0.11,            // how quickly the page catches up to the wheel (higher = snappier)
+        wheelMultiplier: 0.95,
+        smoothWheel: true,
+        syncTouch: false,      // phones keep their native scrolling
+        prevent: function (node) { return !!(node.closest && node.closest('.drawer, .board__viewport, [data-lenis-prevent]')); }
+      });
+      document.documentElement.classList.add('smooth-scroll');
       (function raf(t) { lenis.raf(t); requestAnimationFrame(raf); })(performance.now());
       document.addEventListener('click', function (e) {
         var a = e.target.closest && e.target.closest('a[href^="#"]');
@@ -497,6 +536,8 @@
   }
   function lockScroll(on) {
     document.body.classList.toggle('no-scroll', on);
+    // lock on <html>: with overflow-x:clip there, body overflow no longer reaches the viewport
+    document.documentElement.style.overflow = on ? 'hidden' : '';
     if (lenis) { if (on) lenis.stop(); else lenis.start(); }
   }
 
@@ -744,7 +785,17 @@
   initECG();
   initParticles();
 
+  /* Pause looping CSS animations while their section is off-screen */
+  function initOffscreenPause() {
+    if (!('IntersectionObserver' in window)) return;
+    var io = new IntersectionObserver(function (en) {
+      en.forEach(function (e) { e.target.classList.toggle('is-off', !e.isIntersecting); });
+    }, { rootMargin: '100px 0px' });
+    $$('.hero, .ticker, .board, #about-sev, .footer').forEach(function (el) { io.observe(el); });
+  }
+
   function afterContent() {
+    initOffscreenPause();
     initSplit();
     initScrub();
     initParallax();
@@ -761,7 +812,7 @@
       afterContent();
     });
 
-  window.addEventListener('load', initLenis);
+  initLenis();
   lazyScript('https://static.elfsight.com/platform/platform.js', $('.elfsight-wrap'));
   lazyScript('https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit', $('#google_translate_element'));
 })();
