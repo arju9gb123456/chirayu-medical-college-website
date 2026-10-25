@@ -541,7 +541,7 @@
       setTimeout(countUp, 1100);
     })
     .catch(function (err) {
-      console.error('Homepage content could not load from ' + CONTENT_URL + '. Open the site through a web server (Netlify / VS Code Live Server), not as a file.', err);
+      console.error('Homepage content could not load from ' + CONTENT_URL + '. Open the site through a web server (Vercel / VS Code Live Server), not as a file.', err);
       observeReveals();
       initPointerFx();
       finishLoader();
