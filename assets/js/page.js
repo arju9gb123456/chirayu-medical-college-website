@@ -2,7 +2,8 @@
    Chirayu Medical College & Hospital — inner pages
    One template (page.html) for every page. The URL /<slug>/ picks the
    content: Supabase site_content['page:<slug>'] → content/pages/<slug>.json.
-   Pages not built yet link to the same page on the current website.
+   A slug can have folders (events/academics/cme-09-07-2022).
+   Pages not built yet show a friendly "being updated" notice.
    Designed & developed by Arjun Ahirwar
    ========================================================= */
 (function () {
@@ -13,7 +14,6 @@
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   var CFG = window.CMCH_CONFIG || {};
-  var OLD_SITE = 'https://www.cmchbhopal.com/';
   var lenis = null;
 
   function esc(v) {
@@ -25,8 +25,13 @@
 
   /* ---------------- Which page? ---------------- */
   var params = new URLSearchParams(location.search);
-  var slug = (params.get('p') || location.pathname.replace(/^\/+|\/+$/g, '').split('/')[0] || '').replace(/\.html$/, '');
-  if (slug === 'page') slug = params.get('p') || '';
+  function cleanSlug(v) {
+    return String(v || '').replace(/^\/+|\/+$/g, '').replace(/\.html$/, '').replace(/\/index$/, '')
+      .split('/').filter(function (x) { return /^[A-Za-z0-9][A-Za-z0-9_-]*$/.test(x); }).join('/');
+  }
+  var slug = cleanSlug(params.get('p') || location.pathname);
+  if (slug === 'page') slug = cleanSlug(params.get('p'));
+  function slugFile(s) { return s.split('/').map(encodeURIComponent).join('/'); }
   var isPreview = params.get('preview') === 'draft';
 
   /* ---------------- Supabase / file loading ---------------- */
@@ -48,12 +53,15 @@
     }
     return sbGet('key=eq.' + encodeURIComponent('page:' + slug) + '&select=data')
       .then(function (rows) { if (!rows[0]) throw new Error('no row'); return rows[0].data; })
-      .catch(function () { return fileGet('/content/pages/' + encodeURIComponent(slug) + '.json'); })
+      .catch(function () { return fileGet('/content/pages/' + slugFile(slug) + '.json'); })
       .catch(function () { return null; });
   }
-  /* Site-wide settings (design, switcher, visitor count) live on the homepage record */
+  /* Site-wide settings (design, switcher, visitor count, menu, footer, contact) live on the homepage record */
   function loadSettings() {
-    return sbGet('key=eq.home&select=theme:data->>theme,themeSwitcher:data->themeSwitcher,visitorBase:data->visitorBase')
+    if (isPreview) {
+      try { var hd = localStorage.getItem('cmch_admin_draft_home'); if (hd) return Promise.resolve(JSON.parse(hd)); } catch (e) { /* fall through */ }
+    }
+    return sbGet('key=eq.home&select=theme:data->>theme,themeSwitcher:data->themeSwitcher,visitorBase:data->visitorBase,menu:data->menu,footerCols:data->footerCols,contact:data->contact')
       .then(function (rows) { if (!rows[0]) throw new Error('no row'); return rows[0]; })
       .catch(function () { return fileGet('/content/home.json'); })
       .catch(function () { return {}; });
@@ -97,7 +105,7 @@
 
   /* ---------------- Rendering ---------------- */
   function titleFromSlug(s) {
-    return s.replace(/[-_]+/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+    return String(s).split('/').pop().replace(/[-_]+/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
   }
   function blockId(b, i) { return 'b-' + String(b.id || b.title || i).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'b-' + i; }
 
@@ -165,8 +173,7 @@
     var blocks = (p.blocks || []).filter(function (b) { return RENDER[b.type]; });
     if (!blocks.length) {
       return '<section class="pbody"><div class="wrap"><div class="pnotice" data-reveal>' +
-        '<span class="pnotice__ic">' + icon('bell') + '</span><div><h2>Content is being updated</h2><p>This page will be filled from the admin panel soon.</p>' +
-        '<a class="btn btn--ghost btn--sm" href="' + OLD_SITE + esc(slug) + '/" target="_blank" rel="noopener">View on the current website ' + icon('arrow') + '</a></div></div></div></section>';
+        '<span class="pnotice__ic">' + icon('bell') + '</span><div><h2>Content is being updated</h2><p>This page will be filled from the admin panel soon.</p></div></div></div></section>';
     }
     var toc = blocks.length > 1 ? '<aside class="toc" aria-label="On this page"><div class="toc__in"><b>On this page</b>' +
       blocks.map(function (b, i) { return '<a href="#' + blockId(b, i) + '">' + esc(b.title || b.label || 'Section ' + (i + 1)) + '</a>'; }).join('') + '</div></aside>' : '';
@@ -182,10 +189,14 @@
   function renderMissing() {
     var t = titleFromSlug(slug || 'Page');
     document.title = t + ' | Chirayu Medical College & Hospital';
-    return renderHero({ title: t, intro: 'This page is moving to the new website.' }) +
-      '<section class="pbody"><div class="wrap"><div class="pnotice" data-reveal><span class="pnotice__ic">' + icon('link') + '</span><div>' +
-      '<h2>Open this page on the current website</h2><p>Until it is rebuilt here, the full page is available on cmchbhopal.com.</p>' +
-      '<div class="pnotice__btns"><a class="btn" href="' + OLD_SITE + esc(slug) + '/" target="_blank" rel="noopener">Open ' + esc(t) + ' ' + icon('arrow') + '</a>' +
+    var robots = document.createElement('meta');
+    robots.name = 'robots'; robots.content = 'noindex';
+    document.head.appendChild(robots);
+    return renderHero({ title: t, intro: 'This page is being updated on our new website.' }) +
+      '<section class="pbody"><div class="wrap"><div class="pnotice" data-reveal><span class="pnotice__ic">' + icon('bell') + '</span><div>' +
+      '<h2>Coming soon</h2><p>We are moving this information to the new website. For anything urgent, please call or write to us.</p>' +
+      '<div class="pnotice__btns"><a class="btn" data-c-dial href="tel:07552709101">' + icon('phone') + ' Call the college</a>' +
+      '<a class="btn btn--ghost" href="/contact/">Contact details</a>' +
       '<a class="btn btn--ghost" href="/">Back to Home</a></div></div></div></div></section>';
   }
 
@@ -325,6 +336,7 @@
       if (def && def !== currentTheme()) applyTheme(def);
     } else if (def && !themeUser && def !== currentTheme()) applyTheme(def);
     visitors(parseInt(c.visitorBase, 10) || 0);
+    if (window.CMCHChrome) window.CMCHChrome.apply(c);
   }
 
   function lockScroll(on) {

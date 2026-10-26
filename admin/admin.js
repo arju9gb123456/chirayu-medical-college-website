@@ -14,7 +14,7 @@
   function isHome() { return DOC === 'home'; }
   function docSlug() { return DOC.slice(5); }
   function draftKey() { return isHome() ? 'cmch_admin_draft_home' : 'cmch_admin_draft_page:' + docSlug(); }
-  function fileUrl() { return isHome() ? '../content/home.json' : '../content/pages/' + encodeURIComponent(docSlug()) + '.json'; }
+  function fileUrl() { return isHome() ? '../content/home.json' : '../content/pages/' + docSlug().split('/').map(encodeURIComponent).join('/') + '.json'; }
   var RESERVED = ['admin', 'assets', 'content', 'page', 'images', 'pdf', 'supabase', 'tools', 'index'];
 
   var $ = function (s, c) { return (c || document).querySelector(s); };
@@ -132,6 +132,48 @@
           { k: 'achieveImg', l: 'Achievements image', t: 'image' },
           { k: 'pgSeatsText', l: 'PG seats card text', t: 'text' } ] }
       ] },
+    { id: 'menu', path: 'menu', title: 'Main menu', icon: 'grid', item: 'menu item',
+      desc: 'Top menu on every page (and the mobile menu). Links added under an item open as its dropdown.', titleKey: 'label', subKey: 'href',
+      fields: [
+        { k: 'label', l: 'Name', t: 'text', req: 1 },
+        { k: 'href', l: 'Link', t: 'link', hint: 'Leave empty when the item only opens a dropdown.' },
+        { k: 'children', l: 'Dropdown links', t: 'sublist', sub: 'menulink', subLabel: 'link', wide: 1,
+          hint: 'More than 6 links, or a heading, shows the dropdown in two columns.' }
+      ] },
+    { id: 'footer', path: 'footerCols', title: 'Footer links', icon: 'layout', item: 'column',
+      desc: 'Link columns in the footer of every page.', titleKey: 'title',
+      fields: [
+        { k: 'title', l: 'Column heading', t: 'text' },
+        { k: 'hideTitle', l: 'Hide the heading (continues the column before it)', t: 'check' },
+        { k: 'links', l: 'Links', t: 'sublist', sub: 'footlink', subLabel: 'link', wide: 1 }
+      ] },
+    { id: 'contact', path: 'contact', title: 'Contact & top bar', icon: 'users', type: 'object',
+      desc: 'Phone, email and address (top bar, hero and footer), the top-bar alert and quick links, and social media.',
+      groups: [
+        { h: 'Contact', fields: [
+          { k: 'phone', l: 'Phone (as shown)', t: 'text', hint: 'e.g. 0755 2709101/102/103' },
+          { k: 'phoneDial', l: 'Number to dial', t: 'text', hint: 'Digits only, e.g. 07552709101' },
+          { k: 'email', l: 'Email', t: 'text', wide: 1 },
+          { k: 'address', l: 'Address', t: 'textarea', wide: 1 } ] },
+        { h: 'Top bar alert', fields: [
+          { k: 'alertLabel', l: 'Alert text', t: 'text', hint: 'Leave empty to hide it.' },
+          { k: 'alertHref', l: 'Alert link', t: 'link' },
+          { k: 'alertNew', l: 'Show NEW badge on the alert', t: 'check' } ] },
+        { h: 'Top bar links', fields: [
+          { k: 'sitemap', l: 'Sitemap', t: 'link' },
+          { k: 'webmail', l: 'Web Mail', t: 'link' },
+          { k: 'hodmail', l: "Hod's Mail", t: 'link' },
+          { k: 'cms', l: 'CMS Login', t: 'link' } ] },
+        { h: 'Social media (empty = hidden)', fields: [
+          { k: 'facebook', l: 'Facebook', t: 'text' },
+          { k: 'youtube', l: 'YouTube', t: 'text' },
+          { k: 'twitter', l: 'X / Twitter', t: 'text' },
+          { k: 'linkedin', l: 'LinkedIn', t: 'text' },
+          { k: 'instagram', l: 'Instagram', t: 'text' } ] },
+        { h: 'Footer bottom line', fields: [
+          { k: 'copyright', l: 'Copyright text', t: 'text', wide: 1 },
+          { k: 'credit', l: 'Credit text', t: 'text', wide: 1 } ] }
+      ] },
     { id: 'settings', path: '', title: 'Design & settings', icon: 'layout', type: 'object',
       desc: 'Which website design visitors see first, and the footer visitor counter.',
       groups: [
@@ -159,8 +201,15 @@
   };
   var SUB_FIELDS = {
     files: [{ k: 'title', l: 'Document name', t: 'text', req: 1, wide: 1 }, { k: 'href', l: 'PDF or link', t: 'link', req: 1, wide: 1 }, { k: 'date', l: 'Date / note (optional)', t: 'text' }],
-    gallery: [{ k: 'img', l: 'Photo', t: 'image', req: 1, wide: 1 }, { k: 'caption', l: 'Caption', t: 'text', wide: 1 }]
+    gallery: [{ k: 'img', l: 'Photo', t: 'image', req: 1, wide: 1 }, { k: 'caption', l: 'Caption', t: 'text', wide: 1 }],
+    menulink: [{ k: 'label', l: 'Name', t: 'text', req: 1 }, { k: 'heading', l: 'Small heading, not a link', t: 'check' }, { k: 'href', l: 'Link or PDF', t: 'link', wide: 1 }],
+    footlink: [{ k: 'label', l: 'Name', t: 'text', req: 1 }, { k: 'href', l: 'Link or PDF', t: 'link', wide: 1 }]
   };
+  function newSubRow(type) {
+    var o = {};
+    (SUB_FIELDS[type] || []).forEach(function (f) { o[f.k] = f.t === 'check' ? false : ''; });
+    return o;
+  }
   function newBlock(type) {
     var b = { type: type, id: type + '-' + Date.now().toString(36), title: '' };
     if (type === 'table') { b.columns = ['Particulars', 'Details']; b.rows = [{ cells: ['', ''] }]; }
@@ -246,6 +295,11 @@
       if (!Array.isArray(c[k])) c[k] = [];
     });
     c.blocks = c.blocks || {};
+    if (!Array.isArray(c.menu)) c.menu = [];
+    c.menu.forEach(function (m) { if (!Array.isArray(m.children)) m.children = []; });
+    if (!Array.isArray(c.footerCols)) c.footerCols = [];
+    c.footerCols.forEach(function (f) { if (!Array.isArray(f.links)) f.links = []; });
+    if (!c.contact || typeof c.contact !== 'object') c.contact = {};
     if (typeof c.visitorBase !== 'number') c.visitorBase = parseInt(c.visitorBase, 10) || 0;
     if (['classic', 'cinema', 'clean', 'bold'].indexOf(c.theme) < 0) c.theme = 'cinema';
     if (typeof c.themeSwitcher !== 'boolean') c.themeSwitcher = true;
@@ -363,7 +417,11 @@
           '<div class="inline"><input type="text" data-path="' + path + '" data-t="link" value="' + esc(val) + '" placeholder="page-name/ or https://… or file.pdf" aria-label="' + esc(f.l) + '">' +
           '<button type="button" class="btn btn--ghost btn--sm" data-upload="' + path + '" data-accept=".pdf,image/*" title="Upload a PDF">' + icon('upload') + ' PDF</button>' +
           '<a class="iconbtn" data-open-link href="' + esc(resolve(val)) + '" target="_blank" rel="noopener" title="Open link" aria-label="Open link">' + icon('ext') + '</a></div>' +
-          '<div class="progress" hidden><i></i></div>' + hint + '</div>';
+          '<div class="progress" hidden><i></i></div>' + hint +
+          (isOldServer(val) ? '<small class="oldlink">Still on the old website server. Upload the PDF here to move it to the new site.</small>' : '') + '</div>';
+      case 'sublist':
+        return subListHTML(path, Array.isArray(val) ? val : [], f.subLabel || 'link', f.sub, f.l, subFieldsFor(f.sub)) +
+          (f.hint ? '<p class="muted field--wide sub__hint">' + esc(f.hint) + '</p>' : '');
       case 'youtube':
         var vid = ytId(val);
         return '<div class="field' + wide + invalid + '">' + label +
@@ -404,32 +462,36 @@
     return itemFields(sec, it).some(function (f) { return f.req && emptyVal(it[f.k]); });
   }
 
-  /* Rows of a table / documents of a list / photos of a gallery, inside one block */
-  function subHTML(b, i) {
-    var bt = BLOCK_TYPES[b.type];
-    if (!bt.sub) return '';
-    var base = 'blocks.' + i + '.' + bt.sub, arr = b[bt.sub] || [], n = arr.length;
+  /* A list inside one item: table rows, documents, photos, dropdown links, footer links */
+  function subListHTML(base, arr, label, type, title, fieldsFor) {
+    var n = arr.length;
     var rows = arr.map(function (r, j) {
-      var fields;
-      if (b.type === 'table') {
-        fields = (b.columns || []).map(function (c, k) {
-          return fieldHTML({ l: c || 'Column ' + (k + 1), t: 'textarea', rows: k === 0 ? 2 : 3 }, (r.cells || [])[k], base + '.' + j + '.cells.' + k);
-        }).join('');
-      } else {
-        fields = SUB_FIELDS[b.type].map(function (f) { return fieldHTML(f, r[f.k], base + '.' + j + '.' + f.k); }).join('');
-      }
       return '<div class="subrow" data-j="' + j + '"><span class="subrow__num">' + (j + 1) + '</span>' +
-        '<div class="subrow__fields subrow__fields--' + b.type + '">' + fields + '</div>' +
+        '<div class="subrow__fields subrow__fields--' + type + '">' + fieldsFor(r || {}, base + '.' + j) + '</div>' +
         '<div class="subrow__tools">' +
         '<button type="button" class="iconbtn" data-sub-act="up" data-sub="' + base + '" title="Move up" aria-label="Move up"' + (j === 0 ? ' disabled' : '') + '>' + icon('up') + '</button>' +
         '<button type="button" class="iconbtn" data-sub-act="down" data-sub="' + base + '" title="Move down" aria-label="Move down"' + (j === n - 1 ? ' disabled' : '') + '>' + icon('down') + '</button>' +
         '<button type="button" class="iconbtn iconbtn--danger" data-sub-act="del" data-sub="' + base + '" title="Delete" aria-label="Delete">' + icon('trash') + '</button></div></div>';
     }).join('');
-    return '<div class="sub field--wide"><div class="sub__head"><b>' + n + ' ' + bt.subLabel + (n === 1 ? '' : 's') + '</b>' +
-      (n > 6 ? '<input type="search" class="sub__filter" placeholder="Find a ' + bt.subLabel + '…" aria-label="Find a ' + bt.subLabel + '">' : '') +
-      '<button type="button" class="btn btn--ghost btn--sm" data-sub-add="' + base + '" data-sub-type="' + b.type + '">' + icon('plus') + ' Add ' + bt.subLabel + '</button></div>' +
-      '<div class="sub__list">' + (rows || '<p class="muted sub__empty">No ' + bt.subLabel + 's yet.</p>') + '</div>' +
-      (n > 4 ? '<button type="button" class="add add--sm" data-sub-add="' + base + '" data-sub-type="' + b.type + '">' + icon('plus') + ' Add ' + bt.subLabel + ' at the end</button>' : '') + '</div>';
+    return '<div class="sub field--wide"><div class="sub__head"><b>' + (title ? esc(title) + ' · ' : '') + n + ' ' + label + (n === 1 ? '' : 's') + '</b>' +
+      (n > 6 ? '<input type="search" class="sub__filter" placeholder="Find a ' + label + '…" aria-label="Find a ' + label + '">' : '') +
+      '<button type="button" class="btn btn--ghost btn--sm" data-sub-add="' + base + '" data-sub-type="' + type + '">' + icon('plus') + ' Add ' + label + '</button></div>' +
+      '<div class="sub__list">' + (rows || '<p class="muted sub__empty">No ' + label + 's yet.</p>') + '</div>' +
+      (n > 4 ? '<button type="button" class="add add--sm" data-sub-add="' + base + '" data-sub-type="' + type + '">' + icon('plus') + ' Add ' + label + ' at the end</button>' : '') + '</div>';
+  }
+  function subFieldsFor(type) {
+    return function (r, rb) { return (SUB_FIELDS[type] || []).map(function (f) { return fieldHTML(f, r[f.k], rb + '.' + f.k); }).join(''); };
+  }
+  /* Rows of a table / documents of a list / photos of a gallery, inside one block */
+  function subHTML(b, i) {
+    var bt = BLOCK_TYPES[b.type];
+    if (!bt.sub) return '';
+    var fieldsFor = b.type === 'table' ? function (r, rb) {
+      return (b.columns || []).map(function (c, k) {
+        return fieldHTML({ l: c || 'Column ' + (k + 1), t: 'textarea', rows: k === 0 ? 2 : 3 }, (r.cells || [])[k], rb + '.cells.' + k);
+      }).join('');
+    } : subFieldsFor(b.type);
+    return subListHTML('blocks.' + i + '.' + bt.sub, b[bt.sub] || [], bt.subLabel, b.type, '', fieldsFor);
   }
 
   function renderEditor() {
@@ -491,6 +553,7 @@
     if (/^(https?:|data:|mailto:|tel:)/i.test(v)) return v;
     try { return new URL(String(v).replace(/^\//, ''), location.origin + '/').href; } catch (e) { return v; }
   }
+  function isOldServer(v) { return /cmchbhopal\.com/i.test(String(v || '')) && !/^mailto:/i.test(String(v || '')); }
   function ytId(v) {
     v = String(v || '').trim();
     var m = v.match(/(?:youtu\.be\/|[?&]v=|embed\/|shorts\/|live\/)([\w-]{11})/);
@@ -500,7 +563,7 @@
   function slug(s) { return String(s).toLowerCase().replace(/\.[a-z0-9]+$/, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 50) || 'file'; }
   function newItem(sec) {
     var o = {};
-    sec.fields.forEach(function (f) { o[f.k] = f.t === 'check' ? false : f.t === 'select' ? f.opts[0][0] : ''; });
+    sec.fields.forEach(function (f) { o[f.k] = f.t === 'check' ? false : f.t === 'select' ? f.opts[0][0] : f.t === 'sublist' ? [] : ''; });
     return o;
   }
 
@@ -658,8 +721,7 @@
     if (sa) {
       var arr = getPath(S.data, sa.dataset.subAdd) || [];
       var bi = +sa.dataset.subAdd.split('.')[1], blk = list(sec)[bi];
-      var row = sa.dataset.subType === 'table' ? { cells: (blk.columns || ['', '']).map(function () { return ''; }) } :
-        sa.dataset.subType === 'files' ? { title: '', href: '', date: '' } : { img: '', caption: '' };
+      var row = sa.dataset.subType === 'table' ? { cells: ((blk && blk.columns) || ['', '']).map(function () { return ''; }) } : newSubRow(sa.dataset.subType);
       var atTop = !sa.classList.contains('add');
       if (atTop && sa.dataset.subType !== 'table') arr.unshift(row); else arr.push(row);
       setPath(S.data, sa.dataset.subAdd, arr);
@@ -851,7 +913,7 @@
     var blob = new Blob([JSON.stringify(S.data, null, 2)], { type: 'application/json' });
     var a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    var fname = isHome() ? 'home.json' : docSlug() + '.json';
+    var fname = isHome() ? 'home.json' : docSlug().replace(/\//g, '--') + '.json';
     a.download = fname;
     document.body.appendChild(a); a.click(); a.remove();
     setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
@@ -1019,6 +1081,10 @@
     return S.sb.from('site_content').select('data,updated_at,updated_by').eq('key', DOC).maybeSingle().then(function (row) {
       if (row.error) throw row.error;
       return (row.data ? Promise.resolve(row.data.data) : fromFile()).then(function (content) {
+        var missing = isHome() && row.data ? ['menu', 'footerCols', 'contact'].filter(function (k) { return content[k] == null; }) : [];
+        if (!missing.length) return content;
+        return fetchFile().then(function (f) { missing.forEach(function (k) { content[k] = f[k]; }); return content; }).catch(function () { return content; });
+      }).then(function (content) {
         S.meta = row.data ? { updated_at: row.data.updated_at, updated_by: row.data.updated_by } : null;
         S.data = normalize(clone(content));
         S.saved = row.data ? JSON.stringify(S.data) : '';
@@ -1045,10 +1111,10 @@
   function newPage() {
     var title = window.prompt('Title of the new page (e.g. Anti Ragging Committee)');
     if (!title || !title.trim()) return;
-    var addr = window.prompt('Page address — it opens at /<address>/ on the website.\nUse the same address as the old site so menu links keep working.', slug(title));
+    var addr = window.prompt('Page address — it opens at /<address>/ on the website.\nUse the same address as the old site so menu links keep working (folders are fine, e.g. student-info/teaching-schedule).', slug(title));
     if (addr == null) return;
-    addr = String(addr).trim().replace(/^\/+|\/+$/g, '');
-    if (!/^[A-Za-z0-9][A-Za-z0-9_-]*$/.test(addr) || RESERVED.indexOf(addr.toLowerCase()) > -1) { toast('Use only letters, numbers and dashes (and not ' + RESERVED.join(', ') + ').', 'error'); return; }
+    addr = String(addr).trim().replace(/^https?:\/\/[^/]+/i, '').replace(/^\/+|\/+$/g, '');
+    if (!/^[A-Za-z0-9][A-Za-z0-9_-]*(\/[A-Za-z0-9][A-Za-z0-9_-]*)*$/.test(addr) || RESERVED.indexOf(addr.split('/')[0].toLowerCase()) > -1) { toast('Use only letters, numbers, dashes and / (and not starting with ' + RESERVED.join(', ') + ').', 'error'); return; }
     if (S.registry.some(function (p) { return p.slug === addr; })) { toast('That page already exists. It is now open.'); switchDoc('page:' + addr); return; }
     registerPage(addr, title.trim()).then(function () {
       switchDoc('page:' + addr);

@@ -252,6 +252,9 @@ code{font-size:.9em;background:var(--mint);padding:1px 6px;border-radius:6px;col
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 
+.oldlink{display:block;margin-top:6px;padding:6px 10px;border-radius:8px;background:#FFF4DB;color:#8A5A00;font-size:12.5px;line-height:1.4}
+.sub__hint{margin:-4px 0 0;font-size:12.5px}
+.subrow__fields--menulink .check{align-self:end;padding-bottom:10px}
 @media (max-width:900px){
   .side__page{display:block;padding:8px 0 4px}
   .side__label{display:none}

@@ -68,7 +68,7 @@
       "tag": "15th January 2025",
       "color": "red",
       "text": "Aging through the lens of Physiology: Unlocking Longevity",
-      "href": "psp.pdf"
+      "href": "https://www.cmchbhopal.com/psp.pdf"
     },
     {
       "tag": "Academics",
@@ -86,7 +86,7 @@
       "tag": "Sport",
       "color": "amber",
       "text": "International Day of Yoga(IDY) 21st June 2025",
-      "href": "yoga.html"
+      "href": "https://www.cmchbhopal.com/yoga.html"
     },
     {
       "tag": "National Festival",
@@ -102,7 +102,7 @@
     },
     {
       "text": "Anaya Jajodia, presented a published paper in department of Obstetrics and Gynaecology at CMCH on 9, September 2022.",
-      "href": "pdf/hospital-pdf/obs-gynae/Published-paper-presented-by-Anaya.pdf"
+      "href": "https://www.cmchbhopal.com/pdf/hospital-pdf/obs-gynae/Published-paper-presented-by-Anaya.pdf"
     },
     {
       "text": "Foundation Course and Final Master Schedule Uploaded for MBBS 2021-22 Batch Phase-I.",
@@ -114,7 +114,7 @@
     },
     {
       "text": "UG/PG Batch 2021-22 Admission list uploaded.",
-      "href": "/student-info/ug-pg-students-admission-information/"
+      "href": "student-info/ug-pg-students-admission-information/"
     }
   ],
   "media": [
@@ -156,7 +156,7 @@
     {
       "text": "UG/PG Students Admission Information",
       "icon": "cap",
-      "href": "student-info/ug-pg-students-admission-information"
+      "href": "student-info/ug-pg-students-admission-information/"
     },
     {
       "text": "Teaching Schedule",
@@ -289,5 +289,353 @@
   ],
   "theme": "cinema",
   "themeSwitcher": true,
-  "visitorBase": 1284563
+  "visitorBase": 1284563,
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/",
+      "children": [
+        {
+          "label": "Achievements",
+          "href": "acheivement/"
+        },
+        {
+          "label": "Virtual Tour",
+          "href": "virtual-tour/"
+        },
+        {
+          "label": "Vision & Mission",
+          "href": "vision-mission/"
+        },
+        {
+          "label": "Ayushman Bharat",
+          "href": "ayushman-bharat/"
+        }
+      ]
+    },
+    {
+      "label": "About Us",
+      "href": "about/",
+      "children": [
+        {
+          "label": "Chirayu Group",
+          "href": "chirayu-group/"
+        },
+        {
+          "label": "Chairman’s Pen",
+          "href": "chairmans-pen/"
+        },
+        {
+          "label": "Dean Profile",
+          "href": "dean-profile/"
+        },
+        {
+          "label": "Medical Superintendent Profile",
+          "href": "medical-superintendent-profile/"
+        },
+        {
+          "label": "Campus Scenario",
+          "href": "campus-scenario/"
+        },
+        {
+          "label": "Events",
+          "href": "events/"
+        }
+      ]
+    },
+    {
+      "label": "NMC INFO",
+      "href": "",
+      "children": [
+        {
+          "label": "Info Under MSR",
+          "href": "min-req-clause/"
+        },
+        {
+          "label": "MARB",
+          "href": "MARB-Proforma-18/"
+        },
+        {
+          "label": "Stipend Details",
+          "href": "https://www.cmchbhopal.com/Details%20of%20the%20stipend.pdf"
+        },
+        {
+          "label": "PG Courses & Seats",
+          "href": "https://www.cmchbhopal.com/view-pdf.html?file=nmcd/pg-courses.pdf"
+        },
+        {
+          "label": "Clinical Material 2025",
+          "href": "https://www.cmchbhopal.com/view-pdf.html?file=nmcd/clinical-2025.pdf"
+        },
+        {
+          "label": "Faculty List 3 Year",
+          "href": "https://www.cmchbhopal.com/view-pdf.html?file=nmcd/FacultyList3.pdf"
+        },
+        {
+          "label": "List of Admitted Students",
+          "href": "",
+          "heading": true
+        },
+        {
+          "label": "UG 2023-2025",
+          "href": "https://www.cmchbhopal.com/view-pdf.html?file=nmcd/ug.pdf"
+        },
+        {
+          "label": "PG 2023-2025",
+          "href": "https://www.cmchbhopal.com/view-pdf.html?file=nmcd/pg.pdf"
+        }
+      ]
+    },
+    {
+      "label": "IMP(NMC)Req",
+      "href": "mohfw-req/",
+      "children": [
+        {
+          "label": "MPMC Reg. Rule 2021",
+          "href": "student-info/"
+        },
+        {
+          "label": "Infrastructure",
+          "href": "infrastructure/"
+        },
+        {
+          "label": "Department List",
+          "href": "department-and-equipment-list/"
+        },
+        {
+          "label": "Bed Distribution",
+          "href": "bed-distribution/"
+        },
+        {
+          "label": "Licence & Certification",
+          "href": "license-certificate/"
+        },
+        {
+          "label": "Antiragging",
+          "href": "antiragging/"
+        },
+        {
+          "label": "Committees",
+          "href": "committees/"
+        },
+        {
+          "label": "Student Info",
+          "href": "student-info/"
+        },
+        {
+          "label": "New Curriculum Batch",
+          "href": "phase-I/"
+        }
+      ]
+    },
+    {
+      "label": "Approval",
+      "href": "gov-approval/",
+      "children": []
+    },
+    {
+      "label": "Events",
+      "href": "events/",
+      "children": []
+    },
+    {
+      "label": "Career",
+      "href": "career/",
+      "children": []
+    },
+    {
+      "label": "Contact",
+      "href": "contact/",
+      "children": [
+        {
+          "label": "Details of Dean, Principal and Medical Superintendent",
+          "href": "management-team/"
+        },
+        {
+          "label": "Location Map",
+          "href": "location-map/"
+        },
+        {
+          "label": "Hospital Enquiry",
+          "href": "hospital-enquiry/"
+        }
+      ]
+    }
+  ],
+  "footerCols": [
+    {
+      "title": "Quick Links",
+      "hideTitle": false,
+      "links": [
+        {
+          "label": "NIRF-2026",
+          "href": "https://www.cmchbhopal.com/CHIRAYU%20MEDICAL%20COLLEGE%20AND%20HOSPITAL20260316-.pdf"
+        },
+        {
+          "label": "Achievement",
+          "href": "acheivement/"
+        },
+        {
+          "label": "Antiragging",
+          "href": "antiragging/"
+        },
+        {
+          "label": "Bed Distribution",
+          "href": "bed-distribution/"
+        },
+        {
+          "label": "Campus Scenario",
+          "href": "campus-scenario/"
+        },
+        {
+          "label": "Chairman's Pen",
+          "href": "chairmans-pen/"
+        },
+        {
+          "label": "Clinical Material",
+          "href": "https://www.cmchbhopal.com/pdf/Clincial-material-FEBRUARY-2020.pdf"
+        },
+        {
+          "label": "College Virtual Tour",
+          "href": "college-tour/"
+        },
+        {
+          "label": "Committees",
+          "href": "committees/"
+        },
+        {
+          "label": "Course Offered",
+          "href": "course-offered/"
+        },
+        {
+          "label": "Dean Profile",
+          "href": "dean-profile/"
+        },
+        {
+          "label": "Details of Dean, Principal and Medical Superintendent",
+          "href": "management-team/"
+        }
+      ]
+    },
+    {
+      "title": "More Links",
+      "hideTitle": true,
+      "links": [
+        {
+          "label": "Hospital Virtual Tour",
+          "href": "hospital-tour/"
+        },
+        {
+          "label": "Hospital Inquiry",
+          "href": "hospital-enquiry/"
+        },
+        {
+          "label": "Hod's Mail",
+          "href": "https://sharedmail8.securehostdns.com/"
+        },
+        {
+          "label": "Hospital Empanelled With",
+          "href": "hospital-accridated-with/"
+        },
+        {
+          "label": "Infrastructure",
+          "href": "infrastructure/"
+        },
+        {
+          "label": "Important NMC Link",
+          "href": "important-nmc-link/"
+        },
+        {
+          "label": "Licence & Certification",
+          "href": "license-certificate/"
+        },
+        {
+          "label": "MPMC Reg. Rule 2021",
+          "href": "student-info/"
+        },
+        {
+          "label": "NABH & ISO Certifications",
+          "href": "nabh-iso-certificatation/"
+        },
+        {
+          "label": "Student Info",
+          "href": "student-info/"
+        },
+        {
+          "label": "Virtual Tour",
+          "href": "virtual-tour/"
+        },
+        {
+          "label": "Vision & Mission",
+          "href": "vision-mission/"
+        },
+        {
+          "label": "Web mail",
+          "href": "https://login.microsoftonline.com"
+        }
+      ]
+    },
+    {
+      "title": "Help",
+      "hideTitle": false,
+      "links": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "About Us",
+          "href": "about/"
+        },
+        {
+          "label": "Information under MSR Clause B.1.11",
+          "href": "min-req-clause/"
+        },
+        {
+          "label": "MARB, PROFORMA 18",
+          "href": "MARB-Proforma-18/"
+        },
+        {
+          "label": "IMP(NMC)Req",
+          "href": "mohfw-req/"
+        },
+        {
+          "label": "Approval",
+          "href": "gov-approval/"
+        },
+        {
+          "label": "Events",
+          "href": "events/"
+        },
+        {
+          "label": "Career",
+          "href": "career/"
+        },
+        {
+          "label": "Contact",
+          "href": "contact/"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "email": "info@cmchbhopal.com",
+    "phone": "0755 2709101/102/103",
+    "phoneDial": "07552709101",
+    "address": "Chirayu Medical College & Hospital, Bhainsakhedi, Near Bairagarh (Bhopal-Indore Highway), Bhopal, M.P. – 462030",
+    "alertLabel": "COVID-19 Updates",
+    "alertHref": "covid-19-updates/",
+    "alertNew": true,
+    "sitemap": "sitemap/",
+    "webmail": "https://login.microsoftonline.com",
+    "hodmail": "https://zwinmail02.securehostdns.com/interface/root#/login",
+    "cms": "ccms/",
+    "facebook": "",
+    "youtube": "https://www.youtube.com/channel/UCow1egPA2WNyKm3hX129cog/videos",
+    "twitter": "",
+    "linkedin": "",
+    "instagram": "",
+    "copyright": "@ 2010 Chirayu Medical College & Hospital I.T. Department",
+    "credit": "Designed & developed by Arjun Ahirwar"
+  }
 }

@@ -185,6 +185,7 @@
   }
 
   function renderAll(c) {
+    if (window.CMCHChrome) window.CMCHChrome.apply(c);
     renderHero(c.hero);
     renderTicker(c.ticker);
     renderLists(c);

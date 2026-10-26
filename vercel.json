@@ -44,11 +44,7 @@
   ],
   "rewrites": [
     {
-      "source": "/:slug([A-Za-z0-9][A-Za-z0-9_-]*)",
-      "destination": "/page.html"
-    },
-    {
-      "source": "/:slug([A-Za-z0-9][A-Za-z0-9_-]*)/",
+      "source": "/((?!admin(?:/|$)|assets/|content/|api/)[A-Za-z0-9][A-Za-z0-9_/-]*)",
       "destination": "/page.html"
     }
   ]

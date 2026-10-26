@@ -69,7 +69,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
 <link rel="preload" href="assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" type="image/svg+xml" href="assets/img/emblem.svg">
 <link rel="apple-touch-icon" href="assets/img/emblem.svg">
-<link rel="stylesheet" href="assets/css/style.css?v=20261025-t5">
+<link rel="stylesheet" href="assets/css/style.css?v=20261026-c1">
 </head>
 <body>
 
@@ -121,15 +121,15 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
 <div class="topbar" id="web-top">
   <div class="wrap">
     <ul class="topbar__list">
-      <li class="hide-sm"><a class="topbar__item" href="mailto:info@cmchbhopal.com"><svg><use href="#i-mail"/></svg> info@cmchbhopal.com</a></li>
-      <li class="hide-lg"><a class="topbar__item" href="tel:07552709101"><svg><use href="#i-phone"/></svg> 0755 2709101/102/103</a></li>
-      <li class="hide-lg"><a class="topbar__item" href="sitemap/" target="_blank" rel="noopener"><svg><use href="#i-sitemap"/></svg> Sitemap</a></li>
-      <li><a class="topbar__covid" href="covid-19-updates/" target="_blank" rel="noopener"><span class="emerg-dot"></span> COVID-19 Updates <span class="new">NEW</span></a></li>
+      <li class="hide-sm"><a class="topbar__item" data-c="email" href="mailto:info@cmchbhopal.com"><svg><use href="#i-mail"/></svg> <span data-c-text>info@cmchbhopal.com</span></a></li>
+      <li class="hide-lg"><a class="topbar__item" data-c="phone" href="tel:07552709101"><svg><use href="#i-phone"/></svg> <span data-c-text>0755 2709101/102/103</span></a></li>
+      <li class="hide-lg"><a class="topbar__item" data-c="sitemap" href="sitemap/"><svg><use href="#i-sitemap"/></svg> Sitemap</a></li>
+      <li><a class="topbar__covid" data-c="alert" href="covid-19-updates/"><span class="emerg-dot"></span> <span data-c-text>COVID-19 Updates</span> <span class="new">NEW</span></a></li>
     </ul>
     <ul class="topbar__list">
-      <li class="hide-md"><a href="https://login.microsoftonline.com" target="_blank" rel="noopener">Web Mail</a></li>
-      <li class="hide-md"><a href="https://zwinmail02.securehostdns.com/interface/root#/login" target="_blank" rel="noopener">Hod's Mail</a></li>
-      <li class="hide-md"><a href="ccms/" target="_blank" rel="noopener">CMS Login</a></li>
+      <li class="hide-md"><a data-c="webmail" href="https://login.microsoftonline.com" target="_blank" rel="noopener">Web Mail</a></li>
+      <li class="hide-md"><a data-c="hodmail" href="https://zwinmail02.securehostdns.com/interface/root#/login" target="_blank" rel="noopener">Hod's Mail</a></li>
+      <li class="hide-md"><a data-c="cms" href="ccms/">CMS Login</a></li>
       <li class="theme-switch" role="radiogroup" aria-label="Website design">
         <span class="theme-switch__label">Design</span>
         <button type="button" role="radio" data-theme-set="cinema" aria-checked="false" title="Cinematic dark"><i class="swatch swatch--cinema"></i><span>Cinematic</span></button>
@@ -139,7 +139,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
         <span class="theme-switch__ink" aria-hidden="true"></span>
       </li>
       <li class="topbar__social">
-        <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a><a href="https://www.youtube.com/channel/UCow1egPA2WNyKm3hX129cog/videos" target="_blank" rel="noopener" aria-label="YouTube"><svg><use href="#i-yt"/></svg></a><a href="#" target="_blank" rel="noopener" aria-label="Twitter"><svg><use href="#i-x"/></svg></a><a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-in"/></svg></a><a href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+        <a data-c="facebook" href="#" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a><a data-c="youtube" href="https://www.youtube.com/channel/UCow1egPA2WNyKm3hX129cog/videos" target="_blank" rel="noopener" aria-label="YouTube"><svg><use href="#i-yt"/></svg></a><a data-c="twitter" href="#" aria-label="Twitter"><svg><use href="#i-x"/></svg></a><a data-c="linkedin" href="#" aria-label="LinkedIn"><svg><use href="#i-in"/></svg></a><a data-c="instagram" href="#" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
       </li>
     </ul>
   </div>
@@ -155,25 +155,25 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
 
     <nav class="nav" aria-label="Main Navigation">
       <ul class="nav__list">
-        <li class="nav__item"><a class="nav__link" href="" aria-current="page">Home <svg><use href="#i-chev"/></svg></a>
-          <div class="drop"><a href="acheivement/" target="_blank" rel="noopener">Achievements</a><a href="virtual-tour/" target="_blank" rel="noopener">Virtual Tour</a><a href="vision-mission/" target="_blank" rel="noopener">Vision &amp; Mission</a><a href="ayushman-bharat/" target="_blank" rel="noopener">Ayushman Bharat</a></div></li>
-        <li class="nav__item"><a class="nav__link" href="about/" target="_blank" rel="noopener">About Us <svg><use href="#i-chev"/></svg></a>
-          <div class="drop"><a href="chirayu-group/" target="_blank" rel="noopener">Chirayu Group</a><a href="chairmans-pen/" target="_blank" rel="noopener">Chairman&#8217;s Pen</a><a href="dean-profile/" target="_blank" rel="noopener">Dean Profile</a><a href="medical-superintendent-profile/" target="_blank" rel="noopener">Medical Superintendent Profile</a><a href="campus-scenario/" target="_blank" rel="noopener">Campus Scenario</a><a href="events/" target="_blank" rel="noopener">Events</a></div></li>
+        <li class="nav__item"><a class="nav__link" href="/" aria-current="page">Home <svg><use href="#i-chev"/></svg></a>
+          <div class="drop"><a href="acheivement/">Achievements</a><a href="virtual-tour/">Virtual Tour</a><a href="vision-mission/">Vision &amp; Mission</a><a href="ayushman-bharat/">Ayushman Bharat</a></div></li>
+        <li class="nav__item"><a class="nav__link" href="about/">About Us <svg><use href="#i-chev"/></svg></a>
+          <div class="drop"><a href="chirayu-group/">Chirayu Group</a><a href="chairmans-pen/">Chairman&#8217;s Pen</a><a href="dean-profile/">Dean Profile</a><a href="medical-superintendent-profile/">Medical Superintendent Profile</a><a href="campus-scenario/">Campus Scenario</a><a href="events/">Events</a></div></li>
         <li class="nav__item"><a class="nav__link" href="#">NMC INFO <svg><use href="#i-chev"/></svg></a>
           <div class="drop drop--mega">
-            <div class="drop__col"><a href="min-req-clause/" target="_blank" rel="noopener">Info Under MSR</a><a href="MARB-Proforma-18/" target="_self">MARB</a><a href="Details of the stipend.pdf" target="_blank" rel="noopener">Stipend Details</a><a href="view-pdf.html?file=nmcd/pg-courses.pdf">PG Courses &amp; Seats</a><a href="view-pdf.html?file=nmcd/clinical-2025.pdf">Clinical Material 2025</a><a href="view-pdf.html?file=nmcd/FacultyList3.pdf">Faculty List 3 Year</a></div>
-            <div class="drop__col"><span class="drop__head">List of Admitted Students</span><a href="view-pdf.html?file=nmcd/ug.pdf">UG 2023-2025</a><a href="view-pdf.html?file=nmcd/pg.pdf">PG 2023-2025</a></div>
+            <div class="drop__col"><a href="min-req-clause/">Info Under MSR</a><a href="MARB-Proforma-18/">MARB</a><a href="https://www.cmchbhopal.com/Details%20of%20the%20stipend.pdf" target="_blank" rel="noopener">Stipend Details</a><a href="https://www.cmchbhopal.com/view-pdf.html?file=nmcd/pg-courses.pdf">PG Courses &amp; Seats</a><a href="https://www.cmchbhopal.com/view-pdf.html?file=nmcd/clinical-2025.pdf">Clinical Material 2025</a><a href="https://www.cmchbhopal.com/view-pdf.html?file=nmcd/FacultyList3.pdf">Faculty List 3 Year</a></div>
+            <div class="drop__col"><span class="drop__head">List of Admitted Students</span><a href="https://www.cmchbhopal.com/view-pdf.html?file=nmcd/ug.pdf">UG 2023-2025</a><a href="https://www.cmchbhopal.com/view-pdf.html?file=nmcd/pg.pdf">PG 2023-2025</a></div>
           </div></li>
         <li class="nav__item"><a class="nav__link" href="mohfw-req/">IMP(NMC)Req <svg><use href="#i-chev"/></svg></a>
           <div class="drop drop--mega">
-            <div class="drop__col"><a href="student-info/" target="_blank" rel="noopener">MPMC Reg. Rule 2021</a><a href="infrastructure/">Infrastructure</a><a href="department-and-equipment-list/">Department List</a><a href="bed-distribution/">Bed Distribution</a><a href="license-certificate/">Licence &amp; Certification</a></div>
+            <div class="drop__col"><a href="student-info/">MPMC Reg. Rule 2021</a><a href="infrastructure/">Infrastructure</a><a href="department-and-equipment-list/">Department List</a><a href="bed-distribution/">Bed Distribution</a><a href="license-certificate/">Licence &amp; Certification</a></div>
             <div class="drop__col"><a href="antiragging/">Antiragging</a><a href="committees/">Committees</a><a href="student-info/">Student Info</a><a href="phase-I/">New Curriculum Batch</a></div>
           </div></li>
-        <li class="nav__item"><a class="nav__link" href="gov-approval/" target="_blank" rel="noopener">Approval</a></li>
-        <li class="nav__item"><a class="nav__link" href="events/" target="_blank" rel="noopener">Events</a></li>
-        <li class="nav__item"><a class="nav__link" href="career/" target="_blank" rel="noopener">Career</a></li>
-        <li class="nav__item"><a class="nav__link" href="contact/" target="_blank" rel="noopener">Contact <svg><use href="#i-chev"/></svg></a>
-          <div class="drop drop--right"><a href="management-team/" target="_blank" rel="noopener">Details of Dean, Principal and Medical Superintendent</a><a href="location-map/" target="_blank" rel="noopener">Location Map</a><a href="hospital-enquiry/" target="_blank" rel="noopener">Hospital Enquiry</a></div></li>
+        <li class="nav__item"><a class="nav__link" href="gov-approval/">Approval</a></li>
+        <li class="nav__item"><a class="nav__link" href="events/">Events</a></li>
+        <li class="nav__item"><a class="nav__link" href="career/">Career</a></li>
+        <li class="nav__item"><a class="nav__link" href="contact/">Contact <svg><use href="#i-chev"/></svg></a>
+          <div class="drop drop--right"><a href="management-team/">Details of Dean, Principal and Medical Superintendent</a><a href="location-map/">Location Map</a><a href="hospital-enquiry/">Hospital Enquiry</a></div></li>
       </ul>
     </nav>
     <button class="burger" aria-label="Toggle Menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span><span></span></button>
@@ -182,17 +182,17 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
 
 <!-- ===== Mobile drawer ===== -->
 <div class="drawer" id="drawer" data-lenis-prevent>
-  <details><summary>Home</summary><div class="drawer__sub"><a href="">Home</a><a href="acheivement/" target="_blank" rel="noopener">Achievements</a><a href="virtual-tour/" target="_blank" rel="noopener">Virtual Tour</a><a href="vision-mission/" target="_blank" rel="noopener">Vision &amp; Mission</a><a href="ayushman-bharat/" target="_blank" rel="noopener">Ayushman Bharat</a></div></details>
-  <details><summary>About Us</summary><div class="drawer__sub"><a href="about/" target="_blank" rel="noopener">About Us</a><a href="chirayu-group/" target="_blank" rel="noopener">Chirayu Group</a><a href="chairmans-pen/" target="_blank" rel="noopener">Chairman&#8217;s Pen</a><a href="dean-profile/" target="_blank" rel="noopener">Dean Profile</a><a href="medical-superintendent-profile/" target="_blank" rel="noopener">Medical Superintendent Profile</a><a href="campus-scenario/" target="_blank" rel="noopener">Campus Scenario</a><a href="events/" target="_blank" rel="noopener">Events</a></div></details>
-  <details><summary>NMC INFO</summary><div class="drawer__sub"><a href="min-req-clause/" target="_blank" rel="noopener">Info Under MSR</a><a href="MARB-Proforma-18/" target="_self">MARB</a><a href="Details of the stipend.pdf" target="_blank" rel="noopener">Stipend Details</a><a href="view-pdf.html?file=nmcd/pg-courses.pdf">PG Courses &amp; Seats</a><a href="view-pdf.html?file=nmcd/clinical-2025.pdf">Clinical Material 2025</a><a href="view-pdf.html?file=nmcd/FacultyList3.pdf">Faculty List 3 Year</a><h5>List of Admitted Students</h5><a href="view-pdf.html?file=nmcd/ug.pdf">UG 2023-2025</a><a href="view-pdf.html?file=nmcd/pg.pdf">PG 2023-2025</a></div></details>
-  <details><summary>IMP(NMC)Req</summary><div class="drawer__sub"><a href="mohfw-req/">IMP(NMC)Req</a><a href="student-info/" target="_blank" rel="noopener">MPMC Reg. Rule 2021</a><a href="infrastructure/">Infrastructure</a><a href="department-and-equipment-list/">Department List</a><a href="bed-distribution/">Bed Distribution</a><a href="license-certificate/">Licence &amp; Certification</a><a href="antiragging/">Antiragging</a><a href="committees/">Committees</a><a href="student-info/">Student Info</a><a href="phase-I/">New Curriculum Batch</a></div></details>
-  <a class="drawer__link" href="gov-approval/" target="_blank" rel="noopener">Approval</a>
-  <a class="drawer__link" href="events/" target="_blank" rel="noopener">Events</a>
-  <a class="drawer__link" href="career/" target="_blank" rel="noopener">Career</a>
-  <details><summary>Contact</summary><div class="drawer__sub"><a href="contact/" target="_blank" rel="noopener">Contact</a><a href="management-team/" target="_blank" rel="noopener">Details of Dean, Principal and Medical Superintendent</a><a href="location-map/" target="_blank" rel="noopener">Location Map</a><a href="hospital-enquiry/" target="_blank" rel="noopener">Hospital Enquiry</a></div></details>
+  <details><summary>Home</summary><div class="drawer__sub"><a href="">Home</a><a href="acheivement/">Achievements</a><a href="virtual-tour/">Virtual Tour</a><a href="vision-mission/">Vision &amp; Mission</a><a href="ayushman-bharat/">Ayushman Bharat</a></div></details>
+  <details><summary>About Us</summary><div class="drawer__sub"><a href="about/">About Us</a><a href="chirayu-group/">Chirayu Group</a><a href="chairmans-pen/">Chairman&#8217;s Pen</a><a href="dean-profile/">Dean Profile</a><a href="medical-superintendent-profile/">Medical Superintendent Profile</a><a href="campus-scenario/">Campus Scenario</a><a href="events/">Events</a></div></details>
+  <details><summary>NMC INFO</summary><div class="drawer__sub"><a href="min-req-clause/">Info Under MSR</a><a href="MARB-Proforma-18/">MARB</a><a href="https://www.cmchbhopal.com/Details%20of%20the%20stipend.pdf" target="_blank" rel="noopener">Stipend Details</a><a href="https://www.cmchbhopal.com/view-pdf.html?file=nmcd/pg-courses.pdf">PG Courses &amp; Seats</a><a href="https://www.cmchbhopal.com/view-pdf.html?file=nmcd/clinical-2025.pdf">Clinical Material 2025</a><a href="https://www.cmchbhopal.com/view-pdf.html?file=nmcd/FacultyList3.pdf">Faculty List 3 Year</a><h5>List of Admitted Students</h5><a href="https://www.cmchbhopal.com/view-pdf.html?file=nmcd/ug.pdf">UG 2023-2025</a><a href="https://www.cmchbhopal.com/view-pdf.html?file=nmcd/pg.pdf">PG 2023-2025</a></div></details>
+  <details><summary>IMP(NMC)Req</summary><div class="drawer__sub"><a href="mohfw-req/">IMP(NMC)Req</a><a href="student-info/">MPMC Reg. Rule 2021</a><a href="infrastructure/">Infrastructure</a><a href="department-and-equipment-list/">Department List</a><a href="bed-distribution/">Bed Distribution</a><a href="license-certificate/">Licence &amp; Certification</a><a href="antiragging/">Antiragging</a><a href="committees/">Committees</a><a href="student-info/">Student Info</a><a href="phase-I/">New Curriculum Batch</a></div></details>
+  <a class="drawer__link" href="gov-approval/">Approval</a>
+  <a class="drawer__link" href="events/">Events</a>
+  <a class="drawer__link" href="career/">Career</a>
+  <details><summary>Contact</summary><div class="drawer__sub"><a href="contact/">Contact</a><a href="management-team/">Details of Dean, Principal and Medical Superintendent</a><a href="location-map/">Location Map</a><a href="hospital-enquiry/">Hospital Enquiry</a></div></details>
   <div class="drawer__cta">
-    <a class="btn btn--red" href="covid-19-updates/" target="_blank" rel="noopener">COVID-19 Updates</a>
-    <a class="btn" href="tel:07552709101"><svg><use href="#i-phone"/></svg> 0755 2709101</a>
+    <a class="btn btn--red" data-c="alert" href="covid-19-updates/"><span data-c-text>COVID-19 Updates</span></a>
+    <a class="btn" data-c-dial href="tel:07552709101"><svg><use href="#i-phone"/></svg> Call now</a>
   </div>
 </div>
 <div class="drawer-scrim" aria-hidden="true"></div>
@@ -213,8 +213,8 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
       <h1 class="hero__title" aria-live="polite"><span class="t">Chirayu Medical College &amp; Hospital</span></h1>
       <p class="hero__lede" data-in style="--d:3">( A Venture of Chirayu Charitable Foundation ) Every journey starts with a single step they say, and so did ours.</p>
       <div class="hero__actions" data-in style="--d:4">
-        <a class="btn" data-magnetic href="about/" target="_blank" rel="noopener">About Us <svg><use href="#i-arrow"/></svg></a>
-        <a class="btn btn--ghost" data-magnetic href="virtual-tour/" target="_blank" rel="noopener"><svg><use href="#i-play"/></svg> Virtual Tour</a>
+        <a class="btn" data-magnetic href="about/">About Us <svg><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--ghost" data-magnetic href="virtual-tour/"><svg><use href="#i-play"/></svg> Virtual Tour</a>
       </div>
     </div>
 
@@ -243,7 +243,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
   </div></div>
 
   <div class="hero__foot"><div class="wrap">
-    <span class="bpm"><svg><use href="#i-heart"/></svg> <span>Call <a href="tel:07552709101"><strong>0755 2709101/102/103</strong></a> <span class="sep">/</span> <a href="mailto:info@cmchbhopal.com"><strong>info@cmchbhopal.com</strong></a></span></span>
+    <span class="bpm"><svg><use href="#i-heart"/></svg> <span>Call <a data-c="phone" href="tel:07552709101"><strong data-c-text>0755 2709101/102/103</strong></a> <span class="sep">/</span> <a data-c="email" href="mailto:info@cmchbhopal.com"><strong data-c-text>info@cmchbhopal.com</strong></a></span></span>
     <span class="scroll-cue"><i></i> Scroll to explore</span>
   </div></div>
 </section>
@@ -258,12 +258,12 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
 <section class="quick" aria-label="Quick links">
   <div class="wrap">
     <div class="quick__grid">
-      <a class="qk" href="hospital-enquiry/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-hosp"/></svg></span><span class="qk__t">Hospital Enquiry</span><span class="qk__s">0755 2709101/102/103</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
-      <a class="qk" href="virtual-tour/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-play"/></svg></span><span class="qk__t">Virtual Tour</span><span class="qk__s">Hospital &amp; College</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
-      <a class="qk" href="student-info/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-cap"/></svg></span><span class="qk__t">Student Info</span><span class="qk__s">Notices, schedules, results</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
-      <a class="qk" href="course-offered/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-file"/></svg></span><span class="qk__t">Course Offered</span><span class="qk__s">UG &amp; PG</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
-      <a class="qk" href="career/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-award"/></svg></span><span class="qk__t">Career</span><span class="qk__s">Work with Chirayu</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
-      <a class="qk" href="location-map/" target="_blank" rel="noopener" data-reveal><span class="qk__ic"><svg><use href="#i-pin"/></svg></span><span class="qk__t">Location Map</span><span class="qk__s">Bhopal-Indore Highway</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="hospital-enquiry/" data-reveal><span class="qk__ic"><svg><use href="#i-hosp"/></svg></span><span class="qk__t">Hospital Enquiry</span><span class="qk__s">0755 2709101/102/103</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="virtual-tour/" data-reveal><span class="qk__ic"><svg><use href="#i-play"/></svg></span><span class="qk__t">Virtual Tour</span><span class="qk__s">Hospital &amp; College</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="student-info/" data-reveal><span class="qk__ic"><svg><use href="#i-cap"/></svg></span><span class="qk__t">Student Info</span><span class="qk__s">Notices, schedules, results</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="course-offered/" data-reveal><span class="qk__ic"><svg><use href="#i-file"/></svg></span><span class="qk__t">Course Offered</span><span class="qk__s">UG &amp; PG</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="career/" data-reveal><span class="qk__ic"><svg><use href="#i-award"/></svg></span><span class="qk__t">Career</span><span class="qk__s">Work with Chirayu</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
+      <a class="qk" href="location-map/" data-reveal><span class="qk__ic"><svg><use href="#i-pin"/></svg></span><span class="qk__t">Location Map</span><span class="qk__s">Bhopal-Indore Highway</span><svg class="qk__go"><use href="#i-arrow"/></svg></a>
     </div>
   </div>
 </section>
@@ -293,7 +293,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
       </ol>
       <div class="about__foot">
         <a class="accred" href="acheivement/"><img src="assets/img/nabh-badge.svg" alt="NABH Accreditation" loading="lazy"><p><strong>NABH Accreditation</strong>View NABH Achievements</p></a>
-        <a class="link-arrow" href="about/" target="_blank" rel="noopener">Read More <svg><use href="#i-arrow"/></svg></a>
+        <a class="link-arrow" href="about/">Read More <svg><use href="#i-arrow"/></svg></a>
       </div>
     </div>
   </div>
@@ -319,7 +319,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
       </div>
       <div class="sign">
         <button type="button" class="play-btn" data-magnetic data-c="chairmanVideo" data-c-attr="data-video" data-video="lwAhIOD_InU" data-title="Love Covid - A Tribute To Chirayu Corona Warriors | Documentary | Chirayu Hospital | Dr Ajay Goenka" aria-label="Play LOVE COVID Documentary"><span class="play-btn__ic"><svg><use href="#i-play"/></svg></span> LOVE COVID Documentary</button>
-        <a class="btn btn--light btn--sm" href="chairmans-pen/" target="_blank" rel="noopener">Chairman&#8217;s Pen <svg><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--light btn--sm" href="chairmans-pen/">Chairman&#8217;s Pen <svg><use href="#i-arrow"/></svg></a>
       </div>
     </div>
   </div>
@@ -330,7 +330,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
   <div class="wrap">
     <div class="head">
       <div><div class="kick"><svg><use href="#i-ecg"/></svg> Chirayu</div><h2 class="head__title" data-split>Chirayu Covid Care Hospital</h2></div>
-      <a class="link-arrow" href="covid-19-updates/" target="_blank" rel="noopener">COVID-19 Updates <svg><use href="#i-arrow"/></svg></a>
+      <a class="link-arrow" href="covid-19-updates/">COVID-19 Updates <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="care">
       <div class="tabs" data-tabs data-reveal>
@@ -369,7 +369,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
   <div class="wrap">
     <div class="head">
       <div><div class="kick"><svg><use href="#i-ecg"/></svg> Hospital &amp; College</div><h2 class="head__title" data-split>Virtual Tour</h2></div>
-      <a class="link-arrow" href="virtual-tour/" target="_blank" rel="noopener">Virtual Tour <svg><use href="#i-arrow"/></svg></a>
+      <a class="link-arrow" href="virtual-tour/">Virtual Tour <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="panels">
       <div class="panel is-open" role="button" tabindex="0" aria-expanded="true">
@@ -393,17 +393,17 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
   <div class="wrap">
     <div class="head">
       <div><div class="kick"><svg><use href="#i-ecg"/></svg> Course Offered &amp; Hospital Empanalled With &amp; Achievements</div><h2 class="head__title" data-split>Course Offered &amp; Achievements</h2></div>
-      <a class="link-arrow" href="acheivement/" target="_blank" rel="noopener">Achievements <svg><use href="#i-arrow"/></svg></a>
+      <a class="link-arrow" href="acheivement/">Achievements <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="bento">
       <article class="hl hl--big" data-reveal>
         <svg class="ecg-deco" viewBox="0 0 400 100" fill="none" stroke="#fff" stroke-width="3" aria-hidden="true"><path d="M0 60h120l10-10 10 10h14l8 14 14-66 14 76 8-24h28l16-12 16 12h142"/></svg>
         <span class="hl__ic"><svg><use href="#i-cap"/></svg></span>
         <h3>Course Offered</h3>
-        <a class="hl__img" href="courses-offered/" target="_blank" rel="noopener" aria-label="Courses Offered — View Detail"><img data-c="courseImg" src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=75" alt="Courses Offered" loading="lazy"></a>
+        <a class="hl__img" href="courses-offered/" aria-label="Courses Offered — View Detail"><img data-c="courseImg" src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=75" alt="Courses Offered" loading="lazy"></a>
         <div class="hl__links">
-          <a class="btn btn--light btn--sm" href="course-offered/" target="_blank" rel="noopener">View Detail <svg><use href="#i-arrow"/></svg></a>
-          <a class="hl__icbtn" href="course-offered/" target="_blank" rel="noopener" aria-label="View Course Details"><svg><use href="#i-link"/></svg></a>
+          <a class="btn btn--light btn--sm" href="course-offered/">View Detail <svg><use href="#i-arrow"/></svg></a>
+          <a class="hl__icbtn" href="course-offered/" aria-label="View Course Details"><svg><use href="#i-link"/></svg></a>
         </div>
       </article>
       <article class="hl hl--wide hl--split" data-reveal>
@@ -411,20 +411,20 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
           <span class="hl__ic"><svg><use href="#i-hosp"/></svg></span>
           <h3>Hospital empanalled</h3>
           <p>Hospital Empanelled With</p>
-          <div class="hl__links"><a class="link-arrow" href="hospital-accridated-with/" target="_blank" rel="noopener">View Detail <svg><use href="#i-arrow"/></svg></a></div>
+          <div class="hl__links"><a class="link-arrow" href="hospital-accridated-with/">View Detail <svg><use href="#i-arrow"/></svg></a></div>
         </div>
-        <a class="hl__img" href="hospital-accridated-with/" target="_blank" rel="noopener" aria-label="View Hospital Empanelled Details"><img data-c="empanelImg" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=75" alt="Hospital Empanalled" loading="lazy"></a>
+        <a class="hl__img" href="hospital-accridated-with/" aria-label="View Hospital Empanelled Details"><img data-c="empanelImg" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=75" alt="Hospital Empanalled" loading="lazy"></a>
       </article>
       <article class="hl hl--ink" data-reveal>
         <span class="hl__ic"><svg><use href="#i-award"/></svg></span>
         <h3>Achievements</h3>
-        <a class="hl__img" href="acheivement/" target="_blank" rel="noopener" aria-label="View Achievement Details"><img data-c="achieveImg" src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=75" alt="Achievements" loading="lazy"></a>
-        <div class="hl__links"><a class="link-arrow" href="acheivement/" target="_blank" rel="noopener">View Detail <svg><use href="#i-arrow"/></svg></a></div>
+        <a class="hl__img" href="acheivement/" aria-label="View Achievement Details"><img data-c="achieveImg" src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=75" alt="Achievements" loading="lazy"></a>
+        <div class="hl__links"><a class="link-arrow" href="acheivement/">View Detail <svg><use href="#i-arrow"/></svg></a></div>
       </article>
       <article class="hl hl--indigo" data-reveal>
         <span class="hl__ic"><svg><use href="#i-bed"/></svg></span>
         <h3 data-c="pgSeatsText">Academic Session 2021-22 PG Seats.</h3>
-        <div class="hl__links"><a class="btn btn--light btn--sm" href="student-info/academic-session-pg-seats/" target="_blank" rel="noopener">Click Here <svg><use href="#i-arrow"/></svg></a></div>
+        <div class="hl__links"><a class="btn btn--light btn--sm" href="student-info/academic-session-pg-seats/">Click Here <svg><use href="#i-arrow"/></svg></a></div>
       </article>
     </div>
   </div>
@@ -442,7 +442,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
   <div class="wrap">
     <div class="head">
       <div><div class="kick"><svg><use href="#i-ecg"/></svg> Events</div><h2 class="head__title" data-split>Latest News</h2></div>
-      <a class="link-arrow" href="events/" target="_blank" rel="noopener">Events <svg><use href="#i-arrow"/></svg></a>
+      <a class="link-arrow" href="events/">Events <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="news" data-bind="news"></div>
   </div>
@@ -453,7 +453,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
   <div class="wrap">
     <div class="head">
       <div><div class="kick"><svg><use href="#i-ecg"/></svg> Category</div><h2 class="head__title" data-split>Photo Gallery</h2></div>
-      <a class="link-arrow" href="events/" target="_blank" rel="noopener">View Event <svg><use href="#i-arrow"/></svg></a>
+      <a class="link-arrow" href="events/">View Event <svg><use href="#i-arrow"/></svg></a>
     </div>
     <div class="cats" data-bind="gallery"></div>
   </div>
@@ -471,8 +471,8 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
       <div class="cta__actions">
         <a class="cta__phone" href="tel:07552709101"><svg><use href="#i-phone"/></svg> 0755 2709101/102/103</a>
         <div class="cta__btns">
-          <a class="btn btn--light" href="hospital-enquiry/" target="_blank" rel="noopener">Hospital Enquiry <svg><use href="#i-arrow"/></svg></a>
-          <a class="btn btn--outline-light" href="location-map/" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg> Location Map</a>
+          <a class="btn btn--light" href="hospital-enquiry/">Hospital Enquiry <svg><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--outline-light" href="location-map/"><svg><use href="#i-pin"/></svg> Location Map</a>
         </div>
       </div>
     </div>
@@ -497,9 +497,9 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
         <b>Chirayu Medical College &amp; Hospital</b>
         <p>( A Venture of Chirayu Charitable Foundation )</p>
         <div class="footer__contact">
-          <a href="mailto:info@cmchbhopal.com"><svg><use href="#i-mail"/></svg> info@cmchbhopal.com</a>
-          <a href="tel:07552709101"><svg><use href="#i-phone"/></svg> 0755 2709101/102/103</a>
-          <span><svg><use href="#i-pin"/></svg> Chirayu Medical College &amp; Hospital, Bhainsakhedi, Near Bairagarh (Bhopal-Indore Highway), Bhopal, M.P. – 462030</span>
+          <a data-c="email" href="mailto:info@cmchbhopal.com"><svg><use href="#i-mail"/></svg> <span data-c-text>info@cmchbhopal.com</span></a>
+          <a data-c="phone" href="tel:07552709101"><svg><use href="#i-phone"/></svg> <span data-c-text>0755 2709101/102/103</span></a>
+          <span data-c="address"><svg><use href="#i-pin"/></svg> <span data-c-text>Chirayu Medical College &amp; Hospital, Bhainsakhedi, Near Bairagarh (Bhopal-Indore Highway), Bhopal, M.P. – 462030</span></span>
         </div>
         <div class="counter">
           <span class="counter__label"><span class="emerg-dot"></span> Visitor counter <em>Live</em></span>
@@ -507,13 +507,13 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
         </div>
       </div>
       <div><h4>Quick Links</h4><ul>
-        <li><a href="CHIRAYU MEDICAL COLLEGE AND HOSPITAL20260316-.pdf" target="_blank">NIRF-2026</a></li>
+        <li><a href="https://www.cmchbhopal.com/CHIRAYU%20MEDICAL%20COLLEGE%20AND%20HOSPITAL20260316-.pdf" target="_blank">NIRF-2026</a></li>
         <li><a href="acheivement/">Achievement</a></li>
         <li><a href="antiragging/">Antiragging</a></li>
         <li><a href="bed-distribution/">Bed Distribution</a></li>
         <li><a href="campus-scenario/">Campus Scenario</a></li>
         <li><a href="chairmans-pen/">Chairman's Pen</a></li>
-        <li><a href="pdf/Clincial-material-FEBRUARY-2020.pdf">Clinical Material</a></li>
+        <li><a href="https://www.cmchbhopal.com/pdf/Clincial-material-FEBRUARY-2020.pdf">Clinical Material</a></li>
         <li><a href="college-tour/">College Virtual Tour</a></li>
         <li><a href="committees/">Committees</a></li>
         <li><a href="course-offered/">Course Offered</a></li>
@@ -524,7 +524,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
         <li><a href="hospital-tour/">Hospital Virtual Tour</a></li>
         <li><a href="hospital-enquiry/">Hospital Inquiry</a></li>
         <li><a href="https://sharedmail8.securehostdns.com/" target="_blank" rel="noopener">Hod's Mail</a></li>
-        <li><a href="hospital-accridated-with/" target="_blank" rel="noopener">Hospital Empanelled With</a></li>
+        <li><a href="hospital-accridated-with/">Hospital Empanelled With</a></li>
         <li><a href="infrastructure/">Infrastructure</a></li>
         <li><a href="important-nmc-link/">Important NMC Link</a></li>
         <li><a href="license-certificate/">Licence &amp; Certification</a></li>
@@ -544,14 +544,14 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
         <li><a href="gov-approval/">Approval</a></li>
         <li><a href="events/">Events</a></li>
         <li><a href="career/">Career</a></li>
-        <li><a href="contact/index">Contact</a></li>
+        <li><a href="contact/">Contact</a></li>
       </ul>
       <h4 class="mt">Language Translator</h4><div id="google_translate_element"></div></div>
     </div>
   </div>
   <div class="footer__bottom"><div class="wrap">
-    <span>@ 2010 Chirayu Medical College &amp; Hospital I.T. Department</span>
-    <span>Designed &amp; developed by Arjun Ahirwar</span>
+    <span data-c="copyright">@ 2010 Chirayu Medical College &amp; Hospital I.T. Department</span>
+    <span data-c="credit">Designed &amp; developed by Arjun Ahirwar</span>
   </div></div>
 </footer>
 
@@ -561,6 +561,7 @@ try{var _t=localStorage.getItem('cmch_theme');if(_t==='classic'||_t==='cinema'||
 
 <script src="assets/js/config.js?v=20261025-t3"></script>
 <script src="assets/vendor/lenis.min.js?v=1.1.13" defer></script>
-<script src="assets/js/main.js?v=20261025-t5" defer></script>
+<script src="assets/js/chrome.js?v=20261026-c1" defer></script>
+<script src="assets/js/main.js?v=20261026-c1" defer></script>
 </body>
 </html>

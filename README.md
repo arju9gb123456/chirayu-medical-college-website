@@ -13,6 +13,7 @@ assets/js/main.js       Animations + renders page content
 assets/js/config.js     Supabase URL + anon key  ← fill once
 content/home.json       Default/fallback homepage content (also the first seed)
 page.html               Template for every inner page (/<slug>/), generated
+assets/js/chrome.js     Builds menu, mobile menu, footer and contact details from admin content
 assets/js/page.js       Renders inner pages (tables, documents, galleries, text, buttons)
 content/pages/*.json    Fallback content for inner pages + index.json (page list)
 tools/build_page_shell.py  Rebuilds page.html from index.html (run after menu/footer changes)
@@ -64,7 +65,8 @@ The anon key is safe in the browser: the security rules only let `site_admins` c
 
 ## What the admin can edit (homepage)
 
-Hero slider, hero numbers, breaking news, important notices, media tab, upcoming events,
+Main menu (with dropdowns), footer link columns, contact details / top bar / social links,
+hero slider, hero numbers, breaking news, important notices, media tab, upcoming events,
 student info board, video gallery, latest news, photo gallery, About / Chairman / Virtual tour /
 Course section texts and photos, and the visitor counter.
 
@@ -78,9 +80,14 @@ Items marked *Demo photo* still use temporary web images; replace them with real
 
 ## Inner pages
 
-Every inner page keeps its old address (e.g. `/license-certificate/`, `/nabh-iso-certificatation/`).
+Every inner page keeps its old address (e.g. `/license-certificate/`, `/nabh-iso-certificatation/`,
+or with folders like `/student-info/teaching-schedule/`).
 `vercel.json` rewrites `/<slug>/` to `page.html`, and `page.js` loads `site_content['page:<slug>']`
-(falling back to `content/pages/<slug>.json`). A page that is not built yet shows a button to the old site.
+(falling back to `content/pages/<slug>.json`). A page that is not built yet shows a "Coming soon" notice
+with the college phone and contact links (it never sends visitors to the old server).
+
+Links that still point to the old server (`cmchbhopal.com`) are marked in the admin with a yellow note;
+upload the PDF there to move it to the new site.
 
 In the admin, pick the page from **Editing page** in the sidebar, or press **+ New page**.
 A page is a list of blocks: **Table**, **Documents list**, **Photo gallery**, **Text**, **Button**.
