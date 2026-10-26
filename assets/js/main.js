@@ -365,7 +365,7 @@
   }
 
   /* ---------------- Design (theme) switch ---------------- */
-  var THEMES = ['classic', 'cinema', 'clean', 'bold'];
+  var THEMES = ['cinema', 'classic', 'clean', 'bold'];
   var THEME_COLORS = { classic: '#0A8E97', cinema: '#06161C', clean: '#0A8E97', bold: '#FFC94A' };
   var themeUser = null;
   try { themeUser = localStorage.getItem('cmch_theme'); } catch (e) { /* storage blocked */ }

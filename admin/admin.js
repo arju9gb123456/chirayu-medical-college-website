@@ -8,10 +8,14 @@
   'use strict';
 
   var CFG = window.CMCH_CONFIG || {};
-  var PAGE = 'home';
-  var DRAFT_KEY = 'cmch_admin_draft_home';
   var BUCKET = CFG.storageBucket || 'site-media';
-  var FILE_URL = '../content/home.json';
+  /* The document being edited: 'home' or 'page:<slug>' (same as its Supabase key) */
+  var DOC = 'home';
+  function isHome() { return DOC === 'home'; }
+  function docSlug() { return DOC.slice(5); }
+  function draftKey() { return isHome() ? 'cmch_admin_draft_home' : 'cmch_admin_draft_page:' + docSlug(); }
+  function fileUrl() { return isHome() ? '../content/home.json' : '../content/pages/' + encodeURIComponent(docSlug()) + '.json'; }
+  var RESERVED = ['admin', 'assets', 'content', 'page', 'images', 'pdf', 'supabase', 'tools', 'index'];
 
   var $ = function (s, c) { return (c || document).querySelector(s); };
   var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
@@ -27,7 +31,7 @@
   var COLORS = [['teal', 'Teal'], ['red', 'Red'], ['indigo', 'Indigo'], ['amber', 'Amber']];
   var ICONS = [['file', 'Document'], ['bell', 'Bell'], ['cap', 'Graduation cap']];
 
-  var SECTIONS = [
+  var HOME_SECTIONS = [
     { id: 'slides', path: 'hero.slides', title: 'Hero slider', icon: 'image', item: 'slide',
       desc: 'Big 3D slider at the top of the homepage.', titleKey: 'title', subKey: 'capTitle', imgKey: 'img',
       fields: [
@@ -132,12 +136,59 @@
       desc: 'Which website design visitors see first, and the footer visitor counter.',
       groups: [
         { h: 'Website design', fields: [
-          { k: 'theme', l: 'Default design', t: 'select', opts: [['classic', 'Original'], ['cinema', 'Cinematic dark'], ['clean', 'Clean bright'], ['bold', 'Bold & energetic']], hint: 'Shown to visitors who have not picked a design themselves.' },
+          { k: 'theme', l: 'Default design', t: 'select', opts: [['cinema', 'Cinematic dark'], ['classic', 'Original'], ['clean', 'Clean bright'], ['bold', 'Bold & energetic']], hint: 'Shown to visitors who have not picked a design themselves.' },
           { k: 'themeSwitcher', l: 'Show the design switcher in the top bar', t: 'check' } ] },
         { h: 'Visitor counter', fields: [{ k: 'visitorBase', l: 'Starting visitor count', t: 'number' }] }
       ] }
   ];
-  var SEC = {}; SECTIONS.forEach(function (s) { SEC[s.id] = s; });
+
+  /* ---------------- Inner pages: block types ---------------- */
+  var BLOCK_TYPES = {
+    table: { label: 'Table', icon: 'grid', sub: 'rows', subLabel: 'row', hint: 'Two or more columns, one row per entry. Mobile shows each row as a card.' },
+    files: { label: 'Documents list', icon: 'file', sub: 'items', subLabel: 'document', hint: 'PDFs or links with a download button. Visitors can search the list.' },
+    gallery: { label: 'Photo gallery', icon: 'image', sub: 'items', subLabel: 'photo', hint: 'Certificates or photos; click opens a full-size viewer.' },
+    text: { label: 'Text', icon: 'news', hint: 'Paragraphs. Formatting: **bold**, [link text](https://…), lines starting with "- " become bullets.' },
+    button: { label: 'Button', icon: 'ext', hint: 'One big button to a page, PDF or form.' }
+  };
+  var BLOCK_FIELDS = {
+    table: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'columns', l: 'Column names (separate with | )', t: 'csv', wide: 1, hint: 'e.g. Permissions | Date of Application / Permission' }],
+    files: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
+    gallery: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
+    text: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'body', l: 'Text', t: 'textarea', wide: 1, rows: 8 }],
+    button: [{ k: 'title', l: 'Name in "On this page" list', t: 'text' }, { k: 'label', l: 'Button text', t: 'text', req: 1 }, { k: 'href', l: 'Link or PDF', t: 'link', req: 1, wide: 1 }, { k: 'note', l: 'Small note under the text (optional)', t: 'text', wide: 1 }]
+  };
+  var SUB_FIELDS = {
+    files: [{ k: 'title', l: 'Document name', t: 'text', req: 1, wide: 1 }, { k: 'href', l: 'PDF or link', t: 'link', req: 1, wide: 1 }, { k: 'date', l: 'Date / note (optional)', t: 'text' }],
+    gallery: [{ k: 'img', l: 'Photo', t: 'image', req: 1, wide: 1 }, { k: 'caption', l: 'Caption', t: 'text', wide: 1 }]
+  };
+  function newBlock(type) {
+    var b = { type: type, id: type + '-' + Date.now().toString(36), title: '' };
+    if (type === 'table') { b.columns = ['Particulars', 'Details']; b.rows = [{ cells: ['', ''] }]; }
+    if (type === 'files' || type === 'gallery') b.items = [];
+    if (type === 'text') b.body = '';
+    if (type === 'button') { b.label = ''; b.href = ''; }
+    return b;
+  }
+
+  var PAGE_SECTIONS = [
+    { id: 'details', path: '', title: 'Page details', icon: 'layout', type: 'object',
+      desc: 'Title, breadcrumb and short intro at the top of the page.',
+      groups: [{ h: '', fields: [
+        { k: 'title', l: 'Page title', t: 'text', req: 1, wide: 1 },
+        { k: 'kicker', l: 'Menu section (breadcrumb)', t: 'text', hint: 'e.g. IMP(NMC) Req' },
+        { k: 'updatedBy', l: 'Updated by', t: 'text', hint: 'e.g. CMCH Admin' },
+        { k: 'intro', l: 'Short intro', t: 'textarea', wide: 1 },
+        { k: 'updated', l: 'Last updated (set automatically when you publish)', t: 'text' },
+        { k: 'banner', l: 'Banner photo (optional)', t: 'image', wide: 1, hint: 'Wide photo behind the title. Leave empty for the plain design.' } ] }] },
+    { id: 'content', path: 'blocks', title: 'Page content', icon: 'news', type: 'blocks', item: 'block',
+      desc: 'Tables, document lists, galleries, text and buttons, in the order they appear on the page.' }
+  ];
+  var PAGE_DETAIL_KEYS = ['title', 'kicker', 'intro', 'updated', 'updatedBy', 'banner'];
+
+  var SECTIONS = HOME_SECTIONS;
+  var SEC = {};
+  function indexSections() { SEC = {}; SECTIONS.forEach(function (s) { SEC[s.id] = s; }); }
+  indexSections();
 
   /* ---------------- State ---------------- */
   var S = {
@@ -162,13 +213,32 @@
   function secDirty(sec) {
     if (!S.saved) return true;
     var saved = JSON.parse(S.saved);
-    var pick = function (d) { return [d.visitorBase, d.theme, d.themeSwitcher]; };
+    var pick = function (d) {
+      if (!isHome()) return PAGE_DETAIL_KEYS.map(function (k) { return d[k]; });
+      return [d.visitorBase, d.theme, d.themeSwitcher];
+    };
     var a = sec.path ? getPath(S.data, sec.path) : pick(S.data);
     var b = sec.path ? getPath(saved, sec.path) : pick(saved);
     return JSON.stringify(a) !== JSON.stringify(b);
   }
 
-  function normalize(c) {
+  function normalize(c) { return isHome() ? normalizeHome(c) : normalizePage(c); }
+  function normalizePage(c) {
+    c = c || {};
+    PAGE_DETAIL_KEYS.forEach(function (k) { if (typeof c[k] !== 'string') c[k] = c[k] == null ? '' : String(c[k]); });
+    if (!Array.isArray(c.blocks)) c.blocks = [];
+    c.blocks.forEach(function (b) {
+      if (!BLOCK_TYPES[b.type]) b.type = 'text';
+      if (b.type === 'table') {
+        if (!Array.isArray(b.columns) || !b.columns.length) b.columns = ['Particulars', 'Details'];
+        if (!Array.isArray(b.rows)) b.rows = [];
+        b.rows.forEach(function (r) { if (!Array.isArray(r.cells)) r.cells = []; });
+      }
+      if ((b.type === 'files' || b.type === 'gallery') && !Array.isArray(b.items)) b.items = [];
+    });
+    return c;
+  }
+  function normalizeHome(c) {
     c = c || {};
     c.hero = c.hero || {};
     ['slides', 'facts'].forEach(function (k) { if (!Array.isArray(c.hero[k])) c.hero[k] = []; });
@@ -177,13 +247,13 @@
     });
     c.blocks = c.blocks || {};
     if (typeof c.visitorBase !== 'number') c.visitorBase = parseInt(c.visitorBase, 10) || 0;
-    if (['classic', 'cinema', 'clean', 'bold'].indexOf(c.theme) < 0) c.theme = 'classic';
+    if (['classic', 'cinema', 'clean', 'bold'].indexOf(c.theme) < 0) c.theme = 'cinema';
     if (typeof c.themeSwitcher !== 'boolean') c.themeSwitcher = true;
     return c;
   }
 
   function writeDraft() {
-    try { localStorage.setItem(DRAFT_KEY, JSON.stringify(S.data)); } catch (e) { /* storage blocked */ }
+    try { localStorage.setItem(draftKey(), JSON.stringify(S.data)); } catch (e) { /* storage blocked */ }
   }
 
   /* ---------------- Screens ---------------- */
@@ -270,7 +340,9 @@
     var label = '<span>' + esc(f.l) + req + '</span>';
     switch (f.t) {
       case 'textarea':
-        return '<label class="field' + wide + invalid + '">' + label + '<textarea id="' + id + '" data-path="' + path + '" data-t="textarea" rows="3">' + esc(val) + '</textarea>' + hint + '</label>';
+        return '<label class="field' + wide + invalid + '">' + label + '<textarea id="' + id + '" data-path="' + path + '" data-t="textarea" rows="' + (f.rows || 3) + '">' + esc(val) + '</textarea>' + hint + '</label>';
+      case 'csv':
+        return '<label class="field' + wide + '">' + label + '<input type="text" data-path="' + path + '" data-t="csv" value="' + esc((val || []).join(' | ')) + '">' + hint + '</label>';
       case 'number':
         return '<label class="field' + wide + invalid + '">' + label + '<input type="number" min="0" id="' + id + '" data-path="' + path + '" data-t="number" value="' + esc(val) + '">' + hint + '</label>';
       case 'select':
@@ -306,13 +378,19 @@
     var title = it[sec.titleKey] || '';
     var sub = sec.subKey ? it[sec.subKey] : '';
     var thumb = '';
+    if (sec.type === 'blocks') {
+      var bt = BLOCK_TYPES[it.type] || BLOCK_TYPES.text, subArr = bt.sub ? (it[bt.sub] || []) : null;
+      title = it.title || it.label || '';
+      sub = bt.label + (subArr ? ' · ' + subArr.length + ' ' + bt.subLabel + (subArr.length === 1 ? '' : 's') : '');
+      thumb = '<span class="item__type">' + icon(bt.icon) + '</span>';
+    }
     if (sec.imgKey) thumb = it[sec.imgKey] ? '<img class="item__thumb" src="' + esc(resolve(it[sec.imgKey])) + '" alt="">' : '<span class="item__thumb"></span>';
     if (sec.ytKey && ytId(it[sec.ytKey])) thumb = '<img class="item__thumb" src="https://i.ytimg.com/vi/' + esc(ytId(it[sec.ytKey])) + '/default.jpg" alt="">';
     var badges = (it.demo ? '<span class="badge" title="Temporary web image, replace with a real photo">Demo photo</span>' : '') +
       (sec.newKey && it[sec.newKey] ? '<span class="badge badge--new">NEW</span>' : '');
     return '<span class="handle" data-handle title="Drag to reorder">' + icon('drag') + '</span>' +
       '<span class="item__num">' + (i + 1) + '</span>' + thumb +
-      '<span class="item__title">' + (title ? esc(title) : '<i class="muted">Untitled ' + esc(sec.item) + '</i>') + (sub ? '<small>' + esc(sub) + '</small>' : '') + '</span>' + badges +
+      '<span class="item__title">' + (title ? esc(title) : '<i class="muted">Untitled ' + esc(sec.type === 'blocks' ? (BLOCK_TYPES[it.type] || {}).label || sec.item : sec.item) + '</i>') + (sub ? '<small>' + esc(sub) + '</small>' : '') + '</span>' + badges +
       '<span class="item__tools">' +
       '<button type="button" class="iconbtn" data-act="up" title="Move up" aria-label="Move up"' + (i === 0 ? ' disabled' : '') + '>' + icon('up') + '</button>' +
       '<button type="button" class="iconbtn" data-act="down" title="Move down" aria-label="Move down"' + (i === n - 1 ? ' disabled' : '') + '>' + icon('down') + '</button>' +
@@ -321,8 +399,37 @@
       '<svg class="chev"><use href="#a-down"/></svg>';
   }
 
+  function itemFields(sec, it) { return sec.type === 'blocks' ? (BLOCK_FIELDS[it.type] || []) : sec.fields; }
   function itemInvalid(sec, it) {
-    return sec.fields.some(function (f) { return f.req && emptyVal(it[f.k]); });
+    return itemFields(sec, it).some(function (f) { return f.req && emptyVal(it[f.k]); });
+  }
+
+  /* Rows of a table / documents of a list / photos of a gallery, inside one block */
+  function subHTML(b, i) {
+    var bt = BLOCK_TYPES[b.type];
+    if (!bt.sub) return '';
+    var base = 'blocks.' + i + '.' + bt.sub, arr = b[bt.sub] || [], n = arr.length;
+    var rows = arr.map(function (r, j) {
+      var fields;
+      if (b.type === 'table') {
+        fields = (b.columns || []).map(function (c, k) {
+          return fieldHTML({ l: c || 'Column ' + (k + 1), t: 'textarea', rows: k === 0 ? 2 : 3 }, (r.cells || [])[k], base + '.' + j + '.cells.' + k);
+        }).join('');
+      } else {
+        fields = SUB_FIELDS[b.type].map(function (f) { return fieldHTML(f, r[f.k], base + '.' + j + '.' + f.k); }).join('');
+      }
+      return '<div class="subrow" data-j="' + j + '"><span class="subrow__num">' + (j + 1) + '</span>' +
+        '<div class="subrow__fields subrow__fields--' + b.type + '">' + fields + '</div>' +
+        '<div class="subrow__tools">' +
+        '<button type="button" class="iconbtn" data-sub-act="up" data-sub="' + base + '" title="Move up" aria-label="Move up"' + (j === 0 ? ' disabled' : '') + '>' + icon('up') + '</button>' +
+        '<button type="button" class="iconbtn" data-sub-act="down" data-sub="' + base + '" title="Move down" aria-label="Move down"' + (j === n - 1 ? ' disabled' : '') + '>' + icon('down') + '</button>' +
+        '<button type="button" class="iconbtn iconbtn--danger" data-sub-act="del" data-sub="' + base + '" title="Delete" aria-label="Delete">' + icon('trash') + '</button></div></div>';
+    }).join('');
+    return '<div class="sub field--wide"><div class="sub__head"><b>' + n + ' ' + bt.subLabel + (n === 1 ? '' : 's') + '</b>' +
+      (n > 6 ? '<input type="search" class="sub__filter" placeholder="Find a ' + bt.subLabel + '…" aria-label="Find a ' + bt.subLabel + '">' : '') +
+      '<button type="button" class="btn btn--ghost btn--sm" data-sub-add="' + base + '" data-sub-type="' + b.type + '">' + icon('plus') + ' Add ' + bt.subLabel + '</button></div>' +
+      '<div class="sub__list">' + (rows || '<p class="muted sub__empty">No ' + bt.subLabel + 's yet.</p>') + '</div>' +
+      (n > 4 ? '<button type="button" class="add add--sm" data-sub-add="' + base + '" data-sub-type="' + b.type + '">' + icon('plus') + ' Add ' + bt.subLabel + ' at the end</button>' : '') + '</div>';
   }
 
   function renderEditor() {
@@ -337,6 +444,25 @@
           return fieldHTML(f, getPath(S.data, path), path);
         }).join('') + '</div>';
       }).join('');
+      return;
+    }
+
+    if (sec.type === 'blocks') {
+      var blocks = list(sec), bn = blocks.length;
+      ed.innerHTML = '<div class="ed-head"><p class="muted">' + bn + ' block' + (bn === 1 ? '' : 's') + (bn > 1 ? ' · drag to reorder' : '') + '</p>' +
+        '<a class="btn btn--ghost btn--sm" href="' + esc(liveUrl()) + '" target="_blank" rel="noopener">' + icon('ext') + ' Open live page</a></div>' +
+        '<div class="items" id="items">' + (bn ? blocks.map(function (b, i) {
+          var open = S.open[sec.id + ':' + i], bt = BLOCK_TYPES[b.type] || BLOCK_TYPES.text;
+          var bad = S.showErrors && itemInvalid(sec, b);
+          return '<div class="item item--block' + (open ? ' is-open' : '') + (bad ? ' is-invalid' : '') + '" data-i="' + i + '">' +
+            '<div class="item__head" data-toggle>' + headHTML(sec, b, i, bn) + '</div>' +
+            '<div class="item__body"><p class="muted field--wide block-hint">' + esc(bt.hint) + '</p>' +
+            (BLOCK_FIELDS[b.type] || []).map(function (f) { return fieldHTML(f, b[f.k], 'blocks.' + i + '.' + f.k); }).join('') +
+            subHTML(b, i) + '</div></div>';
+        }).join('') : '<div class="empty">This page has no content yet. Add a block below.</div>') + '</div>' +
+        '<div class="addbar"><span>Add a block</span>' + Object.keys(BLOCK_TYPES).map(function (k) {
+          return '<button type="button" class="btn btn--ghost btn--sm" data-add-block="' + k + '">' + icon(BLOCK_TYPES[k].icon) + ' ' + esc(BLOCK_TYPES[k].label) + '</button>';
+        }).join('') + '</div>';
       return;
     }
 
@@ -416,7 +542,7 @@
     var tick = setInterval(function () { if (fill) fill.style.width = Math.min(90, parseFloat(fill.style.width) + 7) + '%'; }, 250);
     return compress(file).then(function (f) {
       var ext = (f.name.match(/\.([a-z0-9]+)$/i) || [, isPdf ? 'pdf' : 'jpg'])[1].toLowerCase();
-      var name = PAGE + '/' + (isPdf ? 'docs/' : '') + Date.now() + '-' + slug(f.name) + '.' + ext;
+      var name = (isHome() ? 'home' : 'pages/' + docSlug()) + '/' + (isPdf ? 'docs/' : '') + Date.now() + '-' + slug(f.name) + '.' + ext;
       return S.sb.storage.from(BUCKET).upload(name, f, { cacheControl: '31536000', upsert: false, contentType: f.type || undefined }).then(function (r) {
         if (r.error) throw r.error;
         return S.sb.storage.from(BUCKET).getPublicUrl(name).data.publicUrl;
@@ -452,6 +578,7 @@
     var t = el.dataset.t, v;
     if (t === 'check') v = el.checked;
     else if (t === 'number') v = el.value === '' ? 0 : Number(el.value);
+    else if (t === 'csv') v = el.value.split('|').map(function (x) { return x.trim(); });
     else v = el.value;
     // 'change' fires on blur. Re-rendering then would swap out the button the
     // user is clicking, so only YouTube links (normalised to an ID) and
@@ -477,11 +604,22 @@
       if (a) a.href = resolve(v);
     }
     var item = el.closest('.item');
-    if (item) {
+    if (item && !el.closest('.subrow')) {
       var sec = SEC[S.sec], i = +item.dataset.i, items = list(sec);
       $('.item__head', item).innerHTML = headHTML(sec, items[i], i, items.length);
     }
     changed();
+  }
+
+  function onFilter(e) {
+    var inp = e.target;
+    if (!inp.classList.contains('sub__filter')) return false;
+    var q = inp.value.trim().toLowerCase();
+    $$('.subrow', inp.closest('.sub')).forEach(function (r) {
+      var txt = $$('input,textarea', r).map(function (x) { return x.value; }).join(' ').toLowerCase();
+      r.hidden = q && txt.indexOf(q) < 0;
+    });
+    return true;
   }
 
   function moveItem(sec, from, to) {
@@ -502,6 +640,47 @@
   function onClick(e) {
     var t = e.target;
     var sec = SEC[S.sec];
+
+    // blocks: add a block of a type
+    var ab = t.closest('[data-add-block]');
+    if (ab) {
+      var bl = list(sec);
+      bl.push(newBlock(ab.dataset.addBlock));
+      setPath(S.data, sec.path, bl);
+      S.open[sec.id + ':' + (bl.length - 1)] = true;
+      renderEditor(); changed();
+      var lastB = $('.item:last-child', $('#items'));
+      if (lastB) lastB.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+    // rows / documents / photos inside a block
+    var sa = t.closest('[data-sub-add]');
+    if (sa) {
+      var arr = getPath(S.data, sa.dataset.subAdd) || [];
+      var bi = +sa.dataset.subAdd.split('.')[1], blk = list(sec)[bi];
+      var row = sa.dataset.subType === 'table' ? { cells: (blk.columns || ['', '']).map(function () { return ''; }) } :
+        sa.dataset.subType === 'files' ? { title: '', href: '', date: '' } : { img: '', caption: '' };
+      var atTop = !sa.classList.contains('add');
+      if (atTop && sa.dataset.subType !== 'table') arr.unshift(row); else arr.push(row);
+      setPath(S.data, sa.dataset.subAdd, arr);
+      renderEditor(); changed();
+      var target = $$('.item[data-i="' + bi + '"] .subrow')[atTop && sa.dataset.subType !== 'table' ? 0 : arr.length - 1];
+      if (target) { target.scrollIntoView({ behavior: 'smooth', block: 'center' }); var fi = $('input,textarea', target); if (fi) setTimeout(function () { fi.focus(); }, 250); }
+      return;
+    }
+    var sact = t.closest('[data-sub-act]');
+    if (sact) {
+      var sarr = getPath(S.data, sact.dataset.sub) || [], j = +sact.closest('.subrow').dataset.j;
+      if (sact.dataset.subAct === 'up' && j > 0) { sarr.splice(j - 1, 0, sarr.splice(j, 1)[0]); renderEditor(); changed(); }
+      else if (sact.dataset.subAct === 'down' && j < sarr.length - 1) { sarr.splice(j + 1, 0, sarr.splice(j, 1)[0]); renderEditor(); changed(); }
+      else if (sact.dataset.subAct === 'del') {
+        confirmDialog({ title: 'Delete this entry?', text: 'It will be removed from the page when you publish.' }).then(function (ok) {
+          if (!ok) return;
+          sarr.splice(j, 1); renderEditor(); changed();
+        });
+      }
+      return;
+    }
 
     var up = t.closest('[data-upload]');
     if (up) {
@@ -541,7 +720,7 @@
         S.open[sec.id + ':' + (i + 1)] = true;
         renderEditor(); changed();
       } else if (act.dataset.act === 'del') {
-        var name = its[i][sec.titleKey] || ('this ' + sec.item);
+        var name = (sec.type === 'blocks' ? (its[i].title || its[i].label) : its[i][sec.titleKey]) || ('this ' + sec.item);
         confirmDialog({ title: 'Delete ' + sec.item + '?', text: '"' + String(name).slice(0, 80) + '" will be removed from the site when you publish.' }).then(function (ok) {
           if (!ok) return;
           its.splice(i, 1);
@@ -613,13 +792,15 @@
 
   /* ---------------- Validation & publish ---------------- */
   function validate() {
+    if (!isHome() && emptyVal(S.data.title)) return { sec: SEC.details, i: 0, msg: 'Page title is required.' };
     for (var s = 0; s < SECTIONS.length; s++) {
       var sec = SECTIONS[s];
       if (sec.type === 'object') continue;
       var items = list(sec);
       for (var i = 0; i < items.length; i++) {
-        for (var f = 0; f < sec.fields.length; f++) {
-          var fd = sec.fields[f];
+        var flds = itemFields(sec, items[i]);
+        for (var f = 0; f < flds.length; f++) {
+          var fd = flds[f];
           if (fd.req && emptyVal(items[i][fd.k])) return { sec: sec, i: i, msg: sec.title + ' #' + (i + 1) + ': "' + fd.l + '" is required.' };
         }
       }
@@ -646,15 +827,20 @@
     var btn = $('#btn-save');
     btn.classList.add('is-busy');
     $('span', btn).textContent = 'Publishing…';
+    if (!isHome()) {
+      var d = new Date();
+      S.data.updated = ('0' + d.getDate()).slice(-2) + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + d.getFullYear();
+    }
     S.sb.from('site_content').upsert({
-      key: PAGE, data: S.data, updated_by: S.user.email, updated_at: new Date().toISOString()
+      key: DOC, data: S.data, updated_by: S.user.email, updated_at: new Date().toISOString()
     }).then(function (r) {
+      if (!r.error && !isHome()) registerPage(docSlug(), S.data.title);
       btn.classList.remove('is-busy');
       $('span', btn).textContent = 'Publish';
       if (r.error) { toast('Publish failed: ' + r.error.message, 'error'); return; }
       S.saved = JSON.stringify(S.data);
       S.meta = { updated_at: new Date().toISOString(), updated_by: S.user.email };
-      try { localStorage.removeItem(DRAFT_KEY); } catch (e) { /* ignore */ }
+      try { localStorage.removeItem(draftKey()); } catch (e) { /* ignore */ }
       writeDraft();
       render();
       toast('Published. The live site now shows these changes.');
@@ -665,10 +851,11 @@
     var blob = new Blob([JSON.stringify(S.data, null, 2)], { type: 'application/json' });
     var a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = 'home.json';
+    var fname = isHome() ? 'home.json' : docSlug() + '.json';
+    a.download = fname;
     document.body.appendChild(a); a.click(); a.remove();
     setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
-    toast('home.json downloaded. Replace content/home.json in the repo with it.');
+    toast(fname + ' downloaded. Put it in ' + (isHome() ? 'content/' : 'content/pages/') + ' in the repo.');
   }
 
   /* ---------------- History ---------------- */
@@ -676,7 +863,7 @@
     var d = $('#history'), listEl = $('#history-list');
     d.hidden = false;
     listEl.innerHTML = '<p class="muted">Loading…</p>';
-    S.sb.from('site_content_history').select('id,saved_at,saved_by').eq('key', PAGE).order('saved_at', { ascending: false }).limit(40).then(function (r) {
+    S.sb.from('site_content_history').select('id,saved_at,saved_by').eq('key', DOC).order('saved_at', { ascending: false }).limit(40).then(function (r) {
       if (r.error) { listEl.innerHTML = '<p class="form-error">' + esc(r.error.message) + '</p>'; return; }
       var live = S.meta ? '<div class="hrow"><div><b>Live now</b><small>' + fmt(S.meta.updated_at) + (S.meta.updated_by ? ' · ' + esc(S.meta.updated_by) : '') + '</small></div></div>' : '';
       listEl.innerHTML = live + (r.data.length ? r.data.map(function (h) {
@@ -701,8 +888,8 @@
 
   /* ---------------- App start ---------------- */
   function fetchFile() {
-    return fetch(FILE_URL, { cache: 'no-cache' }).then(function (r) {
-      if (!r.ok) throw new Error('content/home.json: HTTP ' + r.status);
+    return fetch(fileUrl(), { cache: 'no-cache' }).then(function (r) {
+      if (!r.ok) throw new Error(fileUrl().replace('../', '') + ': HTTP ' + r.status);
       return r.json();
     });
   }
@@ -719,10 +906,15 @@
     $('#btn-download').hidden = S.mode !== 'supabase';
     var save = $('#btn-save');
     if (S.mode === 'draft') { save.innerHTML = icon('dl') + ' <span>Download JSON</span>'; }
-    writeDraft();
-    render();
     if (started) return;
     started = true;
+
+    $('#doc-select').addEventListener('change', function (e) {
+      var v = e.target.value;
+      if (v === '__new') { e.target.value = DOC; newPage(); return; }
+      switchDoc(v, function () { e.target.value = DOC; });
+    });
+    $('#btn-new-page').addEventListener('click', newPage);
 
     $('#side-nav').addEventListener('click', function (e) {
       var b = e.target.closest('[data-sec]');
@@ -732,7 +924,7 @@
       window.scrollTo(0, 0);
     });
     var ed = $('#editor');
-    ed.addEventListener('input', onInput);
+    ed.addEventListener('input', function (e) { if (!onFilter(e)) onInput(e); });
     ed.addEventListener('change', onInput);
     ed.addEventListener('click', onClick);
     ed.addEventListener('keydown', function (e) {
@@ -759,15 +951,115 @@
     });
   }
 
+  /* ---------------- Pages registry + switching documents ---------------- */
+  S.registry = [];
+  function loadRegistry() {
+    var fromFile = fetch('../content/pages/index.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : { pages: [] }; }).catch(function () { return { pages: [] }; });
+    var fromDb = S.mode === 'supabase' ? S.sb.from('site_content').select('data').eq('key', 'pages').maybeSingle().then(function (r) { return (r.data && r.data.data) || { pages: [] }; }, function () { return { pages: [] }; }) : Promise.resolve({ pages: [] });
+    var local = { pages: [] };
+    try { local = JSON.parse(localStorage.getItem('cmch_admin_pages') || '{"pages":[]}'); } catch (e) { /* ignore */ }
+    return Promise.all([fromFile, fromDb]).then(function (res) {
+      var map = {};
+      [res[0], res[1], S.mode === 'draft' ? local : { pages: [] }].forEach(function (src) {
+        (src.pages || []).forEach(function (p) { if (p && p.slug) map[p.slug] = { slug: p.slug, title: p.title || p.slug }; });
+      });
+      S.registry = Object.keys(map).map(function (k) { return map[k]; }).sort(function (a, b) { return a.title.localeCompare(b.title); });
+      renderDocSelect();
+    });
+  }
+  function renderDocSelect() {
+    var sel = $('#doc-select');
+    sel.innerHTML = '<option value="home">Homepage</option><optgroup label="Pages">' +
+      S.registry.map(function (p) { return '<option value="page:' + esc(p.slug) + '">' + esc(p.title) + '</option>'; }).join('') +
+      '</optgroup><option value="__new">+ New page…</option>';
+    sel.value = DOC;
+  }
+  function registerPage(slugv, title) {
+    var ex = S.registry.filter(function (p) { return p.slug === slugv; })[0];
+    if (ex && ex.title === title) return Promise.resolve();
+    if (ex) ex.title = title; else S.registry.push({ slug: slugv, title: title || slugv });
+    S.registry.sort(function (a, b) { return a.title.localeCompare(b.title); });
+    renderDocSelect();
+    var data = { pages: S.registry };
+    if (S.mode === 'supabase') {
+      return S.sb.from('site_content').upsert({ key: 'pages', data: data, updated_by: S.user.email, updated_at: new Date().toISOString() }).then(function (r) {
+        if (r.error) toast('Page list not saved: ' + r.error.message, 'error');
+      });
+    }
+    try { localStorage.setItem('cmch_admin_pages', JSON.stringify(data)); } catch (e) { /* ignore */ }
+    return Promise.resolve();
+  }
+  function liveUrl() { return isHome() ? '../' : '../' + docSlug() + '/'; }
+  function previewUrl() { return isHome() ? '../?preview=draft' : '../page.html?p=' + encodeURIComponent(docSlug()) + '&preview=draft'; }
+  function blankPage(title) { return normalizePage({ title: title || '', kicker: '', intro: '', updated: '', updatedBy: 'CMCH Admin', banner: '', blocks: [] }); }
+
+  function loadDoc(doc) {
+    DOC = doc;
+    SECTIONS = isHome() ? HOME_SECTIONS : PAGE_SECTIONS;
+    indexSections();
+    S.sec = SECTIONS[0].id; S.open = {}; S.showErrors = false; S.meta = null;
+    $('#side-nav').innerHTML = '';
+    $('#btn-preview').href = previewUrl();
+    var dsel = $('#doc-select'); if (dsel) dsel.value = DOC;
+    var regTitle = (S.registry.filter(function (p) { return 'page:' + p.slug === doc; })[0] || {}).title;
+    var draft = null;
+    try { draft = localStorage.getItem(draftKey()); } catch (e) { /* ignore */ }
+
+    var fromFile = function () { return fetchFile().catch(function () { return isHome() ? Promise.reject(new Error('content/home.json missing')) : blankPage(regTitle); }); };
+
+    if (S.mode === 'draft') {
+      return fromFile().then(function (file) {
+        S.saved = JSON.stringify(normalize(clone(file)));
+        var d = null;
+        try { d = JSON.parse(draft || 'null'); } catch (e) { d = null; }
+        S.data = normalize(d || file);
+        writeDraft(); render();
+      });
+    }
+    return S.sb.from('site_content').select('data,updated_at,updated_by').eq('key', DOC).maybeSingle().then(function (row) {
+      if (row.error) throw row.error;
+      return (row.data ? Promise.resolve(row.data.data) : fromFile()).then(function (content) {
+        S.meta = row.data ? { updated_at: row.data.updated_at, updated_by: row.data.updated_by } : null;
+        S.data = normalize(clone(content));
+        S.saved = row.data ? JSON.stringify(S.data) : '';
+        render();
+        if (!row.data) toast('Not in Supabase yet: content was loaded from the repo. Publish once to store it.');
+        else if (draft && draft !== S.saved && draft !== JSON.stringify(row.data.data)) {
+          confirmDialog({ title: 'Restore unpublished changes?', text: 'This browser has changes to this page that were never published. Restore them, or start from the live version?', yes: 'Restore', no: 'Use live version', danger: false }).then(function (ok) {
+            if (ok) { S.data = normalize(JSON.parse(draft)); render(); }
+            changed();
+          });
+        } else writeDraft();
+      });
+    });
+  }
+  function switchDoc(doc, onCancel) {
+    if (doc === DOC) return;
+    var go = function () { loadDoc(doc).catch(function (e) { toast('Could not open: ' + (e.message || e), 'error'); }); window.scrollTo(0, 0); };
+    if (S.mode === 'supabase' && isDirty()) {
+      confirmDialog({ title: 'Leave without publishing?', text: 'Your changes stay saved in this browser and can be restored when you come back.', yes: 'Switch page', no: 'Stay here', danger: false }).then(function (ok) {
+        if (ok) go(); else if (onCancel) onCancel();
+      });
+    } else go();
+  }
+  function newPage() {
+    var title = window.prompt('Title of the new page (e.g. Anti Ragging Committee)');
+    if (!title || !title.trim()) return;
+    var addr = window.prompt('Page address — it opens at /<address>/ on the website.\nUse the same address as the old site so menu links keep working.', slug(title));
+    if (addr == null) return;
+    addr = String(addr).trim().replace(/^\/+|\/+$/g, '');
+    if (!/^[A-Za-z0-9][A-Za-z0-9_-]*$/.test(addr) || RESERVED.indexOf(addr.toLowerCase()) > -1) { toast('Use only letters, numbers and dashes (and not ' + RESERVED.join(', ') + ').', 'error'); return; }
+    if (S.registry.some(function (p) { return p.slug === addr; })) { toast('That page already exists. It is now open.'); switchDoc('page:' + addr); return; }
+    registerPage(addr, title.trim()).then(function () {
+      switchDoc('page:' + addr);
+    });
+  }
+
   function enterDraftMode() {
     S.mode = 'draft';
-    fetchFile().then(function (file) {
-      S.saved = JSON.stringify(normalize(clone(file)));
-      var draft = null;
-      try { draft = JSON.parse(localStorage.getItem(DRAFT_KEY) || 'null'); } catch (e) { draft = null; }
-      S.data = normalize(draft || file);
-      startApp();
-    }).catch(function (e) { toast('Could not load content: ' + e.message, 'error'); });
+    startApp();
+    loadRegistry().then(function () { return loadDoc('home'); })
+      .catch(function (e) { toast('Could not load content: ' + e.message, 'error'); });
   }
 
   function enterSupabase(user) {
@@ -779,25 +1071,8 @@
         return;
       }
       S.mode = 'supabase';
-      return S.sb.from('site_content').select('data,updated_at,updated_by').eq('key', PAGE).maybeSingle().then(function (row) {
-        if (row.error) throw row.error;
-        var p = row.data ? Promise.resolve(row.data.data) : fetchFile();
-        return p.then(function (content) {
-          S.meta = row.data ? { updated_at: row.data.updated_at, updated_by: row.data.updated_by } : null;
-          S.data = normalize(clone(content));
-          S.saved = row.data ? JSON.stringify(S.data) : '';
-          var draft = null;
-          try { draft = localStorage.getItem(DRAFT_KEY); } catch (e) { /* ignore */ }
-          startApp();
-          if (!row.data) toast('First time here: content was loaded from content/home.json. Publish once to store it in Supabase.');
-          else if (draft && draft !== S.saved && draft !== JSON.stringify(row.data.data)) {
-            confirmDialog({ title: 'Restore unpublished changes?', text: 'This browser has changes that were never published. Restore them, or start from the live version?', yes: 'Restore', no: 'Use live version', danger: false }).then(function (ok) {
-              if (ok) { S.data = normalize(JSON.parse(draft)); render(); }
-              changed();
-            });
-          }
-        });
-      });
+      startApp();
+      return loadRegistry().then(function () { return loadDoc('home'); });
     }).catch(function (e) { toast('Could not load: ' + (e.message || e), 'error'); });
   }
 

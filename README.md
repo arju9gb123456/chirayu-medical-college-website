@@ -12,6 +12,10 @@ assets/css/style.css    Site styles (shared by every page)
 assets/js/main.js       Animations + renders page content
 assets/js/config.js     Supabase URL + anon key  ← fill once
 content/home.json       Default/fallback homepage content (also the first seed)
+page.html               Template for every inner page (/<slug>/), generated
+assets/js/page.js       Renders inner pages (tables, documents, galleries, text, buttons)
+content/pages/*.json    Fallback content for inner pages + index.json (page list)
+tools/build_page_shell.py  Rebuilds page.html from index.html (run after menu/footer changes)
 admin/                  Admin panel (/admin)
 supabase/schema.sql     Database tables, security rules, storage bucket
 vercel.json             Static hosting config (no build step)
@@ -23,8 +27,8 @@ The site ships with four complete designs, switched with `data-theme` on `<html>
 
 | Design | Look |
 |---|---|
-| `classic` | **Original** (default): light hero, 3D coverflow photo cards, aurora glow, particles, Bricolage Grotesque |
-| `cinema` | Cinematic dark: full-screen photo slider, serif headings (Fraunces), teal glow |
+| `cinema` | **Cinematic** (default): dark full-screen photo slider, serif headings (Fraunces), teal glow |
+| `classic` | Original: light hero, 3D coverflow photo cards, aurora glow, particles, Bricolage Grotesque |
 | `clean` | Clean bright: split hero with rounded photo, Plus Jakarta Sans, soft gradients |
 | `bold` | Bold & energetic: blob-framed photo, sticker, Unbounded, coral/yellow blocks |
 
@@ -71,6 +75,16 @@ Course section texts and photos, and the visitor counter.
 - Without Supabase configured, the admin runs in **draft mode**: edits stay in the browser and can be downloaded as `home.json`.
 
 Items marked *Demo photo* still use temporary web images; replace them with real CMCH photos.
+
+## Inner pages
+
+Every inner page keeps its old address (e.g. `/license-certificate/`, `/nabh-iso-certificatation/`).
+`vercel.json` rewrites `/<slug>/` to `page.html`, and `page.js` loads `site_content['page:<slug>']`
+(falling back to `content/pages/<slug>.json`). A page that is not built yet shows a button to the old site.
+
+In the admin, pick the page from **Editing page** in the sidebar, or press **+ New page**.
+A page is a list of blocks: **Table**, **Documents list**, **Photo gallery**, **Text**, **Button**.
+Publishing a page also adds it to the page list (`site_content['pages']`).
 
 ## Run locally
 
