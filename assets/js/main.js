@@ -444,19 +444,10 @@
     var len = tr.getTotalLength(), seg = 360;
     tr.style.strokeDasharray = seg + ' ' + len;
     if (reduce) { tr.style.strokeDasharray = 'none'; blip.style.display = 'none'; return; }
-    var t0 = performance.now(), period = 5200, visible = true, scrolling = 0;
-    new IntersectionObserver(function (en) { visible = en[0].isIntersecting; }).observe(svg);
-    window.addEventListener('scroll', function () { scrolling = performance.now(); }, { passive: true });
-    (function frame(now) {
-      if (visible && now - scrolling > 160) {
-        var p = ((now - t0) % period) / period, at = p * (len + seg);
-        tr.style.strokeDashoffset = -(at - seg);
-        var pt = tr.getPointAtLength(Math.min(at, len));
-        blip.setAttribute('cx', pt.x); blip.setAttribute('cy', pt.y);
-        blip.style.opacity = at > len ? 0 : 1;
-      }
-      requestAnimationFrame(frame);
-    })(t0);
+    // pure CSS animation (no per-frame JavaScript / layout work)
+    svg.style.setProperty('--ecg-len', Math.round(len + seg));
+    svg.classList.add('is-css');
+    blip.style.display = 'none';
   }
 
   /* ---------------- Hero particles (Original design) ---------------- */
@@ -820,11 +811,13 @@
     document.addEventListener('mousedown', function () { cur.classList.add('is-down'); });
     document.addEventListener('mouseup', function () { cur.classList.remove('is-down'); });
     document.addEventListener('mouseleave', function () { cur.classList.remove('is-on'); shown = false; });
-    (function loop() {
+    var looping = false;
+    function loop() {
       rx += (mx - rx) * .18; ry += (my - ry) * .18;
       ring.style.transform = 'translate(' + rx.toFixed(1) + 'px,' + ry.toFixed(1) + 'px)';
-      requestAnimationFrame(loop);
-    })();
+      if (Math.abs(mx - rx) + Math.abs(my - ry) > .3) requestAnimationFrame(loop); else looping = false;
+    }
+    document.addEventListener('mousemove', function () { if (!looping) { looping = true; requestAnimationFrame(loop); } }, { passive: true });
   }
 
   /* ---------------- Video popup ---------------- */
@@ -904,7 +897,6 @@
   initPanels();
   initVideo();
   initECG();
-  initParticles();
 
   /* Pause looping CSS animations while their section is off-screen */
   function initOffscreenPause() {
@@ -933,28 +925,7 @@
       afterContent();
     });
 
-  /* ---------------- 3D medical scene (only in the "Light 3D" design) ----------------
-     assets/js/med3d.js (three.js, ~135 KB gzipped) is fetched only when it is needed:
-     after the page has loaded, when the Light 3D design is on and WebGL works. */
-  var med3dLoading = false;
-  function webgl() {
-    try { var c = document.createElement('canvas'); return !!(window.WebGLRenderingContext && (c.getContext('webgl2') || c.getContext('webgl'))); } catch (e) { return false; }
-  }
-  function loadMed3D() {
-    if (med3dLoading || currentTheme() !== 'medlab' || !$('[data-med3d]')) return;
-    if (!webgl()) { $$('[data-med3d]').forEach(function (el) { el.classList.add('is-fallback'); }); return; }
-    med3dLoading = true;
-    var s = document.createElement('script');
-    s.src = 'assets/js/med3d.js?v=20261126-m2';
-    s.async = true;
-    s.onerror = function () { $$('[data-med3d]').forEach(function (el) { el.classList.add('is-fallback'); }); };
-    document.body.appendChild(s);
-  }
-  window.addEventListener('cmch:theme', loadMed3D);
-  if (document.readyState === 'complete') setTimeout(loadMed3D, 200);
-  else window.addEventListener('load', function () { setTimeout(loadMed3D, 200); });
 
-  initLenis();
   lazyScript('https://static.elfsight.com/platform/platform.js', $('.elfsight-wrap'));
   lazyScript('https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit', $('#google_translate_element'));
 })();
