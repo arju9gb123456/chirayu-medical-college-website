@@ -281,7 +281,7 @@
   /* =========================================================
      Shared site behaviour (same as the homepage)
      ========================================================= */
-  var THEMES = ['medlab', 'cinema', 'classic', 'clean', 'bold'];
+  var THEMES = ['medlab']; // final design: Cinematic Light 3D only
   var THEME_COLORS = { medlab: '#F3F8FA', classic: '#0A8E97', cinema: '#06161C', clean: '#0A8E97', bold: '#FFC94A' };
   var themeUser = null;
   try { themeUser = localStorage.getItem('cmch_theme'); } catch (e) { /* blocked */ }

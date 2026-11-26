@@ -195,24 +195,26 @@ function buildHero(scene, M) {
     scene.add(obj); items.push(obj);
     return obj;
   }
-  put(dna(M), [0.2, 0.1, 0], [0.15, 0, -0.38], 1, 'dna');
-  put(stethoscope(M), [-2.9, -1.4, 0.6], [0.25, 0.5, 0.2], 0.85, 'steth');
-  put(syringe(M), [3.0, 1.55, -0.4], [0.2, 0, -0.85], 0.8, 'syringe');
-  put(heart(M), [3.1, -1.05, 0.9], [0.1, -0.4, 0], 1, 'heart');
-  if (!small) put(cross(M), [-2.6, 2.3, -0.8], [0.3, 0.4, 0.15], 1, null);
+  // the hospital photo card sits in the middle (HTML, above this canvas),
+  // so the equipment is arranged around it
+  put(dna(M), [-3.55, 0.35, -1.2], [0.1, 0, -0.12], 0.62, 'dna');
+  put(stethoscope(M), [-3.1, -2.55, 0.8], [0.25, 0.5, 0.2], 0.62, 'steth');
+  put(syringe(M), [3.45, 1.9, -0.2], [0.2, 0, -0.75], 0.66, 'syringe');
+  put(heart(M), [3.35, -1.55, 0.9], [0.1, -0.4, 0], 0.9, 'heart');
+  if (!small) put(cross(M), [-2.75, 3.35, -0.6], [0.3, 0.4, 0.15], 0.85, null);
   var caps = [[M.teal, M.ceramic], [M.blue, M.ceramic], [M.red, M.ceramic], [M.amber, M.ceramic], [M.teal, M.blue]];
-  var capPos = [[-1.3, 2.9, 1.2], [1.6, -3.1, 0.4], [-3.6, 0.5, -1.2], [3.8, -0.2, -1.4], [1.3, 3.1, -1]];
+  var capPos = [[0.4, 3.95, 0.6], [1.9, -3.9, 0.4], [3.6, 3.75, -1], [-1.0, -4.0, 1.0], [4.1, -0.1, -1.6]];
   capPos.forEach(function (p, i) {
     if (small && i > 2) return;
     put(capsule(M, caps[i][0], caps[i][1]), p, [Math.random() * 3, Math.random() * 3, Math.random() * 3], 1, null);
   });
   if (!small) {
-    put(tablet(M, M.ceramic), [-0.9, -3.0, 1.4], [1.1, 0.3, 0], 1, null);
-    put(tablet(M, M.tealSoft), [-3.9, -2.9, -1.5], [0.6, 0.8, 0], 1, null);
+    put(tablet(M, M.ceramic), [-1.9, 3.9, 1.2], [1.1, 0.3, 0], 1, null);
+    put(tablet(M, M.tealSoft), [3.0, -3.55, -1.2], [0.6, 0.8, 0], 1, null);
   }
-  var o1 = orbit(M, 2.4, M.tealSoft); o1.rotation.set(1.25, 0.2, 0.3); scene.add(o1);
-  var o2 = orbit(M, 3.1, new MeshStandardMaterial({ color: 0x2F6BFF, transparent: true, opacity: 0.35 })); o2.rotation.set(1.05, -0.4, -0.2); scene.add(o2);
-  return { items: items, orbits: [o1, o2], camZ: small ? 15.5 : 13.5 };
+  var o1 = orbit(M, 3.3, M.tealSoft); o1.rotation.set(1.3, 0.1, 0.2); scene.add(o1);
+  var o2 = orbit(M, 3.9, new MeshStandardMaterial({ color: 0x2F6BFF, transparent: true, opacity: 0.35 })); o2.rotation.set(1.05, -0.4, -0.2); scene.add(o2);
+  return { items: items, orbits: [o1, o2], camZ: small ? 14.5 : 13.5 };
 }
 
 function buildHeart(scene, M) {
@@ -337,7 +339,9 @@ function mount(el) {
       var tag = o.userData.label && tags[o.userData.label];
       if (!tag) return;
       o.getWorldPosition(tmp); tmp.project(camera);
-      tag.style.transform = 'translate(' + ((tmp.x * 0.5 + 0.5) * w + 18).toFixed(1) + 'px,' + ((-tmp.y * 0.5 + 0.5) * h - 8).toFixed(1) + 'px)';
+      var sx = (tmp.x * 0.5 + 0.5) * w, left = tmp.x < 0;
+      tag.classList.toggle('is-left', left);
+      tag.style.transform = 'translate(' + (left ? sx - tag.offsetWidth - 22 : sx + 18).toFixed(1) + 'px,' + ((-tmp.y * 0.5 + 0.5) * h - 8).toFixed(1) + 'px)';
     });
 
     if (reduce) { running = false; return; }

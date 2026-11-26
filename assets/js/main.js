@@ -366,10 +366,10 @@
   }
 
   /* ---------------- Design (theme) switch ---------------- */
-  var THEMES = ['medlab', 'cinema', 'classic', 'clean', 'bold'];
+  var THEMES = ['medlab']; // final design: Cinematic Light 3D only
   var THEME_COLORS = { medlab: '#F3F8FA', classic: '#0A8E97', cinema: '#06161C', clean: '#0A8E97', bold: '#FFC94A' };
   var themeUser = null;
-  try { themeUser = localStorage.getItem('cmch_theme'); } catch (e) { /* storage blocked */ }
+  try { localStorage.removeItem('cmch_theme'); } catch (e) { /* storage blocked */ }
   if (THEMES.indexOf(themeUser) < 0) themeUser = null;
 
   function currentTheme() { return document.documentElement.getAttribute('data-theme'); }
@@ -945,7 +945,7 @@
     if (!webgl()) { $$('[data-med3d]').forEach(function (el) { el.classList.add('is-fallback'); }); return; }
     med3dLoading = true;
     var s = document.createElement('script');
-    s.src = 'assets/js/med3d.js?v=20261126-m1';
+    s.src = 'assets/js/med3d.js?v=20261126-m2';
     s.async = true;
     s.onerror = function () { $$('[data-med3d]').forEach(function (el) { el.classList.add('is-fallback'); }); };
     document.body.appendChild(s);

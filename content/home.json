@@ -3,24 +3,21 @@
   "hero": {
     "slides": [
       {
-        "img": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=80",
-        "demo": true,
+        "img": "https://cmchbhopal.com/images/slide1.jpeg",
         "title": "Chirayu Medical College & Hospital",
         "lede": "( A Venture of Chirayu Charitable Foundation ) Every journey starts with a single step they say, and so did ours.",
         "capTitle": "Chirayu Hospital",
         "capSub": "Bhopal"
       },
       {
-        "img": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1400&q=80",
-        "demo": true,
+        "img": "https://cmchbhopal.com/images/slide2.jpeg",
         "title": "Mission to Heal",
         "lede": "In a small 20-bed hospital in the year 1992, an establishment that would grow into one of Central India's biggest healthcare group was born.",
         "capTitle": "Mission to Heal",
         "capSub": "Since 1992"
       },
       {
-        "img": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1400&q=80",
-        "demo": true,
+        "img": "https://cmchbhopal.com/images/slide3.jpg",
         "title": "Chirayu Corona Warriors",
         "lede": "Join us on this journey as we unravel the success of Chirayu COVID-19 Centre.",
         "capTitle": "Corona Warriors",
@@ -288,7 +285,7 @@
     }
   ],
   "theme": "medlab",
-  "themeSwitcher": true,
+  "themeSwitcher": false,
   "visitorBase": 1284563,
   "menu": [
     {

@@ -1430,7 +1430,17 @@ html:not(.has-cursor) .cursor{display:none}
 [data-theme="medlab"] .hero__lede{color:var(--muted)}
 [data-theme="medlab"] .hero__pill{background:rgba(255,255,255,.75);color:var(--accent-d);border-color:rgba(10,156,163,.22);box-shadow:0 10px 30px -18px rgba(4,52,64,.4);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
 [data-theme="medlab"] .hero__visual{position:relative;inset:auto;height:clamp(420px,min(46vw,100svh - 250px),640px);z-index:1}
-[data-theme="medlab"] .hero__media,[data-theme="medlab"] .hero__shade{display:none}
+[data-theme="medlab"] .hero__shade{display:none}
+/* hospital photo card in the middle of the 3D scene (slides from admin → Hero slides) */
+[data-theme="medlab"] .hero__media{display:block;position:absolute;z-index:2;inset:auto;left:50%;top:50%;width:min(56%,400px);aspect-ratio:4/5;translate:calc(-50% + var(--px,0) * -14px) calc(-50% + var(--py,0) * -10px);border-radius:22px;overflow:hidden;background:#DCEBEF;border:6px solid rgba(255,255,255,.92);box-shadow:0 40px 80px -34px rgba(4,52,64,.55),0 0 0 1px rgba(10,156,163,.18);cursor:pointer}
+[data-theme="medlab"] .hs::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(4,34,43,0) 52%,rgba(4,34,43,.82)),linear-gradient(rgba(94,214,211,.07) 1px,transparent 1px) 0 0/100% 4px}
+[data-theme="medlab"] .hero__media::after{content:"";position:absolute;left:0;right:0;top:0;height:2px;z-index:4;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(94,214,211,.95),transparent);box-shadow:0 0 16px 3px rgba(94,214,211,.6);animation:photoscan 4.5s ease-in-out infinite}
+@keyframes photoscan{0%,100%{top:0;opacity:0}12%{opacity:1}50%{top:100%;opacity:1}62%{opacity:0}}
+[data-theme="medlab"] .hs.is-active{animation:fadeIn 1.4s ease both}
+[data-theme="medlab"] .hs.is-active img{animation:kenburns 9s ease-out both}
+[data-theme="medlab"] .hs__cap{display:grid;position:absolute;left:18px;right:18px;bottom:16px;z-index:5;color:#fff;gap:2px}
+[data-theme="medlab"] .hs__cap b{font-family:var(--f-display);font-size:20px;font-weight:600;line-height:1.15}
+[data-theme="medlab"] .hs__cap span{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-l)}
 [data-theme="medlab"] .hero__deco{z-index:-1}
 [data-theme="medlab"] .hd--1{width:640px;height:640px;left:auto;right:-140px;bottom:auto;top:-60px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,255,255,.9),rgba(255,255,255,0))}
 [data-theme="medlab"] .hero__ecg{z-index:0;bottom:120px;opacity:.55}
@@ -1455,7 +1465,7 @@ html:not(.has-cursor) .cursor{display:none}
 .med3d.is-ready canvas{opacity:1}
 .med3d.is-fallback .med3d__fb{display:block}
 .med3d__fb{display:none;position:absolute;inset:12%;background:url("../img/med-fallback.svg") center/contain no-repeat}
-.hud{position:absolute;inset:0;pointer-events:none;font:600 10.5px/1.2 "Manrope",system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-d)}
+.hud{position:absolute;inset:0;z-index:3;pointer-events:none;font:600 10.5px/1.2 "Manrope",system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-d)}
 .hud__ring{position:absolute;left:50%;top:50%;width:min(86%,520px);aspect-ratio:1;translate:-50% -50%;border-radius:50%;border:1px dashed rgba(10,156,163,.28);animation:spin 60s linear infinite}
 .hud__ring::before{content:"";position:absolute;inset:7%;border-radius:50%;border:1px solid rgba(10,156,163,.14)}
 .hud__ring::after{content:"";position:absolute;left:50%;top:-5px;width:10px;height:10px;margin-left:-5px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 6px rgba(10,156,163,.15)}
@@ -1479,6 +1489,9 @@ html:not(.has-cursor) .cursor{display:none}
 .hud__tag{position:absolute;display:flex;align-items:center;gap:6px;color:var(--heading);opacity:0;transition:opacity .5s}
 .hud__tag::before{content:"";width:22px;height:1px;background:var(--accent)}
 .med3d.is-ready .hud__tag{opacity:.75}
+.hud__tag.is-left{flex-direction:row-reverse}
+[data-theme="medlab"] .hero .hud__vitals{display:none}
+[data-theme="medlab"] .hs__cap{opacity:1;transform:none}
 
 /* ---------- Sections ---------- */
 [data-theme="medlab"] .section{position:relative}
@@ -1520,7 +1533,9 @@ html:not(.has-cursor) .cursor{display:none}
   [data-theme="medlab"] .cta .med3d{left:auto;right:-40px;width:220px;opacity:.3}
 }
 @media (max-width:640px){
-  [data-theme="medlab"] .hero__visual{height:340px}
+  [data-theme="medlab"] .hero__visual{height:380px}
+  [data-theme="medlab"] .hero__media{width:min(58%,230px);border-width:4px;border-radius:16px}
+  [data-theme="medlab"] .hs__cap b{font-size:16px}
   .hud__vitals{left:auto;right:3%;bottom:4%;padding:8px 10px}
   .hud__vitals b{font-size:20px}
   .hud__vitals svg{width:90px}
