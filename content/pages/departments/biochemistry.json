@@ -1,303 +1,295 @@
 {
-  "title": "Department of Biochemistry",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Biochemistry",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/biochemistry/001.webp",
-          "name": "Dr. Manishi Singh",
-          "designation": "Professor",
-          "qualification": "MBBS MSC( MEDICAL) PH.D (MEDICAL)",
-          "experience": "21 Years",
-          "aebas": "26542355",
-          "regNo": "MCG- 9295",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/002.webp",
-          "name": "Dr. Surya S. Tiwari",
-          "designation": "Professor",
-          "qualification": "MSC( MEDICAL) PH.D (MEDICAL)",
-          "experience": "12 Years",
-          "aebas": "27439089",
-          "regNo": "NiL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/003.webp",
-          "name": "Dr. Jyothi Natikar",
-          "designation": "Professor",
-          "qualification": "MBBS, MD",
-          "experience": "12 Years",
-          "aebas": "68531435",
-          "regNo": "KMC- 80227",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/biochemistry/001.webp",
+     "name": "Dr. Manishi Singh",
+     "designation": "Professor",
+     "qualification": "MBBS MSC( MEDICAL) PH.D (MEDICAL)",
+     "experience": "21 Years",
+     "aebas": "26542355",
+     "regNo": "MCG- 9295",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "associate-professor",
-      "title": "Associate Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/biochemistry/004.webp",
-          "name": "Dr. Tejovathi Bandike",
-          "designation": "Associate Professor",
-          "qualification": "MSC",
-          "experience": "11 Years",
-          "aebas": "08064095",
-          "regNo": "NiL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/005.webp",
-          "name": "Dr. Dharambeer Mahor",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MD",
-          "experience": "10 Years",
-          "aebas": "97523935",
-          "regNo": "MP-8752",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/006.webp",
-          "name": "Dr. Mahesh Kumar",
-          "designation": "Associate Professor",
-          "qualification": "MSC( MEDICAL) PH.D (MEDICAL)",
-          "experience": "8 Years",
-          "aebas": "94867095",
-          "regNo": "NILL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/007.webp",
-          "name": "Dr. Arya Vijayan",
-          "designation": "Associate Professor",
-          "qualification": "MBBS.MD",
-          "experience": "11 Years",
-          "aebas": "21039550",
-          "regNo": "43842 KSMC",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/biochemistry/002.webp",
+     "name": "Dr. Surya S. Tiwari",
+     "designation": "Professor",
+     "qualification": "MSC( MEDICAL) PH.D (MEDICAL)",
+     "experience": "12 Years",
+     "aebas": "27439089",
+     "regNo": "NiL",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/biochemistry/008.webp",
-          "name": "Dr. Amandeep Singh",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS.MD",
-          "experience": "7 Years",
-          "aebas": "85933016",
-          "regNo": "DMC- 41365",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/009.webp",
-          "name": "Dr. Swati Satish Padghan",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS.MD",
-          "experience": "5 Years",
-          "aebas": "98380517",
-          "regNo": "2005/11/4055 Maharashtra Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/010.webp",
-          "name": "Dr. Kolugoori Kiran",
-          "designation": "Assistant Professor",
-          "qualification": "Msc",
-          "experience": "5 Years",
-          "aebas": "99630193",
-          "regNo": "NIL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/011.webp",
-          "name": "Dr. Maya Malviya",
-          "designation": "Assistant Professor",
-          "qualification": "Bsc Msc Phd",
-          "experience": "9 Years",
-          "aebas": "42008746",
-          "regNo": "NIL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/012.webp",
-          "name": "Dr. Keshav Rathore",
-          "designation": "Assistant Professor",
-          "qualification": "MSC( MEDICAL) PH.D (MEDICAL)",
-          "experience": "9 Months",
-          "aebas": "46511742",
-          "regNo": "NIL",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "senior-resident",
-      "title": "Senior Residents",
-      "items": [
-        {
-          "photo": "/assets/faculty/biochemistry/013.webp",
-          "name": "Dr. Pooja Rathore",
-          "designation": "Senior Resident",
-          "qualification": "MSC PH.D",
-          "experience": "2 Months",
-          "aebas": "68048824",
-          "regNo": "NIL",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "tutor",
-      "title": "Tutors",
-      "items": [
-        {
-          "photo": "/assets/faculty/biochemistry/014.webp",
-          "name": "Dr. Satyam Mishra",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "42013215",
-          "regNo": "MP-26008",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/015.webp",
-          "name": "Dr. Mallika Mishra",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "25530845",
-          "regNo": "MP-33894",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/016.webp",
-          "name": "Dr. Akarshi Shirivastav",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "4 Years",
-          "aebas": "15584151",
-          "regNo": "MP-19767",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/017.webp",
-          "name": "Dr. Vakil Gorasiya",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "37182422",
-          "regNo": "MP-39303",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/018.webp",
-          "name": "Dr. Madan Aathiya",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "83106374",
-          "regNo": "MP-37119",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/019.webp",
-          "name": "Dr. Shishir Kushre",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "53000926",
-          "regNo": "MP-41228",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/020.webp",
-          "name": "Dr. Vivek Kirar",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "73832677",
-          "regNo": "MP-40228",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/021.webp",
-          "name": "Dr. Danish Khilji",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "61116635",
-          "regNo": "MP-44945",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/022.webp",
-          "name": "Mr. Kishore Kumar",
-          "designation": "Tutor",
-          "qualification": "MSC",
-          "experience": "1 Month",
-          "aebas": "01454774",
-          "regNo": "NILL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/023.webp",
-          "name": "Dr. Ayush Dwivedi",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "57350921",
-          "regNo": "MP-39002",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/024.webp",
-          "name": "Dr. Shrishti Chakrawarti",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "50369142",
-          "regNo": "MP-44957",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/biochemistry/025.webp",
-          "name": "Dr. Robin Singh",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "17918960",
-          "regNo": "MP-42088",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Biochemistry faculty list",
-      "href": "/assets/docs/msr/faculty-lists/biochemistry.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/biochemistry/003.webp",
+     "name": "Dr. Jyothi Natikar",
+     "designation": "Professor",
+     "qualification": "MBBS, MD",
+     "experience": "12 Years",
+     "aebas": "68531435",
+     "regNo": "KMC- 80227",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "associate-professor",
+   "title": "Associate Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/biochemistry/004.webp",
+     "name": "Dr. Tejovathi Bandike",
+     "designation": "Associate Professor",
+     "qualification": "MSC",
+     "experience": "11 Years",
+     "aebas": "08064095",
+     "regNo": "NiL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/005.webp",
+     "name": "Dr. Dharambeer Mahor",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MD",
+     "experience": "10 Years",
+     "aebas": "97523935",
+     "regNo": "MP-8752",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/006.webp",
+     "name": "Dr. Mahesh Kumar",
+     "designation": "Associate Professor",
+     "qualification": "MSC( MEDICAL) PH.D (MEDICAL)",
+     "experience": "8 Years",
+     "aebas": "94867095",
+     "regNo": "NILL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/007.webp",
+     "name": "Dr. Arya Vijayan",
+     "designation": "Associate Professor",
+     "qualification": "MBBS.MD",
+     "experience": "11 Years",
+     "aebas": "21039550",
+     "regNo": "43842 KSMC",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/biochemistry/008.webp",
+     "name": "Dr. Amandeep Singh",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS.MD",
+     "experience": "7 Years",
+     "aebas": "85933016",
+     "regNo": "DMC- 41365",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/009.webp",
+     "name": "Dr. Swati Satish Padghan",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS.MD",
+     "experience": "5 Years",
+     "aebas": "98380517",
+     "regNo": "2005/11/4055 Maharashtra Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/010.webp",
+     "name": "Dr. Kolugoori Kiran",
+     "designation": "Assistant Professor",
+     "qualification": "Msc",
+     "experience": "5 Years",
+     "aebas": "99630193",
+     "regNo": "NIL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/011.webp",
+     "name": "Dr. Maya Malviya",
+     "designation": "Assistant Professor",
+     "qualification": "Bsc Msc Phd",
+     "experience": "9 Years",
+     "aebas": "42008746",
+     "regNo": "NIL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/012.webp",
+     "name": "Dr. Keshav Rathore",
+     "designation": "Assistant Professor",
+     "qualification": "MSC( MEDICAL) PH.D (MEDICAL)",
+     "experience": "9 Months",
+     "aebas": "46511742",
+     "regNo": "NIL",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "senior-resident",
+   "title": "Senior Residents",
+   "items": [
+    {
+     "photo": "/assets/faculty/biochemistry/013.webp",
+     "name": "Dr. Pooja Rathore",
+     "designation": "Senior Resident",
+     "qualification": "MSC PH.D",
+     "experience": "2 Months",
+     "aebas": "68048824",
+     "regNo": "NIL",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "tutor",
+   "title": "Tutors",
+   "items": [
+    {
+     "photo": "/assets/faculty/biochemistry/014.webp",
+     "name": "Dr. Satyam Mishra",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "42013215",
+     "regNo": "MP-26008",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/015.webp",
+     "name": "Dr. Mallika Mishra",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "25530845",
+     "regNo": "MP-33894",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/016.webp",
+     "name": "Dr. Akarshi Shirivastav",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "4 Years",
+     "aebas": "15584151",
+     "regNo": "MP-19767",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/017.webp",
+     "name": "Dr. Vakil Gorasiya",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "37182422",
+     "regNo": "MP-39303",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/018.webp",
+     "name": "Dr. Madan Aathiya",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "83106374",
+     "regNo": "MP-37119",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/019.webp",
+     "name": "Dr. Shishir Kushre",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "53000926",
+     "regNo": "MP-41228",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/020.webp",
+     "name": "Dr. Vivek Kirar",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "73832677",
+     "regNo": "MP-40228",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/021.webp",
+     "name": "Dr. Danish Khilji",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "61116635",
+     "regNo": "MP-44945",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/022.webp",
+     "name": "Mr. Kishore Kumar",
+     "designation": "Tutor",
+     "qualification": "MSC",
+     "experience": "1 Month",
+     "aebas": "01454774",
+     "regNo": "NILL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/023.webp",
+     "name": "Dr. Ayush Dwivedi",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "57350921",
+     "regNo": "MP-39002",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/024.webp",
+     "name": "Dr. Shrishti Chakrawarti",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "50369142",
+     "regNo": "MP-44957",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/biochemistry/025.webp",
+     "name": "Dr. Robin Singh",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "17918960",
+     "regNo": "MP-42088",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

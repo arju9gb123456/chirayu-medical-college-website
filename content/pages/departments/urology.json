@@ -1,52 +1,44 @@
 {
-  "title": "Department of Urology",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Urology",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/urology/001.webp",
-          "name": "Dr. Arvind Joshi",
-          "designation": "Professor",
-          "qualification": "MBBS MS DNB",
-          "experience": "22 Years",
-          "aebas": "53119088",
-          "regNo": "MP-5064",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/urology/002.webp",
-          "name": "Dr. Sachin Sharma",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS MCH",
-          "experience": "10 Years",
-          "aebas": "78496715",
-          "regNo": "MP-14361",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Urology faculty list",
-      "href": "/assets/docs/msr/faculty-lists/urology.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/urology/001.webp",
+     "name": "Dr. Arvind Joshi",
+     "designation": "Professor",
+     "qualification": "MBBS MS DNB",
+     "experience": "22 Years",
+     "aebas": "53119088",
+     "regNo": "MP-5064",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/urology/002.webp",
+     "name": "Dr. Sachin Sharma",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS MCH",
+     "experience": "10 Years",
+     "aebas": "78496715",
+     "regNo": "MP-14361",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

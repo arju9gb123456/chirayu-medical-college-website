@@ -1,41 +1,344 @@
 {
-  "title": "Anti-Ragging",
-  "kicker": "IMP(NMC) Req",
-  "intro": "Ragging is a criminal offence and is strictly prohibited at Chirayu Medical College & Hospital.",
-  "updated": "27-10-2023",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Anti-Ragging",
+ "kicker": "IMP(NMC) Req",
+ "intro": "Ragging is a criminal offence and is strictly prohibited at Chirayu Medical College & Hospital.",
+ "updated": "27-10-2023",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "text",
+   "id": "helpline",
+   "title": "National Anti-Ragging Helpline",
+   "body": "The **National Anti-Ragging Help Line** is available 24×7.\n\n**Toll free number: [1800-180-5522](tel:18001805522)**\n\nStudents can also report ragging to any member of the college Anti-Ragging Committee listed below."
+  },
+  {
+   "type": "button",
+   "id": "call",
+   "title": "Call the helpline",
+   "label": "Call 1800-180-5522 (toll free, 24×7)",
+   "href": "tel:18001805522",
+   "note": "National Anti-Ragging Help Line"
+  },
+  {
+   "type": "table",
+   "id": "committee",
+   "title": "Anti-Ragging Committee (reconstituted 11 May 2026)",
+   "columns": [
+    "S.No.",
+    "Name",
+    "Designation",
+    "Email ID",
+    "Mobile No.",
+    "Phone No."
+   ],
+   "rows": [
     {
-      "type": "text",
-      "id": "helpline",
-      "title": "National Anti-Ragging Helpline",
-      "body": "The **National Anti-Ragging Help Line** is available 24×7.\n\n**Toll free number: [1800-180-5522](tel:18001805522)**\n\nStudents can also report ragging to any member of the college Anti-Ragging Committee listed below."
+     "cells": [
+      "1",
+      "Dr. Prabhakar A. Hiwarkar",
+      "Dean / Chairman of the Committee / Convener",
+      "[cmchdean@gmail.com](mailto:cmchdean@gmail.com)",
+      "7083943392",
+      "0755-2709264/258"
+     ]
     },
     {
-      "type": "button",
-      "id": "call",
-      "title": "Call the helpline",
-      "label": "Call 1800-180-5522 (toll free, 24×7)",
-      "href": "tel:18001805522",
-      "note": "National Anti-Ragging Help Line"
+     "cells": [
+      "2",
+      "Dr. M. P. Singh",
+      "Member · Prof. & Head, Dentistry",
+      "[drmpsingh2011@gmail.com](mailto:drmpsingh2011@gmail.com)",
+      "9425005600",
+      ""
+     ]
     },
     {
-      "type": "files",
-      "id": "committee",
-      "title": "Committees",
-      "items": [
-        {
-          "title": "Anti-Ragging Committee — members and contact details",
-          "href": "/assets/docs/msr/anti-ragging-committee.pdf",
-          "date": ""
-        },
-        {
-          "title": "Gender Harassment Committee — members and contact details",
-          "href": "/assets/docs/msr/gender-harassment-committee.pdf",
-          "date": ""
-        }
-      ]
+     "cells": [
+      "3",
+      "Dr. Anjali Kanhere",
+      "Member · Prof. & Head, Obst & Gynae.",
+      "[kanhereanju@yahoo.com](mailto:kanhereanju@yahoo.com)",
+      "9300823444",
+      "0755-6679517"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Dr. Ashok Jain",
+      "Member · Professor & HOD, Forensic Medicine & Chief Warden",
+      "[anushokjain@gmail.com](mailto:anushokjain@gmail.com)",
+      "9826047514",
+      "0755-6679274"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Dr. Sanyogita Jain",
+      "Member · Professor",
+      "[drsajain@gmail.com](mailto:drsajain@gmail.com)",
+      "9924932330",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Dr. Sanjay Kumar Jat",
+      "Member · Assistant Warden, Boys Hostel",
+      "[sanjaydevanda47@gmail.com](mailto:sanjaydevanda47@gmail.com)",
+      "9529288057",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Dr. Kabir Tetarwal",
+      "Member · Assistant Warden, Boys Hostel",
+      "[ktetarwal18@gmail.com](mailto:ktetarwal18@gmail.com)",
+      "6375630913",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Mr. Aditya Raj Singh Thakur",
+      "Member · SDOP",
+      "[sspbhopal1@gmail.com](mailto:sspbhopal1@gmail.com)",
+      "9479990386",
+      "0755-2641847"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Mr. Aditya Jain",
+      "Member · SDM (Administration)",
+      "[sdmsehore@mp.gov.in](mailto:sdmsehore@mp.gov.in)",
+      "7999690382",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Mr. Manoj Sharma",
+      "Member · Media Representative",
+      "[manojsharmabpl@gmail.com](mailto:manojsharmabpl@gmail.com)",
+      "9425008188",
+      "7703950526"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Mr. Anil Mudgal",
+      "Member · Representative of NGO",
+      "",
+      "9425007858",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "Mr. Gagan Katare",
+      "Member · Non-teaching staff",
+      "[gagankatare@gmail.com](mailto:gagankatare@gmail.com)",
+      "9827075075",
+      "0755-2709271"
+     ]
+    },
+    {
+     "cells": [
+      "13",
+      "Dr. Anand S. Kushwaha",
+      "Member · Parent",
+      "",
+      "7974597646",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "14",
+      "Lokendra Singh Rajpoot (Batch 2023)",
+      "Member · Student Representative",
+      "[rapoollokendra84@gmail.com](mailto:rapoollokendra84@gmail.com)",
+      "9171758107",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "15",
+      "Tarushi Rai (Batch 2023)",
+      "Member · Student Representative",
+      "[tarushirai08@gmail.com](mailto:tarushirai08@gmail.com)",
+      "7898456962",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "16",
+      "Vedant Agrawal (Batch 2025)",
+      "Member · Student Representative",
+      "[vedantagrawal028@gmail.com](mailto:vedantagrawal028@gmail.com)",
+      "7000312878",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "17",
+      "Aadya Sharma (Batch 2025)",
+      "Member · Student Representative",
+      "[aadyasharma1527@gmail.com](mailto:aadyasharma1527@gmail.com)",
+      "7724843284",
+      ""
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "type": "table",
+   "id": "icc",
+   "title": "Internal Complaint Committee (ICC) / Gender Harassment Committee — Revised 04 Jul 2025",
+   "columns": [
+    "Sr. No.",
+    "Name",
+    "Position",
+    "Designation & Department",
+    "Mobile No.",
+    "Email ID"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Dr. Farah Jalaly Meenai",
+      "Presiding Officer",
+      "Professor & Head, Pathology",
+      "9826665344",
+      "[farahjalaly@gmail.com](mailto:farahjalaly@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Dr. Rashmi Jaiswal",
+      "Member",
+      "Professor, Anatomy",
+      "9425029067",
+      "[rashmijwal@yahoo.com](mailto:rashmijwal@yahoo.com)"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Dr. Manishi Singh",
+      "Member",
+      "Professor & Head, Biochemistry",
+      "8827494070",
+      "[singhmanishi.singh@gmail.com](mailto:singhmanishi.singh@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Dr. Sandhya Gadre",
+      "Member",
+      "Professor, Obst. & Gynaecology",
+      "9425624449",
+      "[gadre.sandhya@gmail.com](mailto:gadre.sandhya@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Dr. Garima Namdev",
+      "Member",
+      "Professor, Community Medicine",
+      "8889150998",
+      "[namdevgarima50@gmail.com](mailto:namdevgarima50@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Dr. Anagha Chauhan",
+      "Member",
+      "Associate Professor, Ophthalmology",
+      "9584207246",
+      "[anagha.chauhan@gmail.com](mailto:anagha.chauhan@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Mr. Gagan Katare",
+      "Member",
+      "Non-teaching member, College Administration",
+      "9827075075",
+      "[gagankatare@gmail.com](mailto:gagankatare@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Ms. Namrata Nigam",
+      "Member",
+      "Nitya Seva Society, Vill. Pipalner, Gandhi Nagar, Bhopal (NGO Representative)",
+      "9425007263\n0755-2660332",
+      "[nityasevapipalner@gmail.com](mailto:nityasevapipalner@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Tulip Verma",
+      "Member",
+      "First Year UG",
+      "8349237607",
+      "[tulipverma595@gmail.com](mailto:tulipverma595@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Tarushi Rai",
+      "Member",
+      "Second Year UG",
+      "7898456962",
+      "[tarishirai08@gmail.com](mailto:tarishirai08@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Alimaa Pathak",
+      "Member",
+      "Pathology PG First Year",
+      "9455695379",
+      "[alimaapathak97@gmail.com](mailto:alimaapathak97@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "Anushka Tilwani",
+      "Member",
+      "Chartered Accountant, Non-teaching member",
+      "9977802062",
+      "[anushka.tilwani@gmail.com](mailto:anushka.tilwani@gmail.com)"
+     ]
+    }
+   ]
+  }
+ ]
 }

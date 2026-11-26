@@ -1,52 +1,44 @@
 {
-  "title": "Department of Medical Oncology",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Medical Oncology",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/medical-oncology/001.webp",
-          "name": "Dr. Saurabh Kumar",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "16 Years",
-          "aebas": "71599361",
-          "regNo": "MCI-30829",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/medical-oncology/002.webp",
-          "name": "Dr. Aniket Goenka",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD DM",
-          "experience": "6 Years",
-          "aebas": "29418665",
-          "regNo": "MP-20238",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Medical Oncology faculty list",
-      "href": "/assets/docs/msr/faculty-lists/medical-oncology.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/medical-oncology/001.webp",
+     "name": "Dr. Saurabh Kumar",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "16 Years",
+     "aebas": "71599361",
+     "regNo": "MCI-30829",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/medical-oncology/002.webp",
+     "name": "Dr. Aniket Goenka",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD DM",
+     "experience": "6 Years",
+     "aebas": "29418665",
+     "regNo": "MP-20238",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

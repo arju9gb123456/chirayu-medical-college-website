@@ -1,26 +1,289 @@
 {
-  "title": "Bed Distribution",
-  "kicker": "IMP(NMC) Req",
-  "intro": "Unit and department wise distribution of beds at Chirayu Medical College & Hospital.",
-  "updated": "07-12-2024",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Bed Distribution",
+ "kicker": "IMP(NMC) Req",
+ "intro": "Unit and department wise distribution of beds at Chirayu Medical College & Hospital.",
+ "updated": "07-12-2024",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "stats",
+   "id": "beds",
+   "title": "Beds at a glance",
+   "note": "",
+   "items": [
     {
-      "type": "button",
-      "id": "beds",
-      "title": "Bed distribution",
-      "label": "Unit / department wise beds distribution (PDF)",
-      "href": "/assets/docs/msr/bed-distribution.pdf",
-      "note": "Updated December 2024"
+     "value": "1200",
+     "label": "Total beds",
+     "note": "Teaching, ICU, pre/post-operative and private"
     },
     {
-      "type": "button",
-      "id": "clinical",
-      "title": "Clinical material",
-      "label": "Details of clinical material in the hospital (PDF)",
-      "href": "https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf",
-      "note": "June 2024"
+     "value": "1060",
+     "label": "Teaching beds",
+     "note": "31 units · 162 step-down ICU / HDU"
+    },
+    {
+     "value": "50",
+     "label": "ICU beds",
+     "note": "10 intensive care units"
     }
-  ]
+   ]
+  },
+  {
+   "type": "table",
+   "id": "teaching-beds",
+   "title": "Teaching Beds",
+   "columns": [
+    "Sr. No.",
+    "Department",
+    "Nos. of Beds",
+    "Step Down ICU / HDU",
+    "Units"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "General Medicine",
+      "230",
+      "35",
+      "7"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Dermatology, Venereology & Leprosy",
+      "40",
+      "6",
+      "1"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Respiratory Medicine",
+      "40",
+      "6",
+      "1"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Psychiatry",
+      "40",
+      "6",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "General Surgery",
+      "200",
+      "30",
+      "6"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Orthopaedics",
+      "100",
+      "15",
+      "3"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Obstetrics & Gynaecology",
+      "130",
+      "20",
+      "4"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Paediatrics",
+      "130",
+      "20",
+      "4"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Oto-Rhino-Laryngology",
+      "40",
+      "6",
+      "1"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Ophthalmology",
+      "40",
+      "6",
+      "1"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Emergency Medicine",
+      "30",
+      "6",
+      "1"
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "Radiation Oncology",
+      "40",
+      "6",
+      "1"
+     ]
+    },
+    {
+     "cells": [
+      "",
+      "**Total Teaching Beds and Units**",
+      "**1060**",
+      "**162**",
+      "**31**"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "id": "icu-beds",
+   "title": "ICU Beds",
+   "columns": [
+    "Sr. No.",
+    "ICU",
+    "Nos. of Beds"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "ICU",
+      "05"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "ICCU",
+      "05"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "SICU",
+      "05"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Obstetrics ICU",
+      "05"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "NICU",
+      "05"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "PICU",
+      "05"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Emergency Department ICU",
+      "06"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Cancer ICU",
+      "04"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "CCU",
+      "05"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "RICU",
+      "05"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "id": "other-beds",
+   "title": "Other Beds",
+   "columns": [
+    "Type",
+    "Nos. of Beds"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Pre-operative",
+      "12"
+     ]
+    },
+    {
+     "cells": [
+      "Post-operative",
+      "24"
+     ]
+    },
+    {
+     "cells": [
+      "Private Beds",
+      "54"
+     ]
+    },
+    {
+     "cells": [
+      "**Total No. of Beds**",
+      "**1200**"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "button",
+   "id": "clinical",
+   "title": "Clinical material",
+   "label": "Details of clinical material in the hospital (old website)",
+   "href": "https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf",
+   "note": "June 2024 — not yet provided for conversion"
+  }
+ ]
 }

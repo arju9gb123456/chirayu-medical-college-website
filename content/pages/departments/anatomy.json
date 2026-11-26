@@ -1,276 +1,268 @@
 {
-  "title": "Department of Anatomy",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Anatomy",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/anatomy/001.webp",
-          "name": "Dr. Bipin Chandra Khade",
-          "designation": "Professor",
-          "qualification": "MBBS-MD",
-          "experience": "16 Years",
-          "aebas": "29562936",
-          "regNo": "Registration No. 2007/10/3629 MMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/002.webp",
-          "name": "Dr. P. G. Khanwalkar",
-          "designation": "Professor",
-          "qualification": "MBBS-MS",
-          "experience": "45 Years",
-          "aebas": "57465563",
-          "regNo": "2664 MPMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/003.webp",
-          "name": "Dr. A. S. Mangalgiri",
-          "designation": "Professor",
-          "qualification": "MBBS-MS",
-          "experience": "27 Years",
-          "aebas": "00598779",
-          "regNo": "87028 MMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/004.webp",
-          "name": "Dr. Milind Pundalikrao Fulpatil",
-          "designation": "Professor",
-          "qualification": "MBBS MS",
-          "experience": "40 Years",
-          "aebas": "52074091",
-          "regNo": "52749 MMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/005.webp",
-          "name": "Dr. Rashmi Jaiswal",
-          "designation": "Professor",
-          "qualification": "MBBS-MD",
-          "experience": "13 Years",
-          "aebas": "24491741",
-          "regNo": "MP-35123",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/anatomy/001.webp",
+     "name": "Dr. Bipin Chandra Khade",
+     "designation": "Professor",
+     "qualification": "MBBS-MD",
+     "experience": "16 Years",
+     "aebas": "29562936",
+     "regNo": "Registration No. 2007/10/3629 MMC",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "associate-professor",
-      "title": "Associate Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/anatomy/006.webp",
-          "name": "Dr. Kanchan Bala Dogra",
-          "designation": "Associate Professor",
-          "qualification": "BDS MSC( MEDICAL) PH.D (MEDICAL)",
-          "experience": "9 Years",
-          "aebas": "98197277",
-          "regNo": "1448-A HP STATE DENTAL COUNCIL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/007.webp",
-          "name": "Dr. Rajeshwari Sadashiv Bhosale",
-          "designation": "Associate Professor",
-          "qualification": "MSC( MEDICAL) PH.D (MEDICAL)",
-          "experience": "10 Years",
-          "aebas": "91954359",
-          "regNo": "NIL",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/anatomy/002.webp",
+     "name": "Dr. P. G. Khanwalkar",
+     "designation": "Professor",
+     "qualification": "MBBS-MS",
+     "experience": "45 Years",
+     "aebas": "57465563",
+     "regNo": "2664 MPMC",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/anatomy/008.webp",
-          "name": "Dr. Mansi Shukla",
-          "designation": "Assistant Professor",
-          "qualification": "MSC( MEDICAL) PH.D (MEDICAL)",
-          "experience": "6 Years",
-          "aebas": "60458187",
-          "regNo": "RMCHRC- 2017/1629",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/anatomy/003.webp",
+     "name": "Dr. A. S. Mangalgiri",
+     "designation": "Professor",
+     "qualification": "MBBS-MS",
+     "experience": "27 Years",
+     "aebas": "00598779",
+     "regNo": "87028 MMC",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "tutor",
-      "title": "Tutors",
-      "items": [
-        {
-          "photo": "/assets/faculty/anatomy/009.webp",
-          "name": "Dr. Sonam Gupta",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "4 Years",
-          "aebas": "32185427",
-          "regNo": "MP- 16551",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/010.webp",
-          "name": "Dr. Golu Jatav",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "93234325",
-          "regNo": "MP-26007",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/011.webp",
-          "name": "Dr. Karan Soni",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "38169882",
-          "regNo": "MP-28589",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/012.webp",
-          "name": "Dr. Vikram Patel",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "87429860",
-          "regNo": "MP-25411",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/013.webp",
-          "name": "Dr. Shailesh Upadhyay",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "72471210",
-          "regNo": "MP-38702",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/014.webp",
-          "name": "Dr. Ankita Mandal",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "37920262",
-          "regNo": "MP-31342",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/015.webp",
-          "name": "Dr. Nishchal Jain",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "74045102",
-          "regNo": "MP-43617",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/016.webp",
-          "name": "Dr. Shubham Chhatani",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "7 Months",
-          "aebas": "08143973",
-          "regNo": "MP-42083",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/017.webp",
-          "name": "Dr. Uddeshya Singh Parihar",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "5 Months",
-          "aebas": "43502880",
-          "regNo": "MP-36410",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/018.webp",
-          "name": "Dr. Rahat Khan",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "3 Months",
-          "aebas": "59429276",
-          "regNo": "MP-29334",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/019.webp",
-          "name": "Dr. Gaurav Mourya",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "54448657",
-          "regNo": "MP-32479",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/020.webp",
-          "name": "Dr. Shaikh Shaifan Saud",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Months",
-          "aebas": "78465627",
-          "regNo": "MP-45256",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/021.webp",
-          "name": "Dr. Anurag Singh Baghel",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "08731232",
-          "regNo": "MP-47396",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/022.webp",
-          "name": "Dr. Harish Patel",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "684020490",
-          "regNo": "19759/2026 MPMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/anatomy/023.webp",
-          "name": "Dr. Supriya Vaidya",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "12848825",
-          "regNo": "MP-30562",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/anatomy/004.webp",
+     "name": "Dr. Milind Pundalikrao Fulpatil",
+     "designation": "Professor",
+     "qualification": "MBBS MS",
+     "experience": "40 Years",
+     "aebas": "52074091",
+     "regNo": "52749 MMC",
+     "employment": "Permanent"
     },
     {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Anatomy faculty list",
-      "href": "/assets/docs/msr/faculty-lists/anatomy.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/anatomy/005.webp",
+     "name": "Dr. Rashmi Jaiswal",
+     "designation": "Professor",
+     "qualification": "MBBS-MD",
+     "experience": "13 Years",
+     "aebas": "24491741",
+     "regNo": "MP-35123",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "associate-professor",
+   "title": "Associate Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/anatomy/006.webp",
+     "name": "Dr. Kanchan Bala Dogra",
+     "designation": "Associate Professor",
+     "qualification": "BDS MSC( MEDICAL) PH.D (MEDICAL)",
+     "experience": "9 Years",
+     "aebas": "98197277",
+     "regNo": "1448-A HP STATE DENTAL COUNCIL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/007.webp",
+     "name": "Dr. Rajeshwari Sadashiv Bhosale",
+     "designation": "Associate Professor",
+     "qualification": "MSC( MEDICAL) PH.D (MEDICAL)",
+     "experience": "10 Years",
+     "aebas": "91954359",
+     "regNo": "NIL",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/anatomy/008.webp",
+     "name": "Dr. Mansi Shukla",
+     "designation": "Assistant Professor",
+     "qualification": "MSC( MEDICAL) PH.D (MEDICAL)",
+     "experience": "6 Years",
+     "aebas": "60458187",
+     "regNo": "RMCHRC- 2017/1629",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "tutor",
+   "title": "Tutors",
+   "items": [
+    {
+     "photo": "/assets/faculty/anatomy/009.webp",
+     "name": "Dr. Sonam Gupta",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "4 Years",
+     "aebas": "32185427",
+     "regNo": "MP- 16551",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/010.webp",
+     "name": "Dr. Golu Jatav",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "93234325",
+     "regNo": "MP-26007",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/011.webp",
+     "name": "Dr. Karan Soni",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "38169882",
+     "regNo": "MP-28589",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/012.webp",
+     "name": "Dr. Vikram Patel",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "87429860",
+     "regNo": "MP-25411",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/013.webp",
+     "name": "Dr. Shailesh Upadhyay",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "72471210",
+     "regNo": "MP-38702",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/014.webp",
+     "name": "Dr. Ankita Mandal",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "37920262",
+     "regNo": "MP-31342",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/015.webp",
+     "name": "Dr. Nishchal Jain",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "74045102",
+     "regNo": "MP-43617",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/016.webp",
+     "name": "Dr. Shubham Chhatani",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "7 Months",
+     "aebas": "08143973",
+     "regNo": "MP-42083",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/017.webp",
+     "name": "Dr. Uddeshya Singh Parihar",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "5 Months",
+     "aebas": "43502880",
+     "regNo": "MP-36410",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/018.webp",
+     "name": "Dr. Rahat Khan",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "3 Months",
+     "aebas": "59429276",
+     "regNo": "MP-29334",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/019.webp",
+     "name": "Dr. Gaurav Mourya",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "54448657",
+     "regNo": "MP-32479",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/020.webp",
+     "name": "Dr. Shaikh Shaifan Saud",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Months",
+     "aebas": "78465627",
+     "regNo": "MP-45256",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/021.webp",
+     "name": "Dr. Anurag Singh Baghel",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "08731232",
+     "regNo": "MP-47396",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/022.webp",
+     "name": "Dr. Harish Patel",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "684020490",
+     "regNo": "19759/2026 MPMC",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/anatomy/023.webp",
+     "name": "Dr. Supriya Vaidya",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "12848825",
+     "regNo": "MP-30562",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

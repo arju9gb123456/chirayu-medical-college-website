@@ -1,283 +1,275 @@
 {
-  "title": "Department of Oto-Rhino-Laryngology (ENT)",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Oto-Rhino-Laryngology (ENT)",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/001.webp",
-          "name": "Dr. Anil Kumar Jain",
-          "designation": "Professor",
-          "qualification": "MBBS DLO MS",
-          "experience": "24 Years",
-          "aebas": "81079317",
-          "regNo": "No. MP-6753",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/002.webp",
-          "name": "Dr. Rakesh Maran",
-          "designation": "Professor",
-          "qualification": "MBBS MS",
-          "experience": "14 Years",
-          "aebas": "24551375",
-          "regNo": "MP-10431",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/001.webp",
+     "name": "Dr. Anil Kumar Jain",
+     "designation": "Professor",
+     "qualification": "MBBS DLO MS",
+     "experience": "24 Years",
+     "aebas": "81079317",
+     "regNo": "No. MP-6753",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "associate-professor",
-      "title": "Associate Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/003.webp",
-          "name": "Dr. Anupriya Hajela",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MS",
-          "experience": "10 Years",
-          "aebas": "75944545",
-          "regNo": "MP-14281",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/004.webp",
-          "name": "Dr. Anchal Jain",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "9 Years",
-          "aebas": "81033442",
-          "regNo": "MP-17616",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/005.webp",
-          "name": "Dr. Nilopher Qureshi",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "6 Years",
-          "aebas": "37209198",
-          "regNo": "MP-13010",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/006.webp",
-          "name": "Dr. Amruta Das Pandey",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "6 Years",
-          "aebas": "41305124",
-          "regNo": "MP-40894",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/007.webp",
-          "name": "Dr. Chirag Yashlaha",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "7 Years",
-          "aebas": "92861108",
-          "regNo": "MP-20409",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/008.webp",
-          "name": "Dr. Faran Alam Khan",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "6 Years",
-          "aebas": "42624675",
-          "regNo": "MP-22574",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/009.webp",
-          "name": "Dr. Neelesh Tiwar",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "4 Years",
-          "aebas": "27500236",
-          "regNo": "MP-41605",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/010.webp",
-          "name": "Dr. Sruthy Sridharan",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "4 Years",
-          "aebas": "73103967",
-          "regNo": "30929 ASSAM COUNCIL",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "senior-resident",
-      "title": "Senior Residents",
-      "items": [
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/011.webp",
-          "name": "Dr. Ripal Rajeshbhai Barot",
-          "designation": "Senior Resident",
-          "qualification": "MBBS DO DNB",
-          "experience": "5 Years",
-          "aebas": "00028255",
-          "regNo": "G-57455 The Guajarat Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/012.webp",
-          "name": "Dr. Sehrish Riyaz",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MS",
-          "experience": "3 Years",
-          "aebas": "79468204",
-          "regNo": "MP-32212",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/013.webp",
-          "name": "Dr. Fasin Nawas Eru Kulangara",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MS",
-          "experience": "3 Years",
-          "aebas": "60022953",
-          "regNo": "MP-50556",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "junior-resident",
-      "title": "Junior Residents",
-      "items": [
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/014.webp",
-          "name": "Dr. Aashi Agnihotri",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "4 Years",
-          "aebas": "34931102",
-          "regNo": "MP-28139",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/015.webp",
-          "name": "Dr. Sonal Shrivastava",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "62426387",
-          "regNo": "MP-36250",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/016.webp",
-          "name": "Dr. Divya Bhatt",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "03394106",
-          "regNo": "MP-31343",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/017.webp",
-          "name": "Dr. Naman Mishra",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "59381608",
-          "regNo": "MP-40709",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/018.webp",
-          "name": "Dr. Manali Jain",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "77315945",
-          "regNo": "MP-35218",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/019.webp",
-          "name": "Dr. Vidhiben Devendra Kumar Trivedi",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "01846908",
-          "regNo": "MP-30498",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/020.webp",
-          "name": "Dr. Yashasvi Barfa",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "77363362",
-          "regNo": "MP-36025",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/021.webp",
-          "name": "Dr. Somiya Khan",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "02101095",
-          "regNo": "MP-30550",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/022.webp",
-          "name": "Dr. Komal Jaiswal",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "23015168",
-          "regNo": "29949 India",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/oto-rhino-laryngology-ent/023.webp",
-          "name": "Dr. Prakhar Choukade",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "59657536",
-          "regNo": "MP-44861",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Oto-Rhino-Laryngology (ENT) faculty list",
-      "href": "/assets/docs/msr/faculty-lists/oto-rhino-laryngology-ent.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/002.webp",
+     "name": "Dr. Rakesh Maran",
+     "designation": "Professor",
+     "qualification": "MBBS MS",
+     "experience": "14 Years",
+     "aebas": "24551375",
+     "regNo": "MP-10431",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "associate-professor",
+   "title": "Associate Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/003.webp",
+     "name": "Dr. Anupriya Hajela",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MS",
+     "experience": "10 Years",
+     "aebas": "75944545",
+     "regNo": "MP-14281",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/004.webp",
+     "name": "Dr. Anchal Jain",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "9 Years",
+     "aebas": "81033442",
+     "regNo": "MP-17616",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/005.webp",
+     "name": "Dr. Nilopher Qureshi",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "6 Years",
+     "aebas": "37209198",
+     "regNo": "MP-13010",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/006.webp",
+     "name": "Dr. Amruta Das Pandey",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "6 Years",
+     "aebas": "41305124",
+     "regNo": "MP-40894",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/007.webp",
+     "name": "Dr. Chirag Yashlaha",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "7 Years",
+     "aebas": "92861108",
+     "regNo": "MP-20409",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/008.webp",
+     "name": "Dr. Faran Alam Khan",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "6 Years",
+     "aebas": "42624675",
+     "regNo": "MP-22574",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/009.webp",
+     "name": "Dr. Neelesh Tiwar",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "4 Years",
+     "aebas": "27500236",
+     "regNo": "MP-41605",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/010.webp",
+     "name": "Dr. Sruthy Sridharan",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "4 Years",
+     "aebas": "73103967",
+     "regNo": "30929 ASSAM COUNCIL",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "senior-resident",
+   "title": "Senior Residents",
+   "items": [
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/011.webp",
+     "name": "Dr. Ripal Rajeshbhai Barot",
+     "designation": "Senior Resident",
+     "qualification": "MBBS DO DNB",
+     "experience": "5 Years",
+     "aebas": "00028255",
+     "regNo": "G-57455 The Guajarat Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/012.webp",
+     "name": "Dr. Sehrish Riyaz",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MS",
+     "experience": "3 Years",
+     "aebas": "79468204",
+     "regNo": "MP-32212",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/013.webp",
+     "name": "Dr. Fasin Nawas Eru Kulangara",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MS",
+     "experience": "3 Years",
+     "aebas": "60022953",
+     "regNo": "MP-50556",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "junior-resident",
+   "title": "Junior Residents",
+   "items": [
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/014.webp",
+     "name": "Dr. Aashi Agnihotri",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "4 Years",
+     "aebas": "34931102",
+     "regNo": "MP-28139",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/015.webp",
+     "name": "Dr. Sonal Shrivastava",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "62426387",
+     "regNo": "MP-36250",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/016.webp",
+     "name": "Dr. Divya Bhatt",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "03394106",
+     "regNo": "MP-31343",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/017.webp",
+     "name": "Dr. Naman Mishra",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "59381608",
+     "regNo": "MP-40709",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/018.webp",
+     "name": "Dr. Manali Jain",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "77315945",
+     "regNo": "MP-35218",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/019.webp",
+     "name": "Dr. Vidhiben Devendra Kumar Trivedi",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "01846908",
+     "regNo": "MP-30498",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/020.webp",
+     "name": "Dr. Yashasvi Barfa",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "77363362",
+     "regNo": "MP-36025",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/021.webp",
+     "name": "Dr. Somiya Khan",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "02101095",
+     "regNo": "MP-30550",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/022.webp",
+     "name": "Dr. Komal Jaiswal",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "23015168",
+     "regNo": "29949 India",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/oto-rhino-laryngology-ent/023.webp",
+     "name": "Dr. Prakhar Choukade",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "59657536",
+     "regNo": "MP-44861",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

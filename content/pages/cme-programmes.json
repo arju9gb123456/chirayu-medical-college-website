@@ -1,0 +1,439 @@
+{
+ "title": "CME Programmes, Workshops & Conferences",
+ "kicker": "Information under MSR",
+ "intro": "Continuing Medical Education programmes, workshops and conferences conducted by the institution.",
+ "updated": "31-10-2023",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "table",
+   "id": "cme",
+   "title": "Details of CME Programme / Workshop / Conferences",
+   "columns": [
+    "Sr. No.",
+    "Date",
+    "Topic",
+    "Faculty",
+    "Department"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "20.10.2023",
+      "Webinar on discussion on moisturizers in dermatology",
+      "Dr. Amardeep Malviya",
+      "Dermatology"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "14.10.2023",
+      "Screening of cervical cancer",
+      "Dr. Malini Bharadwaj",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "14.10.2023",
+      "Minimal access surgery",
+      "Dr. Manisha Jain",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "14.10.2023",
+      "CME on Acquired skin disorder in neonate",
+      "Dr. Dhruv Mishra",
+      "Dermatology"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "06.10.2023",
+      "Quiz on genetics, fetal medicine and USG in obstetrics",
+      "Dr. Nikita Tiwari",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "06.10.2023",
+      "Procedure specific antbiotic policy",
+      "Dr. Pooja, Dr. Nikita",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "16.09.2023",
+      "Transcendental Meditation and Epilepsy : A Debated Association",
+      "Dr. Harider Jaseja",
+      "Physiology"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "13.09.2023",
+      "Medico-legal training session for judges of district courts arranged by Medico-Legal Institute Bhopal",
+      "Dr. Ashok Kumar Jain",
+      "Forensic Medicine and Toxicology"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "09.09.2023",
+      "FOGSI tutorial program on polyhydramnios and GDM",
+      "",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "04.09.2023",
+      "Eye Donation Awareness",
+      "Dr. Prerna Upadhyay Medical Director (Sewa Sadan Eye Hospital, Bairagarh, Bhopal)",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "27.08.2023",
+      "Scientific Session and hands on post And Core –past to present",
+      "Dr. Shilpi Awadhiya",
+      "Dentistry"
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "24.08.2023",
+      "Pharmacological advancement in drugs of infertility",
+      "Dr. Sonal Jain",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "13",
+      "14.15.08.2023",
+      "National live and Cadaveric HEAD and NECK Dissection workshop",
+      "Dr. Madan Kapre, Dr. Devendra Mahore, Dr. Ashutosh Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "14",
+      "13.07.2023",
+      "Role of Valethamate Bromide in first stage of labour",
+      "Dr. Ankita Upadhayay",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "15",
+      "05.07.2023",
+      "Webinar on discussion on interesting case in dermatology (psoriasis)",
+      "Dr. Rochit Singhal",
+      "Dermatology"
+     ]
+    },
+    {
+     "cells": [
+      "16",
+      "26.06.2023",
+      "Skill Lab Demonstartion of obstetric examination",
+      "Dr. Gunjan Chaudhary",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "17",
+      "10.06.2023",
+      "Simplifying the concept of using Generic vs Innovator Drugs",
+      "Dr Abdul Faheem, Dr Andrew Mark",
+      "Pharmacology"
+     ]
+    },
+    {
+     "cells": [
+      "18",
+      "26.05.2023",
+      "Poster and Model display competition",
+      "Selected Students of MBBS (2022- 23) Batch and ALL Faculties",
+      "Physiology"
+     ]
+    },
+    {
+     "cells": [
+      "19",
+      "19.05.2023",
+      "Know the measures that you must take to reduce the chances of hearing loss",
+      "Dr. Anil Kumar Jain",
+      "ENT"
+     ]
+    },
+    {
+     "cells": [
+      "20",
+      "16.05.2023",
+      "WORKSHOP ON \"AEFI AND VPD SURVEILLANCE",
+      "Dr Shreepad Joshi,SMO,WHO",
+      "Community Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "21",
+      "13-15.05.2023",
+      "National CME on MSK & Joint Imaging",
+      "Indian Radiological & Imaging Association, MP State & Bhopal Chapter",
+      "Radiology and Orthopedics"
+     ]
+    },
+    {
+     "cells": [
+      "22",
+      "23.04.2023",
+      "Scientific Session On Comprehensive Overview of Dental Implant",
+      "Dr.B. Rajkumar & Dr. Vikrant Jain",
+      "Dentistry"
+     ]
+    },
+    {
+     "cells": [
+      "23",
+      "08.04.2023",
+      "Drug Induced Hypersensitivity Syndrome",
+      "Dr. Shyam Govind Rathoriya",
+      "Dermatology"
+     ]
+    },
+    {
+     "cells": [
+      "24",
+      "08.04.2023",
+      "CME on Drug hypersensitivity Syndrome",
+      "Dr. Vivek Choudhary",
+      "Dermatology"
+     ]
+    },
+    {
+     "cells": [
+      "25",
+      "17.03.2023",
+      "Beware of Glaucoma - The silent thief of Eye sight",
+      "Dr. Khalid Khan",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "26",
+      "17.03.2023",
+      "Beawre Of Glaucoma-The Silent Thief of Eye Sight",
+      "Dr Khalid Khan",
+      "Opthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "27",
+      "04.02.2023",
+      "Current Status of Adult Cardiac Surgery In Chirayu Hospital",
+      "Dr Vivek Kanhare",
+      "Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "28",
+      "14.01.2023",
+      "Regional Anaesthesia in the patient receiving Antithrombotic or Thrombolytic therapy",
+      "Dr. Hemendra Bhardwaj",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "29",
+      "31.12.2022",
+      "Endoscopic ultrasound in GI Diseases",
+      "Dr Saransh Jain",
+      "Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "30",
+      "10.12.2022",
+      "Cercinoma Cervix Including HPV Vaccination its Current Status",
+      "Dr Mahesh C Patil",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "31",
+      "26.11.2022",
+      "Red Eye",
+      "Dr Ulka shrivastav",
+      "Opthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "32",
+      "18-24.11.2022",
+      "World Antimicrobial Awreness Week",
+      "Dean",
+      "All Departments"
+     ]
+    },
+    {
+     "cells": [
+      "33",
+      "19.10.2022",
+      "NTEP REVIEW MEETING",
+      "DR Manoj Verma(DTO)/Dr Arvind Athavale",
+      "Community Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "34",
+      "07.09.2022",
+      "AETCOM(Attitude,Ethics and Communication",
+      "Dr Sandhya Gadre and Dr Anil Kumar Jain",
+      "MET"
+     ]
+    },
+    {
+     "cells": [
+      "35",
+      "27.08.2022",
+      "Febrile Seizure :\"Demystifying The Myths\"",
+      "Dr Ankit Dashore",
+      "Paeditrics"
+     ]
+    },
+    {
+     "cells": [
+      "36",
+      "13.08.2022",
+      "Know about Infertility Treatment",
+      "Dr Sonal Jain",
+      "Obs. Gynae"
+     ]
+    },
+    {
+     "cells": [
+      "37",
+      "23.07.2022",
+      "Evaluation AND Mnagment of Dianetic Foot",
+      "Dr Tanmayee Thite",
+      "Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "38",
+      "09.07.2022",
+      "Atypical Presentation Of Congenital Cynotic Heart Diseases",
+      "Dr Seema Mahant",
+      "Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "39",
+      "29.06.2022",
+      "Research Methodology Workshop",
+      "All Department",
+      "Dean ,CMCH"
+     ]
+    },
+    {
+     "cells": [
+      "40",
+      "23.04.2022",
+      "Innovation to reduce the malaria disese burden and save lives",
+      "Dr A.K Dubey /Dr Arvind Athavale",
+      "Community Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "41",
+      "09.03.2022",
+      "World Glaucoma awareness",
+      "Dr Ulka shrivastav/Anagha chauhan",
+      "Opthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "42",
+      "26.02.2022",
+      "Automation in microbiology",
+      "Dr Sanyogita Jain",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "43",
+      "14.02.2022",
+      "Vaccine preventable Diseases-Surveilllance Orientation",
+      "Dr.Shripad Joshi( SMO)",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "44",
+      "29.01.2022",
+      "Breast cancer",
+      "Dr Ankit Agarwal",
+      "Oncology"
+     ]
+    },
+    {
+     "cells": [
+      "45",
+      "08.01.2022",
+      "Acute Red Eye",
+      "Dr Anubha Chauhan",
+      "Opthalmology"
+     ]
+    }
+   ],
+   "filterCol": 4
+  }
+ ]
+}

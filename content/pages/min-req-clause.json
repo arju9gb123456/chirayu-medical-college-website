@@ -1,174 +1,174 @@
 {
-  "title": "Information under MSR Clause B.1.11",
-  "kicker": "NMC Info",
-  "intro": "Mandatory disclosures of Chirayu Medical College & Hospital under the Minimum Standard Requirements (MSR), Clause B.1.11 of the National Medical Commission.",
-  "updated": "05-03-2024",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Information under MSR Clause B.1.11",
+ "kicker": "NMC Info",
+ "intro": "Mandatory disclosures of Chirayu Medical College & Hospital under the Minimum Standard Requirements (MSR), Clause B.1.11 of the National Medical Commission.",
+ "updated": "05-03-2024",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "disclosures",
+   "id": "msr",
+   "title": "Information under MSR Clause B.1.11",
+   "items": [
     {
-      "type": "disclosures",
-      "id": "msr",
-      "title": "Information under MSR Clause B.1.11",
-      "items": [
-        {
-          "no": "01",
-          "title": "Details of Dean, Principal and Medical Supdt. including their name, qualification, complete address with telephone and STD code, fax and e-mail etc.",
-          "href": "/management-team/",
-          "updated": "25-03-2022",
-          "category": "Leadership & Staff"
-        },
-        {
-          "no": "02",
-          "title": "Teaching Staff List, Resident Doctor, Non-teaching staff, Technical staff, Nursing staff — (a) department and designation wise with joining date (b) unit wise faculty & resident list",
-          "href": "/staff-information/",
-          "updated": "25-03-2022",
-          "category": "Leadership & Staff"
-        },
-        {
-          "no": "03",
-          "title": "Details of affiliated university and its Vice-Chancellor and Registrars",
-          "href": "/university/",
-          "updated": "25-03-2022",
-          "category": "University & Students"
-        },
-        {
-          "no": "04",
-          "title": "Citizen Charter",
-          "href": "https://www.cmchbhopal.com/pdf/nursing-list-2022.pdf",
-          "updated": "25-03-2022",
-          "category": "Hospital & Clinical"
-        },
-        {
-          "no": "05",
-          "title": "Details of fees for various courses and other costs",
-          "href": "/assets/docs/msr/fees-and-costs.pdf",
-          "updated": "25-03-2022",
-          "category": "University & Students"
-        },
-        {
-          "no": "06",
-          "title": "List of students admitted merit-wise (UG & PG) for the current and previous year",
-          "href": "/students-admitted/",
-          "updated": "25-03-2022",
-          "category": "University & Students"
-        },
-        {
-          "no": "07",
-          "title": "Result of all the examinations of last one year",
-          "href": "https://www.cmchbhopal.com/examination-result/",
-          "updated": "25-03-2022",
-          "category": "University & Students"
-        },
-        {
-          "no": "08",
-          "title": "Details of members of the Anti-Ragging Committee with contact details including landline phone, mobile, e-mail etc.",
-          "href": "/assets/docs/msr/anti-ragging-committee.pdf",
-          "updated": "26-03-2022",
-          "category": "Anti-Ragging & Safety"
-        },
-        {
-          "no": "09",
-          "title": "Details of members of the Gender Harassment Committee with contact details including phone, mobile, e-mail etc.",
-          "href": "/assets/docs/msr/gender-harassment-committee.pdf",
-          "updated": "26-03-2022",
-          "category": "Anti-Ragging & Safety"
-        },
-        {
-          "no": "10",
-          "title": "Toll free number to report ragging",
-          "href": "/antiragging/",
-          "updated": "25-03-2022",
-          "category": "Anti-Ragging & Safety"
-        },
-        {
-          "no": "11",
-          "title": "Details of the sanctioned intake capacity of various courses UG as well as PG by the MCI (with the scan copies of permission letter)",
-          "href": "https://www.cmchbhopal.com/goverment-permission/index2.php",
-          "updated": "25-03-2022",
-          "category": "Recognition & Intake"
-        },
-        {
-          "no": "12",
-          "title": "Any research publication during the last one year",
-          "href": "/assets/docs/msr/research-publications.pdf",
-          "updated": "25-03-2022",
-          "category": "Research & Academics"
-        },
-        {
-          "no": "13",
-          "title": "Details of any CME programmes, conferences and/or any academic activities conducted by the institution",
-          "href": "/assets/docs/msr/cme-workshops-conferences.pdf",
-          "updated": "25-03-2022",
-          "category": "Research & Academics"
-        },
-        {
-          "no": "14",
-          "title": "Details of any awards and achievements received by the students or faculty",
-          "href": "/awards-and-achievements/",
-          "updated": "25-03-2022",
-          "category": "Research & Academics"
-        },
-        {
-          "no": "15",
-          "title": "Detailed status of recognition of all courses (with the scan copies of permission letter)",
-          "href": "https://www.cmchbhopal.com/goverment-permission/index2.php",
-          "updated": "29-03-2022",
-          "category": "Recognition & Intake"
-        },
-        {
-          "no": "16",
-          "title": "Details of clinical material in the hospital",
-          "href": "https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf",
-          "updated": "29-03-2022",
-          "category": "Hospital & Clinical"
-        },
-        {
-          "no": "17",
-          "title": "Unit / department wise beds distribution",
-          "href": "/assets/docs/msr/bed-distribution.pdf",
-          "updated": "29-03-2022",
-          "category": "Hospital & Clinical"
-        }
-      ]
+     "no": "01",
+     "title": "Details of Dean, Principal and Medical Supdt. including their name, qualification, complete address with telephone and STD code, fax and e-mail etc.",
+     "href": "/management-team/",
+     "updated": "25-03-2022",
+     "category": "Leadership & Staff"
     },
     {
-      "type": "cards",
-      "id": "quick",
-      "title": "Quick access",
-      "unit": "sections",
-      "items": [
-        {
-          "title": "Department wise Faculty",
-          "note": "31 departments · 781 faculty members",
-          "href": "/departments/"
-        },
-        {
-          "title": "Dean, Principal & Medical Supdt.",
-          "note": "Institutional information",
-          "href": "/management-team/"
-        },
-        {
-          "title": "Affiliating University",
-          "note": "Vice-Chancellor & Registrar",
-          "href": "/university/"
-        },
-        {
-          "title": "Students Admitted (UG & PG)",
-          "note": "Merit-wise lists, year-wise",
-          "href": "/students-admitted/"
-        },
-        {
-          "title": "Committees",
-          "note": "Anti-Ragging, IEC, Scientific…",
-          "href": "/committees/"
-        },
-        {
-          "title": "Awards & Achievements",
-          "note": "Students and faculty",
-          "href": "/awards-and-achievements/"
-        }
-      ]
+     "no": "02",
+     "title": "Teaching Staff List, Resident Doctor, Non-teaching staff, Technical staff, Nursing staff — (a) department and designation wise with joining date (b) unit wise faculty & resident list",
+     "href": "/staff-information/",
+     "updated": "25-03-2022",
+     "category": "Leadership & Staff"
+    },
+    {
+     "no": "03",
+     "title": "Details of affiliated university and its Vice-Chancellor and Registrars",
+     "href": "/university/",
+     "updated": "25-03-2022",
+     "category": "University & Students"
+    },
+    {
+     "no": "04",
+     "title": "Citizen Charter",
+     "href": "https://www.cmchbhopal.com/pdf/nursing-list-2022.pdf",
+     "updated": "25-03-2022",
+     "category": "Hospital & Clinical"
+    },
+    {
+     "no": "05",
+     "title": "Details of fees for various courses and other costs",
+     "href": "/fees/",
+     "updated": "25-03-2022",
+     "category": "University & Students"
+    },
+    {
+     "no": "06",
+     "title": "List of students admitted merit-wise (UG & PG) for the current and previous year",
+     "href": "/students-admitted/",
+     "updated": "25-03-2022",
+     "category": "University & Students"
+    },
+    {
+     "no": "07",
+     "title": "Result of all the examinations of last one year",
+     "href": "https://www.cmchbhopal.com/examination-result/",
+     "updated": "25-03-2022",
+     "category": "University & Students"
+    },
+    {
+     "no": "08",
+     "title": "Details of members of the Anti-Ragging Committee with contact details including landline phone, mobile, e-mail etc.",
+     "href": "/committees/#b-anti-ragging",
+     "updated": "26-03-2022",
+     "category": "Anti-Ragging & Safety"
+    },
+    {
+     "no": "09",
+     "title": "Details of members of the Gender Harassment Committee with contact details including phone, mobile, e-mail etc.",
+     "href": "/committees/#b-icc",
+     "updated": "26-03-2022",
+     "category": "Anti-Ragging & Safety"
+    },
+    {
+     "no": "10",
+     "title": "Toll free number to report ragging",
+     "href": "/antiragging/",
+     "updated": "25-03-2022",
+     "category": "Anti-Ragging & Safety"
+    },
+    {
+     "no": "11",
+     "title": "Details of the sanctioned intake capacity of various courses UG as well as PG by the MCI (with the scan copies of permission letter)",
+     "href": "https://www.cmchbhopal.com/goverment-permission/index2.php",
+     "updated": "25-03-2022",
+     "category": "Recognition & Intake"
+    },
+    {
+     "no": "12",
+     "title": "Any research publication during the last one year",
+     "href": "/research-publications/",
+     "updated": "25-03-2022",
+     "category": "Research & Academics"
+    },
+    {
+     "no": "13",
+     "title": "Details of any CME programmes, conferences and/or any academic activities conducted by the institution",
+     "href": "/cme-programmes/",
+     "updated": "25-03-2022",
+     "category": "Research & Academics"
+    },
+    {
+     "no": "14",
+     "title": "Details of any awards and achievements received by the students or faculty",
+     "href": "/awards-and-achievements/",
+     "updated": "25-03-2022",
+     "category": "Research & Academics"
+    },
+    {
+     "no": "15",
+     "title": "Detailed status of recognition of all courses (with the scan copies of permission letter)",
+     "href": "https://www.cmchbhopal.com/goverment-permission/index2.php",
+     "updated": "29-03-2022",
+     "category": "Recognition & Intake"
+    },
+    {
+     "no": "16",
+     "title": "Details of clinical material in the hospital",
+     "href": "https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf",
+     "updated": "29-03-2022",
+     "category": "Hospital & Clinical"
+    },
+    {
+     "no": "17",
+     "title": "Unit / department wise beds distribution",
+     "href": "/bed-distribution/",
+     "updated": "29-03-2022",
+     "category": "Hospital & Clinical"
     }
-  ]
+   ]
+  },
+  {
+   "type": "cards",
+   "id": "quick",
+   "title": "Quick access",
+   "unit": "sections",
+   "items": [
+    {
+     "title": "Department wise Faculty",
+     "note": "31 departments · 781 faculty members",
+     "href": "/departments/"
+    },
+    {
+     "title": "Dean, Principal & Medical Supdt.",
+     "note": "Institutional information",
+     "href": "/management-team/"
+    },
+    {
+     "title": "Affiliating University",
+     "note": "Vice-Chancellor & Registrar",
+     "href": "/university/"
+    },
+    {
+     "title": "Students Admitted (UG & PG)",
+     "note": "Merit-wise lists, year-wise",
+     "href": "/students-admitted/"
+    },
+    {
+     "title": "Committees",
+     "note": "Anti-Ragging, IEC, Scientific…",
+     "href": "/committees/"
+    },
+    {
+     "title": "Awards & Achievements",
+     "note": "Students and faculty",
+     "href": "/awards-and-achievements/"
+    }
+   ]
+  }
+ ]
 }

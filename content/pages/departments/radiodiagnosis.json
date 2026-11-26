@@ -1,523 +1,515 @@
 {
-  "title": "Department of Radiodiagnosis",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Radiodiagnosis",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/radiodiagnosis/001.webp",
-          "name": "Dr. Nitin Khantal",
-          "designation": "Professor",
-          "qualification": "MBBS DNRD DNB",
-          "experience": "18 Years",
-          "aebas": "00697929",
-          "regNo": "No. MP- 8565",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/002.webp",
-          "name": "Dr. Mahesh Kumar Verma",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "14 Years",
-          "aebas": "04367666",
-          "regNo": "MP-4218",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/003.webp",
-          "name": "Dr. Niti Jain",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "15 Years",
-          "aebas": "06020831",
-          "regNo": "MP-13471",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/004.webp",
-          "name": "Dr. Aruna Sudhir Deshmukh",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "19 Years",
-          "aebas": "44579248",
-          "regNo": "79164 Maharashtra Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/005.webp",
-          "name": "Dr. Sangeeta Parag Mahajan",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "14 Years",
-          "aebas": "90476309",
-          "regNo": "57292 Maharashtra Medical Council",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/radiodiagnosis/001.webp",
+     "name": "Dr. Nitin Khantal",
+     "designation": "Professor",
+     "qualification": "MBBS DNRD DNB",
+     "experience": "18 Years",
+     "aebas": "00697929",
+     "regNo": "No. MP- 8565",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "associate-professor",
-      "title": "Associate Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/radiodiagnosis/006.webp",
-          "name": "Dr. Sonika Rani",
-          "designation": "Associate Professor",
-          "qualification": "MBBS DNB",
-          "experience": "14 Years",
-          "aebas": "06021425",
-          "regNo": "MP-8110",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/007.webp",
-          "name": "Dr. Bhanoo Chaudhary",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MD",
-          "experience": "9 Years",
-          "aebas": "29262206",
-          "regNo": "NH-10893",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/008.webp",
-          "name": "Dr. Pankaj Kumar Goyal",
-          "designation": "Associate Professor",
-          "qualification": "MBBS DNB",
-          "experience": "7 Years",
-          "aebas": "98352942",
-          "regNo": "MP-17979",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/radiodiagnosis/002.webp",
+     "name": "Dr. Mahesh Kumar Verma",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "14 Years",
+     "aebas": "04367666",
+     "regNo": "MP-4218",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/radiodiagnosis/009.webp",
-          "name": "Dr. Suvinay Saxena",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS DNB PHD UCAM",
-          "experience": "9 Years",
-          "aebas": "69883418",
-          "regNo": "MP- 14077",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/010.webp",
-          "name": "Dr. Satish Kumar Raghuwanshi",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "05148532",
-          "regNo": "MP-9457",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/011.webp",
-          "name": "Dr. Arushi Kaushal Bang",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "54644368",
-          "regNo": "MP-25208",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/012.webp",
-          "name": "Dr. Kajal Agarwal",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "9 Years",
-          "aebas": "11114493",
-          "regNo": "MP-18472",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/013.webp",
-          "name": "Dr. Dhwani Dixit",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "91570767",
-          "regNo": "MP-26120",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/014.webp",
-          "name": "Dr. Yash Agrawal",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "5 Years",
-          "aebas": "38890742",
-          "regNo": "MP-24104",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/015.webp",
-          "name": "Dr. Naman Saxena",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "4 Years",
-          "aebas": "96570509",
-          "regNo": "MP-23975",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/016.webp",
-          "name": "Dr. Aishwarya Naik",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "5 Years",
-          "aebas": "50083632",
-          "regNo": "MP-27096",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/017.webp",
-          "name": "Dr. Anuj Bang",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "5 Years",
-          "aebas": "09149828",
-          "regNo": "MP-24155",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/018.webp",
-          "name": "Dr. Shikha Jain",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "88757536",
-          "regNo": "MP-19464",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/019.webp",
-          "name": "Dr. Aisha Khan",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD DNB",
-          "experience": "4 Years",
-          "aebas": "11166406",
-          "regNo": "MP-26801",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/radiodiagnosis/003.webp",
+     "name": "Dr. Niti Jain",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "15 Years",
+     "aebas": "06020831",
+     "regNo": "MP-13471",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "senior-resident",
-      "title": "Senior Residents",
-      "items": [
-        {
-          "photo": "/assets/faculty/radiodiagnosis/020.webp",
-          "name": "Dr. Yashwant Jamare",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "02386639",
-          "regNo": "MP-11180",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/021.webp",
-          "name": "Dr. Nitin Jaiswani",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "7 Years",
-          "aebas": "78657625",
-          "regNo": "MP-15319",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/022.webp",
-          "name": "Dr. Nimish Goyal",
-          "designation": "Senior Resident",
-          "qualification": "MBBS DNB",
-          "experience": "6 Years",
-          "aebas": "06893646",
-          "regNo": "MP-15813",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/023.webp",
-          "name": "Dr. Prakhar Jain",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "96510873",
-          "regNo": "MP-24303",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/024.webp",
-          "name": "Dr. Mohit Sharma",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "69838927",
-          "regNo": "MP-22683",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/025.webp",
-          "name": "Dr. Neha Choukse",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "54185415",
-          "regNo": "MP-14558",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/026.webp",
-          "name": "Dr. Lavanya Vullakulla",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "10201423",
-          "regNo": "MP-37034",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/027.webp",
-          "name": "Dr. Sanjana Deshmukh",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "5479075",
-          "regNo": "MP-33194",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/028.webp",
-          "name": "Dr. Kunika Sachdeva",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "04159661",
-          "regNo": "MP-41612",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/029.webp",
-          "name": "Dr. Somya Sharma",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "77190253",
-          "regNo": "MP-28259",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/030.webp",
-          "name": "Dr. Pragya Verma",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "24716730",
-          "regNo": "MP-32773",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/031.webp",
-          "name": "Dr. Bheekam Kurmi",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "79358046",
-          "regNo": "MP-36979",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/radiodiagnosis/004.webp",
+     "name": "Dr. Aruna Sudhir Deshmukh",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "19 Years",
+     "aebas": "44579248",
+     "regNo": "79164 Maharashtra Medical Council",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "junior-resident",
-      "title": "Junior Residents",
-      "items": [
-        {
-          "photo": "/assets/faculty/radiodiagnosis/032.webp",
-          "name": "Dr. Pragati Baghare",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "32051671",
-          "regNo": "MP-32066",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/033.webp",
-          "name": "Dr. Pawan Yadav",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "36626020",
-          "regNo": "MP-26690",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/034.webp",
-          "name": "Dr. Rishabh Agarwal",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "20101828",
-          "regNo": "MP- 2022/08/6951",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/035.webp",
-          "name": "Dr. Aakriti Batra",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "56051873",
-          "regNo": "UP-106827",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/036.webp",
-          "name": "Dr. Pranav Ramakant Patil",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "98673735",
-          "regNo": "MP-31814",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/037.webp",
-          "name": "Dr. Krishna Kumar Mourya",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "97826022",
-          "regNo": "MP-28382",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/038.webp",
-          "name": "Dr. Himanshu Arya",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "50148596",
-          "regNo": "76421 Office Of The Medical Council, Uttar Pradesh",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/039.webp",
-          "name": "Dr. Shreyansh Agrawal",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "47575488",
-          "regNo": "2023/08/5145 Maharashtra Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/040.webp",
-          "name": "Dr. Rishi Choubey",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "35920772",
-          "regNo": "MP-18036",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/041.webp",
-          "name": "Dr. Ziaullah",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "45624581",
-          "regNo": "108892 Uttar Pradesh Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/042.webp",
-          "name": "Dr. Archan A. Mishra",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "89393256",
-          "regNo": "7094/2017 CHHATTISG ARH MEDICAL COUNCIL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/043.webp",
-          "name": "Dr. Lajmi Uikey",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "20321740",
-          "regNo": "MP-25939",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/044.webp",
-          "name": "Dr. Prabhansh U. Mishra",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "58677234",
-          "regNo": "MP-35429",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/045.webp",
-          "name": "Dr. Sneha Sudhakar",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "90139791",
-          "regNo": "36087/2026 ODISHA MEDICAL COUNCIL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/046.webp",
-          "name": "Dr. Sushmita Sahani",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "75486193",
-          "regNo": "MP-38027",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/radiodiagnosis/047.webp",
-          "name": "Dr. Akshat Payal",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "87238527",
-          "regNo": "36154 Delhi Medical Council",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Radiodiagnosis faculty list",
-      "href": "/assets/docs/msr/faculty-lists/radiodiagnosis.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/radiodiagnosis/005.webp",
+     "name": "Dr. Sangeeta Parag Mahajan",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "14 Years",
+     "aebas": "90476309",
+     "regNo": "57292 Maharashtra Medical Council",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "associate-professor",
+   "title": "Associate Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/radiodiagnosis/006.webp",
+     "name": "Dr. Sonika Rani",
+     "designation": "Associate Professor",
+     "qualification": "MBBS DNB",
+     "experience": "14 Years",
+     "aebas": "06021425",
+     "regNo": "MP-8110",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/007.webp",
+     "name": "Dr. Bhanoo Chaudhary",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MD",
+     "experience": "9 Years",
+     "aebas": "29262206",
+     "regNo": "NH-10893",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/008.webp",
+     "name": "Dr. Pankaj Kumar Goyal",
+     "designation": "Associate Professor",
+     "qualification": "MBBS DNB",
+     "experience": "7 Years",
+     "aebas": "98352942",
+     "regNo": "MP-17979",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/radiodiagnosis/009.webp",
+     "name": "Dr. Suvinay Saxena",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS DNB PHD UCAM",
+     "experience": "9 Years",
+     "aebas": "69883418",
+     "regNo": "MP- 14077",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/010.webp",
+     "name": "Dr. Satish Kumar Raghuwanshi",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "05148532",
+     "regNo": "MP-9457",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/011.webp",
+     "name": "Dr. Arushi Kaushal Bang",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "54644368",
+     "regNo": "MP-25208",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/012.webp",
+     "name": "Dr. Kajal Agarwal",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "9 Years",
+     "aebas": "11114493",
+     "regNo": "MP-18472",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/013.webp",
+     "name": "Dr. Dhwani Dixit",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "91570767",
+     "regNo": "MP-26120",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/014.webp",
+     "name": "Dr. Yash Agrawal",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "5 Years",
+     "aebas": "38890742",
+     "regNo": "MP-24104",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/015.webp",
+     "name": "Dr. Naman Saxena",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "4 Years",
+     "aebas": "96570509",
+     "regNo": "MP-23975",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/016.webp",
+     "name": "Dr. Aishwarya Naik",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "5 Years",
+     "aebas": "50083632",
+     "regNo": "MP-27096",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/017.webp",
+     "name": "Dr. Anuj Bang",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "5 Years",
+     "aebas": "09149828",
+     "regNo": "MP-24155",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/018.webp",
+     "name": "Dr. Shikha Jain",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "88757536",
+     "regNo": "MP-19464",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/019.webp",
+     "name": "Dr. Aisha Khan",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD DNB",
+     "experience": "4 Years",
+     "aebas": "11166406",
+     "regNo": "MP-26801",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "senior-resident",
+   "title": "Senior Residents",
+   "items": [
+    {
+     "photo": "/assets/faculty/radiodiagnosis/020.webp",
+     "name": "Dr. Yashwant Jamare",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "02386639",
+     "regNo": "MP-11180",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/021.webp",
+     "name": "Dr. Nitin Jaiswani",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "7 Years",
+     "aebas": "78657625",
+     "regNo": "MP-15319",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/022.webp",
+     "name": "Dr. Nimish Goyal",
+     "designation": "Senior Resident",
+     "qualification": "MBBS DNB",
+     "experience": "6 Years",
+     "aebas": "06893646",
+     "regNo": "MP-15813",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/023.webp",
+     "name": "Dr. Prakhar Jain",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "96510873",
+     "regNo": "MP-24303",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/024.webp",
+     "name": "Dr. Mohit Sharma",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "69838927",
+     "regNo": "MP-22683",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/025.webp",
+     "name": "Dr. Neha Choukse",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "54185415",
+     "regNo": "MP-14558",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/026.webp",
+     "name": "Dr. Lavanya Vullakulla",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "10201423",
+     "regNo": "MP-37034",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/027.webp",
+     "name": "Dr. Sanjana Deshmukh",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "5479075",
+     "regNo": "MP-33194",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/028.webp",
+     "name": "Dr. Kunika Sachdeva",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "04159661",
+     "regNo": "MP-41612",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/029.webp",
+     "name": "Dr. Somya Sharma",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "77190253",
+     "regNo": "MP-28259",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/030.webp",
+     "name": "Dr. Pragya Verma",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "24716730",
+     "regNo": "MP-32773",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/031.webp",
+     "name": "Dr. Bheekam Kurmi",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "79358046",
+     "regNo": "MP-36979",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "junior-resident",
+   "title": "Junior Residents",
+   "items": [
+    {
+     "photo": "/assets/faculty/radiodiagnosis/032.webp",
+     "name": "Dr. Pragati Baghare",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "32051671",
+     "regNo": "MP-32066",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/033.webp",
+     "name": "Dr. Pawan Yadav",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "36626020",
+     "regNo": "MP-26690",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/034.webp",
+     "name": "Dr. Rishabh Agarwal",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "20101828",
+     "regNo": "MP- 2022/08/6951",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/035.webp",
+     "name": "Dr. Aakriti Batra",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "56051873",
+     "regNo": "UP-106827",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/036.webp",
+     "name": "Dr. Pranav Ramakant Patil",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "98673735",
+     "regNo": "MP-31814",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/037.webp",
+     "name": "Dr. Krishna Kumar Mourya",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "97826022",
+     "regNo": "MP-28382",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/038.webp",
+     "name": "Dr. Himanshu Arya",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "50148596",
+     "regNo": "76421 Office Of The Medical Council, Uttar Pradesh",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/039.webp",
+     "name": "Dr. Shreyansh Agrawal",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "47575488",
+     "regNo": "2023/08/5145 Maharashtra Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/040.webp",
+     "name": "Dr. Rishi Choubey",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "35920772",
+     "regNo": "MP-18036",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/041.webp",
+     "name": "Dr. Ziaullah",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "45624581",
+     "regNo": "108892 Uttar Pradesh Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/042.webp",
+     "name": "Dr. Archan A. Mishra",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "89393256",
+     "regNo": "7094/2017 CHHATTISG ARH MEDICAL COUNCIL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/043.webp",
+     "name": "Dr. Lajmi Uikey",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "20321740",
+     "regNo": "MP-25939",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/044.webp",
+     "name": "Dr. Prabhansh U. Mishra",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "58677234",
+     "regNo": "MP-35429",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/045.webp",
+     "name": "Dr. Sneha Sudhakar",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "90139791",
+     "regNo": "36087/2026 ODISHA MEDICAL COUNCIL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/046.webp",
+     "name": "Dr. Sushmita Sahani",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "75486193",
+     "regNo": "MP-38027",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/radiodiagnosis/047.webp",
+     "name": "Dr. Akshat Payal",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "87238527",
+     "regNo": "36154 Delhi Medical Council",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

@@ -172,22 +172,29 @@
   var RENDER = {
     table: function (b) {
       var cols = b.columns && b.columns.length ? b.columns : ['', ''];
-      var rows = b.rows || [];
+      var rows = b.rows || [], big = rows.length > 40, wide = cols.length > 6;
       // short columns (Sr. No., View, dates) stay narrow so the text column gets the room
       var narrow = cols.map(function (c, k) {
         return String(c).length <= 16 && rows.every(function (r) { return plain(((r && r.cells) || [])[k]).length <= 16; });
       });
       if (narrow.every(Boolean)) narrow = narrow.map(function () { return false; });
       function cls(k) { return narrow[k] ? ' class="c-narrow"' : ''; }
-      return '<div class="pblock__bar">' + (rows.length > 8 ? searchBox('Search in this table') : '') + '<span class="pcount">' + rows.length + ' entries</span></div>' +
-        '<div class="ptable-wrap"><table class="ptable"><thead><tr>' + cols.map(function (c, k) { return '<th scope="col"' + cls(k) + '>' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>' +
-        rows.map(function (r) {
+      var fc = b.filterCol === '' || b.filterCol == null ? -1 : +b.filterCol, opts = [];
+      if (fc > -1) rows.forEach(function (r) { var v = plain(((r && r.cells) || [])[fc]).trim(); if (v && opts.indexOf(v) < 0) opts.push(v); });
+      return '<div class="pblock__bar ptbar">' + (rows.length > 8 ? searchBox('Search in this table') : '') +
+        (opts.length > 1 ? '<label class="pfilter"><span>' + esc(cols[fc]) + '</span><select data-filter><option value="">All (' + opts.length + ')</option>' +
+          opts.map(function (o) { return '<option>' + esc(o) + '</option>'; }).join('') + '</select></label>' : '') +
+        '<span class="pcount">' + rows.length + ' entries</span></div>' +
+        '<div class="ptable-wrap' + (wide ? ' ptable-wrap--wide' : '') + '"' + (wide ? ' data-lenis-prevent' : '') + '><table class="ptable' + (wide ? ' ptable--wide' : '') + '"' + (wide ? ' style="--cols:' + cols.length + '"' : '') + '><thead><tr>' +
+        cols.map(function (c, k) { return '<th scope="col"' + cls(k) + '><button type="button" class="psort" data-sort="' + k + '">' + esc(c) + '<i aria-hidden="true"></i></button></th>'; }).join('') + '</tr></thead><tbody>' +
+        rows.map(function (r, i) {
           var cells = (r && r.cells) || [];
-          return '<tr data-reveal>' + cols.map(function (c, k) {
+          return '<tr' + (big ? '' : ' data-reveal') + (fc > -1 ? ' data-f="' + esc(plain(cells[fc]).trim()) + '"' : '') + ' data-i="' + i + '">' + cols.map(function (c, k) {
             return (k === 0 ? '<th scope="row"' : '<td') + cls(k) + ' data-label="' + esc(c) + '">' + rich(cells[k]) + (k === 0 ? '</th>' : '</td>');
           }).join('') + '</tr>';
         }).join('') + '</tbody></table>' +
-        '<p class="pempty" hidden>No matching entries.</p></div>';
+        '<p class="pempty" hidden>No matching entries.</p></div>' +
+        (big ? '<div class="pmore-bar"><button type="button" class="btn btn--ghost" data-more-rows>Show 25 more</button><button type="button" class="btn btn--ghost" data-all-rows>Show all</button></div>' : '');
     },
     files: function (b) {
       var items = b.items || [], LIMIT = 12;
@@ -213,7 +220,16 @@
     /* Faculty: photo cards; tap / hover shows AEBAS ID, registration, employment */
     faculty: function (b) {
       var items = b.items || [];
-      return '<div class="pblock__bar">' + (items.length > 8 ? searchBox('Search by name, qualification…') : '') + '<span class="pcount">' + items.length + (items.length === 1 ? ' member' : ' members') + '</span></div>' +
+      var tcols = ['Name', 'Designation', 'Qualification', 'Experience', 'AEBAS ID', 'Med. Reg. No.', 'Employment'];
+      var table = '<div class="ptable-wrap ptable-wrap--wide pfac-table" data-lenis-prevent><table class="ptable ptable--wide" style="--cols:7"><thead><tr>' +
+        tcols.map(function (c) { return '<th scope="col">' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+        items.map(function (f) {
+          var v = [f.name, f.designation, f.qualification, f.experience, f.aebas, f.regNo, f.employment];
+          return '<tr class="fac-row">' + v.map(function (x, k) { return (k ? '<td' : '<th scope="row"') + ' data-label="' + esc(tcols[k]) + '">' + esc(x || '—') + (k ? '</td>' : '</th>'); }).join('') + '</tr>';
+        }).join('') + '</tbody></table></div>';
+      return '<div class="pblock__bar">' + (items.length > 8 ? searchBox('Search by name, qualification…') : '') +
+        '<div class="pview" role="group" aria-label="View"><button type="button" class="is-on" data-view="cards">Cards</button><button type="button" data-view="table">Table</button></div>' +
+        '<span class="pcount">' + items.length + (items.length === 1 ? ' member' : ' members') + '</span></div>' + table +
         '<div class="pfac">' + items.map(function (f) {
           var rows = [['Designation', f.designation], ['Qualification', f.qualification], ['Experience', f.experience], ['AEBAS ID', f.aebas], ['Med. Reg. No.', f.regNo], ['Employment', f.employment]]
             .filter(function (r) { return r[1]; });
@@ -371,19 +387,65 @@
       '</div></div></section>';
   }
 
+  /* Dynamic tables: search + column filter + sort + 25 rows at a time */
+  function wireTable(sec) {
+    var tbody = $('.ptable tbody', sec), all = $$('tr', tbody), input = $('.psearch input', sec), sel = $('[data-filter]', sec);
+    var count = $('.pcount', sec), empty = $('.pempty', sec), more = $('[data-more-rows]', sec), allBtn = $('[data-all-rows]', sec);
+    var limit = more ? 25 : Infinity, sortK = -1, dir = 1;
+    function key(tr, k) { var c = tr.children[k]; return c ? c.textContent.trim() : ''; }
+    function num(v) { var m = v.replace(/[₹,\s]/g, '').match(/^-?\d+(\.\d+)?$/); return m ? parseFloat(m[0]) : NaN; }
+    function apply() {
+      var q = input ? input.value.trim().toLowerCase() : '', f = sel ? sel.value : '', list = all;
+      if (sortK > -1) {
+        list = all.slice().sort(function (a, b) {
+          var x = key(a, sortK), y = key(b, sortK), nx = num(x), ny = num(y);
+          if (!isNaN(nx) && !isNaN(ny)) return (nx - ny) * dir;
+          var dx = x.match(/^(\d{1,2})[-\/.](\d{1,2})[-\/.](\d{4})$/), dy = y.match(/^(\d{1,2})[-\/.](\d{1,2})[-\/.](\d{4})$/);
+          if (dx && dy) return ((+dx[3] - +dy[3]) * 400 + (+dx[2] - +dy[2]) * 32 + (+dx[1] - +dy[1])) * dir;
+          return x.localeCompare(y, undefined, { numeric: true, sensitivity: 'base' }) * dir;
+        });
+      } else list = all.slice().sort(function (a, b) { return a.dataset.i - b.dataset.i; });
+      var hits = list.filter(function (tr) { return (!f || tr.dataset.f === f) && (!q || tr.textContent.toLowerCase().indexOf(q) > -1); });
+      var frag = document.createDocumentFragment();
+      list.forEach(function (tr) { tr.hidden = true; frag.appendChild(tr); });
+      tbody.appendChild(frag);
+      hits.forEach(function (tr, i) { tr.hidden = i >= limit; if (!tr.hidden) tr.classList.add('is-visible'); });
+      var shown = Math.min(hits.length, limit);
+      count.textContent = (q || f ? hits.length + ' of ' + all.length : all.length) + ' entries' + (shown < hits.length ? ' · showing ' + shown : '');
+      empty.hidden = hits.length > 0;
+      if (more) { more.parentNode.hidden = shown >= hits.length; more.textContent = 'Show ' + Math.min(25, hits.length - shown) + ' more'; }
+    }
+    if (input) input.addEventListener('input', function () { apply(); });
+    if (sel) sel.addEventListener('change', apply);
+    if (more) more.addEventListener('click', function () { limit += 25; apply(); });
+    if (allBtn) allBtn.addEventListener('click', function () { limit = Infinity; apply(); });
+    $$('[data-sort]', sec).forEach(function (bt) {
+      bt.addEventListener('click', function () {
+        var k = +bt.dataset.sort;
+        if (sortK === k) { dir = -dir; if (dir === 1) sortK = -1; } else { sortK = k; dir = 1; }
+        $$('[data-sort]', sec).forEach(function (o) { o.removeAttribute('data-dir'); });
+        if (sortK > -1) bt.setAttribute('data-dir', dir > 0 ? 'asc' : 'desc');
+        apply();
+      });
+    });
+    apply();
+  }
+
   /* search, show-more, lightbox */
   function wireBlocks(p) {
     $$('.pblock').forEach(function (sec) {
       if ($('.dsc', sec)) return; // has its own filter (below)
+      if ($('.ptable', sec) && !$('.pfac', sec)) { wireTable(sec); return; }
       var input = $('.psearch input', sec), more = $('[data-more]', sec), count = $('.pcount', sec), empty = $('.pempty', sec);
-      var rows = $$('.ptable tbody tr, .pfile, .fac, .pcard, .pcourse', sec), total = rows.length, unit = sec.classList.contains('pblock--files') ? 'documents' : sec.classList.contains('pblock--faculty') ? 'members' : sec.classList.contains('pblock--cards') ? 'items' : 'entries';
+      var rows = $$('.ptable tbody tr:not(.fac-row), .pfile, .fac, .pcard, .pcourse', sec), frows = $$('.fac-row', sec), total = rows.length, unit = sec.classList.contains('pblock--files') ? 'documents' : sec.classList.contains('pblock--faculty') ? 'members' : sec.classList.contains('pblock--cards') ? 'items' : 'entries';
       if (input) {
         input.addEventListener('input', function () {
           var q = input.value.trim().toLowerCase(), shown = 0;
           if (q && more) { more.hidden = true; sec.classList.add('is-expanded'); }
-          rows.forEach(function (r) {
+          rows.forEach(function (r, i) {
             var hit = !q || r.textContent.toLowerCase().indexOf(q) > -1;
             r.hidden = !hit; if (hit) shown++;
+            if (frows[i]) frows[i].hidden = !hit;
             if (hit) r.classList.add('is-visible');
           });
           count.textContent = q ? shown + ' of ' + total + ' ' + unit : total + ' ' + unit;
@@ -412,6 +474,17 @@
       chips.forEach(function (c) { c.addEventListener('click', function () { chips.forEach(function (x) { x.classList.toggle('is-on', x === c); }); cat = c.dataset.cat; apply(); }); });
       if (input) input.addEventListener('input', apply);
     });
+
+    // faculty: Cards / Table view (one choice for the whole page, remembered)
+    var view = 'cards';
+    try { view = localStorage.getItem('cmch_fac_view') || 'cards'; } catch (e) { /* ignore */ }
+    function setView(v) {
+      view = v; document.body.classList.toggle('fac-table-view', v === 'table');
+      $$('[data-view]').forEach(function (b) { b.classList.toggle('is-on', b.dataset.view === v); });
+      try { localStorage.setItem('cmch_fac_view', v); } catch (e) { /* ignore */ }
+    }
+    $$('[data-view]').forEach(function (b) { b.addEventListener('click', function () { setView(b.dataset.view); }); });
+    if ($('.pfac')) setView(view);
 
     // faculty cards: tap / Enter toggles the details panel
     $$('.fac').forEach(function (c) {

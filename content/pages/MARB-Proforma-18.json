@@ -1,372 +1,3806 @@
 {
-  "title": "MARB Proforma-18 — College Information",
-  "kicker": "NMC Info",
-  "intro": "Annexure-III: Pro-forma for display of information on the college website, as required by the Medical Assessment and Rating Board (MARB), NMC.",
-  "updated": "05-10-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "MARB Proforma-18 — College Information",
+ "kicker": "NMC Info",
+ "intro": "Annexure-III: Pro-forma for display of information on the college website, as required by the Medical Assessment and Rating Board (MARB), NMC.",
+ "updated": "05-10-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "stats",
+   "id": "figures",
+   "title": "At a glance",
+   "note": "* Data as per records updated on 05.10.2026. Patient figures are for October 2026.",
+   "items": [
     {
-      "type": "stats",
-      "id": "figures",
-      "title": "At a glance",
-      "note": "* Data as per records updated on 05.10.2026. Patient figures are for October 2026.",
-      "items": [
-        {
-          "value": "1141",
-          "label": "Hospital beds",
-          "note": "30 emergency beds"
-        },
-        {
-          "value": "250",
-          "label": "MBBS seats",
-          "note": "Recognized 150 · Permitted 250"
-        },
-        {
-          "value": "161",
-          "label": "MD / MS students",
-          "note": "Admitted this session"
-        },
-        {
-          "value": "75,425",
-          "label": "Outpatients",
-          "note": "October 2026"
-        },
-        {
-          "value": "7,687",
-          "label": "Inpatients",
-          "note": "October 2026"
-        },
-        {
-          "value": "417",
-          "label": "Births reported",
-          "note": "October 2026"
-        }
-      ]
+     "value": "1141",
+     "label": "Hospital beds",
+     "note": "30 emergency beds"
     },
     {
-      "type": "facts",
-      "id": "college",
-      "title": "Information of the Medical College / Institution",
-      "items": [
-        {
-          "no": "1",
-          "label": "Name",
-          "value": "Chirayu Medical College and Hospital"
-        },
-        {
-          "no": "2",
-          "label": "Address with pin code",
-          "value": "Bhopal – Indore Highway, Near Bairgarh, Bhopal (M.P.) - 462030"
-        },
-        {
-          "no": "3",
-          "label": "University address with pin code",
-          "value": "Chirayu University, Bhopal - 462030"
-        },
-        {
-          "no": "4",
-          "label": "Official website",
-          "value": "[www.cmchbhopal.com](https://www.cmchbhopal.com)"
-        },
-        {
-          "no": "5",
-          "label": "Dean / Principal / Director",
-          "value": "Dr. Prabhakar Hiwarkar"
-        },
-        {
-          "no": "6",
-          "label": "Mobile Number",
-          "value": "[9425724977](tel:+919425724977)"
-        },
-        {
-          "no": "7",
-          "label": "Email ID of Dean",
-          "value": "[cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
-        },
-        {
-          "no": "8",
-          "label": "Hospital",
-          "value": "Chirayu Medical College and Hospital"
-        }
-      ]
+     "value": "250",
+     "label": "MBBS seats",
+     "note": "Recognized 150 · Permitted 250"
     },
     {
-      "type": "facts",
-      "id": "hospital",
-      "title": "Hospital, Permission & Admissions",
-      "items": [
-        {
-          "no": "9",
-          "label": "Date and Year of Registration of the Hospital (DD/MM/YYYY)",
-          "value": "14.06.2010"
-        },
-        {
-          "no": "10",
-          "label": "Number of Beds",
-          "value": "1141"
-        },
-        {
-          "no": "11",
-          "label": "Number of Beds for emergency",
-          "value": "30"
-        },
-        {
-          "no": "12",
-          "label": "Date of the First Letter of Permission (LoP) of MBBS (DD/MM/YYYY) & number of seats",
-          "value": "08/06/2011 ; 150 Seats\n13/07/2023 ; 250 Seats"
-        },
-        {
-          "no": "13",
-          "label": "Status of Recognition",
-          "value": "Recognized (150 Seats)\nPermitted (250 Seats)"
-        },
-        {
-          "no": "14",
-          "label": "Number of MBBS and PG broad specialty and super specialty students admitted in this session*",
-          "value": "MBBS: 250\nMD/MS: 161\nDM/MCh: NA"
-        }
-      ]
+     "value": "161",
+     "label": "MD / MS students",
+     "note": "Admitted this session"
     },
     {
-      "type": "facts",
-      "id": "records",
-      "title": "Patient, Birth & Death Records (previous month)",
-      "items": [
-        {
-          "no": "15",
-          "label": "Inpatients registered and admitted (Previous month record)",
-          "value": "October 2026: 7687"
-        },
-        {
-          "no": "16",
-          "label": "Outpatients registered (Previous month record)",
-          "value": "October 2026: 75425"
-        },
-        {
-          "no": "17",
-          "label": "Number of Deaths reported to the Municipality / village register (month-wise) (Previous month record)",
-          "value": "October 2026: 170"
-        },
-        {
-          "no": "18",
-          "label": "Address and pin code of the Corporation / Village where the Death records are reported",
-          "value": "Registrar Office in front of Collectrate Office Kohefiza, Bhopal (M.P.) - 462001"
-        },
-        {
-          "no": "19",
-          "label": "Website link / email ID / hyperlink of the corporation in case Death Records are reported",
-          "value": "[crsorgi.gov.in](https://crsorgi.gov.in)"
-        },
-        {
-          "no": "20",
-          "label": "Number of Births reported (Month-wise)",
-          "value": "October 2026: 417"
-        },
-        {
-          "no": "21",
-          "label": "Address and pin code of the Corporation / village where the Birth records are reported",
-          "value": "Registrar Office in front of Collectrate Office Kohefiza, Bhopal (M.P.) - 462001"
-        },
-        {
-          "no": "22",
-          "label": "Website link / email ID / hyperlink of the corporation in case Birth Records are reported",
-          "value": "[crsorgi.gov.in](https://crsorgi.gov.in)"
-        }
-      ]
+     "value": "75,425",
+     "label": "Outpatients",
+     "note": "October 2026"
     },
     {
-      "type": "facts",
-      "id": "hostel",
-      "title": "Hostels",
-      "items": [
-        {
-          "no": "23",
-          "label": "Number of Rooms in Men's Hostel and students accommodated",
-          "value": "400 / 250"
-        },
-        {
-          "no": "24",
-          "label": "Total Number of Rooms in Women's Hostel and students accommodated",
-          "value": "500 / 318"
-        }
-      ]
+     "value": "7,687",
+     "label": "Inpatients",
+     "note": "October 2026"
     },
     {
-      "type": "facts",
-      "id": "grievance",
-      "title": "Grievance Redressal",
-      "items": [
-        {
-          "no": "25",
-          "label": "Name of the Grievance Redressal Officer (PIO & CPIO)",
-          "value": "Dr. Prabhakar Hiwarkar"
-        },
-        {
-          "no": "26",
-          "label": "Address with PIN code",
-          "value": "A-104, Chirayu Medical College Campus, Bhopal (M.P.) - 462030"
-        },
-        {
-          "no": "27",
-          "label": "Telephone Number / Email Id",
-          "value": "[0755-2709258](tel:07552709258)\n[cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
-        },
-        {
-          "no": "28",
-          "label": "Grievances reported (Previous month record)",
-          "value": "Nil"
-        }
-      ]
-    },
-    {
-      "type": "courses",
-      "id": "pg-courses",
-      "title": "29. Post-Graduation Courses Offered",
-      "items": [
-        {
-          "name": "MD Anatomy",
-          "year": "2016",
-          "current": "0",
-          "admitted": "0"
-        },
-        {
-          "name": "MD Physiology",
-          "year": "2016",
-          "current": "0",
-          "admitted": "0"
-        },
-        {
-          "name": "MD Biochemistry",
-          "year": "2016",
-          "current": "2",
-          "admitted": "2"
-        },
-        {
-          "name": "MD Pathology",
-          "year": "2016",
-          "current": "11",
-          "admitted": "8"
-        },
-        {
-          "name": "MD Microbiology",
-          "year": "2016",
-          "current": "2",
-          "admitted": "2"
-        },
-        {
-          "name": "MD Pharmacology",
-          "year": "2016",
-          "current": "1",
-          "admitted": "1"
-        },
-        {
-          "name": "MD Community Medicine",
-          "year": "2016",
-          "current": "4",
-          "admitted": "4"
-        },
-        {
-          "name": "MD General Medicine",
-          "year": "2020",
-          "current": "25",
-          "admitted": "8"
-        },
-        {
-          "name": "MD Psychiatry",
-          "year": "2020",
-          "current": "9",
-          "admitted": "3"
-        },
-        {
-          "name": "MD Dermatology Venereology & Leprosy",
-          "year": "2020",
-          "current": "9",
-          "admitted": "3"
-        },
-        {
-          "name": "MD Paediatrics",
-          "year": "2020",
-          "current": "12",
-          "admitted": "4"
-        },
-        {
-          "name": "MS General Surgery",
-          "year": "2020",
-          "current": "15",
-          "admitted": "5"
-        },
-        {
-          "name": "MS Orthopaedics",
-          "year": "2020",
-          "current": "12",
-          "admitted": "4"
-        },
-        {
-          "name": "MS Otorhinolaryngology (ENT)",
-          "year": "2020",
-          "current": "6",
-          "admitted": "2"
-        },
-        {
-          "name": "MS Ophthalmology",
-          "year": "2020",
-          "current": "6",
-          "admitted": "2"
-        },
-        {
-          "name": "MS Obstetrics & Gynaecology",
-          "year": "2020",
-          "current": "9",
-          "admitted": "3"
-        },
-        {
-          "name": "MD Radiodiagnosis",
-          "year": "2020",
-          "current": "12",
-          "admitted": "4"
-        },
-        {
-          "name": "MD Anaesthesiology",
-          "year": "2020",
-          "current": "18",
-          "admitted": "6"
-        },
-        {
-          "name": "MD Radiation Oncology",
-          "year": "2020",
-          "current": "6",
-          "admitted": "2"
-        },
-        {
-          "name": "MD Emergency Medicine",
-          "year": "2022",
-          "current": "2",
-          "admitted": "1"
-        }
-      ]
-    },
-    {
-      "type": "files",
-      "id": "documents",
-      "title": "30. Faculty List & Annexures",
-      "items": [
-        {
-          "title": "30. Department wise list of Faculty Members",
-          "href": "/assets/docs/marb/department-wise-faculty-list.pdf",
-          "date": "22 pages"
-        },
-        {
-          "title": "Annexure I — Publications of faculty (Vancouver style)",
-          "href": "/assets/docs/marb/annexure-1-publications.pdf",
-          "date": "91 pages"
-        },
-        {
-          "title": "Annexure II — Faculty list with designation",
-          "href": "/assets/docs/marb/annexure-2.pdf",
-          "date": "12 pages"
-        }
-      ]
+     "value": "417",
+     "label": "Births reported",
+     "note": "October 2026"
     }
-  ]
+   ]
+  },
+  {
+   "type": "facts",
+   "id": "college",
+   "title": "Information of the Medical College / Institution",
+   "items": [
+    {
+     "no": "1",
+     "label": "Name",
+     "value": "Chirayu Medical College and Hospital"
+    },
+    {
+     "no": "2",
+     "label": "Address with pin code",
+     "value": "Bhopal – Indore Highway, Near Bairgarh, Bhopal (M.P.) - 462030"
+    },
+    {
+     "no": "3",
+     "label": "University address with pin code",
+     "value": "Chirayu University, Bhopal - 462030"
+    },
+    {
+     "no": "4",
+     "label": "Official website",
+     "value": "[www.cmchbhopal.com](https://www.cmchbhopal.com)"
+    },
+    {
+     "no": "5",
+     "label": "Dean / Principal / Director",
+     "value": "Dr. Prabhakar Hiwarkar"
+    },
+    {
+     "no": "6",
+     "label": "Mobile Number",
+     "value": "[9425724977](tel:+919425724977)"
+    },
+    {
+     "no": "7",
+     "label": "Email ID of Dean",
+     "value": "[cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
+    },
+    {
+     "no": "8",
+     "label": "Hospital",
+     "value": "Chirayu Medical College and Hospital"
+    }
+   ]
+  },
+  {
+   "type": "facts",
+   "id": "hospital",
+   "title": "Hospital, Permission & Admissions",
+   "items": [
+    {
+     "no": "9",
+     "label": "Date and Year of Registration of the Hospital (DD/MM/YYYY)",
+     "value": "14.06.2010"
+    },
+    {
+     "no": "10",
+     "label": "Number of Beds",
+     "value": "1141"
+    },
+    {
+     "no": "11",
+     "label": "Number of Beds for emergency",
+     "value": "30"
+    },
+    {
+     "no": "12",
+     "label": "Date of the First Letter of Permission (LoP) of MBBS (DD/MM/YYYY) & number of seats",
+     "value": "08/06/2011 ; 150 Seats\n13/07/2023 ; 250 Seats"
+    },
+    {
+     "no": "13",
+     "label": "Status of Recognition",
+     "value": "Recognized (150 Seats)\nPermitted (250 Seats)"
+    },
+    {
+     "no": "14",
+     "label": "Number of MBBS and PG broad specialty and super specialty students admitted in this session*",
+     "value": "MBBS: 250\nMD/MS: 161\nDM/MCh: NA"
+    }
+   ]
+  },
+  {
+   "type": "facts",
+   "id": "records",
+   "title": "Patient, Birth & Death Records (previous month)",
+   "items": [
+    {
+     "no": "15",
+     "label": "Inpatients registered and admitted (Previous month record)",
+     "value": "October 2026: 7687"
+    },
+    {
+     "no": "16",
+     "label": "Outpatients registered (Previous month record)",
+     "value": "October 2026: 75425"
+    },
+    {
+     "no": "17",
+     "label": "Number of Deaths reported to the Municipality / village register (month-wise) (Previous month record)",
+     "value": "October 2026: 170"
+    },
+    {
+     "no": "18",
+     "label": "Address and pin code of the Corporation / Village where the Death records are reported",
+     "value": "Registrar Office in front of Collectrate Office Kohefiza, Bhopal (M.P.) - 462001"
+    },
+    {
+     "no": "19",
+     "label": "Website link / email ID / hyperlink of the corporation in case Death Records are reported",
+     "value": "[crsorgi.gov.in](https://crsorgi.gov.in)"
+    },
+    {
+     "no": "20",
+     "label": "Number of Births reported (Month-wise)",
+     "value": "October 2026: 417"
+    },
+    {
+     "no": "21",
+     "label": "Address and pin code of the Corporation / village where the Birth records are reported",
+     "value": "Registrar Office in front of Collectrate Office Kohefiza, Bhopal (M.P.) - 462001"
+    },
+    {
+     "no": "22",
+     "label": "Website link / email ID / hyperlink of the corporation in case Birth Records are reported",
+     "value": "[crsorgi.gov.in](https://crsorgi.gov.in)"
+    }
+   ]
+  },
+  {
+   "type": "facts",
+   "id": "hostel",
+   "title": "Hostels",
+   "items": [
+    {
+     "no": "23",
+     "label": "Number of Rooms in Men's Hostel and students accommodated",
+     "value": "400 / 250"
+    },
+    {
+     "no": "24",
+     "label": "Total Number of Rooms in Women's Hostel and students accommodated",
+     "value": "500 / 318"
+    }
+   ]
+  },
+  {
+   "type": "facts",
+   "id": "grievance",
+   "title": "Grievance Redressal",
+   "items": [
+    {
+     "no": "25",
+     "label": "Name of the Grievance Redressal Officer (PIO & CPIO)",
+     "value": "Dr. Prabhakar Hiwarkar"
+    },
+    {
+     "no": "26",
+     "label": "Address with PIN code",
+     "value": "A-104, Chirayu Medical College Campus, Bhopal (M.P.) - 462030"
+    },
+    {
+     "no": "27",
+     "label": "Telephone Number / Email Id",
+     "value": "[0755-2709258](tel:07552709258)\n[cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
+    },
+    {
+     "no": "28",
+     "label": "Grievances reported (Previous month record)",
+     "value": "Nil"
+    }
+   ]
+  },
+  {
+   "type": "courses",
+   "id": "pg-courses",
+   "title": "29. Post-Graduation Courses Offered",
+   "items": [
+    {
+     "name": "MD Anatomy",
+     "year": "2016",
+     "current": "0",
+     "admitted": "0"
+    },
+    {
+     "name": "MD Physiology",
+     "year": "2016",
+     "current": "0",
+     "admitted": "0"
+    },
+    {
+     "name": "MD Biochemistry",
+     "year": "2016",
+     "current": "2",
+     "admitted": "2"
+    },
+    {
+     "name": "MD Pathology",
+     "year": "2016",
+     "current": "11",
+     "admitted": "8"
+    },
+    {
+     "name": "MD Microbiology",
+     "year": "2016",
+     "current": "2",
+     "admitted": "2"
+    },
+    {
+     "name": "MD Pharmacology",
+     "year": "2016",
+     "current": "1",
+     "admitted": "1"
+    },
+    {
+     "name": "MD Community Medicine",
+     "year": "2016",
+     "current": "4",
+     "admitted": "4"
+    },
+    {
+     "name": "MD General Medicine",
+     "year": "2020",
+     "current": "25",
+     "admitted": "8"
+    },
+    {
+     "name": "MD Psychiatry",
+     "year": "2020",
+     "current": "9",
+     "admitted": "3"
+    },
+    {
+     "name": "MD Dermatology Venereology & Leprosy",
+     "year": "2020",
+     "current": "9",
+     "admitted": "3"
+    },
+    {
+     "name": "MD Paediatrics",
+     "year": "2020",
+     "current": "12",
+     "admitted": "4"
+    },
+    {
+     "name": "MS General Surgery",
+     "year": "2020",
+     "current": "15",
+     "admitted": "5"
+    },
+    {
+     "name": "MS Orthopaedics",
+     "year": "2020",
+     "current": "12",
+     "admitted": "4"
+    },
+    {
+     "name": "MS Otorhinolaryngology (ENT)",
+     "year": "2020",
+     "current": "6",
+     "admitted": "2"
+    },
+    {
+     "name": "MS Ophthalmology",
+     "year": "2020",
+     "current": "6",
+     "admitted": "2"
+    },
+    {
+     "name": "MS Obstetrics & Gynaecology",
+     "year": "2020",
+     "current": "9",
+     "admitted": "3"
+    },
+    {
+     "name": "MD Radiodiagnosis",
+     "year": "2020",
+     "current": "12",
+     "admitted": "4"
+    },
+    {
+     "name": "MD Anaesthesiology",
+     "year": "2020",
+     "current": "18",
+     "admitted": "6"
+    },
+    {
+     "name": "MD Radiation Oncology",
+     "year": "2020",
+     "current": "6",
+     "admitted": "2"
+    },
+    {
+     "name": "MD Emergency Medicine",
+     "year": "2022",
+     "current": "2",
+     "admitted": "1"
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "id": "faculty-list",
+   "title": "30. Department wise list of Faculty Members",
+   "columns": [
+    "Sr. No.",
+    "Department",
+    "Name, Qualification & IMR No.",
+    "Current Designation & Date of Promotion",
+    "Nature of Employment",
+    "Details of Services in last 5 years",
+    "Lectures taken / year (topics)"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Anatomy",
+      "Dr. Bipinchandra Khade MBBS, MD 2007/10/3629",
+      "Professor 23.10.2020",
+      "Regular",
+      "1-3 Yrs Teaching & 4-5 Yrs Administration and Teaching",
+      "75 (80)"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Anatomy",
+      "Dr. Ashutosh Mangalgiri MBBS, MS 87028",
+      "Professor 27.06.2011",
+      "Regular",
+      "1-5 Yrs Teaching and Administration",
+      "60 (65)"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Anatomy",
+      "Dr. Pradeep Khanwalkar MBBS-1979 MS- 1988 2664",
+      "Professor 01.01.2012",
+      "Regular",
+      "1-5 Yrs Teaching and Administration",
+      "60 (65)"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Anatomy",
+      "Dr. Viveka S. MBBS, MD 71767",
+      "Professor 02.07.2019",
+      "Regular",
+      "1-5 Yrs Teaching and Administration",
+      "55 (60)"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Anatomy",
+      "Dr. Milind P. Fulpatil MBBS, MS MMC 52749",
+      "Professor 17.09.2024",
+      "Regular",
+      "1-5 Yrs Teaching and Administration",
+      "02(02)"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Anatomy",
+      "Dr. Rashmi Jaiswal MBBS, MD MP- 35123",
+      "Professor 04.10.2024 & 01.10.2020",
+      "Regular",
+      "1-5 Yrs Teaching and Administration",
+      "65 (70)"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Anatomy",
+      "Dr. Kanchan Bala Dogra M.Sc. Medical Anatomy",
+      "Assistant Professor 16.09.2019",
+      "Regular",
+      "1-5 Yrs Teaching",
+      "50 (55)"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Anatomy",
+      "Dr. Mansi Shukla PHD- 2019",
+      "Assistant Professor 25.01.2023",
+      "Regular",
+      "1-5 Yrs Teaching",
+      "35 (40)"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Anatomy",
+      "Dr. Rajeshwari S. Bhosle MSc, Phd",
+      "Assistant Professor 04.11.2024",
+      "Regular",
+      "Teaching",
+      "04(08)"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Physiology",
+      "Dr. Jyoti Kumar,MBBS-1980,MD 1986, 19098, 579",
+      "Professor & HOD 04.09.1997",
+      "Regular",
+      "5 Yrs Admininstration and Teaching",
+      "26(8)"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Physiology",
+      "Dr. Satyajit Bagudai,MBBS- 1998, MD - 2006,13649",
+      "Professor 12.06.2023",
+      "Regular",
+      "1-5 Yrs Admininstration and Teaching",
+      "44(13)"
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "Physiology",
+      "Dr. Harinder Jaseja,MBBS- 1977,MD -1985, 4176",
+      "Professor 01.01.2023",
+      "Regular",
+      "1-5 Yrs Admininstration and Teaching",
+      "12(5)"
+     ]
+    },
+    {
+     "cells": [
+      "13",
+      "Physiology",
+      "Dr. Tanwir Alam, MBBS-1999, MD-2014, 17838",
+      "Professor 23.02.2023",
+      "Regular",
+      "1-5 Yrs Admininstration and Teaching",
+      "32(12)"
+     ]
+    },
+    {
+     "cells": [
+      "14",
+      "Physiology",
+      "Dr. Sharad Kumar Mittal, MBBS- 1995, MD-2000, 2897",
+      "Professor 01.09.2018",
+      "Regular",
+      "1-5 Yrs Admininstration and Teaching",
+      "20(13)"
+     ]
+    },
+    {
+     "cells": [
+      "15",
+      "Physiology",
+      "Dr. Maria khatoon, MBBS-2003, MD-2011, 2864",
+      "Professor 23.12.23",
+      "Regular",
+      "1-5 Yrs Admininstration and Teaching",
+      "35(12)"
+     ]
+    },
+    {
+     "cells": [
+      "16",
+      "Physiology",
+      "Dr. Vijay Kumar Gupta MSc, PhD",
+      "Associate Professor 01.08.2024",
+      "Regular",
+      "1-5 Yrs Admininstration and Teaching",
+      "01(02)"
+     ]
+    },
+    {
+     "cells": [
+      "17",
+      "Physiology",
+      "Dr. Prakhar Maru, MBBS- 2005,MD-2013, 24672",
+      "Assistant Professor, 01.03.2023 & 01.08.2024",
+      "Regular",
+      "1-3 Yrs Teaching",
+      "12(3)"
+     ]
+    },
+    {
+     "cells": [
+      "18",
+      "Physiology",
+      "Dr. Vandini Singh, MBBS- 2008, MD-2014, 13493",
+      "Assistant Professor, 01.10.2024",
+      "Regular",
+      "1-5 Yrs Teaching",
+      "18(6)"
+     ]
+    },
+    {
+     "cells": [
+      "19",
+      "Physiology",
+      "Dr. Tanushri, MBBS -2010, MD- 2018, MP-28260",
+      "Assistant Professor, 12.08.2021",
+      "Regular",
+      "1-3 Yrs Teaching",
+      "15(5)"
+     ]
+    },
+    {
+     "cells": [
+      "20",
+      "Physiology",
+      "Dr. M. Ranjith Reddy MSc",
+      "Assistant Professor, 01.06.2018",
+      "Regular",
+      "Teaching",
+      "01(02)"
+     ]
+    },
+    {
+     "cells": [
+      "21",
+      "Biochemistry",
+      "Dr. Manishi Singh MBBS, M. Sc., Ph.D. Med. Bio. MCI-9295",
+      "Professor & Head 29.08.2016",
+      "Regular",
+      "1-5 Yrs Administration, Teaching & Lab Service",
+      "40 (23)"
+     ]
+    },
+    {
+     "cells": [
+      "22",
+      "Biochemistry",
+      "Dr. Satish Kumar Vardey MBBS, MD Rajasthan Med. Cou. 066771",
+      "Professor 21.02.2009",
+      "Regular",
+      "1-5 Yrs Administration, Teaching & Lab Service",
+      "29 (16)"
+     ]
+    },
+    {
+     "cells": [
+      "23",
+      "Biochemistry",
+      "Dr. B Prathibha MBBS, MD AMC- 65756",
+      "Professor 14.09.2024",
+      "Regular",
+      "1-5 Yrs Administration, Teaching & Lab Service",
+      "01(02)"
+     ]
+    },
+    {
+     "cells": [
+      "24",
+      "Biochemistry",
+      "Dr. Surya S. Tiwari Ph.d. Med Biochmistry",
+      "Associate Professor 20.01.2022",
+      "Regular",
+      "1-5 Yrs Administration, Teaching & Lab Service",
+      "34 (18)"
+     ]
+    },
+    {
+     "cells": [
+      "25",
+      "Biochemistry",
+      "Dr. Jyothi A. Natikar MBBS, MD Karnatka Med. Coun. 80227",
+      "Associate Professor 16.03.2023",
+      "Regular",
+      "1-5 Yrs Administration, Teaching & Lab Service",
+      "26 (14)"
+     ]
+    },
+    {
+     "cells": [
+      "26",
+      "Biochemistry",
+      "Dr. Dharamveer Mahor MBBS, MD MP-8752",
+      "Associate Professor 11.05.2024 & 17.10.2019",
+      "Regular",
+      "1-5 Yrs Teaching & Laboratory Service",
+      "10 (5)"
+     ]
+    },
+    {
+     "cells": [
+      "27",
+      "Biochemistry",
+      "Dr. Mahesh Kumar Ph.d. Med Biochmistry",
+      "Associate Professor 25.10.2024 & 13.10.2020",
+      "Regular",
+      "1-5 Yrs Teaching & Laboratory Service",
+      "30 (16)"
+     ]
+    },
+    {
+     "cells": [
+      "28",
+      "Biochemistry",
+      "Dr. Tejovathi Bandike MSc, phd",
+      "Associate Professor 31.05.2024",
+      "Regular",
+      "1-5 Yrs Teaching & Laboratory Service",
+      "5 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "29",
+      "Biochemistry",
+      "Dr. Divya Anand Jain MBBS, MD MMC:2019/11/6921 C.No.: 2703/2022",
+      "Assistant Professor 01.07.2023",
+      "Regular",
+      "1-NIL, 2-5 Yrs Teaching & Laboratory Service",
+      "26 (13)"
+     ]
+    },
+    {
+     "cells": [
+      "30",
+      "Biochemistry",
+      "Dr. Amandeep Singh MBBS, MD DMC: 41365",
+      "Assistant Professor 16.09.22",
+      "Regular",
+      "1-5 Yrs Teaching & Laboratory Service",
+      "5 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "31",
+      "Biochemistry",
+      "Dr. Nitu Sharma MSc, Ph. D Dr. Arya Vijayan MBBS, MD 43842 KSMC",
+      "Assistant Professor 01.07.24",
+      "Regular",
+      "1-5 Yrs Teaching & Laboratory Service",
+      "5 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "32",
+      "Biochemistry",
+      "",
+      "Assistant Professor 16.08.24",
+      "Regular",
+      "1-5 Yrs Teaching & Laboratory Service",
+      "5 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "33",
+      "Pathology",
+      "Dr. Farah Jalaly MBBS, DNB IMR No. MP-723",
+      "Professor & Head 23.07.2018",
+      "Regular",
+      "Teaching & Admistration",
+      "30(20)"
+     ]
+    },
+    {
+     "cells": [
+      "34",
+      "Pathology",
+      "Dr. Rashmi Nichlani MBBS, MD IMR No MP-9505",
+      "Professor 05.04.2019",
+      "Regular",
+      "Teaching & Admistration",
+      "30(20)"
+     ]
+    },
+    {
+     "cells": [
+      "35",
+      "Pathology",
+      "Dr. Mahesh C. Patil MBBS, MD IMR No. 75744",
+      "Professor 01.05.2021",
+      "Regular",
+      "Teaching & Admistration",
+      "28(19"
+     ]
+    },
+    {
+     "cells": [
+      "36",
+      "Pathology",
+      "Dr. Reeni Malik MBBS,MD MP- 7388",
+      "Professor 02.09.2024",
+      "Regular",
+      "Teaching & Admistration",
+      "2(1)"
+     ]
+    },
+    {
+     "cells": [
+      "37",
+      "Pathology",
+      "Dr. Naila Durrani MBBS, MD IMR No. 7450",
+      "Professor 16.07.2018 & 20.08.2024",
+      "Regular",
+      "Teaching & Admistration",
+      "24(20)"
+     ]
+    },
+    {
+     "cells": [
+      "38",
+      "Pathology",
+      "Dr. RaviShankar Katkar MBBS MD 31499",
+      "Associate Professor 15.12.2022",
+      "Regular",
+      "Teaching & Admistration",
+      "06(02)"
+     ]
+    },
+    {
+     "cells": [
+      "39",
+      "Pathology",
+      "Dr. Syed Sarfaraz Ali",
+      "Associate Professor 01.07.2022",
+      "Regular",
+      "Teaching & Admistration",
+      "06(02)"
+     ]
+    },
+    {
+     "cells": [
+      "40",
+      "Pathology",
+      "Dr. Nipun Madhav MBBS, MD IMR No. MP-806/2015",
+      "Assistant Professor 28.07.2020",
+      "Regular",
+      "Teaching",
+      "20(15)"
+     ]
+    },
+    {
+     "cells": [
+      "41",
+      "Pathology",
+      "Dr. Swapnil Gupta MBBS, MD IMR No. 18613",
+      "Assistant Professor 16.08.2022",
+      "Regular",
+      "Teaching",
+      "17(14)"
+     ]
+    },
+    {
+     "cells": [
+      "42",
+      "Pathology",
+      "Dr. Binti Malviya MBBS, MD IMR No. MP- 7693",
+      "Assistant Professor 14.03.2023",
+      "Regular",
+      "Teaching",
+      "4(3)"
+     ]
+    },
+    {
+     "cells": [
+      "43",
+      "Pathology",
+      "Dr. Rishabh sahai (MD) Path MP- 19446",
+      "Assistant Professor 18.12.2023",
+      "Regular",
+      "Teaching",
+      "10 (14)"
+     ]
+    },
+    {
+     "cells": [
+      "44",
+      "Pathology",
+      "Dr. Naish Akhtar MBBS MD MP 22067",
+      "Assistant Professor 01.02.2024",
+      "Regular",
+      "Teaching",
+      "8 (12)"
+     ]
+    },
+    {
+     "cells": [
+      "45",
+      "Pathology",
+      "Dr. Anki Saluja MBBS, MD MP 34725",
+      "Assistant Professor 02.03.2024",
+      "Regular",
+      "Teaching",
+      "9(12)"
+     ]
+    },
+    {
+     "cells": [
+      "46",
+      "Pathology",
+      "Dr. Ritu Asnani MBBS, MD MP 20809",
+      "Assistant Professor 11.06.2022 & 12.07.2024",
+      "Regular",
+      "Teaching",
+      "10(9)"
+     ]
+    },
+    {
+     "cells": [
+      "47",
+      "Pathology",
+      "Dr. Divya Machevar MBBS, MD MP- 22590",
+      "Assistant Professor 03.10.2024",
+      "Regular",
+      "Teaching",
+      "5(7)"
+     ]
+    },
+    {
+     "cells": [
+      "48",
+      "Pathology",
+      "Dr. Manish Kumar Soni MBBS, MD IMR- 112345",
+      "Assistant Professor 15.10.2024 & 16.10.2023",
+      "Regular",
+      "Teaching",
+      "2(7)"
+     ]
+    },
+    {
+     "cells": [
+      "49",
+      "Immunohaematolo gy & Blood Transfusion",
+      "Dr. Manal Ashraf Ali MBBS, DCP ,DNB MP- 19938",
+      "Professor 01.10.2024",
+      "Regular",
+      "Teaching & Admistration",
+      "5(9)"
+     ]
+    },
+    {
+     "cells": [
+      "50",
+      "Immunohaematolo gy & Blood Transfusion",
+      "Dr. Neetu Kumar MBBS, MD IMR No. MP-14300",
+      "Professor 01.10.20024",
+      "Regular",
+      "Teaching & Admistration",
+      "2(7)"
+     ]
+    },
+    {
+     "cells": [
+      "51",
+      "Immunohaematolo gy & Blood Transfusion",
+      "Dr. Ankita Pal MBBS, MD MP-36138",
+      "Assistant Professor 01.10.2024",
+      "Regular",
+      "Teaching",
+      "1(2)"
+     ]
+    },
+    {
+     "cells": [
+      "52",
+      "Microbiology",
+      "Dr . Saurabh G Agarwal MBBS, MD MP-13557",
+      "Professor 01.10.2018",
+      "Regular",
+      "1-5 yrs Teaching, Laboratory Services, Research ,Administration, Member Secretary Infection Control Committee, Infection Control Officer, Member Secretary Antimicrobial Stewardship Committee, Member Secretary",
+      "47 (45)"
+     ]
+    },
+    {
+     "cells": [
+      "53",
+      "Microbiology",
+      "Dr. Jose Domingos Savio Dos Remedios Rodrigues MBBS, MD GMC-241",
+      "Professor 31.12.2002",
+      "Regular",
+      "1-4 Administration,Teaching & Laboratory Services, 5- Nil",
+      "2 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "54",
+      "Microbiology",
+      "Dr. Sanyogita Jain MBBS, MD MP-3652 G-19277",
+      "Professor 15.04.2020",
+      "Regular",
+      "1-5 yrs Teaching, Laboratory Services, Research ,Incharge Central Research Laboratory, Member Anti Ragging Committee, Member National Tuberculosis Elemination Programmee & Incharge ICTC",
+      "48 (46)"
+     ]
+    },
+    {
+     "cells": [
+      "55",
+      "Microbiology",
+      "Dr. Cheruvu Vishala Sarma MBBS, MD IMR- 48439",
+      "Associate Professor 30.09.2024",
+      "Regular",
+      "1-4 yrs Teaching & Laboratory Services",
+      "4(6)"
+     ]
+    },
+    {
+     "cells": [
+      "56",
+      "Microbiology",
+      "Mrs. Mamta Sarwariya MSc Medical Microbiology Not Applicable",
+      "Assistant Professor 03.02.2020",
+      "Regular",
+      "1-5 yrs Practical Demonstration, Teaching & Laboratory Services",
+      "92 (40)"
+     ]
+    },
+    {
+     "cells": [
+      "57",
+      "Microbiology",
+      "Dr. Kuldeep Singh MSc Medical Microbiology, PhD. Medical Microbiology Not Applicable",
+      "Assistant Professor 13.01.2021",
+      "Regular",
+      "1-5 yrs Practical Demonstration, Teaching, Laboratory Services, Research & Quality Management Services-Section Incharge Microbiology, Serology & Infectious Diseases",
+      "94 (41)"
+     ]
+    },
+    {
+     "cells": [
+      "58",
+      "Microbiology",
+      "Dr. Saurabh Jayant MBBS, MD MP-12679",
+      "Assistant Professor 01.03.2021",
+      "Regular",
+      "1-5 Teaching & Laboratory Services",
+      "37 (17)"
+     ]
+    },
+    {
+     "cells": [
+      "59",
+      "Microbiology",
+      "Dr. Rajdeep Paul MSc Medical Microbiology, PhD. Medical Microbiology Not Applicable",
+      "Assistant Professor 01.04.2023",
+      "Regular",
+      "1-Nil & 2-5 yrs Practical Demonstration, Teaching, Laboratory Services, Research, Deputy Infection Control Officer, Member Secretary Antimicrobial Stewardship Committee, Member Secretary Waste Management Committee & Quality Management Services- Section Incharge Molecular Testing",
+      "92 (41)"
+     ]
+    },
+    {
+     "cells": [
+      "60",
+      "Microbiology",
+      "Dr Namrata Naithani MBBS, MD DMC- 57092",
+      "Assistant Professor 31.07.2023",
+      "Regular",
+      "1-2-Practical Demonstration,Teaching & Laboratory Services, 3-5- Nil",
+      "12 (8)"
+     ]
+    },
+    {
+     "cells": [
+      "61",
+      "Microbiology",
+      "Dr. Pratibha Singh MBBS, MD MP-20186 MP-15219",
+      "Assistant Professor 03.08.2023",
+      "Regular",
+      "1-5-Practical Demonstration,Teaching & Laboratory Services",
+      "25 (12)"
+     ]
+    },
+    {
+     "cells": [
+      "62",
+      "Microbiology",
+      "Dr. Satakshi Manwani MBBS, MD MP-18031",
+      "Assistant Professor 11.09.2023",
+      "Regular",
+      "1-Nil, 2-5 Practical Demonstration,Teaching & Laboratory Services",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "63",
+      "Microbiology",
+      "Dr. Samandeep Kaur MBBS, MD 50032(Punjab)",
+      "Assistant Professor 02.05.2024 & 18.04.2023",
+      "Regular",
+      "1-Nil, 2-5 Practical Demonstration,Teaching & Laboratory Services",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "64",
+      "Microbiology",
+      "Dr. Sodhatar Kinnaribe Haresbhai MBBS, MD G- 52359",
+      "Assistant Professor 26.11.2024",
+      "Regular",
+      "1-Nil, 2-5 Practical Demonstration,Teaching & Laboratory Services",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "65",
+      "Pharmacology",
+      "Dr. R.K.Gupta MBBS/MD 11-9873",
+      "PROFESSOR & HOD 01.09.2015",
+      "REGULAR",
+      "1-5 yrs Teaching and adminstration",
+      "80 (70)"
+     ]
+    },
+    {
+     "cells": [
+      "66",
+      "Pharmacology",
+      "Dr. Manohar M.Bende MBBS/MD 49580",
+      "DEAN & PROFESSOR 01.09.2015",
+      "REGULAR",
+      "1-5 yrs Teaching and adminstration",
+      "60 (55)"
+     ]
+    },
+    {
+     "cells": [
+      "67",
+      "Pharmacology",
+      "Dr. Sudha MJ MBBS, MD KMC-71505",
+      "PROFESSOR 29.03.2024",
+      "REGULAR",
+      "1-5 yrs Teaching and adminstration",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "68",
+      "Pharmacology",
+      "Dr. Nagendra Nayak I.M. MBBS, MD KMC 17222",
+      "PROFESSOR 29.06.2024",
+      "REGULAR",
+      "1-5 yrs Teaching and adminstration",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "69",
+      "Pharmacology",
+      "Dr. Baliram Venkatrao Ghodke MBBS, MD 2009/11/3652 MMC",
+      "PROFESSOR 05.07.2024",
+      "REGULAR",
+      "1-5 yrs Teaching and adminstration",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "70",
+      "Pharmacology",
+      "Dr. Tushar C Baheti MBBS, MD MP 34221",
+      "PROFESSOR 22.07.2024",
+      "REGULAR",
+      "1-5 yrs Teaching and adminstration",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "71",
+      "Pharmacology",
+      "Dr. Sunil Mahadeorao Mahakalkar MBBS, MD MMC- 49813",
+      "PROFESSOR 31.08.2024",
+      "REGULAR",
+      "1-5 yrs Teaching and adminstration",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "72",
+      "Pharmacology",
+      "Dr. Dundesh Maled MBBS/MD 82869",
+      "ASSOCIATE PROFESSOR 11.05.2024 & 23.01.2023",
+      "REGULAR",
+      "1-5 yrs Teaching and adminstration",
+      "40 ( 25)"
+     ]
+    },
+    {
+     "cells": [
+      "73",
+      "Pharmacology",
+      "Dr. Rajesh C. S MSc, Ph.D",
+      "ASSOCIATE PROFESSOR 29.07.2024",
+      "REGULAR",
+      "1-5 yrs Teaching and adminstration",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "74",
+      "Pharmacology",
+      "Dr. Rajkumar Sharma MSc, Phd",
+      "ASSOCIATE PROFESSOR 25.09.2024",
+      "REGULAR",
+      "1-5 yrs Teaching and adminstration",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "75",
+      "Pharmacology",
+      "Dr. Praveen Kumar Patil MBBS/MD 82853",
+      "ASSISTANT PROFESSOR 07.08.2023",
+      "REGULAR",
+      "1-4 yrs Teaching",
+      "33 ( 20)"
+     ]
+    },
+    {
+     "cells": [
+      "76",
+      "Pharmacology",
+      "Dr. Abhay Purohit MBBS/MD 75350",
+      "ASSISTANT PROFESSOR 08.08.2023",
+      "REGULAR",
+      "1-3 yrs Teaching",
+      "33 ( 20)"
+     ]
+    },
+    {
+     "cells": [
+      "77",
+      "Pharmacology",
+      "Dr. Monika Sen MBBS/MD",
+      "ASSISTANT PROFESSOR 18.12.2023",
+      "REGULAR",
+      "1-3 yrs Teaching",
+      "6 (4)"
+     ]
+    },
+    {
+     "cells": [
+      "78",
+      "Pharmacology",
+      "Dr. Somya Singh MBBS, MD UP 73515",
+      "ASSISTANT PROFESSOR 08.05.2023",
+      "REGULAR",
+      "1-3 yrs Teaching",
+      "1 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "79",
+      "Pharmacology",
+      "Dr. Puja Kumari MSc, PhD",
+      "ASSISTANT PROFESSOR 28.08.2024",
+      "REGULAR",
+      "1-3 yrs Teaching",
+      "1 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "80",
+      "Pharmacology",
+      "Dr. Pritpal Singh Gurucharan singhAhluwalia MBBS, MD MMC 1455",
+      "ASSISTANT PROFESSOR 09.09.2024",
+      "REGULAR",
+      "1-3 yrs Teaching",
+      "1 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "81",
+      "Forensic Medicine & Toxicology",
+      "Dr. Ashok Kumar Jain MD (MP- 55)",
+      "Professor and Head & 1st October 2009",
+      "Regular",
+      "1-5 Yrs Admininstration Teaching",
+      "Theory-42 Practical-90"
+     ]
+    },
+    {
+     "cells": [
+      "82",
+      "Forensic Medicine & Toxicology",
+      "Dr. Raghavendra K.M MD (81466)",
+      "Professor (29.12.2023)",
+      "Regular",
+      "1-5 Yrs Admininstration Teaching",
+      "Theory-1 Practical-2"
+     ]
+    },
+    {
+     "cells": [
+      "83",
+      "Forensic Medicine & Toxicology",
+      "Dr. Swapnil Paliwal MD (MP- 17055)",
+      "Associate Professor 10th June 2023",
+      "Regular",
+      "1-5 Yrs Admininstration Teaching",
+      "Theory-12 Practical-90"
+     ]
+    },
+    {
+     "cells": [
+      "84",
+      "Forensic Medicine & Toxicology",
+      "Dr. Abhijeet Hosmani MD (2003/01/0142)",
+      "Assistant Professor & 27.1.23",
+      "Regular",
+      "1-5 years Teaching",
+      "Theory 4 , Practical 18"
+     ]
+    },
+    {
+     "cells": [
+      "85",
+      "Forensic Medicine & Toxicology",
+      "Dr. Shahajad Khilji",
+      "Assistant Professor 06.10.2023",
+      "Regular",
+      "1 years Teaching",
+      "Theory 25 , Practical 34"
+     ]
+    },
+    {
+     "cells": [
+      "86",
+      "Forensic Medicine & Toxicology",
+      "Dr. Sushil Digambar Hadolitikar",
+      "Assistant Professor 29.01.2024",
+      "Regular",
+      "1 years Teaching",
+      "Theory 2 , Practical 12"
+     ]
+    },
+    {
+     "cells": [
+      "87",
+      "Forensic Medicine & Toxicology",
+      "Dr. Sweekriti Sahu MBBS, MD MP- 25814",
+      "Assistant Professor 29.08.2024 & 02.09.2024",
+      "Regular",
+      "1 years Teaching",
+      "Theory 10 , Practical 22"
+     ]
+    },
+    {
+     "cells": [
+      "88",
+      "Forensic Medicine & Toxicology",
+      "Dr. Amit Mahadeorao Thamke MBBS, MD IMR- 2002/02/619",
+      "Assistant Professor 10.10.2024",
+      "Regular",
+      "1 years Teaching",
+      "Theory 2 , Practical 8"
+     ]
+    },
+    {
+     "cells": [
+      "89",
+      "Community Medine",
+      "Dr. Prabhakar Atmaramji Hiwarkar MBBS, MD P&SM 49971",
+      "Professor 01.07.2015",
+      "Regular",
+      "1-5 Yrs Teaching and Administration",
+      "55 (25)"
+     ]
+    },
+    {
+     "cells": [
+      "90",
+      "Community Medicine",
+      "Dr. Garima Namdev MBBS, MD Community Medicine MP-PG-9154",
+      "Professor 15-03-2022",
+      "Regular",
+      "1-5 Yrs Teaching & 3-4 Yrs Administration",
+      "55 (26)"
+     ]
+    },
+    {
+     "cells": [
+      "91",
+      "Community Medicine",
+      "Dr. Ashok Rupraoji Jadhao MBBS, MD 52462 MMC",
+      "Professor 16-08-2024",
+      "Regular",
+      "1-5 Yrs Teaching & 3-4 Yrs Administration",
+      "12 (22)"
+     ]
+    },
+    {
+     "cells": [
+      "92",
+      "Community Medicine",
+      "Dr. Rituja Kaushal MBBS, MD MP 2965",
+      "Professor 05-10-2024",
+      "Regular",
+      "1-5 Yrs Teaching & 3-4 Yrs Administration",
+      "2 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "93",
+      "Community Medicine",
+      "Dr. Nikhil Diwakar Dhande MBBS, MD 2011/07/2528 MMC",
+      "Associate Professor 19-07-2024",
+      "Regular",
+      "1-5 Yrs Teaching & 3-4 Yrs Administration",
+      "8 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "94",
+      "Community Medicine",
+      "Dr. Shubhankar Adhikari MBBS, MD IMR- 109580",
+      "Associate Professor 07-10-2024",
+      "Regular",
+      "1-5 Yrs Teaching",
+      "2 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "95",
+      "Community Medicine",
+      "Dr. Ashutosh Jain MBBS, MD Community Medicine MH/2018/10/ 5171",
+      "Assistant professor 27.05.2021",
+      "Regular",
+      "1-5 Yrs Teaching",
+      "65 (25)"
+     ]
+    },
+    {
+     "cells": [
+      "96",
+      "Community Medicine",
+      "Dr. Rajitha T MBBS, MD Community Medicine Karnataka MC-97108",
+      "Assistant Professor 01.02.2021",
+      "Regular",
+      "1-2 Yrs Teaching",
+      "28 (5)"
+     ]
+    },
+    {
+     "cells": [
+      "97",
+      "Community Medicine",
+      "Dr. Amit Malviya MBBS, MD Community Medicine MP-8282",
+      "Assistant Professor 01.08.2013",
+      "Regular",
+      "1-5 Yrs Teaching",
+      "30 (6)"
+     ]
+    },
+    {
+     "cells": [
+      "98",
+      "Community Medicine",
+      "Dr. Shruti R. Gaikwad MBBS, MD Community Medicine, Maharashtra Medical Council, Mumbai (MUHS, Nasik - 1628 Dr. Mahendra Varthi MBBS, MD 09-35763 MCI Dr. Aditya Dhonde MBBS, MD MP-26031",
+      "Assistant Professor 19.02.2024",
+      "Regular",
+      "1-5 Yrs Teaching",
+      "12(10)"
+     ]
+    },
+    {
+     "cells": [
+      "99",
+      "Community Medicine",
+      "",
+      "Assistant Professor 06.07.2024",
+      "Regular",
+      "1-5 Yrs Teaching",
+      "8(11)"
+     ]
+    },
+    {
+     "cells": [
+      "100",
+      "Community Medicine",
+      "",
+      "Assistant Professor 23.09.2024",
+      "Regular",
+      "1-5 Yrs Teaching",
+      "1(1)"
+     ]
+    },
+    {
+     "cells": [
+      "101",
+      "Community Medicine",
+      "Mr. Kartik Dubey Msc. Statistics",
+      "Statistician 12.07.2023",
+      "Regular",
+      "Teaching",
+      "15 (4)"
+     ]
+    },
+    {
+     "cells": [
+      "102",
+      "General Medicine",
+      "Dr. Mohammed Elyas MBBS, MD 18603",
+      "Professor & HOD 22.01.2021",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "95 (28)"
+     ]
+    },
+    {
+     "cells": [
+      "103",
+      "General Medicine",
+      "Dr. Vikas Goyal MBBS, MD MP-3961",
+      "Professor 08.05.2021",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "80 (10)"
+     ]
+    },
+    {
+     "cells": [
+      "104",
+      "General Medicine",
+      "Dr. Suresh Bhambhani MBBS, MD MP-4242",
+      "Professor 02.01.2023",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "90 (24)"
+     ]
+    },
+    {
+     "cells": [
+      "105",
+      "General Medicine",
+      "Dr.Manjiri Kulkarni MBBS, MD. 48719",
+      "Professor 25.10.2021",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "8 (02)"
+     ]
+    },
+    {
+     "cells": [
+      "106",
+      "General Medicine",
+      "Dr. Khurshid Ahmed MBBS, MD 1994",
+      "Professor 01.07.2012",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "7 (02)"
+     ]
+    },
+    {
+     "cells": [
+      "107",
+      "General Medicine",
+      "Dr. Pravin Nitnavre MBBS MD 54835",
+      "Professor 06.01.2024",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "4(02)"
+     ]
+    },
+    {
+     "cells": [
+      "108",
+      "General Medicine",
+      "Dr. Markendey Rao MBBS, MD. 15501",
+      "Professor 26.02.2011",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "8 (02)"
+     ]
+    },
+    {
+     "cells": [
+      "109",
+      "General Medicine",
+      "Dr. K. Ramesh MBBS, MD IMR- 59207",
+      "Professor 14.07.2022",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "2 (02)"
+     ]
+    },
+    {
+     "cells": [
+      "110",
+      "General Medicine",
+      "Dr. Motati Ramakesava Reddy MBBS, MD IMR- 45219",
+      "Professor 30.07.2024",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "2 (02)"
+     ]
+    },
+    {
+     "cells": [
+      "111",
+      "General Medicine",
+      "Dr. Parshuram Yugal MBBS, MD IMR-15793",
+      "Professor 08.03.2017",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "6 (12)"
+     ]
+    },
+    {
+     "cells": [
+      "112",
+      "General Medicine",
+      "Dr. Sonal Jain MBBS, MD IMR- 68830",
+      "Professor 05.09.2024",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "2 (02)"
+     ]
+    },
+    {
+     "cells": [
+      "113",
+      "General Medicine",
+      "Dr. Anil Vasant Pathare MBBS, MD MMC- 1378",
+      "Professor 14.09.2024",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "2 (02)"
+     ]
+    },
+    {
+     "cells": [
+      "114",
+      "General Medicine",
+      "Dr. Abhijeet G Shinde MBBS, MD MMC- 3188",
+      "Professor 14.09.2024",
+      "Regular",
+      "Administrative work Clincal, Teaching and Patient Care",
+      "2 (02)"
+     ]
+    },
+    {
+     "cells": [
+      "115",
+      "General Medicine",
+      "Dr. S. M. Hussain MBBS, MD 2145",
+      "Associate Professor-10.03.2021",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "50 (10)"
+     ]
+    },
+    {
+     "cells": [
+      "116",
+      "General Medicine",
+      "Dr. Rajendra Kumar Jatav MBBS, MD 53127",
+      "Associate Professor 01.09.2010",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "50 (10)"
+     ]
+    },
+    {
+     "cells": [
+      "117",
+      "General Medicine",
+      "Dr. Sanjay Gupta MBBS, MD 10325",
+      "Associate Professor-21.12.2022",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "47 (9)"
+     ]
+    },
+    {
+     "cells": [
+      "118",
+      "General Medicine",
+      "Dr. Rajesh Bhagchandani MBBS, MD 10952",
+      "Associate Professor-24.12.2022",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "56 (11)"
+     ]
+    },
+    {
+     "cells": [
+      "119",
+      "General Medicine",
+      "Dr. Suresh Kore MBBS, MD 6567",
+      "Associate Professor 19.10.2023",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "10 (3)"
+     ]
+    },
+    {
+     "cells": [
+      "120",
+      "General Medicine",
+      "Dr. Vijay Kumar M MBBS-2010, DNB-2017 AP-71470",
+      "Associate Professor 09.03.2024",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "121",
+      "General Medicine",
+      "Dr. Amit Verma MBBS, MD MP-4419",
+      "Associate Professor- 11.05.2024 & 21.04.2023",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "50 (10)"
+     ]
+    },
+    {
+     "cells": [
+      "122",
+      "General Medicine",
+      "Dr. Golamari Srinivasa Reddy. MBBS, MD APMC/FMR/85524",
+      "Associate Professor 05.09.2024",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "123",
+      "General Medicine",
+      "Dr. Ramakanth Reddy A. MBBS, MD APMC/FMR/80136",
+      "Associate Professor 05.09.2024",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "124",
+      "General Medicine",
+      "Dr. Sanjeev Johri MBBS, MBBS, MD MP11000",
+      "Assistant Professor-01.04.2022",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "60 (12)"
+     ]
+    },
+    {
+     "cells": [
+      "125",
+      "General Medicine",
+      "Dr. Sabya Sanchi Gupta MBBS, MD MP-11671",
+      "Assistant Professor- 23.05.22",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "40 (12)"
+     ]
+    },
+    {
+     "cells": [
+      "126",
+      "General Medicine",
+      "Dr. Sanjay Ambhore MP-MBBS, MD 13375",
+      "Assistant Professor-15.03.2022",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "40 (12)"
+     ]
+    },
+    {
+     "cells": [
+      "127",
+      "General Medicine",
+      "Dr. Rohit Jain MBBS, MD MP17840",
+      "Assistant Professor-02.06.2022",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "40 (08)"
+     ]
+    },
+    {
+     "cells": [
+      "128",
+      "General Medicine",
+      "Dr. Shweta Gadekar MH MBBS, MD 2015 - 4076",
+      "Assistant Professor-23.05.2023",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "55 (11)"
+     ]
+    },
+    {
+     "cells": [
+      "129",
+      "General Medicine",
+      "Dr. K.M.Mehadi MBBS, MD MP-9903",
+      "Assistant Professor-02.12.2022",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "57 (11)"
+     ]
+    },
+    {
+     "cells": [
+      "130",
+      "General Medicine",
+      "Dr. Priyanka Singh MBBS, MD MCI/09-34619",
+      "Assistant Professor-01.05.2018",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "23 (10)"
+     ]
+    },
+    {
+     "cells": [
+      "131",
+      "General Medicine",
+      "Dr. Shakti Singh - MBBS, MD MP15439",
+      "Assistant Professor-01.09.2023",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "5 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "132",
+      "General Medicine",
+      "Dr. Lal Kumar Kishnani MBBS, MD MP- 770",
+      "Assistant Professor-16.12.2020",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "15 (22)"
+     ]
+    },
+    {
+     "cells": [
+      "133",
+      "General Medicine",
+      "Dr. Rutuja Purswani MBBS, MD. 2011041018",
+      "Assistant Professor-19.08.2022",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "20 (05)"
+     ]
+    },
+    {
+     "cells": [
+      "134",
+      "General Medicine",
+      "Dr. Hemant Richariya MBBS, MD RMC-44500/19481",
+      "Assistant Professor 28.10.2023",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "6 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "135",
+      "General Medicine",
+      "Dr. Reena Singh MBBS, MD MP- 21029",
+      "Assistant Professor 03.10.2023",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "45 (15)"
+     ]
+    },
+    {
+     "cells": [
+      "136",
+      "General Medicine",
+      "Dr. Rajat Mittal MBBS, MD MP - 23044",
+      "Assistant Professor 03.10.2023",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "40 (10)"
+     ]
+    },
+    {
+     "cells": [
+      "137",
+      "General Medicine",
+      "Dr. Shraddha Shrivastava MBBS, MD MP-15638",
+      "Assistant Professor 13.04.2024",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "02/01)"
+     ]
+    },
+    {
+     "cells": [
+      "138",
+      "General Medicine",
+      "Dr. Sumedha Boudh MBBS, MD MP 23117",
+      "Assistant Professor 01.07.2024",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "02/01)"
+     ]
+    },
+    {
+     "cells": [
+      "139",
+      "General Medicine",
+      "Dr. Vaibhav Gupta MBBS,MD MCI- 14/53398",
+      "Assistant Professor 08.08.2023 & 10.08.2024",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "02/01)"
+     ]
+    },
+    {
+     "cells": [
+      "140",
+      "General Medicine",
+      "Dr. Aniket Goenka MBBS, MD, DM MP-20238",
+      "Assistant Professor 09.09.2024 & 08.02.2024",
+      "Regular",
+      "Clincal, Teaching and Patient Care",
+      "02/01)"
+     ]
+    },
+    {
+     "cells": [
+      "141",
+      "Respiratory Medicine",
+      "Dr. Anjali Pratap Ghare MP-82463 20/05/2015",
+      "Professor 01/07/2019",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "20 (24)"
+     ]
+    },
+    {
+     "cells": [
+      "142",
+      "Respiratory Medicine",
+      "Dr. Raju CH MBBS, MD IMR- 56145",
+      "Professor 20/11/2024",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "5 (4)"
+     ]
+    },
+    {
+     "cells": [
+      "143",
+      "Respiratory Medicine",
+      "Dr. Krishna Gopal Singh MBBS, MD MP-12950",
+      "Associate Professor 07/11/2022",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "30 (20)"
+     ]
+    },
+    {
+     "cells": [
+      "144",
+      "Respiratory Medicine",
+      "Dr. Shradha Tiwari MBBS, MD G- 60959",
+      "Assistant Professor 04.07.2023",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "5 (4)"
+     ]
+    },
+    {
+     "cells": [
+      "145",
+      "Respiratory Medicine",
+      "Dr. Ayush Pandey MBBS, MD DMC/R/15695",
+      "Assistant Professor 05/06/2023",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "4 (3)"
+     ]
+    },
+    {
+     "cells": [
+      "146",
+      "Dermatology",
+      "Dr.Meenakshi Tandon MBBS, MD MP-3230",
+      "Professor & HOD 01/10/2012",
+      "Regular",
+      "1-5 Yrs Teaching, Administration, Clinical, Patient Care and Teaching",
+      "11(7)"
+     ]
+    },
+    {
+     "cells": [
+      "147",
+      "Dermatology",
+      "Dr.Shyam Govind Rathoriya MBBS, MD MP-8794 G- 17979",
+      "Professor 01/11/2018",
+      "Regular",
+      "1-5 Yrs Teaching, Administration, Clinical, Patient Care and Teaching",
+      "17(13)"
+     ]
+    },
+    {
+     "cells": [
+      "148",
+      "Dermatology",
+      "Dr. Rochit Singhal MBBS, MD G-50935 G- 27340",
+      "Associate Professor 05.12.2023",
+      "Regular",
+      "1-5 Yrs Teaching, Clinical, Patient Care and Teaching",
+      "15(11)"
+     ]
+    },
+    {
+     "cells": [
+      "149",
+      "Dermatology",
+      "Dr. Arpita Mishra MBBS, MD MP- 20261",
+      "Assistant Professor 04/10/2024 & 03/10/2023",
+      "Regular",
+      "1-5 Yrs Teaching, Clinical, Patient Care and Teaching Administration,Teaching,",
+      "15(11)"
+     ]
+    },
+    {
+     "cells": [
+      "150",
+      "Psychiatry",
+      "Dr. S.K Tandon MBBS,MD MP-13297",
+      "P r o f essor & HOD 01/02/2008",
+      "Regular",
+      "Patient Care Administration,Teaching,",
+      "14 (10)"
+     ]
+    },
+    {
+     "cells": [
+      "151",
+      "Psychiatry",
+      "Dr. Manish Borasi MBBS, MD MP-12370",
+      "P r o f e s s or 15/04/2023",
+      "Regular",
+      "Patient Care",
+      "20 (11)"
+     ]
+    },
+    {
+     "cells": [
+      "152",
+      "Psychiatry",
+      "Dr. Siddharth Aswal MBBS, MD IMR- 24400",
+      "Professor 07/10/2024",
+      "Regular",
+      "Administration,Teaching, Patient Care Clinical,Teaching,",
+      "3 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "153",
+      "Psychiatry",
+      "Dr. Chirag Patel MBBS, MD MP-13120",
+      "Assistant Professor 01/08/2021",
+      "Regular",
+      "Patient Care",
+      "5 (3)"
+     ]
+    },
+    {
+     "cells": [
+      "154",
+      "Psychiatry",
+      "Dr. Vishal Choubey MBBS, MD MP- 22178",
+      "Assistant Professor 17.01.2024 & 01.07.2024",
+      "Regular",
+      "Clinical,Teaching, Patient Care",
+      "5 (3)"
+     ]
+    },
+    {
+     "cells": [
+      "155",
+      "Psychiatry",
+      "Dr. Harita Arvindbhai Patel MBBS, MD G- 55110",
+      "Assistant Professor 14.10.2024",
+      "Regular",
+      "Clinical,Teaching, Patient Care",
+      "2 (3)"
+     ]
+    },
+    {
+     "cells": [
+      "156",
+      "Psychiatry",
+      "Dr. Komal Kohat MBBS, MD MP- 16042",
+      "Assistant Professor 11.11.2024",
+      "Regular",
+      "Clinical,Teaching, Patient Care",
+      "2 (3)"
+     ]
+    },
+    {
+     "cells": [
+      "157",
+      "Paediatrics",
+      "Dr. Jaishree Ambhore Qualification MBBS,MD IMR No. MP13440",
+      "Professor & HOD 11/02/2022",
+      "Regular",
+      "administration work, teaching,clinical work, patient care",
+      "Theory: 7 SGD:5 Topics covered: 6"
+     ]
+    },
+    {
+     "cells": [
+      "158",
+      "Paediatrics",
+      "Dr. Saurabh Kumar Qualification MBBS,MD IMR No. MP19502",
+      "Professor 15/01/2022",
+      "Regular",
+      "administration work, teaching,clinical work, patient care",
+      "Theory: 7 SGD:5 Topics covered: 6"
+     ]
+    },
+    {
+     "cells": [
+      "159",
+      "Paediatrics",
+      "Dr. Rakesh Mishra Qualification MBBS,MD IMR No. MP3289",
+      "Professor 09.07.2018",
+      "Regular",
+      "administration work, teaching,clinical work, patient care",
+      "Theory:6 SGD:4 Topics covered: 5"
+     ]
+    },
+    {
+     "cells": [
+      "160",
+      "Paediatrics",
+      "Dr. Minhajuddin Ahmed Qualification MBBS,MD IMR No. MP14956",
+      "Professor 10/08/2023",
+      "Regular",
+      "administration work, teaching,clinical work, patient care",
+      "Theory:2 SGD:1 Topics covered: 2"
+     ]
+    },
+    {
+     "cells": [
+      "161",
+      "Paediatrics",
+      "Dr. Mohamed Jusab Khan MBBS, MD 2007/03/0342 Maharashtra Medical Council",
+      "Professor 15/10/2015",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 1 SGD: 1 Topics covered: 1"
+     ]
+    },
+    {
+     "cells": [
+      "162",
+      "Paediatrics",
+      "Dr. Nidhi Gupta Qualification MBBS,MD IMR No. MP10356",
+      "Professor 01/01/2024",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory:7 SGD:5 Topics covered: 6"
+     ]
+    },
+    {
+     "cells": [
+      "163",
+      "Paediatrics",
+      "Dr. Priyanka Choudary Qualification MBBS,MD IMR No. MP12772",
+      "Associate Professor 01/07/2022",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory:6 SGD:5 Topics covered: 5"
+     ]
+    },
+    {
+     "cells": [
+      "164",
+      "Paediatrics",
+      "Dr. Iqbal Mohd Ansari Qualification MBBS,MD IMR No. MP8514",
+      "Associate Professor 01/04/2023",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 6 SGD:7 Topics covered: 6"
+     ]
+    },
+    {
+     "cells": [
+      "165",
+      "Paediatrics",
+      "Dr. Yaqoob Ahmad Qualification MBBS,MD IMR No. MP30342",
+      "Associate Professo 12/07/2023",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory:6 SGD:5 Topics covered: 6"
+     ]
+    },
+    {
+     "cells": [
+      "166",
+      "Paediatrics",
+      "Dr. Md Nurul Kamal MBBS,MD 0268",
+      "Associate Professo 19/09/2024",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 1 SGD: 1 Topics covered: 1"
+     ]
+    },
+    {
+     "cells": [
+      "167",
+      "Paediatrics",
+      "Dr. Vikrant Singh Raghuvanshi Qualification MBBS,MD IMR No. MP73409",
+      "Assistant Professor 08/07/2022",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 5 SGD:5 Topics covered: 5"
+     ]
+    },
+    {
+     "cells": [
+      "168",
+      "Paediatrics",
+      "Dr. Priya Sharma MBBS,MD IMR No. MP63239",
+      "Assistant Professor 09/02/2022",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 1 SGD:1 Topics covered: 1"
+     ]
+    },
+    {
+     "cells": [
+      "169",
+      "Paediatrics",
+      "Dr. Sunil Puraswani MBBS,MD IMR No. MP11421",
+      "Assistant Professor 01/09/2023",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 1 SGD:1 Topics covered: 1"
+     ]
+    },
+    {
+     "cells": [
+      "170",
+      "Paediatrics",
+      "Dr. Asad Khan MBBS,MD IMR No. MP 15126",
+      "Assistant Professor 22/03/2021",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 1 SGD:1 Topics covered: 2"
+     ]
+    },
+    {
+     "cells": [
+      "171",
+      "Paediatrics",
+      "Dr. Nasif Ahmed Hashmi MBBS,MD IMR No. MP 20869",
+      "Assistant Professor 15/07/2023",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 3 SGD:1 Topics covered: 4"
+     ]
+    },
+    {
+     "cells": [
+      "172",
+      "Paediatrics",
+      "Dr. Pooja Rawat MBBS,MD IMR No. MP24742",
+      "Assistant Professor 30/11/2023",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 1 SGD:1 Topics covered: 2"
+     ]
+    },
+    {
+     "cells": [
+      "173",
+      "Paediatrics",
+      "Dr. Ankur Yadav MBBS,MD IMR No. MP12124",
+      "Assistant Professor 29/11/2023",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 1 Topics covered: 1"
+     ]
+    },
+    {
+     "cells": [
+      "174",
+      "Paediatrics",
+      "Dr. Mrinal Sinha MBBS MD MP 18795",
+      "Assistant Professor 02.01.2024",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 1 Topics covered: 1"
+     ]
+    },
+    {
+     "cells": [
+      "175",
+      "Paediatrics",
+      "Dr. Poorvi MBBS, MD TSMC/FMR/00715",
+      "Assistant Professor 20.04.2024 & 19.04.2023",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 1 Topics covered: 1"
+     ]
+    },
+    {
+     "cells": [
+      "176",
+      "Paediatrics",
+      "Dr. Neeraj Saria MBBS, MD MP-25383",
+      "Assistant Professor 26.10.2023 & 25.10.2023",
+      "Regular",
+      "teaching,clinical work, patient care",
+      "Theory: 1 Topics covered: 1"
+     ]
+    },
+    {
+     "cells": [
+      "177",
+      "General Surgery",
+      "Dr. Tarun Kumar Sania MBBS-2004 MS-2008 IMR NO.-MP-6988",
+      "Professor 16.06.2020",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 12 / Topic Covered - 06"
+     ]
+    },
+    {
+     "cells": [
+      "178",
+      "General Surgery",
+      "Dr. Arvind Joshi MBBS-1981 MS-1985 DNB-1989 IMR NO.- MP-5064",
+      "Professor 06.09.2018",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 35 /Topic Covered - 25"
+     ]
+    },
+    {
+     "cells": [
+      "179",
+      "General Surgery",
+      "Dr. Abhijeet Deshmukh MBBS- 1991 MS-1997 IMR NO.-MP- 11649",
+      "Professor 01.09.2022",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 15 / Topic Covered - 10"
+     ]
+    },
+    {
+     "cells": [
+      "180",
+      "General Surgery",
+      "Dr. T. Badrinath MBBS-1988 MS-1997 IMR NO. 18604",
+      "Professor 21.12.2022",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 01 /Topic Covered - 01"
+     ]
+    },
+    {
+     "cells": [
+      "181",
+      "General Surgery",
+      "Dr. Srinivasulu Bandam MBBS, MS 54997",
+      "Professor 12.05.2022",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 02/ Topic Covered - 02"
+     ]
+    },
+    {
+     "cells": [
+      "182",
+      "General Surgery",
+      "Dr. Yellanki Karthik MBBS-2009, MS-2014 DPPS/FMR/63566",
+      "Professor 09.03.2024",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 01/ Topic Covered - 01"
+     ]
+    },
+    {
+     "cells": [
+      "183",
+      "General Surgery",
+      "Dr. Sharanbasappa G Hallad MBBS, MS 25754 KMC",
+      "Professor 25.07.2024",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 01/ Topic Covered - 01"
+     ]
+    },
+    {
+     "cells": [
+      "184",
+      "General Surgery",
+      "Dr. Apsingeekar Raghavendra MBBS, MS 50351 TMC",
+      "Professor 30.07.2024",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 01/ Topic Covered - 01"
+     ]
+    },
+    {
+     "cells": [
+      "185",
+      "General Surgery",
+      "Dr. Paladugu Srinivas Rao MBBS, MS 43764 KMC",
+      "Professor 14.08.2024",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 01/ Topic Covered - 01"
+     ]
+    },
+    {
+     "cells": [
+      "186",
+      "General Surgery",
+      "Dr. Neeraj Kumar Jain MBBS- 2010 MS-2013 IMR NO.- MP- 11169",
+      "Professor 26.10.2024 & 13.10.2021",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 35/ Topic Covered - 25"
+     ]
+    },
+    {
+     "cells": [
+      "187",
+      "General Surgery",
+      "Dr. Vishal Rampuri MBBS-2007 MS-2012 Mch - 2016 IMR NO.- MP-9632",
+      "Associate Professor 27.07.2021",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 20 /Topic Covered - 15"
+     ]
+    },
+    {
+     "cells": [
+      "188",
+      "General Surgery",
+      "Dr. Apoorva Pandey MBBS- 2006 MS-2011 Mch - 2015 IMR NO.- 28101/2013",
+      "Associate Professor 27.07.2021",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 22 / Topic Covered - 16"
+     ]
+    },
+    {
+     "cells": [
+      "189",
+      "General Surgery",
+      "Dr. Devendra Singh Dhakad MBBS-2008 MS-2012 Mch - 2017 IMR NO.- MP- 10267",
+      "Associate Professor 23.04.2022",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 18 / Topic Covered - 15"
+     ]
+    },
+    {
+     "cells": [
+      "190",
+      "General Surgery",
+      "Dr. Shikha Verma MBBS- 1991 MS-1994 IMR NO.- MP- 10822",
+      "Associate Professor 27.12.2022",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 25 / Topic Covered - 20"
+     ]
+    },
+    {
+     "cells": [
+      "191",
+      "General Surgery",
+      "Dr. Manohar Kumar Malviya MBBS-2005 MS-2009 Mch - 2017 IMR NO.- MP-7498",
+      "Associate Professor 29.01.2022",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 40 / Topic Covered - 20"
+     ]
+    },
+    {
+     "cells": [
+      "192",
+      "General Surgery",
+      "Dr. Sameer Soni MBBS- 2011 DNB-2015 IMR NO.- MP- 13607",
+      "Associate Professor 19.08.2023",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 45/ Topic Covered - 40"
+     ]
+    },
+    {
+     "cells": [
+      "193",
+      "General Surgery",
+      "Dr. Chandrashekhar Amb MBBS-2012 MS-2016 IMR NO.- MP-14095",
+      "Associate Professor 06.09.2023",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "Taken per year - 05 /Topic Covered - 03"
+     ]
+    },
+    {
+     "cells": [
+      "194",
+      "General Surgery",
+      "Dr. Varun Singh Pendro MBBS- 2009 MS-2013 Mch - 2019 IMR NO.- MP-11128",
+      "Assistant Professor 01.10.2019",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 35 / Topic Covered - 30"
+     ]
+    },
+    {
+     "cells": [
+      "195",
+      "General Surgery",
+      "Dr. Deepak Kumar Bhojwani MBBS-2002 MS-2009 Mch - 2014 DNB - 2014 IMR NO.- MP-26062",
+      "Assistant Professor 13.05.2021",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 20 / Topic Covered - 10"
+     ]
+    },
+    {
+     "cells": [
+      "196",
+      "General Surgery",
+      "Dr. Tanmayee Thite MBBS- 2009 MS-2013 Mch - 2019 IMR NO.- 119198",
+      "Assistant Professor 28.05.2022",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 21 /Topic Covered - 11"
+     ]
+    },
+    {
+     "cells": [
+      "197",
+      "General Surgery",
+      "Dr. Saurabh Rai MBBS-2012 MS-2019 IMR NO.- MP- 17879",
+      "Assistant Professor 02.01.2023",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 22 /Topic Covered - 18"
+     ]
+    },
+    {
+     "cells": [
+      "198",
+      "General Surgery",
+      "Dr. Ashay Rathore MBBS- 2014 MS-2020 IMR NO.- MP-21356",
+      "Assistant Professor 01.02.2022",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 25 / Topic Covered - 23"
+     ]
+    },
+    {
+     "cells": [
+      "199",
+      "General Surgery",
+      "Dr. Saurabh Beedkar MBBS- 2007 MS-2013 Mch - 2022 IMR NO.- 200705/1339",
+      "Assistant Professor 27.09.2022",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 20 /Topic Covered - 10"
+     ]
+    },
+    {
+     "cells": [
+      "200",
+      "General Surgery",
+      "Dr. Sanish Philips MBBS- 2012 MS-2019 IMR NO.- 43515",
+      "Assistant Professor 01.07.2023",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 20 /Topic Covered - 15"
+     ]
+    },
+    {
+     "cells": [
+      "201",
+      "General Surgery",
+      "Dr. Abida Sabreen MBBS-2018 MS-2019 IMR NO.- DMC-95913",
+      "Assistant Professor 27.09.2021",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 20/ Topic Covered - 10"
+     ]
+    },
+    {
+     "cells": [
+      "202",
+      "General Surgery",
+      "Dr. Sachin Sharma MBBS- 2012 MS-2018 MP- 14361",
+      "Assistant Professor 15.02.2024",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 20/ Topic Covered - 1"
+     ]
+    },
+    {
+     "cells": [
+      "203",
+      "General Surgery",
+      "Dr. Udit Bohare MBBS, MS, Mch Urology MP 16222",
+      "Assistant Professor 11.03.2024",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 2/ Topic Covered - 1"
+     ]
+    },
+    {
+     "cells": [
+      "204",
+      "General Surgery",
+      "Dr. Gagan Singh MBBS, MS",
+      "Assistant Professor 04.06.2024",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 2/ Topic Covered - 1"
+     ]
+    },
+    {
+     "cells": [
+      "205",
+      "General Surgery",
+      "Dr. Rishab Jain MBBS, MS MP-20798",
+      "Assistant Professor 02.11.2024 & 31.10.2023",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 2/ Topic Covered - 1"
+     ]
+    },
+    {
+     "cells": [
+      "206",
+      "General Surgery",
+      "Dr. Puneet Agarwal MBBS, MS MP-22466",
+      "Assistant Professor 29.09.2024 & 27.05.2024",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "Taken per year - 2/ Topic Covered - 1"
+     ]
+    },
+    {
+     "cells": [
+      "207",
+      "Orthopaedics",
+      "Dr Deepak Nadkarni MBBS,MS 3219",
+      "Professor 28/09/2017",
+      "Regular",
+      "Administration, Clinical, Paitent Care & Teaching",
+      "23(20)"
+     ]
+    },
+    {
+     "cells": [
+      "208",
+      "Orthopaedics",
+      "Dr.K.B.Ravi MBBS,MS Karnataka M.C-78572",
+      "Professor 28/04/2021",
+      "Regular",
+      "Administration, Clinical, Paitent Care & Teaching",
+      "23(20)"
+     ]
+    },
+    {
+     "cells": [
+      "209",
+      "Orthopaedics",
+      "Dr Vaibhav Maheshwari MBBS,MS MP 6080",
+      "Professor 02/09/2022",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "23(20)"
+     ]
+    },
+    {
+     "cells": [
+      "210",
+      "Orthopaedics",
+      "Dr Ambarish A Mathesul MBBS,MS, DNB 2006/04/2234 MMC",
+      "Professor 06/08/2024",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "2(2)"
+     ]
+    },
+    {
+     "cells": [
+      "211",
+      "Orthopaedics",
+      "Dr. Daivesh P. Shah MBBS, MS G- 43267",
+      "Professor 19/09/2024",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "2(2)"
+     ]
+    },
+    {
+     "cells": [
+      "212",
+      "Orthopaedics",
+      "Dr Gourav Sharma MBBS,MS MP 12209",
+      "Asso.Professor 20/1/2022",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "21(17)"
+     ]
+    },
+    {
+     "cells": [
+      "213",
+      "Orthopaedics",
+      "Dr Sandeep Kumar Gour MBBS,DNB, D.Ortho MP 12757",
+      "Asso.Professor 17/07/2023",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "22(17)"
+     ]
+    },
+    {
+     "cells": [
+      "214",
+      "Orthopaedics",
+      "Dr Sanjay Gupta MBBS,MS MP 8160/8190",
+      "Asso.Professor 11/10/2023",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "21(17)"
+     ]
+    },
+    {
+     "cells": [
+      "215",
+      "Orthopaedics",
+      "Dr.Anshul Khare MBBS,MS M.P.21274",
+      "Asst.Profssor 16/10/2021",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "24(20)"
+     ]
+    },
+    {
+     "cells": [
+      "216",
+      "Orthopaedics",
+      "Dr Pawan Kumar Mishra MBBS.DNB MPMC 11980",
+      "Asst.Profssor 24/11/2021",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "24(20)"
+     ]
+    },
+    {
+     "cells": [
+      "217",
+      "Orthopaedics",
+      "Dr Sameer Gupta MBBS,MS MP 15222",
+      "Asst.Profssor 18/11/2022",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "24(20)"
+     ]
+    },
+    {
+     "cells": [
+      "218",
+      "Orthopaedics",
+      "Dr.Anchal Navneet Mishra MP 13753",
+      "Asst.Profssor 17/01/2023",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "24(20)"
+     ]
+    },
+    {
+     "cells": [
+      "219",
+      "Orthopaedics",
+      "Dr Ashish Kumar Singh MBBS.MS MP 19272",
+      "Asst.Profssor 01/04/2023",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "18(14)"
+     ]
+    },
+    {
+     "cells": [
+      "220",
+      "Orthopaedics",
+      "Dr Aditya Tripthi MBBS.MS G59764",
+      "Asst.Profssor 08/06/2023",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "16(12)"
+     ]
+    },
+    {
+     "cells": [
+      "221",
+      "Orthopaedics",
+      "Dr. Ayush Tiwari MBBS, MS MP-35794",
+      "Asst.Profssor 25/04/2024 & 24.04.2023",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "5(2)"
+     ]
+    },
+    {
+     "cells": [
+      "222",
+      "Orthopaedics",
+      "Dr. Mohit Dadlani MBBS, MS MP- 22255",
+      "Asst.Profssor 13/05/2024",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "1(2)"
+     ]
+    },
+    {
+     "cells": [
+      "223",
+      "Orthopaedics",
+      "Dr. Swapnil Gadge MBBS, MS MCI- 11-41845",
+      "Asst.Profssor 01.08.24 & 03.08.24",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "1(2)"
+     ]
+    },
+    {
+     "cells": [
+      "224",
+      "Orthopaedics",
+      "Dr. Shubham Chourasiya MBBS, MS MP- 32916",
+      "Asst.Profssor 21.03.24 & 01.07.24",
+      "Regular",
+      "Clinical, Paitent Care & Teaching",
+      "1(2)"
+     ]
+    },
+    {
+     "cells": [
+      "225",
+      "ENT",
+      "Dr. Anil Kumar Jain MBBS, MS- 6753",
+      "Professor & HOD 01.5.2013",
+      "Regular",
+      "Administration, Clinical, Patient Care & Teaching",
+      "42/10"
+     ]
+    },
+    {
+     "cells": [
+      "226",
+      "ENT",
+      "Dr. Rakesh Maran MBBS, MS - 10431",
+      "Professor 01.9.2022",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "40/10"
+     ]
+    },
+    {
+     "cells": [
+      "227",
+      "ENT",
+      "Dr. Ruchir Varshney MBBS, MS 11875",
+      "Associate Professor 14.08.2023",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "40/8"
+     ]
+    },
+    {
+     "cells": [
+      "228",
+      "ENT",
+      "Dr. Anchal Jain MBBS, MS - 17616",
+      "Assistant Professor 24.08.2023",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "7/ 4"
+     ]
+    },
+    {
+     "cells": [
+      "229",
+      "ENT",
+      "Dr. Anupriya Hajela MBBS, MS- 14281",
+      "Assistant Professor 19.02.2020",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "30/ 7"
+     ]
+    },
+    {
+     "cells": [
+      "230",
+      "ENT",
+      "Dr. Nilopher Qureshi MBBS, MS -13010",
+      "Assistant Professor 01.12.2023",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "2/ 1"
+     ]
+    },
+    {
+     "cells": [
+      "231",
+      "ENT",
+      "Dr. Aditya Goel MBBS, MS - Dr. Amrutha V Das MBBS, MS 103953",
+      "Assistant Professor 16.12.2023",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "2/ 1"
+     ]
+    },
+    {
+     "cells": [
+      "232",
+      "ENT",
+      "",
+      "Assistant Professor 21.12.2023 & 01.04.2024",
+      "Regular",
+      "Clinical, Patient Care & Teaching",
+      "2/ 1"
+     ]
+    },
+    {
+     "cells": [
+      "233",
+      "Ophthalmology",
+      "Dr. Khalid Khan MS(Ophthalmology) IMR No.- MP-5437",
+      "Professor 16.01.2022",
+      "Regular",
+      "1-5, Administation, Paitent Care & Teaching",
+      "20---3"
+     ]
+    },
+    {
+     "cells": [
+      "234",
+      "Ophthalmology",
+      "Dr. Ulka Srivastava MS(Ophthalmology) IMR No.- 3639",
+      "Professor 10.01.2022",
+      "Regular",
+      "1-5, Administation, Paitent Care & Teaching",
+      "10---4"
+     ]
+    },
+    {
+     "cells": [
+      "235",
+      "Ophthalmology",
+      "Dr. Anagha Chawhan MS(Ophthalmology) IMR No.- MP-31438",
+      "Associate Professor 16.05.2024 & 15.05.2020",
+      "Regular",
+      "1-2 Nil, 3-5 Paitent Care & Teaching",
+      "08----2"
+     ]
+    },
+    {
+     "cells": [
+      "236",
+      "Ophthalmology",
+      "Dr. Mansi Kishnani MS(Ophthalmology) IMR No.- MP-3175",
+      "Assistant Professor 15.05.2020",
+      "Regular",
+      "1 Nil, 2-5 Paitent Care & Teaching",
+      "12---4"
+     ]
+    },
+    {
+     "cells": [
+      "237",
+      "Ophthalmology",
+      "Dr. Mayank Gupta MS(Ophthalmology) IMR No.- MP-15429",
+      "Assistant Professor 01.09.2022",
+      "Regular",
+      "1-4 Nil, 5 Paitent Care & Teaching",
+      "16----5"
+     ]
+    },
+    {
+     "cells": [
+      "238",
+      "Ophthalmology",
+      "Dr. Shubhangi Dixit MS- Ophthalmology IMR No. MP- 16744",
+      "Assistant Professor 01.06.2023",
+      "Regular",
+      "1-4 Nil, 5 Paitent Care & Teaching",
+      "8-----4"
+     ]
+    },
+    {
+     "cells": [
+      "239",
+      "Ophthalmology",
+      "Dr. Yuri Kashiv MBBS MS MP 17646",
+      "Assistant Professor 06.06.2023",
+      "Regular",
+      "T1-4 Nil, 5 Paitent Care & Teaching",
+      "1----4"
+     ]
+    },
+    {
+     "cells": [
+      "240",
+      "Ophthalmology",
+      "Dr. Syed Mohd. Bilal MBBS MS MP 21856",
+      "Assistant Professor 01.02.2024",
+      "Regular",
+      "T1-4 Nil, 5 Paitent Care & Teaching",
+      "1----4"
+     ]
+    },
+    {
+     "cells": [
+      "241",
+      "Ophthalmology",
+      "Dr. Prakhar Singhai MBBS, MS MP-12174",
+      "Assistant Professor 20.01.2024 & 01.08.2024",
+      "Regular",
+      "T1-4 Nil, 5 Paitent Care & Teaching",
+      "1----4"
+     ]
+    },
+    {
+     "cells": [
+      "242",
+      "Radiodiagnosis",
+      "Dr. Nitin Khantal MBBS, DMRD, DNB M.P. - 8565",
+      "Professor 21/07/2021",
+      "Regular",
+      "Administration and Teaching",
+      "30 (26)"
+     ]
+    },
+    {
+     "cells": [
+      "243",
+      "Radiodiagnosis",
+      "Dr Jyoti Valecha MBBS - 97 MD 01 M.P. - 903",
+      "-P rofessor 21/06/2018",
+      "Regular",
+      "Administration and Teaching",
+      "25 (21)"
+     ]
+    },
+    {
+     "cells": [
+      "244",
+      "Radiodiagnosis",
+      "Dr. Mahesh K. Verma MBBS MD - 05 M.P. - 4218",
+      "Professor 15/01/2022",
+      "Regular",
+      "Administration and Teaching",
+      "24 (21)"
+     ]
+    },
+    {
+     "cells": [
+      "245",
+      "Radiodiagnosis",
+      "Dr. Niti Jain MBBS - 93 MD- 1996 M.P. - 13441",
+      "Professor 23/12/2022",
+      "Regular",
+      "Administration and Teaching",
+      "20 (17)"
+     ]
+    },
+    {
+     "cells": [
+      "246",
+      "Radiodiagnosis",
+      "Dr. Laxman Prasad Ahirwar MBBS MD. M.P. - 10435",
+      "Professor 22/01/2024",
+      "Regular",
+      "Administration and Teaching",
+      "26 (22)"
+     ]
+    },
+    {
+     "cells": [
+      "247",
+      "Radiodiagnosis",
+      "Dr. Sonika Rani MBBS - 06 DNB - 13 MP-8110",
+      "Associate Professor 05/02/2020 & 12/03/2024",
+      "Regular",
+      "Teaching",
+      "28 (20)"
+     ]
+    },
+    {
+     "cells": [
+      "248",
+      "Radiodiagnosis",
+      "Dr. Pankaj Kumar Goyal MBBS - 10 DNB - 14 M.P. - 17979",
+      "Assistant Professor 04/05/2019",
+      "Regular",
+      "Teaching",
+      "23 (18)"
+     ]
+    },
+    {
+     "cells": [
+      "249",
+      "Radiodiagnosis",
+      "Dr. Yatish Saxena MBBS - 03 MD - 9 M.P. -18472",
+      "Assistant Professor 26/06/2023",
+      "Regular",
+      "Teaching",
+      "14 (13)"
+     ]
+    },
+    {
+     "cells": [
+      "250",
+      "Radiodiagnosis",
+      "Dr. Suvinay Saxena MBBS, DNB, PhD -21 UCAM - 23 M.P. -14077",
+      "Assistant Professor 21/09/2023",
+      "Regular",
+      "Teaching",
+      "3 (2)"
+     ]
+    },
+    {
+     "cells": [
+      "251",
+      "Radiodiagnosis",
+      "Dr. Satya Jha MBBS - 2008 MD - 2015 PDCC -2021 M.P. -14077",
+      "Assistant Professor 01/11/2023",
+      "Regular",
+      "Teaching",
+      "2 (1)"
+     ]
+    },
+    {
+     "cells": [
+      "252",
+      "Radiodiagnosis",
+      "Dr. Satish Raghuvanshi MBBS - 07 MD - 2021",
+      "Assistant Professor 18/11/2023",
+      "Regular",
+      "Teaching",
+      "16 (13)"
+     ]
+    },
+    {
+     "cells": [
+      "253",
+      "Radiodiagnosis",
+      "Dr. Arushi Kaushal Bang MBBS - 2018 MD - 2022",
+      "Assistant Professor 15/04/2024",
+      "Regular",
+      "Teaching",
+      "0(1)"
+     ]
+    },
+    {
+     "cells": [
+      "254",
+      "Radiodiagnosis",
+      "Dr. Dhawani Dixit MBBS, MD MP-26120",
+      "Assistant Professor 02.09.2023 & 03.09.2024",
+      "Regular",
+      "Teaching",
+      "0(1)"
+     ]
+    },
+    {
+     "cells": [
+      "255",
+      "Radiodiagnosis",
+      "Dr. Kajal Agarwal MBBS, MD MP-18472",
+      "Assistant Professor 01.04.2021 & 04.10.2024",
+      "Regular",
+      "Teaching",
+      "0(1)"
+     ]
+    },
+    {
+     "cells": [
+      "256",
+      "Radiation Oncology",
+      "Dr. Virendra J. Vyas MBBS- 1982, MD- 1986 MMC- 15408",
+      "Professor 14.06.2024",
+      "Regular",
+      "Administration, Teaching, Clinical and Patient care",
+      "01(02)"
+     ]
+    },
+    {
+     "cells": [
+      "257",
+      "Radiation Oncology",
+      "Dr. Ankit Agarwal MBBS-2010 MD-2015 MPMC MP-23813",
+      "Associate Professor 08.08.2023",
+      "Regular",
+      "Adminstration,Teaching,Clinical and Patient care",
+      "4(2)"
+     ]
+    },
+    {
+     "cells": [
+      "258",
+      "Radiation Oncology",
+      "Dr. Desh Deepak Ladia MBBS- 2008 MD-2016 MPMC MP- 10427",
+      "Assistant Professor 13.04.2021",
+      "Regular",
+      "Adminstration ,Teaching, Clinical and Patient care, Adminstration",
+      "6(2)"
+     ]
+    },
+    {
+     "cells": [
+      "259",
+      "Radiation Oncology",
+      "Dr. Shreena Patidar MBBS, MD MP- 28429",
+      "Assistant Professor 06.09.2024",
+      "Regular",
+      "Teaching",
+      "2(2)"
+     ]
+    },
+    {
+     "cells": [
+      "260",
+      "Anesthesiology",
+      "Dr. Vijay Rambhauji Shrotey/ MBBS 1979 -MD 1985/ (46179)",
+      "Professor (09.04.2010)",
+      "Regular",
+      "Administration, Patient Care & Teaching",
+      "Lecture Taken-20, Topic Covered-16"
+     ]
+    },
+    {
+     "cells": [
+      "261",
+      "Anesthesiology",
+      "Dr, Damodar Sadashiv Patwardhan /MBBS 1982- MD 1987/ (2007/06/2539)",
+      "Professor (15.07.2004)",
+      "Regular",
+      "Administration, Patient Care & Teaching",
+      "Lecture Taken-18, Topic Covered-15"
+     ]
+    },
+    {
+     "cells": [
+      "262",
+      "Anesthesiology",
+      "Dr. Pradeep Samuel Indurkar/ MBBS1978- DA1984- MD 1986/ (42023)",
+      "Professor (30.10.2015)",
+      "Regular",
+      "Administration, Patient Care & Teaching",
+      "Lecture Taken- 15, Topic Covered- 5"
+     ]
+    },
+    {
+     "cells": [
+      "263",
+      "Anesthesiology",
+      "Dr. Wasudeo S. Barsagade MBBS, MD 52579- MMC",
+      "Professor (11.07.2024)",
+      "Regular",
+      "Administration, Patient Care & Teaching",
+      "Lecture Taken- 5, Topic Covered- 2"
+     ]
+    },
+    {
+     "cells": [
+      "264",
+      "Anesthesiology",
+      "Dr. Umashankar Rout MBBS, MD 14987 Odisha Medical Council",
+      "Professor (20.07.2024)",
+      "Regular",
+      "Administration, Patient Care & Teaching",
+      "Lecture Taken- 7, Topic Covered-9"
+     ]
+    },
+    {
+     "cells": [
+      "265",
+      "Anesthesiology",
+      "Dr. Tapan Kumar Sahoo/ MBBS 1985- MD 1992- DNB 1994 - DM 2006/ (Odisha-9586)",
+      "Professor (18.12.2023)",
+      "Regular",
+      "1-4 Administration, 5- Administration, Patient Care & Teaching",
+      "Lecture Taken- 15, Topic Covered- 5"
+     ]
+    },
+    {
+     "cells": [
+      "266",
+      "Anesthesiology",
+      "Dr. Devashish Chakrawaty / MBBS 1992- MD 1997/ (5370)",
+      "Asociate Professor (12.04.2021)",
+      "Regular",
+      "1-3 Patient Care & Teaching, 4-5 Administration, Patient Care & Teaching",
+      "Lecture Taken- 18, Topic Covered- 7"
+     ]
+    },
+    {
+     "cells": [
+      "267",
+      "Anesthesiology",
+      "Dr. Sravanthi Parusha MBBS, MD APMC/FMR/79154",
+      "Asociate Professor (05.09.2024)",
+      "Regular",
+      "Administration, Patient Care & Teaching",
+      "Lecture Taken- 5, Topic Covered- 3"
+     ]
+    },
+    {
+     "cells": [
+      "268",
+      "Anesthesiology",
+      "Dr. Sikha MBBS, DNB MP- 30345",
+      "Asociate Professor (11.11.2024)",
+      "Regular",
+      "1-3 Patient Care & Teaching, 4-5 Administration, Patient Care & Teaching",
+      "Lecture Taken- 5, Topic Covered- 3"
+     ]
+    },
+    {
+     "cells": [
+      "269",
+      "Anesthesiology",
+      "Dr. Sudeep Bhargava/ MBBS 2007-DA 2012- DNB 2014/ (MP- 10778)",
+      "Assistant Professor (13.12.2019)",
+      "Regular",
+      "Patient Care & Teaching",
+      "Lecture Taken- 10, Topic Covered- 5"
+     ]
+    },
+    {
+     "cells": [
+      "270",
+      "Anesthesiology",
+      "Dr. Akansha Jain / MBBS 2014- MD 2021/ (MP- 19407)",
+      "Assistant Professor (27.10.2021)",
+      "Regular",
+      "Patient Care & Teaching",
+      "Lecture Taken- 5, Topic Covered- 2"
+     ]
+    },
+    {
+     "cells": [
+      "271",
+      "Anesthesiology",
+      "Dr. Abhinav Agarwal / MBBS 2011- MD 2018/ (MCUP-64015)",
+      "Assistant Professor (31.12.21)",
+      "Regular",
+      "Patient Care & Teaching",
+      "Lecture Taken- 5, Topic Covered- 3"
+     ]
+    },
+    {
+     "cells": [
+      "272",
+      "Anesthesiology",
+      "Dr. Veenashree Managavi / MBBS 2017- MD 2021- DNB 2022/ (MP- 30739)",
+      "Assistant Professor (01.12..2022)",
+      "Regular",
+      "1.3 Patient Care, 4-5 Patient Care and Teaching",
+      "Lecture Taken- 11, Topic Covered- 7"
+     ]
+    },
+    {
+     "cells": [
+      "273",
+      "Anesthesiology",
+      "Dr. Rajeev Rai/ MBBS 2010- MD 2017/ (MP- 13784)",
+      "Assistant Professor (19.11.2022)",
+      "Regular",
+      "1.4 Patient Care, 5 Patient Care and Teaching",
+      "Lecture Taken- 15, Topic Covered- 12"
+     ]
+    },
+    {
+     "cells": [
+      "274",
+      "Anesthesiology",
+      "Dr. Prachee Gupta/ MBBS 2015- MD 2020/ (MP-19393)",
+      "Assistant Professor (20.09.2023)",
+      "Regular",
+      "1-5 Patient Care",
+      "Lecture Taken- 11, Topic Covered- 10"
+     ]
+    },
+    {
+     "cells": [
+      "275",
+      "Anesthesiology",
+      "Dr. Priya Sahu MBBS MD MP 18539",
+      "Assistant Professor (29.01.2024)",
+      "Regular",
+      "1-5 Patient Care",
+      "Lecture Taken- 1, Topic Covered- 1"
+     ]
+    },
+    {
+     "cells": [
+      "276",
+      "Anesthesiology",
+      "Dr. Soumya Singh MBBS MD MP 17564",
+      "Assistant Professor (06.01.2023)",
+      "Regular",
+      "1-5 Patient Care",
+      "Lecture Taken- 1, Topic Covered- 1"
+     ]
+    },
+    {
+     "cells": [
+      "277",
+      "Anesthesiology",
+      "Dr. Aarti MBBS MD UP 96242",
+      "Assistant Professor (01.04.2024)",
+      "Regular",
+      "1-5 Patient Care",
+      "Lecture Taken- 4, Topic Covered- 2"
+     ]
+    },
+    {
+     "cells": [
+      "278",
+      "Anesthesiology",
+      "Dr. Saad Aslam Khan MBBS, MD UP -55565 Dr. Aradhna Chourasiya MBBS, MD MP-20242",
+      "Assistant Professor (22.04.2024) & 01.10.2021",
+      "Regular",
+      "1-5 Patient Care",
+      "Lecture Taken- 4, Topic Covered- 2"
+     ]
+    },
+    {
+     "cells": [
+      "279",
+      "Anesthesiology",
+      "",
+      "Assistant Professor (05.10.2024)",
+      "Regular",
+      "1-5 Patient Care",
+      "Lecture Taken- 1, Topic Covered- 1"
+     ]
+    },
+    {
+     "cells": [
+      "280",
+      "Anesthesiology",
+      "Dr. Sushma Uikey MBBS, MD MP- 20772",
+      "Assistant Professor (18.10.2024)",
+      "Regular",
+      "1-5 Patient Care",
+      "Lecture Taken- 1, Topic Covered- 1"
+     ]
+    },
+    {
+     "cells": [
+      "281",
+      "Dentistry",
+      "Dr. Mahesh Pratap Singh A-281 MDS,BDS",
+      "Professor 09.11.09",
+      "Regular",
+      "Administration, Clinical, Paitent Care & Teaching",
+      "10"
+     ]
+    },
+    {
+     "cells": [
+      "282",
+      "Dentistry",
+      "Dr. Nikita Agarwal A-1701 MDS,BDS",
+      "Professor 27.05.2021",
+      "Regular",
+      "Administration, Clinical, Paitent Care & Teaching",
+      "5"
+     ]
+    },
+    {
+     "cells": [
+      "283",
+      "Dentistry",
+      "Dr. Saket Kumar Jain A-3260 MDS,BDS",
+      "Associate Professor 01.06.2023",
+      "Regular",
+      "Administration, Clinical, Paitent Care & Teaching",
+      "4"
+     ]
+    },
+    {
+     "cells": [
+      "284",
+      "Dentistry",
+      "Dr. Rishavbh Giri MDS,BDS",
+      "Assistant Professor 01.11.2023",
+      "Regular",
+      "Administration, Clinical, Paitent Care & Teaching",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "285",
+      "Obstetrics & Gynaecology",
+      "Dr. Anjali Kanhere MBBS,MD, FICOG FAIMER fellow ACME MPMC 9682",
+      "Professor & HOD 15.07.14",
+      "Regular",
+      "1-5 Yrs Administration & Teaching Patient Care , Clinical Work",
+      "24 / 20"
+     ]
+    },
+    {
+     "cells": [
+      "286",
+      "Obstetrics & Gynaecology",
+      "Dr. Sandhya Gadre MBBS,MD, FICOG ACME MPMC 5616",
+      "Professor 07.12.15",
+      "Regular",
+      "1-5 Yrs Administration & Teaching Patient Care Clinical work",
+      "24 / 20"
+     ]
+    },
+    {
+     "cells": [
+      "287",
+      "Obstetrics & Gynaecology",
+      "Dr. Hemlata Parashar MBBS, MS, MPMC 11991",
+      "Professor 11.02.22",
+      "Regular",
+      "1-3 Yrs Teaching Patient Care 4-5 Yrs Administration Clinical work",
+      "24 / 20"
+     ]
+    },
+    {
+     "cells": [
+      "288",
+      "Obstetrics & Gynaecology",
+      "Dr. Rupa Aherwar MBBS, Diploma in Obs & Gyne DNB MP 8549",
+      "Professor 01.12.2023",
+      "Regular",
+      "1-5 Yrs Administration & Teaching Patient Care , Clinical Work",
+      "20 / 10"
+     ]
+    },
+    {
+     "cells": [
+      "289",
+      "Obstetrics & Gynaecology",
+      "Dr. Ishrat Jahan MBBS,MD, MP 8414",
+      "Professor 01.12.2023",
+      "Regular",
+      "1-5 Yrs Administration & Teaching Patient Care , Clinical Work",
+      "20 / 10"
+     ]
+    },
+    {
+     "cells": [
+      "290",
+      "Obstetrics & Gynaecology",
+      "Dr. Seema Dande MBBS, MS Maharashtra Medical Council - 85224",
+      "Professor 13.06.2024",
+      "Regular",
+      "1-5 Yrs Administration & Teaching Patient Care , Clinical Work",
+      "02/02"
+     ]
+    },
+    {
+     "cells": [
+      "291",
+      "Obstetrics & Gynaecology",
+      "Dr. Sonal Jain MBBS, MD MP 11072",
+      "Associate Professor 01.07.22",
+      "Regular",
+      "1-5 Yrs Administration & Teaching Patient Care , Clinical Work",
+      "20 / 10"
+     ]
+    },
+    {
+     "cells": [
+      "292",
+      "Obstetrics & Gynaecology",
+      "Dr. Anita Shrivastava MBBS,MS, 10809",
+      "Associate Professor 01.12.22",
+      "Regular",
+      "1-5 Yrs Administration & Teaching Patient Care , Clinical Work",
+      "20 / 10"
+     ]
+    },
+    {
+     "cells": [
+      "293",
+      "Obstetrics & Gynaecology",
+      "Dr. Garima Maheshwari MBBS,MS, MP 13312",
+      "Associate Professor 10.12.2022",
+      "Regular",
+      "1-5 Yrs Administration & Teaching Patient Care , Clinical Work",
+      "20 / 10"
+     ]
+    },
+    {
+     "cells": [
+      "294",
+      "Obstetrics & Gynaecology",
+      "Dr. Akrati Jain MBBS, MS MPMC 13328",
+      "Associate Professor 02.08.2023",
+      "Regular",
+      "1-5 Yrs Administration & Teaching Patient Care , Clinical Work",
+      "50 / 40"
+     ]
+    },
+    {
+     "cells": [
+      "295",
+      "Obstetrics & Gynaecology",
+      "Dr. Sweta Agrawal MBBS,MS, MP21708",
+      "Associate Professor 22.07.19 & 11.09.24",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "20 / 10"
+     ]
+    },
+    {
+     "cells": [
+      "296",
+      "Obstetrics & Gynaecology",
+      "Dr. Gunjan Chaudhary MBBS,MS, FMAS MP 29107",
+      "Assistant Professor 25.02.21",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "50 / 40"
+     ]
+    },
+    {
+     "cells": [
+      "297",
+      "Obstetrics & Gynaecology",
+      "Dr. Satarupa Paul MBBS,DNB, FMAS+DMAS MP 30659",
+      "Assistant Professor 30.05.22",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "30 / 20"
+     ]
+    },
+    {
+     "cells": [
+      "298",
+      "Obstetrics & Gynaecology",
+      "Dr. Payal Raghuwanshi MBBS, MS MP 105177",
+      "Assistant Professor 20.08.22",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "20 / 10"
+     ]
+    },
+    {
+     "cells": [
+      "299",
+      "Obstetrics & Gynaecology",
+      "Dr. Ankita Upadhyay MBBS, DGO, DNB MP18035",
+      "Assistant Professor 01.04.2023",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "20 / 10"
+     ]
+    },
+    {
+     "cells": [
+      "300",
+      "Obstetrics & Gynaecology",
+      "Dr. Sakshi Sharma MBBS, MS 8962",
+      "Assistant Professor 04.11.23",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "20 / 10"
+     ]
+    },
+    {
+     "cells": [
+      "301",
+      "Obstetrics & Gynaecology",
+      "Dr. Sneha Goenka RMC 59785",
+      "Assistant Professor 15.12.23",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "20 / 10"
+     ]
+    },
+    {
+     "cells": [
+      "302",
+      "Obstetrics & Gynaecology",
+      "Dr. Pallavi Shrivastava MBBS, MS MP- 17338",
+      "Assistant Professor 23.01.2024",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "01/02"
+     ]
+    },
+    {
+     "cells": [
+      "303",
+      "Obstetrics & Gynaecology",
+      "Dr. Vini Gupta MBBS, MS MP-17777",
+      "Assistant Professor 04.10.2024 & 25.02.2022",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "01/02"
+     ]
+    },
+    {
+     "cells": [
+      "304",
+      "Obstetrics & Gynaecology",
+      "Dr. Nidhi Agarwal MBBS, MS MP -15972",
+      "Assistant Professor 23.03.2024",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "01/01"
+     ]
+    },
+    {
+     "cells": [
+      "305",
+      "Obstetrics & Gynaecology",
+      "Dr. Mona Gupta MBBS, MS MP-19386",
+      "Assistant Professor 28.05.2024",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "01/01"
+     ]
+    },
+    {
+     "cells": [
+      "306",
+      "Obstetrics & Gynaecology",
+      "Dr. Kajal Krishna MBBS, MS MP 13137",
+      "Assistant Professor 15.07.2024",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "01/01"
+     ]
+    },
+    {
+     "cells": [
+      "307",
+      "Obstetrics & Gynaecology",
+      "Dr. Depali Jain MBBS, MD MP-19427",
+      "Assistant Professor 23.09.2024",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "01/01"
+     ]
+    },
+    {
+     "cells": [
+      "308",
+      "Obstetrics & Gynaecology",
+      "Dr. Baishali Jain MBBS, MS, DNB MP-15810",
+      "Assistant Professor 28.09.2024",
+      "Regular",
+      "1-5 Yrs Teaching Patient Care & Clinical work",
+      "01/01"
+     ]
+    },
+    {
+     "cells": [
+      "309",
+      "Emergency Medicine",
+      "Dr. Veerendra Singh Raghuwanshi MBBS MD (Anae) MP-8096",
+      "P r o f e s s o r (09.01.2022)",
+      "Regular",
+      "Administration, Teaching and patient care",
+      "LecturesTaken per year -25, Topic covered -7"
+     ]
+    },
+    {
+     "cells": [
+      "310",
+      "Emergency Medicine",
+      "Dr. Umang Agrawal MBBS MS (Ortho) G-8593",
+      "ASSOCIATE PROFESSOR (05.05.2020)",
+      "Regular",
+      "1-3 Patient Care & Teaching, 4-5 Administration, Patient Care",
+      "Lectures Taken per year- 20, Topic covered - 5"
+     ]
+    },
+    {
+     "cells": [
+      "311",
+      "Emergency Medicine",
+      "Dr.Amit Karna MBBS MD (Anae) MP-26061",
+      "ASSISTANT PROFESSOR (14.12.2021)",
+      "Regular",
+      "Teaching and patient care",
+      "Lectures Taken per year-15 , Topic covered - 6"
+     ]
+    }
+   ],
+   "filterCol": 1
+  },
+  {
+   "type": "cards",
+   "id": "annexures",
+   "title": "Annexures",
+   "unit": "annexures",
+   "items": [
+    {
+     "title": "Annexure I — Publications of faculty",
+     "note": "1414 publications · Vancouver style, indexing",
+     "href": "/MARB-Proforma-18/annexure-1/"
+    },
+    {
+     "title": "Annexure II — Medical education training",
+     "note": "190 faculty · BCME / research methodology",
+     "href": "/MARB-Proforma-18/annexure-2/"
+    }
+   ]
+  }
+ ]
 }

@@ -1,52 +1,44 @@
 {
-  "title": "Department of Nephrology",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Nephrology",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/nephrology/001.webp",
-          "name": "Dr. Sanjay Gupta",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "12 Years",
-          "aebas": "97319703",
-          "regNo": "MP-10325",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/nephrology/002.webp",
-          "name": "Dr. Rohit Paras Badge",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS, MD DNB ( Nephrology)",
-          "experience": "5 Years",
-          "aebas": "32775166",
-          "regNo": "09-34584",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Nephrology faculty list",
-      "href": "/assets/docs/msr/faculty-lists/nephrology.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/nephrology/001.webp",
+     "name": "Dr. Sanjay Gupta",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "12 Years",
+     "aebas": "97319703",
+     "regNo": "MP-10325",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/nephrology/002.webp",
+     "name": "Dr. Rohit Paras Badge",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS, MD DNB ( Nephrology)",
+     "experience": "5 Years",
+     "aebas": "32775166",
+     "regNo": "09-34584",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

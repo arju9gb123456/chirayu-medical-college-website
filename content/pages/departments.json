@@ -1,335 +1,173 @@
 {
-  "title": "Our Departments & Faculty",
-  "kicker": "Faculty Directory",
-  "intro": "Explore the teaching faculty across all clinical and pre-clinical departments at Chirayu Medical College & Hospital, Bhopal — 31 departments, 781 faculty members.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Our Departments & Faculty",
+ "kicker": "Faculty Directory",
+ "intro": "Explore the teaching faculty across all clinical and pre-clinical departments at Chirayu Medical College & Hospital, Bhopal — 31 departments, 781 faculty members.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "cards",
+   "id": "departments",
+   "title": "Departments",
+   "unit": "departments",
+   "items": [
     {
-      "type": "cards",
-      "id": "departments",
-      "title": "Departments",
-      "unit": "departments",
-      "items": [
-        {
-          "title": "Anatomy",
-          "note": "23 Faculty Members",
-          "href": "/departments/anatomy/"
-        },
-        {
-          "title": "Biochemistry",
-          "note": "25 Faculty Members",
-          "href": "/departments/biochemistry/"
-        },
-        {
-          "title": "Physiology",
-          "note": "19 Faculty Members",
-          "href": "/departments/physiology/"
-        },
-        {
-          "title": "Pathology",
-          "note": "48 Faculty Members",
-          "href": "/departments/pathology/"
-        },
-        {
-          "title": "Pharmacology",
-          "note": "25 Faculty Members",
-          "href": "/departments/pharmacology/"
-        },
-        {
-          "title": "Microbiology",
-          "note": "24 Faculty Members",
-          "href": "/departments/microbiology/"
-        },
-        {
-          "title": "Community Medicine",
-          "note": "27 Faculty Members",
-          "href": "/departments/community-medicine/"
-        },
-        {
-          "title": "Forensic Medicine & Toxicology",
-          "note": "14 Faculty Members",
-          "href": "/departments/forensic-medicine-toxicology/"
-        },
-        {
-          "title": "General Surgery",
-          "note": "69 Faculty Members",
-          "href": "/departments/general-surgery/"
-        },
-        {
-          "title": "Immunohaematology & Blood Transfusion",
-          "note": "7 Faculty Members",
-          "href": "/departments/immunohaematology-blood-transfusion/"
-        },
-        {
-          "title": "Anaesthesiology",
-          "note": "75 Faculty Members",
-          "href": "/departments/anaesthesiology/"
-        },
-        {
-          "title": "Dermatology, Venereology & Leprosy",
-          "note": "24 Faculty Members",
-          "href": "/departments/dermatology-venereology-leprosy/"
-        },
-        {
-          "title": "Emergency Medicine",
-          "note": "12 Faculty Members",
-          "href": "/departments/emergency-medicine/"
-        },
-        {
-          "title": "General Medicine",
-          "note": "73 Faculty Members",
-          "href": "/departments/general-medicine/"
-        },
-        {
-          "title": "Dentistry",
-          "note": "7 Faculty Members",
-          "href": "/departments/dentistry/"
-        },
-        {
-          "title": "Obstetrics & Gynaecology",
-          "note": "52 Faculty Members",
-          "href": "/departments/obstetrics-gynaecology/"
-        },
-        {
-          "title": "Ophthalmology",
-          "note": "29 Faculty Members",
-          "href": "/departments/ophthalmology/"
-        },
-        {
-          "title": "Orthopaedics",
-          "note": "45 Faculty Members",
-          "href": "/departments/orthopaedics/"
-        },
-        {
-          "title": "Oto-Rhino-Laryngology (ENT)",
-          "note": "23 Faculty Members",
-          "href": "/departments/oto-rhino-laryngology-ent/"
-        },
-        {
-          "title": "Paediatrics",
-          "note": "47 Faculty Members",
-          "href": "/departments/paediatrics/"
-        },
-        {
-          "title": "Psychiatry",
-          "note": "21 Faculty Members",
-          "href": "/departments/psychiatry/"
-        },
-        {
-          "title": "Radiation Oncology",
-          "note": "15 Faculty Members",
-          "href": "/departments/radiation-oncology/"
-        },
-        {
-          "title": "Radiodiagnosis",
-          "note": "47 Faculty Members",
-          "href": "/departments/radiodiagnosis/"
-        },
-        {
-          "title": "Respiratory Medicine",
-          "note": "12 Faculty Members",
-          "href": "/departments/respiratory-medicine/"
-        },
-        {
-          "title": "Interventional Radiology",
-          "note": "2 Faculty Members",
-          "href": "/departments/interventional-radiology/"
-        },
-        {
-          "title": "Cardiology",
-          "note": "2 Faculty Members",
-          "href": "/departments/cardiology/"
-        },
-        {
-          "title": "Critical Care Medicine",
-          "note": "4 Faculty Members",
-          "href": "/departments/critical-care-medicine/"
-        },
-        {
-          "title": "Medical Oncology",
-          "note": "2 Faculty Members",
-          "href": "/departments/medical-oncology/"
-        },
-        {
-          "title": "Nephrology",
-          "note": "2 Faculty Members",
-          "href": "/departments/nephrology/"
-        },
-        {
-          "title": "Plastic & Reconstructive Surgery",
-          "note": "4 Faculty Members",
-          "href": "/departments/plastic-reconstructive-surgery/"
-        },
-        {
-          "title": "Urology",
-          "note": "2 Faculty Members",
-          "href": "/departments/urology/"
-        }
-      ]
+     "title": "Anatomy",
+     "note": "23 Faculty Members",
+     "href": "/departments/anatomy/"
     },
     {
-      "type": "files",
-      "id": "pdf-lists",
-      "title": "Department wise faculty lists (PDF)",
-      "items": [
-        {
-          "title": "1. Anatomy",
-          "href": "/assets/docs/msr/faculty-lists/anatomy.pdf",
-          "date": ""
-        },
-        {
-          "title": "2. Biochemistry",
-          "href": "/assets/docs/msr/faculty-lists/biochemistry.pdf",
-          "date": ""
-        },
-        {
-          "title": "3. Physiology",
-          "href": "/assets/docs/msr/faculty-lists/physiology.pdf",
-          "date": ""
-        },
-        {
-          "title": "4. Pathology",
-          "href": "/assets/docs/msr/faculty-lists/pathology.pdf",
-          "date": ""
-        },
-        {
-          "title": "5. Pharmacology",
-          "href": "/assets/docs/msr/faculty-lists/pharmacology.pdf",
-          "date": ""
-        },
-        {
-          "title": "6. Microbiology",
-          "href": "/assets/docs/msr/faculty-lists/microbiology.pdf",
-          "date": ""
-        },
-        {
-          "title": "7. Community Medicine",
-          "href": "/assets/docs/msr/faculty-lists/community-medicine.pdf",
-          "date": ""
-        },
-        {
-          "title": "8. Forensic Medicine & Toxicology",
-          "href": "/assets/docs/msr/faculty-lists/forensic-medicine-toxicology.pdf",
-          "date": ""
-        },
-        {
-          "title": "9. General Surgery",
-          "href": "/assets/docs/msr/faculty-lists/general-surgery.pdf",
-          "date": ""
-        },
-        {
-          "title": "10. Immunohaematology & Blood Transfusion",
-          "href": "/assets/docs/msr/faculty-lists/immunohaematology-blood-transfusion.pdf",
-          "date": ""
-        },
-        {
-          "title": "11. Anaesthesiology",
-          "href": "/assets/docs/msr/faculty-lists/anaesthesiology.pdf",
-          "date": ""
-        },
-        {
-          "title": "12. Dermatology, Venereology & Leprosy",
-          "href": "/assets/docs/msr/faculty-lists/dermatology-venereology-leprosy.pdf",
-          "date": ""
-        },
-        {
-          "title": "13. Emergency Medicine",
-          "href": "/assets/docs/msr/faculty-lists/emergency-medicine.pdf",
-          "date": ""
-        },
-        {
-          "title": "14. General Medicine",
-          "href": "/assets/docs/msr/faculty-lists/general-medicine.pdf",
-          "date": ""
-        },
-        {
-          "title": "15. Dentistry",
-          "href": "/assets/docs/msr/faculty-lists/dentistry.pdf",
-          "date": ""
-        },
-        {
-          "title": "16. Obstetrics & Gynaecology",
-          "href": "/assets/docs/msr/faculty-lists/obstetrics-gynaecology.pdf",
-          "date": ""
-        },
-        {
-          "title": "17. Ophthalmology",
-          "href": "/assets/docs/msr/faculty-lists/ophthalmology.pdf",
-          "date": ""
-        },
-        {
-          "title": "18. Orthopaedics",
-          "href": "/assets/docs/msr/faculty-lists/orthopaedics.pdf",
-          "date": ""
-        },
-        {
-          "title": "19. Oto-Rhino-Laryngology (ENT)",
-          "href": "/assets/docs/msr/faculty-lists/oto-rhino-laryngology-ent.pdf",
-          "date": ""
-        },
-        {
-          "title": "20. Paediatrics",
-          "href": "/assets/docs/msr/faculty-lists/paediatrics.pdf",
-          "date": ""
-        },
-        {
-          "title": "21. Psychiatry",
-          "href": "/assets/docs/msr/faculty-lists/psychiatry.pdf",
-          "date": ""
-        },
-        {
-          "title": "22. Radiation Oncology",
-          "href": "/assets/docs/msr/faculty-lists/radiation-oncology.pdf",
-          "date": ""
-        },
-        {
-          "title": "23. Radiodiagnosis",
-          "href": "/assets/docs/msr/faculty-lists/radiodiagnosis.pdf",
-          "date": ""
-        },
-        {
-          "title": "24. Respiratory Medicine",
-          "href": "/assets/docs/msr/faculty-lists/respiratory-medicine.pdf",
-          "date": ""
-        },
-        {
-          "title": "25. Interventional Radiology",
-          "href": "/assets/docs/msr/faculty-lists/interventional-radiology.pdf",
-          "date": ""
-        },
-        {
-          "title": "26. Cardiology",
-          "href": "/assets/docs/msr/faculty-lists/cardiology.pdf",
-          "date": ""
-        },
-        {
-          "title": "27. Critical Care Medicine",
-          "href": "/assets/docs/msr/faculty-lists/critical-care-medicine.pdf",
-          "date": ""
-        },
-        {
-          "title": "28. Medical Oncology",
-          "href": "/assets/docs/msr/faculty-lists/medical-oncology.pdf",
-          "date": ""
-        },
-        {
-          "title": "29. Nephrology",
-          "href": "/assets/docs/msr/faculty-lists/nephrology.pdf",
-          "date": ""
-        },
-        {
-          "title": "30. Plastic & Reconstructive Surgery",
-          "href": "/assets/docs/msr/faculty-lists/plastic-reconstructive-surgery.pdf",
-          "date": ""
-        },
-        {
-          "title": "31. Urology",
-          "href": "/assets/docs/msr/faculty-lists/urology.pdf",
-          "date": ""
-        }
-      ]
+     "title": "Biochemistry",
+     "note": "25 Faculty Members",
+     "href": "/departments/biochemistry/"
+    },
+    {
+     "title": "Physiology",
+     "note": "19 Faculty Members",
+     "href": "/departments/physiology/"
+    },
+    {
+     "title": "Pathology",
+     "note": "48 Faculty Members",
+     "href": "/departments/pathology/"
+    },
+    {
+     "title": "Pharmacology",
+     "note": "25 Faculty Members",
+     "href": "/departments/pharmacology/"
+    },
+    {
+     "title": "Microbiology",
+     "note": "24 Faculty Members",
+     "href": "/departments/microbiology/"
+    },
+    {
+     "title": "Community Medicine",
+     "note": "27 Faculty Members",
+     "href": "/departments/community-medicine/"
+    },
+    {
+     "title": "Forensic Medicine & Toxicology",
+     "note": "14 Faculty Members",
+     "href": "/departments/forensic-medicine-toxicology/"
+    },
+    {
+     "title": "General Surgery",
+     "note": "69 Faculty Members",
+     "href": "/departments/general-surgery/"
+    },
+    {
+     "title": "Immunohaematology & Blood Transfusion",
+     "note": "7 Faculty Members",
+     "href": "/departments/immunohaematology-blood-transfusion/"
+    },
+    {
+     "title": "Anaesthesiology",
+     "note": "75 Faculty Members",
+     "href": "/departments/anaesthesiology/"
+    },
+    {
+     "title": "Dermatology, Venereology & Leprosy",
+     "note": "24 Faculty Members",
+     "href": "/departments/dermatology-venereology-leprosy/"
+    },
+    {
+     "title": "Emergency Medicine",
+     "note": "12 Faculty Members",
+     "href": "/departments/emergency-medicine/"
+    },
+    {
+     "title": "General Medicine",
+     "note": "73 Faculty Members",
+     "href": "/departments/general-medicine/"
+    },
+    {
+     "title": "Dentistry",
+     "note": "7 Faculty Members",
+     "href": "/departments/dentistry/"
+    },
+    {
+     "title": "Obstetrics & Gynaecology",
+     "note": "52 Faculty Members",
+     "href": "/departments/obstetrics-gynaecology/"
+    },
+    {
+     "title": "Ophthalmology",
+     "note": "29 Faculty Members",
+     "href": "/departments/ophthalmology/"
+    },
+    {
+     "title": "Orthopaedics",
+     "note": "45 Faculty Members",
+     "href": "/departments/orthopaedics/"
+    },
+    {
+     "title": "Oto-Rhino-Laryngology (ENT)",
+     "note": "23 Faculty Members",
+     "href": "/departments/oto-rhino-laryngology-ent/"
+    },
+    {
+     "title": "Paediatrics",
+     "note": "47 Faculty Members",
+     "href": "/departments/paediatrics/"
+    },
+    {
+     "title": "Psychiatry",
+     "note": "21 Faculty Members",
+     "href": "/departments/psychiatry/"
+    },
+    {
+     "title": "Radiation Oncology",
+     "note": "15 Faculty Members",
+     "href": "/departments/radiation-oncology/"
+    },
+    {
+     "title": "Radiodiagnosis",
+     "note": "47 Faculty Members",
+     "href": "/departments/radiodiagnosis/"
+    },
+    {
+     "title": "Respiratory Medicine",
+     "note": "12 Faculty Members",
+     "href": "/departments/respiratory-medicine/"
+    },
+    {
+     "title": "Interventional Radiology",
+     "note": "2 Faculty Members",
+     "href": "/departments/interventional-radiology/"
+    },
+    {
+     "title": "Cardiology",
+     "note": "2 Faculty Members",
+     "href": "/departments/cardiology/"
+    },
+    {
+     "title": "Critical Care Medicine",
+     "note": "4 Faculty Members",
+     "href": "/departments/critical-care-medicine/"
+    },
+    {
+     "title": "Medical Oncology",
+     "note": "2 Faculty Members",
+     "href": "/departments/medical-oncology/"
+    },
+    {
+     "title": "Nephrology",
+     "note": "2 Faculty Members",
+     "href": "/departments/nephrology/"
+    },
+    {
+     "title": "Plastic & Reconstructive Surgery",
+     "note": "4 Faculty Members",
+     "href": "/departments/plastic-reconstructive-surgery/"
+    },
+    {
+     "title": "Urology",
+     "note": "2 Faculty Members",
+     "href": "/departments/urology/"
     }
-  ]
+   ]
+  }
+ ]
 }

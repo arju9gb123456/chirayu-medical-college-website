@@ -199,7 +199,7 @@
     people: { label: 'People', icon: 'users', sub: 'items', subLabel: 'person', hint: 'Profile cards with photo, role and contact details (Dean, Vice-Chancellor, Registrar…).' }
   };
   var BLOCK_FIELDS = {
-    table: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'columns', l: 'Column names (separate with | )', t: 'csv', wide: 1, hint: 'e.g. Permissions | Date of Application / Permission' }],
+    table: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'columns', l: 'Column names (separate with | )', t: 'csv', wide: 1, hint: 'e.g. Permissions | Date of Application / Permission' }, { k: 'filterCol', l: 'Filter dropdown on column no. (optional)', t: 'text', hint: '0 = first column, 1 = second… Leave empty for no filter. Visitors can always search and sort.' }],
     files: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
     gallery: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
     text: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'body', l: 'Text', t: 'textarea', wide: 1, rows: 8 }],

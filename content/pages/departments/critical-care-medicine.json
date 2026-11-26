@@ -1,86 +1,78 @@
 {
-  "title": "Department of Critical Care Medicine",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Critical Care Medicine",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/critical-care-medicine/001.webp",
-          "name": "Dr. Nitesh Agrawal",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "14 Years",
-          "aebas": "22510047",
-          "regNo": "MP-3982",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "associate-professor",
-      "title": "Associate Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/critical-care-medicine/002.webp",
-          "name": "A. Hareesh",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MD",
-          "experience": "7 Years",
-          "aebas": "59203290",
-          "regNo": "APMC/FMR/88 175",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/critical-care-medicine/003.webp",
-          "name": "Dr. Rahul Raghuwanshi",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "7 Years",
-          "aebas": "51946117",
-          "regNo": "MP-17559",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "senior-resident",
-      "title": "Senior Residents",
-      "items": [
-        {
-          "photo": "/assets/faculty/critical-care-medicine/004.webp",
-          "name": "Dr. Shailendra Kumar Patel",
-          "designation": "Senior Resident",
-          "qualification": "MBBS, MD DNB DRNB",
-          "experience": "3 Years",
-          "aebas": "82753850",
-          "regNo": "MP-25748",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Critical Care Medicine faculty list",
-      "href": "/assets/docs/msr/faculty-lists/critical-care-medicine.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/critical-care-medicine/001.webp",
+     "name": "Dr. Nitesh Agrawal",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "14 Years",
+     "aebas": "22510047",
+     "regNo": "MP-3982",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "associate-professor",
+   "title": "Associate Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/critical-care-medicine/002.webp",
+     "name": "A. Hareesh",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MD",
+     "experience": "7 Years",
+     "aebas": "59203290",
+     "regNo": "APMC/FMR/88 175",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/critical-care-medicine/003.webp",
+     "name": "Dr. Rahul Raghuwanshi",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "7 Years",
+     "aebas": "51946117",
+     "regNo": "MP-17559",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "senior-resident",
+   "title": "Senior Residents",
+   "items": [
+    {
+     "photo": "/assets/faculty/critical-care-medicine/004.webp",
+     "name": "Dr. Shailendra Kumar Patel",
+     "designation": "Senior Resident",
+     "qualification": "MBBS, MD DNB DRNB",
+     "experience": "3 Years",
+     "aebas": "82753850",
+     "regNo": "MP-25748",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

@@ -17,6 +17,10 @@
       "title": "Bed Distribution"
     },
     {
+      "slug": "cme-programmes",
+      "title": "CME Programmes, Workshops & Conferences"
+    },
+    {
       "slug": "committees",
       "title": "Committees"
     },
@@ -153,6 +157,10 @@
       "title": "Details of Dean, Principal and Medical Superintendent"
     },
     {
+      "slug": "fees",
+      "title": "Details of Fees"
+    },
+    {
       "slug": "min-req-clause",
       "title": "Information under MSR Clause B.1.11"
     },
@@ -165,6 +173,14 @@
       "title": "List of Students Admitted Merit-Wise (UG & PG)"
     },
     {
+      "slug": "MARB-Proforma-18/annexure-1",
+      "title": "MARB Annexure I — Publications of Faculty"
+    },
+    {
+      "slug": "MARB-Proforma-18/annexure-2",
+      "title": "MARB Annexure II — Medical Education Training"
+    },
+    {
       "slug": "MARB-Proforma-18",
       "title": "MARB Proforma-18 — College Information"
     },
@@ -175,6 +191,10 @@
     {
       "slug": "departments",
       "title": "Our Departments & Faculty"
+    },
+    {
+      "slug": "research-publications",
+      "title": "Research Publications & Projects"
     },
     {
       "slug": "staff-information",

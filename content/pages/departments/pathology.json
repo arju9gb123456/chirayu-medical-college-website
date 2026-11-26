@@ -1,533 +1,525 @@
 {
-  "title": "Department of Pathology",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Pathology",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/pathology/001.webp",
-          "name": "Dr. Farah Jalay",
-          "designation": "Professor",
-          "qualification": "MBBS DIP DNB",
-          "experience": "21 Years",
-          "aebas": "80779813",
-          "regNo": "MP-723",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/002.webp",
-          "name": "Dr. Rashmi Nichlani",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "22 Years",
-          "aebas": "76116898",
-          "regNo": "MP-9505",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/003.webp",
-          "name": "Dr. Naila Durrani",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "13 Years",
-          "aebas": "41401628",
-          "regNo": "MP-7450",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/004.webp",
-          "name": "Dr. Syed Sarfaraz Ali",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "11 Years",
-          "aebas": "05656333",
-          "regNo": "13139 MCI",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/005.webp",
-          "name": "Dr. Reeni Malik",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "42 Years",
-          "aebas": "60561456",
-          "regNo": "7388 MPMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/006.webp",
-          "name": "Dr. Mahesh C. Patel",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "15 Years",
-          "aebas": "74343471",
-          "regNo": "KMC-75744",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/pathology/001.webp",
+     "name": "Dr. Farah Jalay",
+     "designation": "Professor",
+     "qualification": "MBBS DIP DNB",
+     "experience": "21 Years",
+     "aebas": "80779813",
+     "regNo": "MP-723",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "associate-professor",
-      "title": "Associate Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/pathology/007.webp",
-          "name": "Dr. Nipun Madhav",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MD",
-          "experience": "10 Years",
-          "aebas": "95220647",
-          "regNo": "MP-18747",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/008.webp",
-          "name": "Dr. Sunil R. Amswarup Sanghai",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MD",
-          "experience": "8 Years",
-          "aebas": "58526051",
-          "regNo": "55581 Maharashtra Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/009.webp",
-          "name": "Dr. Swapnil Gupta",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MD",
-          "experience": "8 Years",
-          "aebas": "77587047",
-          "regNo": "MP-18613",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/pathology/002.webp",
+     "name": "Dr. Rashmi Nichlani",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "22 Years",
+     "aebas": "76116898",
+     "regNo": "MP-9505",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/pathology/010.webp",
-          "name": "Dr. Rishabh Sahai",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "8 Years",
-          "aebas": "04621232",
-          "regNo": "MP-19446",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/011.webp",
-          "name": "Dr. Binti Malviya",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "7 Years",
-          "aebas": "71007152",
-          "regNo": "MP-7693 MPMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/012.webp",
-          "name": "Dr. Naish Akhtar",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "93565145",
-          "regNo": "MP-22067",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/013.webp",
-          "name": "Dr. Anki Saluja",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "8 Years",
-          "aebas": "73094235",
-          "regNo": "MP-34725",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/014.webp",
-          "name": "Ritu Asnani",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "7 Years",
-          "aebas": "50202696",
-          "regNo": "MP-20809",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/015.webp",
-          "name": "Dr. Priyanka Verma",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "5 Years",
-          "aebas": "69324306",
-          "regNo": "MP-22894",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/016.webp",
-          "name": "Dr. Surabhi Shrivastava",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS DNB",
-          "experience": "4 Years",
-          "aebas": "72763612",
-          "regNo": "MP—19706",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/017.webp",
-          "name": "Dr. Ankita Pal",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "29920071",
-          "regNo": "MP—36138",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/018.webp",
-          "name": "Dr. Vidushi Mishra",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "4 Years",
-          "aebas": "66499700",
-          "regNo": "69902 Uttar Pradesh Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/019.webp",
-          "name": "Dr. Yamuna Jayakumar",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS DNB",
-          "experience": "4 Years",
-          "aebas": "18010567",
-          "regNo": "72656 The Travancore- Cochin Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/020.webp",
-          "name": "Dr. Archa Dixit",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "5 Years",
-          "aebas": "65068678",
-          "regNo": "MP-20370",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/021.webp",
-          "name": "Dr. Lalit Khawse",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "4 Years",
-          "aebas": "63921448",
-          "regNo": "4436 Maharashtra Medical Coucil",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/pathology/003.webp",
+     "name": "Dr. Naila Durrani",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "13 Years",
+     "aebas": "41401628",
+     "regNo": "MP-7450",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "senior-resident",
-      "title": "Senior Residents",
-      "items": [
-        {
-          "photo": "/assets/faculty/pathology/022.webp",
-          "name": "Dr. Shradha Saxena",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "4 Years",
-          "aebas": "73488468",
-          "regNo": "MP-26026",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/023.webp",
-          "name": "Dr. Ayushi Sharma",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "4 Years",
-          "aebas": "33725657",
-          "regNo": "2019/05/3815",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/024.webp",
-          "name": "Dr. Rajshree Choudhary",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "45116430",
-          "regNo": "144444 Karnataka Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/025.webp",
-          "name": "Dr. Manisha Sinha",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "88642931",
-          "regNo": "169731 Karnataka Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/026.webp",
-          "name": "Dr. Chakshu Sukheja",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MD",
-          "experience": "3 Years",
-          "aebas": "91969691",
-          "regNo": "MP-27016",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/pathology/004.webp",
+     "name": "Dr. Syed Sarfaraz Ali",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "11 Years",
+     "aebas": "05656333",
+     "regNo": "13139 MCI",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "tutor",
-      "title": "Tutors",
-      "items": [
-        {
-          "photo": "/assets/faculty/pathology/027.webp",
-          "name": "Dr. Nadiya Khan",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "04042858",
-          "regNo": "MP-31913",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/028.webp",
-          "name": "Dr. Sanskriti Upadhyay",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "84138330",
-          "regNo": "MP-31510",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/029.webp",
-          "name": "Dr. Trupti Sudhir Pimple",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "85920022",
-          "regNo": "MP-28591",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/030.webp",
-          "name": "Dr. Chitranshi Verma",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "54538455",
-          "regNo": "MP-24183",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/031.webp",
-          "name": "Dr. Deepak Rathore",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "59647238",
-          "regNo": "MP-21249",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/032.webp",
-          "name": "Dr. Deepraj Verma",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "34388405",
-          "regNo": "MP-27941",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/033.webp",
-          "name": "Dr. Vinita Solanki",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "46867139",
-          "regNo": "MP-31208",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/034.webp",
-          "name": "Dr. Shivani Parihar",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "95585899",
-          "regNo": "MP-19105",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/035.webp",
-          "name": "Dr. Rajiv Kumar Singh",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "45813716",
-          "regNo": "MP-18284",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/036.webp",
-          "name": "Dr. Chekoti Nikita Yadav",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "20065745",
-          "regNo": "MP-26273",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/037.webp",
-          "name": "Dr. Jotika Tiwari",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "03184864",
-          "regNo": "MP-19365",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/038.webp",
-          "name": "Dr. Achika Agarwal",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "54842908",
-          "regNo": "MP-29458",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/039.webp",
-          "name": "Dr. Alimaa",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "62947490",
-          "regNo": "2022/06/3338 Maharashtra Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/040.webp",
-          "name": "Dr. Shubhi Bajori",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "66070640",
-          "regNo": "MP-31778",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/041.webp",
-          "name": "Dr. Tahleel Siddiqui",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "84527463",
-          "regNo": "MP-21113",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/042.webp",
-          "name": "Dr. Albert K. Varghese",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "85241909",
-          "regNo": "MP-26744",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/043.webp",
-          "name": "Dr. Arpit Girotiya",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "69894311",
-          "regNo": "MP-29219",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/044.webp",
-          "name": "Dr. Ratan Kumar",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "12868696",
-          "regNo": "79086",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/045.webp",
-          "name": "Dr. Dhriti Dua",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "54843219",
-          "regNo": "HN-27785 HARYANA MEDICAL COUNCIL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/046.webp",
-          "name": "Dr. Kumar Kaustubh",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "48073384",
-          "regNo": "59832 Bihar Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/047.webp",
-          "name": "Dr. Shubhangi Khare",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "28027762",
-          "regNo": "MP-37065",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pathology/048.webp",
-          "name": "Dr. Yaashi Arora",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "41585590",
-          "regNo": "DMC/R/26436 Delhi Medical Council",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/pathology/005.webp",
+     "name": "Dr. Reeni Malik",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "42 Years",
+     "aebas": "60561456",
+     "regNo": "7388 MPMC",
+     "employment": "Permanent"
     },
     {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Pathology faculty list",
-      "href": "/assets/docs/msr/faculty-lists/pathology.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/pathology/006.webp",
+     "name": "Dr. Mahesh C. Patel",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "15 Years",
+     "aebas": "74343471",
+     "regNo": "KMC-75744",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "associate-professor",
+   "title": "Associate Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/pathology/007.webp",
+     "name": "Dr. Nipun Madhav",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MD",
+     "experience": "10 Years",
+     "aebas": "95220647",
+     "regNo": "MP-18747",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/008.webp",
+     "name": "Dr. Sunil R. Amswarup Sanghai",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MD",
+     "experience": "8 Years",
+     "aebas": "58526051",
+     "regNo": "55581 Maharashtra Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/009.webp",
+     "name": "Dr. Swapnil Gupta",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MD",
+     "experience": "8 Years",
+     "aebas": "77587047",
+     "regNo": "MP-18613",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/pathology/010.webp",
+     "name": "Dr. Rishabh Sahai",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "8 Years",
+     "aebas": "04621232",
+     "regNo": "MP-19446",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/011.webp",
+     "name": "Dr. Binti Malviya",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "7 Years",
+     "aebas": "71007152",
+     "regNo": "MP-7693 MPMC",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/012.webp",
+     "name": "Dr. Naish Akhtar",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "93565145",
+     "regNo": "MP-22067",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/013.webp",
+     "name": "Dr. Anki Saluja",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "8 Years",
+     "aebas": "73094235",
+     "regNo": "MP-34725",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/014.webp",
+     "name": "Ritu Asnani",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "7 Years",
+     "aebas": "50202696",
+     "regNo": "MP-20809",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/015.webp",
+     "name": "Dr. Priyanka Verma",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "5 Years",
+     "aebas": "69324306",
+     "regNo": "MP-22894",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/016.webp",
+     "name": "Dr. Surabhi Shrivastava",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS DNB",
+     "experience": "4 Years",
+     "aebas": "72763612",
+     "regNo": "MP—19706",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/017.webp",
+     "name": "Dr. Ankita Pal",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "29920071",
+     "regNo": "MP—36138",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/018.webp",
+     "name": "Dr. Vidushi Mishra",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "4 Years",
+     "aebas": "66499700",
+     "regNo": "69902 Uttar Pradesh Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/019.webp",
+     "name": "Dr. Yamuna Jayakumar",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS DNB",
+     "experience": "4 Years",
+     "aebas": "18010567",
+     "regNo": "72656 The Travancore- Cochin Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/020.webp",
+     "name": "Dr. Archa Dixit",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "5 Years",
+     "aebas": "65068678",
+     "regNo": "MP-20370",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/021.webp",
+     "name": "Dr. Lalit Khawse",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "4 Years",
+     "aebas": "63921448",
+     "regNo": "4436 Maharashtra Medical Coucil",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "senior-resident",
+   "title": "Senior Residents",
+   "items": [
+    {
+     "photo": "/assets/faculty/pathology/022.webp",
+     "name": "Dr. Shradha Saxena",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "4 Years",
+     "aebas": "73488468",
+     "regNo": "MP-26026",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/023.webp",
+     "name": "Dr. Ayushi Sharma",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "4 Years",
+     "aebas": "33725657",
+     "regNo": "2019/05/3815",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/024.webp",
+     "name": "Dr. Rajshree Choudhary",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "45116430",
+     "regNo": "144444 Karnataka Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/025.webp",
+     "name": "Dr. Manisha Sinha",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "88642931",
+     "regNo": "169731 Karnataka Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/026.webp",
+     "name": "Dr. Chakshu Sukheja",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MD",
+     "experience": "3 Years",
+     "aebas": "91969691",
+     "regNo": "MP-27016",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "tutor",
+   "title": "Tutors",
+   "items": [
+    {
+     "photo": "/assets/faculty/pathology/027.webp",
+     "name": "Dr. Nadiya Khan",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "04042858",
+     "regNo": "MP-31913",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/028.webp",
+     "name": "Dr. Sanskriti Upadhyay",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "84138330",
+     "regNo": "MP-31510",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/029.webp",
+     "name": "Dr. Trupti Sudhir Pimple",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "85920022",
+     "regNo": "MP-28591",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/030.webp",
+     "name": "Dr. Chitranshi Verma",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "54538455",
+     "regNo": "MP-24183",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/031.webp",
+     "name": "Dr. Deepak Rathore",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "59647238",
+     "regNo": "MP-21249",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/032.webp",
+     "name": "Dr. Deepraj Verma",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "34388405",
+     "regNo": "MP-27941",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/033.webp",
+     "name": "Dr. Vinita Solanki",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "46867139",
+     "regNo": "MP-31208",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/034.webp",
+     "name": "Dr. Shivani Parihar",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "95585899",
+     "regNo": "MP-19105",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/035.webp",
+     "name": "Dr. Rajiv Kumar Singh",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "45813716",
+     "regNo": "MP-18284",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/036.webp",
+     "name": "Dr. Chekoti Nikita Yadav",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "20065745",
+     "regNo": "MP-26273",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/037.webp",
+     "name": "Dr. Jotika Tiwari",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "03184864",
+     "regNo": "MP-19365",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/038.webp",
+     "name": "Dr. Achika Agarwal",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "54842908",
+     "regNo": "MP-29458",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/039.webp",
+     "name": "Dr. Alimaa",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "62947490",
+     "regNo": "2022/06/3338 Maharashtra Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/040.webp",
+     "name": "Dr. Shubhi Bajori",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "66070640",
+     "regNo": "MP-31778",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/041.webp",
+     "name": "Dr. Tahleel Siddiqui",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "84527463",
+     "regNo": "MP-21113",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/042.webp",
+     "name": "Dr. Albert K. Varghese",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "85241909",
+     "regNo": "MP-26744",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/043.webp",
+     "name": "Dr. Arpit Girotiya",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "69894311",
+     "regNo": "MP-29219",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/044.webp",
+     "name": "Dr. Ratan Kumar",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "12868696",
+     "regNo": "79086",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/045.webp",
+     "name": "Dr. Dhriti Dua",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "54843219",
+     "regNo": "HN-27785 HARYANA MEDICAL COUNCIL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/046.webp",
+     "name": "Dr. Kumar Kaustubh",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "48073384",
+     "regNo": "59832 Bihar Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/047.webp",
+     "name": "Dr. Shubhangi Khare",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "28027762",
+     "regNo": "MP-37065",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pathology/048.webp",
+     "name": "Dr. Yaashi Arora",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "41585590",
+     "regNo": "DMC/R/26436 Delhi Medical Council",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

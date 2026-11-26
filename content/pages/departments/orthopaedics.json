@@ -1,503 +1,495 @@
 {
-  "title": "Department of Orthopaedics",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Orthopaedics",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/orthopaedics/001.webp",
-          "name": "Dr. Deepak Nadkarni",
-          "designation": "Professor",
-          "qualification": "MBBS MS D-ORTHO",
-          "experience": "22 Years",
-          "aebas": "99031905",
-          "regNo": "MP-3219",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/002.webp",
-          "name": "Dr. Vaibhav Maheshwari",
-          "designation": "Professor",
-          "qualification": "MBBS MS",
-          "experience": "15 Years",
-          "aebas": "33598573",
-          "regNo": "MMC- 2003/08/2991",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/003.webp",
-          "name": "Dr. Suresh K. Vallam",
-          "designation": "Professor",
-          "qualification": "MBBS MS",
-          "experience": "15 Years",
-          "aebas": "08257910",
-          "regNo": "HMCI12358 Telangana Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/004.webp",
-          "name": "Dr. Jiten Chandra Shukla",
-          "designation": "Professor",
-          "qualification": "MBBS MS",
-          "experience": "24 Years",
-          "aebas": "30205517",
-          "regNo": "41509 MPMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/005.webp",
-          "name": "Dr. Sanjay Gupta",
-          "designation": "Professor",
-          "qualification": "MBBS DNB",
-          "experience": "10 Years",
-          "aebas": "97319703",
-          "regNo": "MP-8160",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/006.webp",
-          "name": "Dr. Sandeep Kumar Gour",
-          "designation": "Professor",
-          "qualification": "MBBS DNB D-ORTHO",
-          "experience": "13 Years",
-          "aebas": "29093271",
-          "regNo": "MP-12757",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/007.webp",
-          "name": "Dr. Ajay Sabhnani",
-          "designation": "Professor",
-          "qualification": "MBBS MS",
-          "experience": "4 ssYEAR",
-          "aebas": "38406788",
-          "regNo": "MP-26931",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/orthopaedics/001.webp",
+     "name": "Dr. Deepak Nadkarni",
+     "designation": "Professor",
+     "qualification": "MBBS MS D-ORTHO",
+     "experience": "22 Years",
+     "aebas": "99031905",
+     "regNo": "MP-3219",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "associate-professor",
-      "title": "Associate Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/orthopaedics/008.webp",
-          "name": "Dr. Anshul Khare",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MS",
-          "experience": "9 Years",
-          "aebas": "38158034",
-          "regNo": "MP-21274",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/009.webp",
-          "name": "Dr. Anchal Naveet Mishra",
-          "designation": "Associate Professor",
-          "qualification": "MBBS DNB D ORTHO",
-          "experience": "12 Years",
-          "aebas": "07234056",
-          "regNo": "MP-13753",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/orthopaedics/002.webp",
+     "name": "Dr. Vaibhav Maheshwari",
+     "designation": "Professor",
+     "qualification": "MBBS MS",
+     "experience": "15 Years",
+     "aebas": "33598573",
+     "regNo": "MMC- 2003/08/2991",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/orthopaedics/010.webp",
-          "name": "Dr. Aditya Tripathi",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "6 Years",
-          "aebas": "69539639",
-          "regNo": "G-59764",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/011.webp",
-          "name": "Dr. Ayush Tiwari",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "5 Years",
-          "aebas": "04215331",
-          "regNo": "MP-35794",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/012.webp",
-          "name": "Dr. Mohit Dadlani",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "7 Years",
-          "aebas": "49446991",
-          "regNo": "MP-22255",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/013.webp",
-          "name": "Dr. Shubham Upadhyay",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "8 Years",
-          "aebas": "37625805",
-          "regNo": "MP-22701",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/014.webp",
-          "name": "Dr. Mahesh Gupta",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS DNB",
-          "experience": "15 Years",
-          "aebas": "77681732",
-          "regNo": "MP-5654",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/015.webp",
-          "name": "Dr. Kirtiraj Nagina",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MS",
-          "experience": "9 Years",
-          "aebas": "31355553",
-          "regNo": "MP-9798",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/016.webp",
-          "name": "Dr. Gyaneshwar Mishra",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS",
-          "experience": "4 Years",
-          "aebas": "5592403",
-          "regNo": "MP-20342",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/orthopaedics/003.webp",
+     "name": "Dr. Suresh K. Vallam",
+     "designation": "Professor",
+     "qualification": "MBBS MS",
+     "experience": "15 Years",
+     "aebas": "08257910",
+     "regNo": "HMCI12358 Telangana Medical Council",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "senior-resident",
-      "title": "Senior Residents",
-      "items": [
-        {
-          "photo": "/assets/faculty/orthopaedics/017.webp",
-          "name": "Dr. Satyam Sandiya Rai",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MS",
-          "experience": "4 Years",
-          "aebas": "26549513",
-          "regNo": "MP-29653",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/018.webp",
-          "name": "Dr. Devansh Saxena",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MS",
-          "experience": "4 Years",
-          "aebas": "49046065",
-          "regNo": "142473 Karnataka Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/019.webp",
-          "name": "Dr. Jeetendra Verma",
-          "designation": "Senior Resident",
-          "qualification": "MBBS DNB",
-          "experience": "3 Years",
-          "aebas": "86444234",
-          "regNo": "MP-30011",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/020.webp",
-          "name": "Dr. Rishab Pandey",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MS",
-          "experience": "3 Years",
-          "aebas": "60089745",
-          "regNo": "MP-31920",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/021.webp",
-          "name": "Dr. Deepesh Khurana",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MS",
-          "experience": "3 Years",
-          "aebas": "23983005",
-          "regNo": "MP 22254",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/022.webp",
-          "name": "Dr. Pushpendra Singh Dhakad",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MS",
-          "experience": "3 Years",
-          "aebas": "35244241",
-          "regNo": "MP-22852",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/023.webp",
-          "name": "Dr. Nabeel Abdul Kareem",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MS",
-          "experience": "3 Years",
-          "aebas": "61778047",
-          "regNo": "146017 Uttar Pradesh Medical Councill",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/024.webp",
-          "name": "Dr. Naman Sharda",
-          "designation": "Senior Resident",
-          "qualification": "MBBS MS",
-          "experience": "3 Years",
-          "aebas": "59096848",
-          "regNo": "MP-29957",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/025.webp",
-          "name": "Dr. Yatharth Jha",
-          "designation": "Senior Resident",
-          "qualification": "MBBS DNB",
-          "experience": "3 Years",
-          "aebas": "58248968",
-          "regNo": "DMC/R/31057",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/orthopaedics/004.webp",
+     "name": "Dr. Jiten Chandra Shukla",
+     "designation": "Professor",
+     "qualification": "MBBS MS",
+     "experience": "24 Years",
+     "aebas": "30205517",
+     "regNo": "41509 MPMC",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "junior-resident",
-      "title": "Junior Residents",
-      "items": [
-        {
-          "photo": "/assets/faculty/orthopaedics/026.webp",
-          "name": "Dr. Arvind Kumar Nagar",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "79668563",
-          "regNo": "MP-18491",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/027.webp",
-          "name": "Dr. Ajit Singh Dod",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "76439630",
-          "regNo": "MP-32027",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/028.webp",
-          "name": "Dr. Divyansh Bundela",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "53388386",
-          "regNo": "MP-28255",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/029.webp",
-          "name": "Dr. Parithosh Alekar",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "90742144",
-          "regNo": "MP-28411",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/030.webp",
-          "name": "Dr. Eshaan Mehta",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "20787858",
-          "regNo": "MP-8494/2023",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/031.webp",
-          "name": "Dr. Ayush Shrivastava",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "70007085",
-          "regNo": "MP-27834",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/032.webp",
-          "name": "Dr. Deepanshu Rathore",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "25936860",
-          "regNo": "MP-39900",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/033.webp",
-          "name": "Dr. Nadimul Huda",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "22494867",
-          "regNo": "MP-26994",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/034.webp",
-          "name": "Dr. Piyush Mittal",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "89464186",
-          "regNo": "MP-31598",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/035.webp",
-          "name": "Dr. Nikhil Kumar Singh Khushwaha",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "62019315",
-          "regNo": "MP-31531",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/036.webp",
-          "name": "Dr. Vishwam",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "00045756",
-          "regNo": "MP-40924",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/037.webp",
-          "name": "Dr. Deepak Kumar Vishwakarm A.",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "18465883",
-          "regNo": "MP-31757",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/038.webp",
-          "name": "Dr. Siddrath A. Kaushik",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "05454959",
-          "regNo": "79847 Uattar Pradesh Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/039.webp",
-          "name": "Dr. Vishal Choudhary",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "98576513",
-          "regNo": "MP-32408",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/040.webp",
-          "name": "Dr. Dheerender Nagar",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "95765540",
-          "regNo": "77064 Uttar Pradesh Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/041.webp",
-          "name": "Dr. Shreyas Milind Badgujar",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "28875861",
-          "regNo": "MP-41760",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/042.webp",
-          "name": "Dr. Amit Rinhayat",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "94253033",
-          "regNo": "MP-31632",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/043.webp",
-          "name": "Dr. Yashwardhan Singh Dewda",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "00677472",
-          "regNo": "MP-40083",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/044.webp",
-          "name": "Dr. Hardik Patidar",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "33762509",
-          "regNo": "MP-34402",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/orthopaedics/045.webp",
-          "name": "Dr. Sanskriti Sharma",
-          "designation": "Junior Resident",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "62368686",
-          "regNo": "MP-38840",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/orthopaedics/005.webp",
+     "name": "Dr. Sanjay Gupta",
+     "designation": "Professor",
+     "qualification": "MBBS DNB",
+     "experience": "10 Years",
+     "aebas": "97319703",
+     "regNo": "MP-8160",
+     "employment": "Permanent"
     },
     {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Orthopaedics faculty list",
-      "href": "/assets/docs/msr/faculty-lists/orthopaedics.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/orthopaedics/006.webp",
+     "name": "Dr. Sandeep Kumar Gour",
+     "designation": "Professor",
+     "qualification": "MBBS DNB D-ORTHO",
+     "experience": "13 Years",
+     "aebas": "29093271",
+     "regNo": "MP-12757",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/007.webp",
+     "name": "Dr. Ajay Sabhnani",
+     "designation": "Professor",
+     "qualification": "MBBS MS",
+     "experience": "4 ssYEAR",
+     "aebas": "38406788",
+     "regNo": "MP-26931",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "associate-professor",
+   "title": "Associate Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/orthopaedics/008.webp",
+     "name": "Dr. Anshul Khare",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MS",
+     "experience": "9 Years",
+     "aebas": "38158034",
+     "regNo": "MP-21274",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/009.webp",
+     "name": "Dr. Anchal Naveet Mishra",
+     "designation": "Associate Professor",
+     "qualification": "MBBS DNB D ORTHO",
+     "experience": "12 Years",
+     "aebas": "07234056",
+     "regNo": "MP-13753",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/orthopaedics/010.webp",
+     "name": "Dr. Aditya Tripathi",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "6 Years",
+     "aebas": "69539639",
+     "regNo": "G-59764",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/011.webp",
+     "name": "Dr. Ayush Tiwari",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "5 Years",
+     "aebas": "04215331",
+     "regNo": "MP-35794",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/012.webp",
+     "name": "Dr. Mohit Dadlani",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "7 Years",
+     "aebas": "49446991",
+     "regNo": "MP-22255",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/013.webp",
+     "name": "Dr. Shubham Upadhyay",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "8 Years",
+     "aebas": "37625805",
+     "regNo": "MP-22701",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/014.webp",
+     "name": "Dr. Mahesh Gupta",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS DNB",
+     "experience": "15 Years",
+     "aebas": "77681732",
+     "regNo": "MP-5654",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/015.webp",
+     "name": "Dr. Kirtiraj Nagina",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MS",
+     "experience": "9 Years",
+     "aebas": "31355553",
+     "regNo": "MP-9798",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/016.webp",
+     "name": "Dr. Gyaneshwar Mishra",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS",
+     "experience": "4 Years",
+     "aebas": "5592403",
+     "regNo": "MP-20342",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "senior-resident",
+   "title": "Senior Residents",
+   "items": [
+    {
+     "photo": "/assets/faculty/orthopaedics/017.webp",
+     "name": "Dr. Satyam Sandiya Rai",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MS",
+     "experience": "4 Years",
+     "aebas": "26549513",
+     "regNo": "MP-29653",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/018.webp",
+     "name": "Dr. Devansh Saxena",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MS",
+     "experience": "4 Years",
+     "aebas": "49046065",
+     "regNo": "142473 Karnataka Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/019.webp",
+     "name": "Dr. Jeetendra Verma",
+     "designation": "Senior Resident",
+     "qualification": "MBBS DNB",
+     "experience": "3 Years",
+     "aebas": "86444234",
+     "regNo": "MP-30011",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/020.webp",
+     "name": "Dr. Rishab Pandey",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MS",
+     "experience": "3 Years",
+     "aebas": "60089745",
+     "regNo": "MP-31920",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/021.webp",
+     "name": "Dr. Deepesh Khurana",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MS",
+     "experience": "3 Years",
+     "aebas": "23983005",
+     "regNo": "MP 22254",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/022.webp",
+     "name": "Dr. Pushpendra Singh Dhakad",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MS",
+     "experience": "3 Years",
+     "aebas": "35244241",
+     "regNo": "MP-22852",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/023.webp",
+     "name": "Dr. Nabeel Abdul Kareem",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MS",
+     "experience": "3 Years",
+     "aebas": "61778047",
+     "regNo": "146017 Uttar Pradesh Medical Councill",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/024.webp",
+     "name": "Dr. Naman Sharda",
+     "designation": "Senior Resident",
+     "qualification": "MBBS MS",
+     "experience": "3 Years",
+     "aebas": "59096848",
+     "regNo": "MP-29957",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/025.webp",
+     "name": "Dr. Yatharth Jha",
+     "designation": "Senior Resident",
+     "qualification": "MBBS DNB",
+     "experience": "3 Years",
+     "aebas": "58248968",
+     "regNo": "DMC/R/31057",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "junior-resident",
+   "title": "Junior Residents",
+   "items": [
+    {
+     "photo": "/assets/faculty/orthopaedics/026.webp",
+     "name": "Dr. Arvind Kumar Nagar",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "79668563",
+     "regNo": "MP-18491",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/027.webp",
+     "name": "Dr. Ajit Singh Dod",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "76439630",
+     "regNo": "MP-32027",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/028.webp",
+     "name": "Dr. Divyansh Bundela",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "53388386",
+     "regNo": "MP-28255",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/029.webp",
+     "name": "Dr. Parithosh Alekar",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "90742144",
+     "regNo": "MP-28411",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/030.webp",
+     "name": "Dr. Eshaan Mehta",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "20787858",
+     "regNo": "MP-8494/2023",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/031.webp",
+     "name": "Dr. Ayush Shrivastava",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "70007085",
+     "regNo": "MP-27834",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/032.webp",
+     "name": "Dr. Deepanshu Rathore",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "25936860",
+     "regNo": "MP-39900",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/033.webp",
+     "name": "Dr. Nadimul Huda",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "22494867",
+     "regNo": "MP-26994",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/034.webp",
+     "name": "Dr. Piyush Mittal",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "89464186",
+     "regNo": "MP-31598",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/035.webp",
+     "name": "Dr. Nikhil Kumar Singh Khushwaha",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "62019315",
+     "regNo": "MP-31531",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/036.webp",
+     "name": "Dr. Vishwam",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "00045756",
+     "regNo": "MP-40924",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/037.webp",
+     "name": "Dr. Deepak Kumar Vishwakarm A.",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "18465883",
+     "regNo": "MP-31757",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/038.webp",
+     "name": "Dr. Siddrath A. Kaushik",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "05454959",
+     "regNo": "79847 Uattar Pradesh Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/039.webp",
+     "name": "Dr. Vishal Choudhary",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "98576513",
+     "regNo": "MP-32408",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/040.webp",
+     "name": "Dr. Dheerender Nagar",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "95765540",
+     "regNo": "77064 Uttar Pradesh Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/041.webp",
+     "name": "Dr. Shreyas Milind Badgujar",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "28875861",
+     "regNo": "MP-41760",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/042.webp",
+     "name": "Dr. Amit Rinhayat",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "94253033",
+     "regNo": "MP-31632",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/043.webp",
+     "name": "Dr. Yashwardhan Singh Dewda",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "00677472",
+     "regNo": "MP-40083",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/044.webp",
+     "name": "Dr. Hardik Patidar",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "33762509",
+     "regNo": "MP-34402",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/orthopaedics/045.webp",
+     "name": "Dr. Sanskriti Sharma",
+     "designation": "Junior Resident",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "62368686",
+     "regNo": "MP-38840",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

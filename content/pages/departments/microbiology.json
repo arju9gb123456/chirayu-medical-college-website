@@ -1,286 +1,278 @@
 {
-  "title": "Department of Microbiology",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Microbiology",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/microbiology/001.webp",
-          "name": "Dr. Saurabh G Agarwal",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "20 Years",
-          "aebas": "78891084",
-          "regNo": "MP- 13557/(MPMC)",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/002.webp",
-          "name": "Dr. Sanyogita Jain",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "16 Years",
-          "aebas": "73559800",
-          "regNo": "MP- 3652/(MPMC)",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/microbiology/001.webp",
+     "name": "Dr. Saurabh G Agarwal",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "20 Years",
+     "aebas": "78891084",
+     "regNo": "MP- 13557/(MPMC)",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "associate-professor",
-      "title": "Associate Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/microbiology/003.webp",
-          "name": "Dr. Cheruvu Vishala Sarma",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "34881822",
-          "regNo": "48439 TELANGANA MEDICAL COUNCIL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/004.webp",
-          "name": "Dr. Saurabh Jayant",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MD",
-          "experience": "8 Years",
-          "aebas": "00709397",
-          "regNo": "MP- 12679/(MPMC)",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/005.webp",
-          "name": "Dr. Karan Indra Ostwal",
-          "designation": "Associate Professor",
-          "qualification": "MBBS MD",
-          "experience": "8 Years",
-          "aebas": "09844045",
-          "regNo": "2010/05/1587 Maharashtra Medical Coucil",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/006.webp",
-          "name": "Mrs. Mamta Sarwariya",
-          "designation": "Associate Professor",
-          "qualification": "MSC",
-          "experience": "9 Years",
-          "aebas": "81361659",
-          "regNo": "PU-0011113038",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/microbiology/007.webp",
-          "name": "Dr. Kuldeep Singh",
-          "designation": "Assistant Professor",
-          "qualification": "MSC (MEDICAL) PH.D (MEDICAL)",
-          "experience": "10 Years",
-          "aebas": "52673636",
-          "regNo": "MU19PHM023",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/008.webp",
-          "name": "Dr. Rajdeep Paul",
-          "designation": "Assistant Professor",
-          "qualification": "MSC (MEDICAL) PH.D (MEDICAL)",
-          "experience": "7 Years",
-          "aebas": "81967540",
-          "regNo": "MU19PHM024",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/009.webp",
-          "name": "Dr. Satakshi Manwani",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "77767420",
-          "regNo": "MP-18031",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/010.webp",
-          "name": "Dr. Samandeep Kaur",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "5 Years",
-          "aebas": "80739848",
-          "regNo": "50032/PMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/011.webp",
-          "name": "Dr. Kinnar Haresbhai",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "5 Years",
-          "aebas": "96701683",
-          "regNo": "G-52359",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/012.webp",
-          "name": "Dr. Sakshi Patel",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "5 Years",
-          "aebas": "93967947",
-          "regNo": "MP-23302",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/013.webp",
-          "name": "Dr. Pooja Mishra",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "4 Years",
-          "aebas": "32287900",
-          "regNo": "MP-25086",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/014.webp",
-          "name": "Dr. Kirti Vishwakarma",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "11103011",
-          "regNo": "MP-21253",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "faculty",
-      "id": "tutor",
-      "title": "Tutors",
-      "items": [
-        {
-          "photo": "/assets/faculty/microbiology/015.webp",
-          "name": "Mr. Veerendra Sen",
-          "designation": "Tutor",
-          "qualification": "MSC",
-          "experience": "3 Years",
-          "aebas": "42259637",
-          "regNo": "NIL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/016.webp",
-          "name": "Dr. Akshaya Khattri",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "73224993",
-          "regNo": "MP-22501",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/017.webp",
-          "name": "Dr. Arpita Soni",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "46096873",
-          "regNo": "MP-22278",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/018.webp",
-          "name": "Dr. Neha Dawar",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "10551829",
-          "regNo": "MP-34565",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/019.webp",
-          "name": "Dr. Bonny Jaiswal",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "58889175",
-          "regNo": "MP-25950",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/020.webp",
-          "name": "Dr. Harsh Wardharn Singh Tomar",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "61011781",
-          "regNo": "MP-31337",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/021.webp",
-          "name": "Dr. Priyankar Chaursia",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "56352771",
-          "regNo": "MP-25787 MPMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/022.webp",
-          "name": "Dr. Pragati Patel",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "87147449",
-          "regNo": "MP-35234",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/023.webp",
-          "name": "Dr. Gulam Nabee",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "19261171",
-          "regNo": "MP-35661",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/microbiology/024.webp",
-          "name": "Dr. Waskle Priyanka",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "86666246",
-          "regNo": "MP-37783",
-          "employment": "Permanent"
-        }
-      ]
-    },
-    {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Microbiology faculty list",
-      "href": "/assets/docs/msr/faculty-lists/microbiology.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/microbiology/002.webp",
+     "name": "Dr. Sanyogita Jain",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "16 Years",
+     "aebas": "73559800",
+     "regNo": "MP- 3652/(MPMC)",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "associate-professor",
+   "title": "Associate Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/microbiology/003.webp",
+     "name": "Dr. Cheruvu Vishala Sarma",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "34881822",
+     "regNo": "48439 TELANGANA MEDICAL COUNCIL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/004.webp",
+     "name": "Dr. Saurabh Jayant",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MD",
+     "experience": "8 Years",
+     "aebas": "00709397",
+     "regNo": "MP- 12679/(MPMC)",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/005.webp",
+     "name": "Dr. Karan Indra Ostwal",
+     "designation": "Associate Professor",
+     "qualification": "MBBS MD",
+     "experience": "8 Years",
+     "aebas": "09844045",
+     "regNo": "2010/05/1587 Maharashtra Medical Coucil",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/006.webp",
+     "name": "Mrs. Mamta Sarwariya",
+     "designation": "Associate Professor",
+     "qualification": "MSC",
+     "experience": "9 Years",
+     "aebas": "81361659",
+     "regNo": "PU-0011113038",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/microbiology/007.webp",
+     "name": "Dr. Kuldeep Singh",
+     "designation": "Assistant Professor",
+     "qualification": "MSC (MEDICAL) PH.D (MEDICAL)",
+     "experience": "10 Years",
+     "aebas": "52673636",
+     "regNo": "MU19PHM023",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/008.webp",
+     "name": "Dr. Rajdeep Paul",
+     "designation": "Assistant Professor",
+     "qualification": "MSC (MEDICAL) PH.D (MEDICAL)",
+     "experience": "7 Years",
+     "aebas": "81967540",
+     "regNo": "MU19PHM024",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/009.webp",
+     "name": "Dr. Satakshi Manwani",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "77767420",
+     "regNo": "MP-18031",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/010.webp",
+     "name": "Dr. Samandeep Kaur",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "5 Years",
+     "aebas": "80739848",
+     "regNo": "50032/PMC",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/011.webp",
+     "name": "Dr. Kinnar Haresbhai",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "5 Years",
+     "aebas": "96701683",
+     "regNo": "G-52359",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/012.webp",
+     "name": "Dr. Sakshi Patel",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "5 Years",
+     "aebas": "93967947",
+     "regNo": "MP-23302",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/013.webp",
+     "name": "Dr. Pooja Mishra",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "4 Years",
+     "aebas": "32287900",
+     "regNo": "MP-25086",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/014.webp",
+     "name": "Dr. Kirti Vishwakarma",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "11103011",
+     "regNo": "MP-21253",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "tutor",
+   "title": "Tutors",
+   "items": [
+    {
+     "photo": "/assets/faculty/microbiology/015.webp",
+     "name": "Mr. Veerendra Sen",
+     "designation": "Tutor",
+     "qualification": "MSC",
+     "experience": "3 Years",
+     "aebas": "42259637",
+     "regNo": "NIL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/016.webp",
+     "name": "Dr. Akshaya Khattri",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "73224993",
+     "regNo": "MP-22501",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/017.webp",
+     "name": "Dr. Arpita Soni",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "46096873",
+     "regNo": "MP-22278",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/018.webp",
+     "name": "Dr. Neha Dawar",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "10551829",
+     "regNo": "MP-34565",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/019.webp",
+     "name": "Dr. Bonny Jaiswal",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "58889175",
+     "regNo": "MP-25950",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/020.webp",
+     "name": "Dr. Harsh Wardharn Singh Tomar",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "61011781",
+     "regNo": "MP-31337",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/021.webp",
+     "name": "Dr. Priyankar Chaursia",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "56352771",
+     "regNo": "MP-25787 MPMC",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/022.webp",
+     "name": "Dr. Pragati Patel",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "87147449",
+     "regNo": "MP-35234",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/023.webp",
+     "name": "Dr. Gulam Nabee",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "19261171",
+     "regNo": "MP-35661",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/microbiology/024.webp",
+     "name": "Dr. Waskle Priyanka",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "86666246",
+     "regNo": "MP-37783",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

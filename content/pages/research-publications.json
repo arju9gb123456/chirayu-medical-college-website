@@ -1,0 +1,1984 @@
+{
+ "title": "Research Publications & Projects",
+ "kicker": "Information under MSR",
+ "intro": "Ongoing research projects of Chirayu Medical College & Hospital — topic, principal investigator(s) and department.",
+ "updated": "30-10-2023",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "table",
+   "id": "research",
+   "title": "Research Committee — Ongoing Research Project List",
+   "columns": [
+    "S.No.",
+    "Topic",
+    "Principal Investigator(s)",
+    "Department"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Study Of Fused Vertebrae In Central Indian Population",
+      "Dr. A S Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Study Of Branching Pattern In Arch Of Aorta With Clinical Correlation",
+      "Dr. A S Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Importance Of Student Feedback In Medical Education: A Study Using Online Application",
+      "Dr. Bipinchandra Khade",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Anatomical Variations Of The Profunda Femoris Artery",
+      "Dr. Rashmi Jaiswal\nDr. A S Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Morphometric Study Of Psoas Minor Muscle. A Cadaveric Study",
+      "Dr. Rashmi Jaiswal\nDr. A S Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Estimation Of Stature From Percutaneous Length Of Ulna.",
+      "Dr. Rashmi Jaiswal\nDr. A S Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Students Preception On Anatomy Online Teaching During Covid-19, Pandemic",
+      "Dr. Rashmi Jaiswal\nDr. A S Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Cross Sectional Study Regarding Awareness Of Covid-19 Disease &Prevention Among Medical Students",
+      "Dr Sachin Gupta\nDr. Rashmi Jaiswal\nDr. Krishna Gopal Singh",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Stature Estimation From Percutaneous Length Of Tibia In Adult Population",
+      "Dr. Rashmi Jaiswal\nDr. A.S Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "A Morphometic Study Of Position Of Mental Foramen In Human Mandible In Central India",
+      "Dr. Pradeep Gajanan Khanwalkar",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "A Cadaveric Study Of Plantaris Muscle Morphology And Its Clinical Significance",
+      "Dr. Kanchan Bala Dogra",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "A Cadaveric Study Of Anatomical Variations In Formation Of Median Nerve And Its Relations To Axillary Artery And Brachial Artery.",
+      "Dr A S Mangalgiri\nDr Rashmi Jaiswal",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "13",
+      "Assessment Of Readiness For Self Directed Learning Among Undergraduate MBBS Students",
+      "Dr Rashmi Jaiswal\nDr A S Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "14",
+      "Effectiveness Of Flipped Classroom, A Teaching Methodology For Anatomy And Students Perceptive.",
+      "Dr Rashmi Jaiswal\nDr A S Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "15",
+      "Effectiveness Of Self Directed Learning with Traditional Didactic Lecture In Anatomy. An Interventional Study",
+      "Dr Rashmi Jaiswal\nDr A S Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "16",
+      "Solitary Schwannoma of Sural Nerve. A Rare Cadaveric Case Report",
+      "Dr. Rashmi Jaiswal\nDr. Manal Ashraf Ali\nDr. Ashutosh Mangalgiri",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "17",
+      "Comparison Of Propofol Requirement For Induction In Patients For Craniotomy Of Supratentorial Brain Tumor And In Patients Without Intracranial Pathology.",
+      "Dr. Seema Gupta",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "18",
+      "Comparison Of Incidence Of Multi Drug Resistance In Patients Who Were Managed With Invasive Procedures.",
+      "Dr. Veerendra Singh Raghuwanshi",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "19",
+      "Requirement Of Propofol During Subsequent Sessions Of Intracavitary Brachy Therapy Application Under G.A.",
+      "Dr. Seema Gupta",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "20",
+      "Role Of Ultrasound Guided Measurement Of Carotid Artery Corrected Flow Time And Right Common Femoral Vein Diametrerin Prediction Of Post-Spinal Hypotension During Caesarean Delivery- A Prospective Observational Study",
+      "Dr. Abhinav Agarwal\nDr. Akanksha Jain",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "21",
+      "Correlation Between Perfusion Index And Perioperative Analgesia In Patients Undergoing Laparoscopic Operative Procedure Under General Anasthesia",
+      "Dr. Saurabh Trivedi",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "22",
+      "To Study And Compare The Ulnar Nerve Blockage With Inter –Truncal And Corner Pocket Approaches Of Supraclavicular Block – A Comparative Analytical Study",
+      "Dr. Saurabh Trivedi",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "23",
+      "To Evaluate The Effect Of Inj Clonidine As An Adjuvant To 0.5% Bupivacaine In Ultrasound Guide Supraclavicular Block",
+      "Dr. Samarth Sharma",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "24",
+      "A Comparative Study Of Intrathecal Levobupivacaine 0.5% Heavy And Ropivacaine 0.75% Heavy For Spinal Anaesthesia In Lower Limb Surgeries",
+      "Dr. Sakshi Singh",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "25",
+      "Comparison Of Analgesic Efficacy Of Transversus Abdominis Plane Block And Erector Spinae Plane Block In Patients Undergoing Unilateral Inguinal Hernia Repair- A Comparative, Observational Study",
+      "Dr. Mariya Sabir\nDr. Seema Gupta",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "26",
+      "Effect Of Oral Clonidine Premedication On Hemodynamic Response In Laparoscopic Cholecystecystectomy",
+      "Dr. Harsh Hardia\nDr. Seema Gupta",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "27",
+      "Comparison Of Propofol And Sevoflurane For Ease Of I-Gel Insertion In Adults",
+      "Dr. Monika Pedhadiya\nDr. Tapan K. Sahoo",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "28",
+      "Comparison Of Sedative Efficacy Of Dexmedetomidine And Ketamine Vs Propofol And Ketamine For Intra- Cavitatory Radiotherapy (ICRT) Applicator Insertion",
+      "Dr. Sohini Datta\nDr. Devashish Chakraborty",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "29",
+      "Comparison Of The Efficacy Of 6% Hydroxyethyl Starch And 2% Lidocaine In Reducing The Pain Of Propofol Injection",
+      "Dr. Tapan Kumar Sahoo\nDr. Saurabh Trivedi",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "30",
+      "Comparison Of Efficacy Of Noradrenaline Infusion Versus Phenylepherine Infusion For Post- Spinal Hypotension Prevention In Lower Segment Caesarean Section",
+      "Dr. Hemendra Bhardwaj\nDr. Saurabh Trivedi",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "31",
+      "A Comparative Study Of Ultrasound Guided Bilateral Erector Spinae Plane Block Versus Local Infiltration using Bupivacaine For Post Operative Pain Relief In Patients Undergoing Spine Surgery",
+      "Dr. Prinsi Namdev\nDr. Seema Gupta",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "32",
+      "Comparison Of 15 Micrograms Of Clonidine Versus Clonidine Equivalent To The Dead-Space Volume Of Syringe As An Adjuvant In Subarachnoid Block",
+      "Dr. Chetan Choudhary\nDr. Seema Gupta",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "33",
+      "Comparison of Efficacy Of Hyperbaric Bupivacaine Pre-Mixed With Fentanyl Versus Sequential Administration Of Fentanyl Followed By Hyperbaric Bupivacaine In Lower Abdominal Surgery",
+      "Dr. Sagnik Datta Majumdar\nDr. Tapan Kumar Sahoo",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "34",
+      "Effect Of Epidural Volume Expansion On Subarachnoid Block With Hyperbaric Bupivacaine In Patients Undergoing Lower Abdominal Surgeries",
+      "Dr. Akriti Sharma\nDr. Devashish Chakraborty",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "35",
+      "Comparative Study On Efficacy Of Intrathecal Hyperbaric Ropivacaine And Bupivacaine In Patients Undergoing Below Umblical Surgeries with History Of Scorpion Sting Within 5 Years",
+      "Dr. Sachi Simlot Dr.VijayRambauji Shrotey",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "36",
+      "The Role Of Perfusion Index To Detect Ulnar Nerve Sparing In Patients Undergoing Upper Limb Surgeries Under Ultrasound Guided Supraclavicular Block",
+      "Dr. Aakriti Gupta\nDr. Damodar Sadashiv Patwardhan",
+      "Anaesthesiology"
+     ]
+    },
+    {
+     "cells": [
+      "37",
+      "Correlation Between Vitamin B 12 And Lipid Profile In Patients Attending Tertiary Care Hospital Of Madhya Pradesh.",
+      "Dr. Thejaswinimuppala\nDr. Manishi Singh\nDr. Divya Anand Jain",
+      "Biochemistry"
+     ]
+    },
+    {
+     "cells": [
+      "38",
+      "Effect Of Thyroid Hormones On Ovarian Reserve In Infertile Women Attending A Tertiary Care Hospital.",
+      "Dr. Divya Anand Jain\nDr. Manishi Singh\nDr. Thejaswinimuppala",
+      "Biochemistry"
+     ]
+    },
+    {
+     "cells": [
+      "39",
+      "Study Of Homocysteine, Vitamin B12 And Other Biochemical Parameters In Type 2 Diabetes Mellitus Patients.",
+      "Dr. Surya Tiwari\nDr. Manishi Singh",
+      "Biochemistry"
+     ]
+    },
+    {
+     "cells": [
+      "40",
+      "A Study On The Role Of C-Reactive Proteins As A Biomarker In Pleural Effusion In Hospitalized Patients.",
+      "Dr. Mahesh Kumar\nDr. Manishi Singh",
+      "Biochemistry"
+     ]
+    },
+    {
+     "cells": [
+      "41",
+      "Assessment Of Knowledge & Practices Of Anganwari Workers In Rural Area Of Bhopal",
+      "Dr. Garima Namdev\nDr Sachin Gupta",
+      "Community Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "42",
+      "Cross Sectional Study Regarding Awareness Of Covid-19 Disease And Its Prevention Among Medical Students",
+      "Dr. Sachin Gupta\nDr Rashmi Jaiswal\nDr Krishna Gopal Singh",
+      "Community Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "43",
+      "A Study Of Multi Drug Resistant Tuberculosis (MDR- TB) Determinants & Patients Outcome In A City Of Central India",
+      "Dr. Sachin Gupta\nDr. Garima Namdev\nDr Arvind Athavale\nDr. Ashutosh Jain",
+      "Community Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "44",
+      "A Study On Adolescent Mental Health In A Town Of Central India",
+      "Dr. Garima Namdev\nDr. Sachin Gupta\nDr Arvind Athavale",
+      "Community Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "45",
+      "A Study of contraceptive practices, Awareness and acceptance among eligible couples of rural area of Bhopal, Madhya Pradesh",
+      "Dr. Asha Ram Tyagi\nDr. Prabhakar Hiwarkar\nDr. Ashutosh Jain\nDr. Aditya Berad",
+      "Community Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "46",
+      "A Study Of Menstrual Hygiene Practice Among Women And Adolescent Girls Of Reproductive Age Group In Rural And Urban Areas Of Bhopal",
+      "Dr. Prabhakar Hiwarkar\nDr. Asha Ram Tyagi",
+      "Community Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "47",
+      "A Study Of Hansen’s Diseases In The Post Elimination Era",
+      "Dr. Vaishali Singh\nDr. Meenakshi Tandon",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "48",
+      "Clinicomycological Study Of Dermatophytosis At Tertiary Care Centre In Central India",
+      "Dr. Rumana Khan\nDr. Shyam Govind Rathoriya",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "49",
+      "A Study Of Non Venereal Genital Dermatoses In Male Patients At Tertiary Care Centre In Central India",
+      "Dr. Sandeep Sharma\nDr. Shyam Govind Rathoriya",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "50",
+      "Clinico-Epidemiological Analysis Of Linear Skin Lesions In Patients Attending Outpatient Department In A Tertiary Care Centre In Central India",
+      "Dr. Meenakshi Tandon",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "51",
+      "Clinico-Epidemiological Study Of Axillary Dermatoses At Tertiary Care Centre In Central India",
+      "Dr. Meenakshi Tandon",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "52",
+      "Study Of Pattern Of Dermatoses In Pediatrics Population In A Tertiary Care Centre Hospital",
+      "Dr. Shyam Govind Rathoriya",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "53",
+      "Clinico-Epidemiological Study Of Scalp Dermatoses At Tertiary Care Centre In Central India",
+      "Dr. Shyam Govind Rathoriya",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "54",
+      "Clinical, Dermoscopic And Histopathological Study Of Lichen Planus At Tertiary Care Centre In Central India",
+      "Dr. Rochit Singhal",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "55",
+      "A Comparative Study Of Efficacy Of Intralesional Tranexemic Acid V/S Platelet Rich Plasma In Treatment Of Melasma At Tertiary Care Centre In Central India",
+      "Dr. Rochit Singhal",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "56",
+      "A Clinico-Mycological Study In A Tertiary Care Center in Central India",
+      "Dr. Vivek Chaudhary",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "57",
+      "Clinico-Histopathological Study Of Vesiculo- Bullous Skin Diseases At Tertiary Care Centre In Central India",
+      "Dr. Amardeep Malviya\nDr. Shyam Govind Rathoriya",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "58",
+      "A Clinico- Dermoscopic Study Of Facial Hyper- Melanosis At A Tertiary Care Centre In Central India",
+      "Dr. Simran Katal\nDr. Shyam Govind Rathoriya",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "59",
+      "Oral Mucosal Lesions In Dermatological Diseases: A Clinical Study At Tertiary Care Centre In Central India",
+      "Dr. Ajay Kumar Dhurve\nDr. Meenakshi Tandon",
+      "Dermatology, Venereology & Leprosy"
+     ]
+    },
+    {
+     "cells": [
+      "60",
+      "A Study Of Association Of Pre-Operative Predictors With Ossicular Chain Discontinuity In Chronic Otitis Mediapatients At Tertiary Care Center",
+      "Dr. Shivam Tiwari\nDr. Anil Kumar Jain",
+      "Otorhinolaryngology"
+     ]
+    },
+    {
+     "cells": [
+      "61",
+      "Correlation Of Diagnostic Nasal Endoscopy, Computed Tomography Scan Paranasal Sinus And Operative Findings In Sinonasal Masses",
+      "Dr. Ananya Pyarilal\nDr. Anil Kumar Jain",
+      "Otorhinolaryngology"
+     ]
+    },
+    {
+     "cells": [
+      "62",
+      "Role Of Preoperative Nasal Endoscopy In All Patients Planned For Nasotracheal Intubation",
+      "Dr. Anil Kumar Jain\nDr. Rakesh Maran\nDr. Sanyogita Jain",
+      "Otorhinolaryngology"
+     ]
+    },
+    {
+     "cells": [
+      "63",
+      "A Comparative Study Of Outcome Of Bone Versus Cartilage Ossiculoplasty In Chronic Otitis Media In A Tertiary Care Hospital",
+      "Dr. Ruchir Varshney\nDr. Anil Kumar Jain\nDr. Sagarika Satav\nDr. Alafiya Pithawala",
+      "Otorhinolaryngology"
+     ]
+    },
+    {
+     "cells": [
+      "64",
+      "Benign Lesions Of Larynx – A Clinical Profile Of Patients At A Tertiary Care Centre",
+      "Dr. Sagarika Satav\nDr. Anil Kumar Jain\nDr. Ruchir Varshney",
+      "Otorhinolaryngology"
+     ]
+    },
+    {
+     "cells": [
+      "65",
+      "A Study of Clinicopathological Profile Of Swellings Of salivary Glands And Their Surgical Management At A Tertiary Care Centre in Central India",
+      "Dr. Anil Kumar Jain\nDr. Ruchir Varshney\nDr. Sagarika Satav\nDr. Alafiya Pithawala",
+      "Otorhinolaryngology"
+     ]
+    },
+    {
+     "cells": [
+      "66",
+      "Post Inflammatory Ossicular Fixation: CT Analysis And Intraoperative Correlation",
+      "Dr. Alafiya Pithawala\nDr. Anil Kumar Jain\nDr. Ruchir Varshney\nDr. Faran Khan",
+      "Otorhinolaryngology"
+     ]
+    },
+    {
+     "cells": [
+      "67",
+      "A Comparative Study Of Temporalis Fascia In Myringoplasty With And Without Platelet Rich Plasma At A Tertiary Care Centre Of Central India",
+      "Dr. Pulkit Sharma\nDr. Anil Kumar Jain",
+      "Otorhinolaryngology"
+     ]
+    },
+    {
+     "cells": [
+      "68",
+      "A Comprehensive Study Of Chronic Dacryocystitis And Its Endonasal Endoscopic Management At A Tertiary Care Centre Of Central India",
+      "Dr. Lavisha Tilgota\nDr. Rakesh Maran",
+      "Otorhinolaryngology"
+     ]
+    },
+    {
+     "cells": [
+      "69",
+      "Prognostic Significance Of Serum Uric Acid Levels In Congestive Cardiac Failure Due To Rheumatic Valvular Disease And Its Correlation With Ejection Fraction",
+      "Dr. Vishal Jain\nDr. Suresh Bhambhani",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "70",
+      "A Study Of Vitamin D And C-Reactive Protein Levels In Acute Coronary Syndrome",
+      "Dr. Tanvi Saxena\nDr. Vikas Goyal",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "71",
+      "To Evaluate Cardiac Dysfunction In Hepatitis-B Positive Liver Cirrhotic Patient",
+      "Dr. Harish Kumar Indoria\nDr. Vikas Goyal",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "72",
+      "Correlation Between 6 Minute Walk Test And Pulmonary Artery Hypertension In Patients Of Chronic Obstructive Pulmonary Disease",
+      "Dr. Ravi Agarwal\nDr. Suresh Bhambhani",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "73",
+      "Study On The Prevalence Of Cardio Renal Syndrome In Type 2 Diabetic Patients",
+      "Dr. Shivam Chaudhary\nDr. Seema Mahant",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "74",
+      "Study Of Thyroid Function In Liver Cirrhosis And Its Correlation With Severity Of Liver Disease, A Cross Sectional Study",
+      "Dr. Vivek Pandey\nDr. Seema Mahant",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "75",
+      "Correlation Between Elevated Serum Ferritin And HBAIC In Type 2 Diabetes Mellitus",
+      "Dr. Sukh Dayal Kumhar\nDr. Mohd. Elyas",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "76",
+      "Clinical Profile And Outcomes In Patients With Acute Kidney Injury: An Observational Study",
+      "Dr. Kuldeep Singh Raghuvanshi\nDr. Anand Bakre",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "77",
+      "Acute Symptomatic Seizures Caused By Electrolytes Disturbance",
+      "Dr. Mohammed Imran\nDr. Kuldeep Singh",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "78",
+      "Neuropsychiatric Manifestation In Hypothyroidism",
+      "Dr. Rajat Mittal\nDr. Mohammed Imran\nDr. Ankit Patidar\nDr. Priyansh Rathi",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "79",
+      "Assessment Of Mitral Annular Calcification In Chronic Kidney Disease And Its Correlation With Calcium Phosphorous Products",
+      "Dr. Sweta Gadekar\nDr. Vaishali Singh\nDr. Jashndeep Singh\nDr. Harish Kumar",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "80",
+      "Cardiovascular Assessment In Young Adult With Subclinical Hypothyroidism",
+      "Dr. K.M. Mehandi\nDr. Tanvi Saxena\nDr. Swati Kesharwani",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "81",
+      "Clinical Correlation Of ECG Echocardiography With Percutaneous Coronary Intervention",
+      "Dr. Vaishali Bhalavi\nDr. Shweta Gadekar\nDr. Ankur Mittal",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "82",
+      "Study Of NT Pro-BNP Levels In Alcoholic Patients",
+      "Dr. Reena Singh\nDr. Ankit Borasi\nDr. Varsha Chohan",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "83",
+      "Platelet Indices Correlation In Coronary Artery Disease",
+      "Dr. Mohammed Imran\nDr. Shakti Singh\nDr. Shivam",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "84",
+      "A Study Of Correlation Between Serum Cortisol Levels In Pulmonary Tuberculosis Patients And Extra Pulmonary tuberculosis Patients And Its Prognostic Value",
+      "Dr. Janhvi Mishra",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "85",
+      "Clinical Study Of Association Of Serum Uric Acid On Patients Of Myocardial Infarction With Diabetes",
+      "Dr. Balveer Singh Nigam\nDr. Suresh Bhambhani",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "86",
+      "Study of Platelet Lymphocyte Ratio on the Prognosis of Acute Coronary Syndrome",
+      "Dr. Swati Kesharwani\nDr. Vikas Goyal",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "87",
+      "Assessment Of Serum Procalcitonin As A Prognostic Marker In Acute Pancreatitis",
+      "Dr. Neeraj Dahiya\nDr. Suresh Bhambhani",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "88",
+      "Study Of Serum Albumin Level As Prognostic Indicator Of Stroke",
+      "Dr. Varsha Chauhan\nDr. Mohammed Elyas",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "89",
+      "Assessment Of Echocardiographic Abnormalities In Chronic Obstructive Pulmonary Disease (COPD) And Its Correlation With The Severity Of Disease",
+      "Dr. Abhishek Raghuvanshi",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "90",
+      "Correlation Between lipid Profile And Glycosylated Haemoglobin In Diabetic Patients With Acute Coronary Syndrome",
+      "Dr. Ranjeet Singh\nDr. Vikas Goyal",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "91",
+      "A Study On Use Of Alcohol & Tobacco In Young Adults, Its Effects On Their Physical Health And De- Addiction Counselling",
+      "Dr. Priyansh Rathi\nDr. Mohammed Elyas",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "92",
+      "Seizures Disorder Correlation with Electrolyte Disturbance",
+      "Dr. Imran khan\nDr. Janhvi Mishra",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "93",
+      "Comparative Study Of Various Open Method & Laparoscopic Method Of Inguinal Hernia Repair",
+      "Dr. Garima Sahu\nDr. Arvind Joshi",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "94",
+      "Clinical Profile And Surgical Outcome Of Patients With Diabetic Foot Infection : A Single Centre Study",
+      "Dr. Ashish Kumar Shukla\nDr. Vishal Rampuri",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "95",
+      "A Comparative Study Of Use And Outcome Of Split Thickness Skin Grafting In Clean Versus Clean Contaminated Wounds",
+      "Dr. Shrish Kumar Singh\nDr. Apoorva Pandey",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "96",
+      "A Comparitive Study Between Polydioxanone And Polypropylene Suture Fixation In Hernia Repair Surgery”",
+      "Dr. Fulbaria Vrajesh Vithalbhai\nDr. Neeraj Kumar Jain",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "97",
+      "Study On Clinical Profile, Surgical Management And Functional Outcome Of Varicose Veins Of Lower Limb",
+      "Dr. Shubham Gautam\nDr. Abhijeet Deshmukh",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "98",
+      "Management Of Patients With Emphysemation Pyelonephritis: A Case Series",
+      "Dr. Arvind Joshi\nDr. Aman Agarwal\nDr. Nikunj Jain",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "99",
+      "Comparison Of Middle And Lower Calyceal Access For Pelvic Calculus In PCNL: Our Experience",
+      "Dr. Arvind Joshi\nDr. Aman Agarwal\nDr. Nikunj Jain",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "100",
+      "Comparison Of Harmonic Scalpel Versus Milligan Morgan Technique In Haemorrhoidectomy Patients",
+      "Dr. Neeraj Kumar Jain\nDr. Sameer Soni\nDr. Saurabh Rai",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "101",
+      "Routine Testing Of Liver Function Before And After Elective Laparoscopic Cholecytectomy",
+      "Dr. Neeraj Kumar Jain\nDr. Sanish Philips\nDr. Abhishekh Kumar Singh",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "102",
+      "Effect Of Non- Cultured Melanocytes Followed By UV-B Phototherapy On Post Burn Hypopigmentation",
+      "Dr. Mrunmayee Saket Jha\nDr. Vishal Rampuri",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "103",
+      "A Study Of Relation Between Modified Alvarado Scale, Ultrasonography And Pathological Finding In Acute Appendicitis",
+      "Dr. Sahil Khan\nDr. Arvind Joshi",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "104",
+      "A Study Of Clinical Co- Relation Of Head Injury With Their CT Head Findings And Glasgow Coma Scale",
+      "Dr. Vidhi Patel\nDr. Apoorv Pandey",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "105",
+      "A Study Of Correlation Between C- Reactive Protien Level, Procalcitonin Level, Ultrasonography Finding With Nassar Operative Scale For Patient Undergoing Laparoscopic Cholecystectomy",
+      "Dr. Sanskruti Tiwari\nDr. Neeraj Kumar Jain",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "106",
+      "Comparative Study Between Harmonic Scalpel Hemorroidectomy and Open Hemorrhoidectomy",
+      "Dr. Amber Dewalia\nDr. Abhijeet Deshmukh",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "107",
+      "A Clinical Study On Effect Of Non- Cultured Melanocytes Transfer Followed By (UV-B) Phototherapy On Hypopigmented Patches",
+      "Dr. Waquar Tahir\nDr. Vishal Rampuri",
+      "General Surgery"
+     ]
+    },
+    {
+     "cells": [
+      "108",
+      "Carbapenem Resistant Enterobacteriaceae (CRE) Screening By Risk Factor Based Active Surveillance: An Infection Control Measure For Intensive Care Unit In Central India",
+      "Dr. Saurabh G. Agarwal",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "109",
+      "Detection Of MDR TB Through GeneXpert And Rapid Tube MTT Assay: A Comparative Study",
+      "Dr. Saurabh G. Agarwal Mr. Rajdeep Paul\nDr. Krishna Gopal Singh",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "110",
+      "Retrospective Study On Bacterial Isolates From COVID-19 Patients With Blood Stream Infection Admitted In A Dedicated COVID Hospital.",
+      "Dr. Saurabh G. Agarwal Mrs. Mamta Sarwariya\nDr. Sanyogita Jain\nDr. Krishna Gopal Singh Mr. Rajdeep Paul",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "111",
+      "Retrospective Study On Prevalence Of Bacterial Isolates From Patients Of Blood Stream Infection Admitted In Tertiary Care Centre",
+      "Dr. Saurabh G. Agarwal",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "112",
+      "Evaluation Of Bacterial Isolates From Respiratory Tract Co-Infection Of SARS Cov-2 Confirmed Cases Admitted In Tertiary Care Hospital Of Central India",
+      "Dr. Saurabh G. Agarwal\nDr. Kuldeep Singh\nDr. Krishna Gopal Singh",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "113",
+      "Study Of Candida Infection In Hospitalized Covid 19 Patients: In An Experience At A Dedicated Covid Hospital In Central India",
+      "Dr. Sanyogita Jain\nDr. Ajay Goenka\nDr. D K Mendiratta\nDr. Saurabh G Agrawal\nDr. Kuldeep Singh",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "114",
+      "Phenotypic Determination Of ESBL, MBL AMPC & Carbapenemase In MDR Isolates Of Enterobacteriaceae Recovered From Patients Admitted In ICU",
+      "Dr. Sanyogita Jain",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "115",
+      "A Retrospective Study Of Fungal Isolates In Clinically Suspected Cases Of Mucormucosis In SARS-Cov-2 Positive Patients Attending A Tertiary Care Hospital",
+      "Dr. Sanyogita Jain\nDr. Saurabh G. Agarwal Mr. Rajdeep Paul\nDr. Anil Kumar Jain\nDr. Ruchir Varshaney",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "116",
+      "A Study Of Prevalence, Spectrum And Risk Factors Of Invasive Fungal Infection In Critically ill Patients Attending Tertiary Care Centre",
+      "Dr. Rajdeep Paul\nDr. Saurabh G Agarwal\nDr. Sanyogita Jain\nDr. Kuldeep Singh\nDr Harsha Gupta",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "117",
+      "Prevalence Of Positivity Of CBNAAT (Cartridge Based Nucleic Acid Amplification Test) In Extra Pulmonary Tuberculosis in Correlation with Smear Microscopy At Chirayu Medical College & Hospital in Bhopal",
+      "Mrs. Smeeta A. John\nDr. Saurabh G Agarwal\nDr. Sanyogita Jain\nDr. Rajdeep Paul",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "118",
+      "A Study Of Microbial Characterization Of Enterococci With Special Emphasis On Vancomycin Resistant Enterococci (VRE) at Tertiary Care Centre",
+      "Dr. Kuldeep Singh\nDr. Saurabh G Agarwal\nDr. Sanyogita Jain\nDr. Rajdeep Paul",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "119",
+      "Study Of Fungaemia In Patients Attending Oncology Unit At Tertiary Care Centre of Central India",
+      "Dr. Saurabh Jayant\nDr. Saurabh G Agarwal\nDr. Sanyogita Jain\nDr. Kuldeep Singh\nDr. Ankit Agarwal",
+      "Microbiology"
+     ]
+    },
+    {
+     "cells": [
+      "120",
+      "Atrial S eptal Defects Clinical Profile Of Patients At CMCH, Bhopal",
+      "Dr Vivek Kanhere\nDr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "121",
+      "Postpartum Acute Kidney Injury – Presentation And Outcome",
+      "Dr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "122",
+      "Results Of Valvular Surgery In Young Patients.",
+      "Dr Vivek Kanhere\nDr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "123",
+      "Results Of Minimally Invasive Approach To Mitral Valve Surgery.",
+      "Dr Vivek Kanhere\nDr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "124",
+      "Pregnancy Outcome In Patents With Cardiac Surgery",
+      "Dr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "125",
+      "Perception of Medical Teachings About The New Medical Curriculum",
+      "Dr. Anjali Kanhere\nDr. Sandhya Gadre",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "126",
+      "Maternal And Neonatal Outcome Of Pregnancies Following In –Vitro Fertilization",
+      "Dr. Ayushi Gupta\nDr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "127",
+      "Association Of Thyroid Profile And Serum Prolactin Levels In Patients Of Polycystic Ovarian Syndrome",
+      "Dr. Aarti Thagele\nDr. Hemlata Parashar",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "128",
+      "Study Of Pelvic Organ Prolapsed To Assess Its Risk Factors And Effect On Quality Of Life At Tertiary Care Centre",
+      "Dr. Fareena Khurrum\nDr. Sandhya Gadre",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "129",
+      "Awareness Of HPV And Acceptability Of HPV Vaccine Among Students & Employee Working In Pregna ncy Outcome In Patents With Cardiac Surgery Percept ion of Medical Teachings About The New Medical Curriculum A Tertiary Care Centre: Across- Sectional Survey",
+      "Dr. Richa Sharma\nDr. Hemlata Parashar\nDr. Satarupa Paul",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "130",
+      "Thrombocytopenia In Pregnancy",
+      "Dr. Nikita Tiwari\nDr. Anjali Kanhere\nDr. Nipun Madhav",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "131",
+      "Primary Abdominal Pregnancy With Diagnostic Dilemma",
+      "Dr. Sandhya Gadre\nDr. Sonal Jain\nDr. Farah Jalaly",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "132",
+      "Spectrum Of Presentation Of Patient Of Pregnancy Induced Hypertension With Maternal And Perinatal Outcomes At A Tertiary Care Centre",
+      "Dr. Satarupa Paul\nDr. Hemlata Parashar\nDr. Sonam Dhakad",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "133",
+      "Caesarean Hysterectomies At A Referral Centre From Central India",
+      "Dr. Sandhya Gadre\nDr. Gunjan Chaudhary",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "134",
+      "Prevalence Of Genital Tuberculosis Among Infertile Women",
+      "Dr. Sonal Jain\nDr. Anjali Kanhere\nDr. Saurabh G. Agarwal Mr. Rajdeep Paul",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "135",
+      "Mullerian Duct Anamolies Diagnosis And Management In A Tertiary Care Centre",
+      "Dr. Akrati Jain\nDr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "136",
+      "Are You Scared Of PCOD? Can They Conceive? A Hospital Based Study",
+      "Dr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "137",
+      "A Comparative Study Of Semen Parameters In Urban And Rural Men Undergoing Infertility Treatment At A Tertiary Care Centre",
+      "Dr. Gunjan Chaudhary\nDr. Anjali Kanhere Mrs. Sheetal Gour",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "138",
+      "Correlating Clinical Presentation With The Topography Of Fibroids (FIGO CLASSIFICATION OF FIBROID)- A Retrospective Observation Study At A Tertiary Care Centre In Bhopal",
+      "Dr. Kriti Srivastava\nDr. Hemlata Parashar",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "139",
+      "Case St udy Of Rare Case Of “The Hydatidiform Mole”",
+      "Dr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "140",
+      "A Unique Case Of Recurrent Ectopic Pregnancy ( Ampullary, Tubal –Stump And Interstitial) On The Same Side, In Same Patient",
+      "Dr. Gunjan Chaudhary\nDr. Sandhya Gadre",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "141",
+      "Uterine Arteriovenous Malformation – Strategic Management Saves Life",
+      "Dr. Sandhya Gadre\nDr. Gunjan Chaudhary\nDr. Pankaj Goyal",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "142",
+      "Role Of Laparoscopy In Diagnosis And Management Of Adnexal Masses",
+      "Dr. Anjali Kanhere\nDr. Sonal Jain\nDr. Akrati Jain",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "143",
+      "Comparative Cross Sectional Study Of Usage Of Menstrual Cup Versus Sanitary Pads In Adult Girls To Compare Their Efficacy, Affordability And Ease Of Use",
+      "Dr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "144",
+      "Endometriosis Masquerading Ovarian Malignancy – A Rare Case",
+      "Dr. Anjali Kanhere\nDr. Sonal Jain\nDr. Akrati Jain",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "145",
+      "Awareness Regarding Physiological Nature Of Vaginal Discharge Among Healthcare Girl Students",
+      "Dr. Sandhya Gadre Ms. Bipasha Barat (MBBS Student 2018 Batch)",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "146",
+      "A Study On Evaluation Of Acceptability And Feasibility Of Menstrual Cup In Undergraduate In Medical Student In Central India",
+      "Dr. Anjali Kanhere Ms. Muskan Jaiswal (Intern)",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "147",
+      "Study Of Awareness Of Menstrual Hygiene Amongst Reproductive Age Group Females Attending Gynae OPD",
+      "Dr. Anjali Kanhere\nDr. Akrati Jain\nDr. Shweta Agarwal",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "148",
+      "Analysis Of Letrozole Along With Gonadotropins Versus Stair Step Protocol Of Letrozole Alone In Infertile Patients Undergoing Intrauterine Insemination(IUI)",
+      "Dr. Somya Agrawal\nDr. Sonal Jain",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "149",
+      "Spontaneous Hemoperitoneum In Non-Pregnant Women Presenting With Acute Abdomen: A Case Series",
+      "Dr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "150",
+      "Breastfeeding Knowledge, Attitude And Practices Among Antenatal And Postnatal Mothers Attending Clinics",
+      "Dr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "151",
+      "Spontaneous Hemoperitoneum In Non-Pregnant Women Presenting With Acute Abdomen: A Case Series",
+      "Dr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "152",
+      "Breastfeeding Knowledge, Attitude And Practices Among Antenatal And Postnatal Mothers Attending Clinics",
+      "Dr. Anjali Kanhere",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "153",
+      "Phenotypic Spectrum Analysis of Adolescent of Adult Women With Polycystic Ovarian Syndrome",
+      "Dr. Sandhya Gadre\nDr. Gunjan Chaudhary",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "154",
+      "Correlation of Vitamin D3 and Vitamin B12 Levels with Antimullerian Hormone Levels in Infertility Patients",
+      "Dr. Gunjan Chaudhary\nDr. Sandhya Gadre",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "155",
+      "Study of Correlation Between maternal Serum Uric Acid Level And Neonatal Outcome In Normotensive pregnant Females",
+      "Dr. Shubhra Tiwari\nDr. Gunjan Chaudhary\nDr. Aarti Thagele",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "156",
+      "Analysis Of Letrozole Along With Gonadotropins Versus Stair Step Protocol Of Letrozole Alone In Infertile Patients Undergoing Intra Uterine Insemination (IUI)",
+      "Dr. Somya Agrawal\nDr. Sonal Jain",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "157",
+      "Clinico Demographic and Socio Cultural Profile of Women for Insistence or Refusal to Undergo Hysterectomy- A Prospective Cross Sectional Study",
+      "Dr. Fouzia Fareed Khan\nDr. Sandhya Gadre",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "158",
+      "Comparison Of Pterygium Excision Followed By Conjuctival Autograph With Suture Less Autologous Blood Technique",
+      "Dr. Mansi Kishnani\nDr. Khalid Khan",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "159",
+      "Assessment Of Awareness Of Ocular Involvement In Diabetes Mellitus Type-II",
+      "Dr. Ulka Srivastava\nDr. Priyanka\nDr. Sumita Chaturvedi",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "160",
+      "Comparison Of Endothelial Cell Density In Eye With Pterygium And Normal Fellow Eye- An Observational Study",
+      "Dr. Sumita Chaturvedi\nDr. Ulka Srivastav",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "161",
+      "",
+      "Evalua tion Of Changes In Central Macular\nDr. Himanshu Singh\nDr. Khalid Khan Thickness By Optical Coherence Tomography (OCT) After Neodymium -Doped Vitrium Aluminium Garnet(ND-YAG) Posterior Capsulotpmy",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "162",
+      "Long Term Clinical & Visual Outcome Of Iris Claw Intraocular Lenses In Aphakic Eyes",
+      "Dr. Anagha Chawhan\nDr. Ashish Athale\nDr. Ulka Srivastava\nDr. Akshita Jindal\nDr. Mayank Gupta",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "163",
+      "Etiology And Clinical Profile Of Optic Nerve Atrophy At Tertiary Eye Care Center In Central India",
+      "Dr. Priyanka\nDr. Khalid Khan\nDr. Ulka Srivastava\nDr. Mansi Kishnani\nDr. Shubhangi Dubey",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "164",
+      "",
+      "To Com pare Changes in Central Macular Thickness\nDr. Rajat Chachra\nDr. Khalid Khan in Patient Using Topical Steroid (Prednisolone) with Topical NSAID (Nepafenae) V/S Patients Using Only Topical Steroid (Prednisolone) after Small Incision Cataract Surgery",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "165",
+      "",
+      "Study O f Visual Outcomes And Complication Of\nDr. Sukirti Shrivastava\nDr. Ulka Srivastava Secondary Retropupillary Iris Claw Intraocular Lens Implantation In Aphakic Patients",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "166",
+      "Proximal Fibular Osteotomy: An Alternative Approach For Primary Medial Compartment Osteoarthritis; A Prospective Study",
+      "Dr. Savaliya Dip Ghanshyam\nDr. Deepak Nadkarni",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "167",
+      "To Eva luate Functional Outcome Of Complete Anterior Cruciate Ligament Tear Treated With Peroneus Longus Autograft",
+      "Dr. Rishabh Rai\nDr. Deepak Nadkarni",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "168",
+      "A Comparative Study Of The Functional Outcome Between Plating And Intreamedullary Nailing In Displaced Midshaft Clavicle Fracture",
+      "Dr. Avinash Khare\nDr. K.K Verma",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "169",
+      "Assessment Of Proximal Femur Anthropometry In Central Indian Population Through Cadaveric Bonesand Radiologically Correlating Difference If Any Between Other Ethnic Groups",
+      "Dr. Gyaneshwar Mishra\nDr. Vibhas Gupta",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "170",
+      "Evaluation Of Mono Articular Knee Arthritis In Young / Middle Age, Below 50 Years Of Age",
+      "Dr. Deepak Nadkarni",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "171",
+      "Role Of Transverse Acetabular Ligament In Intraoperative Cup Placement Orientation In Total Hip Replacement",
+      "Dr. Vibhas Gupta",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "172",
+      "Functional Outcome Of Total Knee Replacement.",
+      "Dr. Vaibhav Maheshwari",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "173",
+      "Functional Outcome Of Proximal Tibia Plating.",
+      "Dr. Gaurav Sharma",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "174",
+      "Out Come In Non Union Of Long Bones Treated With Limb Reconstruction System",
+      "Dr. Sandeep Gaur",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "175",
+      "Out Come Of Orthobiologics In Various Orthopaedics Conditions",
+      "Dr. Rahul Peswani",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "176",
+      "Retrospective Analysis Of Functional Outcome Of Total Hip Replacement In Low Socioeconomic Status : Short Term Study",
+      "Dr.Vinaydeep Bidoliya",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "177",
+      "Functional Outcome Of All Poly Tibial Component In Total Knee Replacement",
+      "Dr. Pawan Kumar Mishra",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "178",
+      "Functional Outcome Of Proximal Humerus Plating",
+      "Dr. Anshul Khare",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "179",
+      "To Study The Response Of Different Therapeutic Modalities Used In Osteoarthritis Of Knee",
+      "Dr. Hardik Kharbanda",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "180",
+      "Functional And Radiological Outcome Of Hybrid Knee Fixator In Proximal Tibia Fractures",
+      "Dr. Anchal Navneet Mishra",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "181",
+      "To Compare The Functional Outcome Between Caudal Epidural Block And Distal Sodium Channel Block In Patients With Lower Back Pain With Radiculopathy",
+      "Dr. Naman Sharda\nDr. Deepak Nadkarni",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "182",
+      "Accuracy of Placement Functional Outcome of Femoral Tunnel And Tibial Tunnel In Arthroscopic Anterior Cruciate Ligament Reconstruction By 3D Computed Tomography Evaluation: A Prospective Study",
+      "Dr. Prakhar Yadav\nDr. Vibhas Gupta",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "183",
+      "Function Outcome Of Distal End Clavicle Fracture Fixation By Using Hook Plate Vs Endobutton A Prospective Study",
+      "Dr. Pushpendra Singh Dhakad\nDr. Deepak Nadkarni",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "184",
+      "A Comparative Study Of Functional Outcome Of Metacarpal Fracture Treated With Mini Plate Versus Kirschner Wire Fixation : A Prospective Study",
+      "Dr. Deepesh Khurana\nDr. Gourav Sharma",
+      "Orthopaedics"
+     ]
+    },
+    {
+     "cells": [
+      "185",
+      "Developing New Prognostic Indicator Based On Neutrophilss To Lymphocytes Ratio (NLR) For Assessing The Severity Of COVID-19 Case In Indian Scenario.",
+      "Dr. Farah Jalaly Meenai",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "186",
+      "Rate Of Malignancy In Bethesda Category III And IV Thyroid Nodules. An Institutional Experience",
+      "Dr. Farah Jalaly Meenai\nDr. Naila Durrani",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "187",
+      "To Study The Cytopathological Spectrum Of BAL Fluid In Patients With Respiratory Distress",
+      "Dr. Naila Durrani\nDr. Manal Ashraf Ali\nDr. Farah Jalaly Meenai\nDr. Krishna Gopal Singh",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "188",
+      "Clinicohistomorphological Analysis Of Soft Tissue Tumors With Immunohistochemistry In A Tertiary Care Hospital",
+      "Dr. Swarnim Yashi\nDr. Farah Jalaly Meenai",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "189",
+      "Flipped Classroom Verses Traditional Classroom: A Study Of Medical College Students",
+      "Dr. Farah Jalaly",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "190",
+      "Comparison Between FNAC Smear And Cell Block For Diagnosis : An Experience In A Medium Lab",
+      "Dr. Mahesh C. Patil",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "191",
+      "Transfusion Medicine Education In Health Care Staff: A Hospital Based Study",
+      "Dr. Nipun Madhav",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "192",
+      "Histomorphological Spectrum Of Lymphoma In Lymph Node Biopsy In A Tertiary Care Hospital",
+      "Dr. Manal Ashraf Ali",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "193",
+      "Prognostic Role Of CRS In High Grade Serous Ovarian Tumour Patient Receving Neoadjuvant Chemotherapy In A Tertiary Care Hospital Of Central India",
+      "Dr. Manal Ashraf Ali",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "194",
+      "",
+      "Histopa thological Study Of Ovarian Tumors With\nDr. Nikita Surana\nDr. Manal Ashraf Ali Biomarkers In A Tertiary Care Hospital",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "195",
+      "",
+      "A Stud y On Diagnostic and Prognostic Significance\nDr. Shreyansh Soni\nDr. Mahesh C. Patil of the Platelet Indices in Patients with Acute Myocardial Infarction",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "196",
+      "Variable Affecting Cutting Properties Of Tissue And Resulting Artifacts In Frozen Section",
+      "Mr. Kamlesh (MMLT)\nDr. Manal Ashraf Ali",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "197",
+      "Fathers Knowledge Attitude and practice about childhood Immunization: A Tertiary Care Hospital Based cross Sectional Study",
+      "Dr. Deepmala Pandey\nDr. Shailendra Pawar",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "198",
+      "Indications, Clinical Profile And Outcome Of Newborn Requiring Mechanical Ventilation In Tertiary Care Hospital From Central India",
+      "Dr. Saurabh Kumar\nDr. Priyanka Choudhary",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "199",
+      "Blood Culture Positivity And Sensitivity Pattern In Admitted Children In Neonatal In Pediatric Intensive Care Units Of Chirayu Medical College & Hospital Bhopal,",
+      "Dr. Jaishree Ambhore\nDr. Priyanka Choudhary\nDr. Nidhi Gupta",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "200",
+      "Developmental Delay Identification & Management In Tertiary Care Centre",
+      "Dr. Yaqoob Ahmed",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "201",
+      "Gender Disparity In Childhood Immunization In Central India",
+      "Dr. Iqbal Mohammad Ansari",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "202",
+      "Clinical Profile of Down Syndrome In Tertiary Care Centre",
+      "Dr. Deepmala Pandey",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "203",
+      "Impact of Socioeconomic Status On Lactational Failure Among Babies Born In Tertiary Care Centre",
+      "Dr. Shivraj Singh",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "204",
+      "Diagnostic efficacy of nucleated red blood cells in neonatal sepsis.",
+      "Dr. Surjeet Kumar Shukla",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "205",
+      "Estimation of LDH & Blood pH as predictive markers for early differentiation of Transient Tachypnea of Newborn [TTN] and Respiratory Distress Syndrome [RDS].",
+      "Dr. Gayatri Joram",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "206",
+      "To study the risk factors and immediate outcomes of retinopathy of prematurity in preterm infants in Tertiary Care Hospital.",
+      "Dr. Roopam Dushe",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "207",
+      "A study of peak expiratory flow rate and its association with anthropometric and demographic parameters in primary school children.",
+      "Dr. Ruksar Syed",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "208",
+      "Assessment Of Risk Factors, Clinical Profile & Outcome Of Neonatal Hypoglycemia In A Tertiary Care Centre",
+      "Dr. Poonam Sharma\nDr. Jaishree Ambhore",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "209",
+      "A Study On The Clinico-Demographic Profile Of Pediatric Tuberculosis In A Tertiary Care Centre",
+      "Dr. Khushi Verma\nDr. Saurabh Kumar",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "210",
+      "A Study On The Effect Of Phototherapy On Various Biochemical And Hematological Parameters In Neonatal Hyperbilirubinaemia In A Tertiary Care Centre",
+      "Dr. Priyanshi Shrivastava\nDr. Jaishree Ambhore",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "211",
+      "A Study On Clinical Profile And Outcome Of Mechanically Ventilated Children Admitted In Pediatric Intensive Care Unit In A Tertiary Care Centre",
+      "Dr. Ankit Jain\nDr. Nidhi Gupta",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "212",
+      "Antibiotics Prescribing Pattern In Intensive Care Unit (ICU) In Chirayu Medical College And Hospital, Bhopal – A Retrospective Study",
+      "Dr. R.K. Gupta",
+      "Pharmacology"
+     ]
+    },
+    {
+     "cells": [
+      "213",
+      "A Study On The Association Between Central Adiposity & Autonomic Dysfunction",
+      "Dr. Satyajit Bagudai",
+      "Physiology"
+     ]
+    },
+    {
+     "cells": [
+      "214",
+      "The C orrelation Between Biochemical Markers & Autonomics Dysfunction In Metabolic Syndrome",
+      "Dr. Satyajit Bagudai",
+      "Physiology"
+     ]
+    },
+    {
+     "cells": [
+      "215",
+      "A Comparative Study Of Heart Rate Variability Amongst Young Male Smokers And Non-Smokers In “Bhopal (INDIA)",
+      "Dr. Tanwir Alam",
+      "Physiology"
+     ]
+    },
+    {
+     "cells": [
+      "216",
+      "Neurocognitive Assessment Of Memory, Attention, Concentration And Emotional Processing In Patients With Somatoform Disorder And Obsessive Compulsive Disorder",
+      "Dr. Apoorv Shah\nDr. S.K. Tandon",
+      "Psychiatry"
+     ]
+    },
+    {
+     "cells": [
+      "217",
+      "Assessment Of The Severity Of Nicotine Use In Males And It’s Impact On Sexual Function -A Descriptive Observational Study",
+      "Dr. Atharva Shrotriya\nDr. Manish Borasi",
+      "Psychiatry"
+     ]
+    },
+    {
+     "cells": [
+      "218",
+      "Resilience And Perceived Social Support In Parents Of Children Diagnosed With Mild, Moderate And Severe Mental Retardation- A Comparative Study",
+      "Dr. Sawarn\nDr. S.K. Tandon",
+      "Psychiatry"
+     ]
+    },
+    {
+     "cells": [
+      "219",
+      "Health Related Quality Of Life In Patients Suffering From Migraine",
+      "Dr. Santosh Kumar Tandon",
+      "Psychiatry"
+     ]
+    },
+    {
+     "cells": [
+      "220",
+      "Self Esteem In Anxiety In Undergraduate 1st Year Student Of Medical College",
+      "Dr. Manish Borasi",
+      "Psychiatry"
+     ]
+    },
+    {
+     "cells": [
+      "221",
+      "Resilience In Nursing Staff Working In ICU Of A Tertiary Care Hospital",
+      "Dr. Ankit Chaudhary",
+      "Psychiatry"
+     ]
+    },
+    {
+     "cells": [
+      "222",
+      "A Comparative Study Of Emotion Regulation And Relevance Of Impulsivity In Patients with Alcohol And Cannabis Dependence Syndrome",
+      "Dr. Soram Nganbaren\nDr. S.K. Tandon",
+      "Psychiatry"
+     ]
+    },
+    {
+     "cells": [
+      "223",
+      "A Cro ss- Sectional Study Of Health Related Quality Of Life, Body Image And Self Esteem In Patients With Dissociative Disorder",
+      "Dr. Pinky Yadav\nDr. Manish Borasi",
+      "Psychiatry"
+     ]
+    },
+    {
+     "cells": [
+      "224",
+      "Self E steem, Anxiety And Quality Of Life In Patients With Acne Vulgaris- A Cross Sectional Study",
+      "Dr. Aman Dubey\nDr. S.K. Tandon",
+      "Psychiatry"
+     ]
+    },
+    {
+     "cells": [
+      "225",
+      "Assessment Of Malignant Risk Potential Of Thyroid Nodules Using Ultrasound Tirads Criteria And Its Fine Needle Aspiration Cytology( FNAC ) Correlation",
+      "Dr. Harmanpreet Singh\nDr. Nitin Khantal",
+      "Radiodiagnosis"
+     ]
+    },
+    {
+     "cells": [
+      "226",
+      "Assessment Of Cervical Cancer With MRI And Its Comparative Correlation With Sonography",
+      "Dr. Kriti Singh Chouhan\nDr. Nitin Khantal",
+      "Radiodiagnosis"
+     ]
+    },
+    {
+     "cells": [
+      "227",
+      "Evaluation Of Space Occupying Brain Lesions With Diffusion Weighted (MRI) Magnetic Resonance Imaging",
+      "Dr. Sunil Kumar Mishra\nDr. D.N. Panchbhaiyee",
+      "Radiodiagnosis"
+     ]
+    },
+    {
+     "cells": [
+      "228",
+      "Role Of Ultrasound In Assessing Focal Hepatic Lesion With Its Histo/Cytopathology Correlation",
+      "Dr. Vimarsh Kumar Gupta\nDr. D.N. Panchbhaiyye",
+      "Radiodiagnosis"
+     ]
+    },
+    {
+     "cells": [
+      "229",
+      "Cerebral venous thrombosis on Magnetic Resonance Imaging",
+      "Dr. Nitin Khantal",
+      "Radiodiagnosis"
+     ]
+    },
+    {
+     "cells": [
+      "230",
+      "A Study On Multidetector Computed Tomography Evaluation Of Non Traumatic Acute Abdomen In A Tertiary Care Hospital",
+      "Dr. Aniket Gupta\nDr. Laxman Prasad Ahirwar",
+      "Radiodiagnosis"
+     ]
+    },
+    {
+     "cells": [
+      "231",
+      "Evaluation Of The Role Of Ultrasonography In The Detection Of Rotator Cuff Tear And Comparison Of Its Diagnostic Accuracy With Magnetic Resonance Imaging",
+      "Dr. Somya Sharma\nDr. Nitin Khantal",
+      "Radiodiagnosis"
+     ]
+    },
+    {
+     "cells": [
+      "232",
+      "Role Of High Resolution Computed Tomography Lung In Patients With Breathlessness Attributed To Primary Pulmonary Pathology And Its Comparision With Chest X Rays",
+      "Dr. Yogendra Singh Thakur\nDr. Mahesh Kumar Verma",
+      "Radiodiagnosis"
+     ]
+    },
+    {
+     "cells": [
+      "233",
+      "Comparing The Diagnostic Accuracy of MR Fistulogram With Transperineal Ultrasonography for Evaluating Perinal Fistula",
+      "Dr. Sanjana Deshmukh\nDr. Nitin Khantal",
+      "Radiodiagnosis"
+     ]
+    },
+    {
+     "cells": [
+      "234",
+      "Role of Multi- Detector computes Tomography in the Diagnosis of intestinal Obstruction",
+      "Dr. Sonika Rani",
+      "Radiodaignosis"
+     ]
+    },
+    {
+     "cells": [
+      "235",
+      "Dosimetric Comparison Of 3D CRT, Conventional IMRT And Rapid ARD In Ca Esophagus",
+      "Dr.Gopa Ghosh,",
+      "Radiation Oncology"
+     ]
+    },
+    {
+     "cells": [
+      "236",
+      "Assessment Of Disease Status And Feasibility For Intracavitory Brachytherapy Through MRI Based Evaluation In Patients Of Carcinoma Cervix Who Underwent External Beam Radiotherapy",
+      "Dr. Karanvir Singh\nDr. Gopa Ghosh",
+      "Radiation Oncology"
+     ]
+    },
+    {
+     "cells": [
+      "237",
+      "Quantitative Estimate Of Late Radiation Effects In Follow Up Patients Of Head And Neck Cancer",
+      "Dr. Ami Shailesh Kumar Vyas\nDr. Gopa Ghosh",
+      "Radiation Oncology"
+     ]
+    },
+    {
+     "cells": [
+      "238",
+      "Study Of Fungaemia In Patient Attending Oncology Unit At Tertiary Care Centre In India",
+      "Dr. Saurabh Jayant\nDr. Saurabh G Agarwal\nDr. Sanyogita Jain\nDr. Kuldeep Singh\nDr. Ankit Agarwal",
+      "Radiation Oncology"
+     ]
+    },
+    {
+     "cells": [
+      "239",
+      "Challenges In ICRT Application In Anatomically Variable Uterus",
+      "Dr. Gopa Ghosh\nDr. Desh Deepak Ladia",
+      "Radiation Oncology"
+     ]
+    },
+    {
+     "cells": [
+      "240",
+      "Post Radiotherapy Lymphedema In Head And Neck Cancer Patients –An Observational Prospective Study",
+      "Dr. Ayushi Chaturvedi\nDr. Gopa Ghosh",
+      "Radiation Oncology"
+     ]
+    },
+    {
+     "cells": [
+      "241",
+      "Cross S4e ctional Study Regarding Awareness Of Covid-19 Disease &Prevention Among Medical Students",
+      "Dr Sachin Gupta\nDr. Rashmi Jaiswal\nDr. Krishna Gopal Singh",
+      "Respiratory Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "242",
+      "Evaluation Of Bacterial Isolates From Respiratory Tract Co-Infection Of SARS Cov-2 Confirmed Cases Admitted In Tertiary Care Hospital Of Central India",
+      "Dr. Saurabh G. Agarwal\nDr. Kuldeep Singh\nDr. Krishna Gopal Singh",
+      "Respiratory Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "243",
+      "Role O5f Point Of Care Ultrasound On Fluid Resuscitation In Department Of Emergency Medicine",
+      "Dr Veerendra Singh Raghuwanshi",
+      "Emergency Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "244",
+      "A Study On Effectiveness Of Non-invasive Ventilation As Treatment Modality For Chronic Obstructive Pulmonary Disease Patients With Acute Respiratory Failure Requiring Mechanical Ventilation",
+      "Dr. Vaibhav Dua\nDr. Veerendra Singh Raghuwanshi",
+      "Emergency Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "245",
+      "Prevalence Of Oral Sub Mucous Fibrosis Among Population Of Rural Area Of Various Districts Of Madhya Pradesh",
+      "Dr. M.P. Singh\nDr. Saket Kumar Jain\nDr. Rishabh Giri",
+      "Dentistry"
+     ]
+    }
+   ],
+   "filterCol": 3
+  }
+ ]
+}

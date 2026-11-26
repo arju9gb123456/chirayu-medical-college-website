@@ -1,296 +1,288 @@
 {
-  "title": "Department of Pharmacology",
-  "kicker": "Faculty Directory",
-  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
-  "updated": "12-06-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Department of Pharmacology",
+ "kicker": "Faculty Directory",
+ "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+ "updated": "12-06-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "faculty",
+   "id": "professor",
+   "title": "Professors",
+   "items": [
     {
-      "type": "faculty",
-      "id": "professor",
-      "title": "Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/pharmacology/001.webp",
-          "name": "Dr. Tushar C. Baheti",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "15 Years",
-          "aebas": "91999600",
-          "regNo": "MP-34221",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/002.webp",
-          "name": "Dr. Manohar Bende",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "41 Years",
-          "aebas": "61834840",
-          "regNo": "MMC-49580",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/003.webp",
-          "name": "Dr. Invathoorma Dhavanagendra Nayak",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "39 Years",
-          "aebas": "87143013",
-          "regNo": "KMC-17222",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/004.webp",
-          "name": "Dr. Baliram Venkatrao Ghodke",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "13 Years",
-          "aebas": "55021536",
-          "regNo": "3652/MMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/005.webp",
-          "name": "Dr. Veena Venkatesh",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "19 Years",
-          "aebas": "89435617",
-          "regNo": "33,443 Karnataka Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/006.webp",
-          "name": "Dr. Prashant Prabhakar Katke",
-          "designation": "Professor",
-          "qualification": "MBBS MD",
-          "experience": "13 Years",
-          "aebas": "40477118",
-          "regNo": "2010/09/2778 Maharashtra Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/007.webp",
-          "name": "Dr. Raj Kumar Sharma",
-          "designation": "Professor",
-          "qualification": "MSC( MEDICA) PH.D (MEDICAL)",
-          "experience": "18 Years",
-          "aebas": "81983655",
-          "regNo": "Nil",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/pharmacology/001.webp",
+     "name": "Dr. Tushar C. Baheti",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "15 Years",
+     "aebas": "91999600",
+     "regNo": "MP-34221",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "assistant-professor",
-      "title": "Assistant Professors",
-      "items": [
-        {
-          "photo": "/assets/faculty/pharmacology/008.webp",
-          "name": "Dr. Abhay Purohit",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "88337545",
-          "regNo": "KMC-75350",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/009.webp",
-          "name": "Dr. Monika Sen",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "7 Years",
-          "aebas": "64948946",
-          "regNo": "DMC/R/03796",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/010.webp",
-          "name": "Dr. Pritpal Singh Ahliwalia",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "39137326",
-          "regNo": "2010/04/1455 Maharashtra Medical Council",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/011.webp",
-          "name": "Dr. Venkateswar Vutukuri Rao",
-          "designation": "Assistant Professor",
-          "qualification": "MSC",
-          "experience": "4 Years",
-          "aebas": "50807870",
-          "regNo": "NIL",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/012.webp",
-          "name": "Dr. Yogesh Jain",
-          "designation": "Assistant Professor",
-          "qualification": "MBBS MD",
-          "experience": "6 Years",
-          "aebas": "04308868",
-          "regNo": "MP-21184",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/pharmacology/002.webp",
+     "name": "Dr. Manohar Bende",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "41 Years",
+     "aebas": "61834840",
+     "regNo": "MMC-49580",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "senior-resident",
-      "title": "Senior Residents",
-      "items": [
-        {
-          "photo": "/assets/faculty/pharmacology/013.webp",
-          "name": "Mr. Santenna Chenchula",
-          "designation": "Senior Resident",
-          "qualification": "Msc.",
-          "experience": "5 Months",
-          "aebas": "62138112",
-          "regNo": "Nill",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/pharmacology/003.webp",
+     "name": "Dr. Invathoorma Dhavanagendra Nayak",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "39 Years",
+     "aebas": "87143013",
+     "regNo": "KMC-17222",
+     "employment": "Permanent"
     },
     {
-      "type": "faculty",
-      "id": "tutor",
-      "title": "Tutors",
-      "items": [
-        {
-          "photo": "/assets/faculty/pharmacology/014.webp",
-          "name": "Dr. Arpan Vasuniya",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Year",
-          "aebas": "55641157",
-          "regNo": "MP-40135",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/015.webp",
-          "name": "Dr. Satyandra Narayan Tiwari",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "45175409",
-          "regNo": "MP-23687",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/016.webp",
-          "name": "Dr. Pritika Mehta",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "08424779",
-          "regNo": "MP-33466",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/017.webp",
-          "name": "Dr. Abhishek Upadhyaya",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "3 Years",
-          "aebas": "70484655",
-          "regNo": "MP-21473",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/018.webp",
-          "name": "Dr. Megh Saxena",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "3 Years",
-          "aebas": "67470869",
-          "regNo": "MP-21738",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/019.webp",
-          "name": "Dr. Meetalie Harrison",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "2 Years",
-          "aebas": "298315121",
-          "regNo": "MP-19880",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/020.webp",
-          "name": "Dr. Jatin Grover",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "10 Months",
-          "aebas": "87256762",
-          "regNo": "MP-41771",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/021.webp",
-          "name": "Dr. Tanishka Hukum Singh Kushare",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "10 Months",
-          "aebas": "93668763",
-          "regNo": "10178/2023 MPMC",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/022.webp",
-          "name": "Dr. Swetank Jain",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "15047335",
-          "regNo": "MP-38663",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/023.webp",
-          "name": "Dr. Ikram Qureshi",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "21620532",
-          "regNo": "MP-34377",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/024.webp",
-          "name": "Dr. Pradeep Kumar Kurmi",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "16006808",
-          "regNo": "MP-38965",
-          "employment": "Permanent"
-        },
-        {
-          "photo": "/assets/faculty/pharmacology/025.webp",
-          "name": "Dr. Yogesh Achhale",
-          "designation": "Tutor",
-          "qualification": "MBBS",
-          "experience": "1 Month",
-          "aebas": "72951878",
-          "regNo": "MP-48749",
-          "employment": "Permanent"
-        }
-      ]
+     "photo": "/assets/faculty/pharmacology/004.webp",
+     "name": "Dr. Baliram Venkatrao Ghodke",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "13 Years",
+     "aebas": "55021536",
+     "regNo": "3652/MMC",
+     "employment": "Permanent"
     },
     {
-      "type": "button",
-      "id": "pdf",
-      "title": "Faculty list (PDF)",
-      "label": "Download the Pharmacology faculty list",
-      "href": "/assets/docs/msr/faculty-lists/pharmacology.pdf",
-      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+     "photo": "/assets/faculty/pharmacology/005.webp",
+     "name": "Dr. Veena Venkatesh",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "19 Years",
+     "aebas": "89435617",
+     "regNo": "33,443 Karnataka Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/006.webp",
+     "name": "Dr. Prashant Prabhakar Katke",
+     "designation": "Professor",
+     "qualification": "MBBS MD",
+     "experience": "13 Years",
+     "aebas": "40477118",
+     "regNo": "2010/09/2778 Maharashtra Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/007.webp",
+     "name": "Dr. Raj Kumar Sharma",
+     "designation": "Professor",
+     "qualification": "MSC( MEDICA) PH.D (MEDICAL)",
+     "experience": "18 Years",
+     "aebas": "81983655",
+     "regNo": "Nil",
+     "employment": "Permanent"
     }
-  ]
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "assistant-professor",
+   "title": "Assistant Professors",
+   "items": [
+    {
+     "photo": "/assets/faculty/pharmacology/008.webp",
+     "name": "Dr. Abhay Purohit",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "88337545",
+     "regNo": "KMC-75350",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/009.webp",
+     "name": "Dr. Monika Sen",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "7 Years",
+     "aebas": "64948946",
+     "regNo": "DMC/R/03796",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/010.webp",
+     "name": "Dr. Pritpal Singh Ahliwalia",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "39137326",
+     "regNo": "2010/04/1455 Maharashtra Medical Council",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/011.webp",
+     "name": "Dr. Venkateswar Vutukuri Rao",
+     "designation": "Assistant Professor",
+     "qualification": "MSC",
+     "experience": "4 Years",
+     "aebas": "50807870",
+     "regNo": "NIL",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/012.webp",
+     "name": "Dr. Yogesh Jain",
+     "designation": "Assistant Professor",
+     "qualification": "MBBS MD",
+     "experience": "6 Years",
+     "aebas": "04308868",
+     "regNo": "MP-21184",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "senior-resident",
+   "title": "Senior Residents",
+   "items": [
+    {
+     "photo": "/assets/faculty/pharmacology/013.webp",
+     "name": "Mr. Santenna Chenchula",
+     "designation": "Senior Resident",
+     "qualification": "Msc.",
+     "experience": "5 Months",
+     "aebas": "62138112",
+     "regNo": "Nill",
+     "employment": "Permanent"
+    }
+   ]
+  },
+  {
+   "type": "faculty",
+   "id": "tutor",
+   "title": "Tutors",
+   "items": [
+    {
+     "photo": "/assets/faculty/pharmacology/014.webp",
+     "name": "Dr. Arpan Vasuniya",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Year",
+     "aebas": "55641157",
+     "regNo": "MP-40135",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/015.webp",
+     "name": "Dr. Satyandra Narayan Tiwari",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "45175409",
+     "regNo": "MP-23687",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/016.webp",
+     "name": "Dr. Pritika Mehta",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "08424779",
+     "regNo": "MP-33466",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/017.webp",
+     "name": "Dr. Abhishek Upadhyaya",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "3 Years",
+     "aebas": "70484655",
+     "regNo": "MP-21473",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/018.webp",
+     "name": "Dr. Megh Saxena",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "3 Years",
+     "aebas": "67470869",
+     "regNo": "MP-21738",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/019.webp",
+     "name": "Dr. Meetalie Harrison",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "2 Years",
+     "aebas": "298315121",
+     "regNo": "MP-19880",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/020.webp",
+     "name": "Dr. Jatin Grover",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "10 Months",
+     "aebas": "87256762",
+     "regNo": "MP-41771",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/021.webp",
+     "name": "Dr. Tanishka Hukum Singh Kushare",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "10 Months",
+     "aebas": "93668763",
+     "regNo": "10178/2023 MPMC",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/022.webp",
+     "name": "Dr. Swetank Jain",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "15047335",
+     "regNo": "MP-38663",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/023.webp",
+     "name": "Dr. Ikram Qureshi",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "21620532",
+     "regNo": "MP-34377",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/024.webp",
+     "name": "Dr. Pradeep Kumar Kurmi",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "16006808",
+     "regNo": "MP-38965",
+     "employment": "Permanent"
+    },
+    {
+     "photo": "/assets/faculty/pharmacology/025.webp",
+     "name": "Dr. Yogesh Achhale",
+     "designation": "Tutor",
+     "qualification": "MBBS",
+     "experience": "1 Month",
+     "aebas": "72951878",
+     "regNo": "MP-48749",
+     "employment": "Permanent"
+    }
+   ]
+  }
+ ]
 }

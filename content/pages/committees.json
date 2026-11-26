@@ -1,68 +1,883 @@
 {
-  "title": "Committees",
-  "kicker": "IMP(NMC) Req",
-  "intro": "Statutory and academic committees of Chirayu Medical College & Hospital with their members.",
-  "updated": "25-05-2026",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Committees",
+ "kicker": "IMP(NMC) Req",
+ "intro": "Statutory and academic committees of Chirayu Medical College & Hospital with their members.",
+ "updated": "25-05-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "table",
+   "id": "anti-ragging",
+   "title": "Anti-Ragging Committee (reconstituted 11 May 2026)",
+   "columns": [
+    "S.No.",
+    "Name",
+    "Designation",
+    "Email ID",
+    "Mobile No.",
+    "Phone No."
+   ],
+   "rows": [
     {
-      "type": "files",
-      "id": "committees",
-      "title": "College committees",
-      "items": [
-        {
-          "title": "Anti-Ragging Committee",
-          "href": "/assets/docs/msr/anti-ragging-committee.pdf",
-          "date": "May 2026"
-        },
-        {
-          "title": "Gender Harassment Committee",
-          "href": "/assets/docs/msr/gender-harassment-committee.pdf",
-          "date": "May 2026"
-        },
-        {
-          "title": "Institutional Ethics Committee (Revised)",
-          "href": "/assets/docs/msr/institutional-ethics-committee.pdf",
-          "date": "May 2026"
-        },
-        {
-          "title": "Scientific Committee",
-          "href": "/assets/docs/msr/scientific-committee.pdf",
-          "date": "May 2026"
-        },
-        {
-          "title": "Pharmacovigilance Committee",
-          "href": "/assets/docs/msr/pharmacovigilance-committee.pdf",
-          "date": "May 2026"
-        },
-        {
-          "title": "Disciplinary Committee",
-          "href": "/assets/docs/msr/disciplinary-committee.pdf",
-          "date": "May 2026"
-        },
-        {
-          "title": "Election Committee",
-          "href": "/assets/docs/msr/election-committee.pdf",
-          "date": "May 2026"
-        },
-        {
-          "title": "Other College Committees",
-          "href": "/assets/docs/msr/committees.pdf",
-          "date": "May 2026"
-        }
-      ]
+     "cells": [
+      "1",
+      "Dr. Prabhakar A. Hiwarkar",
+      "Dean / Chairman of the Committee / Convener",
+      "[cmchdean@gmail.com](mailto:cmchdean@gmail.com)",
+      "7083943392",
+      "0755-2709264/258"
+     ]
     },
     {
-      "type": "gallery",
-      "id": "student-council",
-      "title": "Student Council 2026",
-      "items": [
-        {
-          "img": "/assets/docs/msr/student-council-2026.jpg",
-          "caption": "Student Council 2026"
-        }
-      ]
+     "cells": [
+      "2",
+      "Dr. M. P. Singh",
+      "Member · Prof. & Head, Dentistry",
+      "[drmpsingh2011@gmail.com](mailto:drmpsingh2011@gmail.com)",
+      "9425005600",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Dr. Anjali Kanhere",
+      "Member · Prof. & Head, Obst & Gynae.",
+      "[kanhereanju@yahoo.com](mailto:kanhereanju@yahoo.com)",
+      "9300823444",
+      "0755-6679517"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Dr. Ashok Jain",
+      "Member · Professor & HOD, Forensic Medicine & Chief Warden",
+      "[anushokjain@gmail.com](mailto:anushokjain@gmail.com)",
+      "9826047514",
+      "0755-6679274"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Dr. Sanyogita Jain",
+      "Member · Professor",
+      "[drsajain@gmail.com](mailto:drsajain@gmail.com)",
+      "9924932330",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Dr. Sanjay Kumar Jat",
+      "Member · Assistant Warden, Boys Hostel",
+      "[sanjaydevanda47@gmail.com](mailto:sanjaydevanda47@gmail.com)",
+      "9529288057",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Dr. Kabir Tetarwal",
+      "Member · Assistant Warden, Boys Hostel",
+      "[ktetarwal18@gmail.com](mailto:ktetarwal18@gmail.com)",
+      "6375630913",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Mr. Aditya Raj Singh Thakur",
+      "Member · SDOP",
+      "[sspbhopal1@gmail.com](mailto:sspbhopal1@gmail.com)",
+      "9479990386",
+      "0755-2641847"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Mr. Aditya Jain",
+      "Member · SDM (Administration)",
+      "[sdmsehore@mp.gov.in](mailto:sdmsehore@mp.gov.in)",
+      "7999690382",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Mr. Manoj Sharma",
+      "Member · Media Representative",
+      "[manojsharmabpl@gmail.com](mailto:manojsharmabpl@gmail.com)",
+      "9425008188",
+      "7703950526"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Mr. Anil Mudgal",
+      "Member · Representative of NGO",
+      "",
+      "9425007858",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "Mr. Gagan Katare",
+      "Member · Non-teaching staff",
+      "[gagankatare@gmail.com](mailto:gagankatare@gmail.com)",
+      "9827075075",
+      "0755-2709271"
+     ]
+    },
+    {
+     "cells": [
+      "13",
+      "Dr. Anand S. Kushwaha",
+      "Member · Parent",
+      "",
+      "7974597646",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "14",
+      "Lokendra Singh Rajpoot (Batch 2023)",
+      "Member · Student Representative",
+      "[rapoollokendra84@gmail.com](mailto:rapoollokendra84@gmail.com)",
+      "9171758107",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "15",
+      "Tarushi Rai (Batch 2023)",
+      "Member · Student Representative",
+      "[tarushirai08@gmail.com](mailto:tarushirai08@gmail.com)",
+      "7898456962",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "16",
+      "Vedant Agrawal (Batch 2025)",
+      "Member · Student Representative",
+      "[vedantagrawal028@gmail.com](mailto:vedantagrawal028@gmail.com)",
+      "7000312878",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "17",
+      "Aadya Sharma (Batch 2025)",
+      "Member · Student Representative",
+      "[aadyasharma1527@gmail.com](mailto:aadyasharma1527@gmail.com)",
+      "7724843284",
+      ""
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "type": "table",
+   "id": "icc",
+   "title": "Internal Complaint Committee (ICC) / Gender Harassment Committee — Revised 04 Jul 2025",
+   "columns": [
+    "Sr. No.",
+    "Name",
+    "Position",
+    "Designation & Department",
+    "Mobile No.",
+    "Email ID"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Dr. Farah Jalaly Meenai",
+      "Presiding Officer",
+      "Professor & Head, Pathology",
+      "9826665344",
+      "[farahjalaly@gmail.com](mailto:farahjalaly@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Dr. Rashmi Jaiswal",
+      "Member",
+      "Professor, Anatomy",
+      "9425029067",
+      "[rashmijwal@yahoo.com](mailto:rashmijwal@yahoo.com)"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Dr. Manishi Singh",
+      "Member",
+      "Professor & Head, Biochemistry",
+      "8827494070",
+      "[singhmanishi.singh@gmail.com](mailto:singhmanishi.singh@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Dr. Sandhya Gadre",
+      "Member",
+      "Professor, Obst. & Gynaecology",
+      "9425624449",
+      "[gadre.sandhya@gmail.com](mailto:gadre.sandhya@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Dr. Garima Namdev",
+      "Member",
+      "Professor, Community Medicine",
+      "8889150998",
+      "[namdevgarima50@gmail.com](mailto:namdevgarima50@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Dr. Anagha Chauhan",
+      "Member",
+      "Associate Professor, Ophthalmology",
+      "9584207246",
+      "[anagha.chauhan@gmail.com](mailto:anagha.chauhan@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Mr. Gagan Katare",
+      "Member",
+      "Non-teaching member, College Administration",
+      "9827075075",
+      "[gagankatare@gmail.com](mailto:gagankatare@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Ms. Namrata Nigam",
+      "Member",
+      "Nitya Seva Society, Vill. Pipalner, Gandhi Nagar, Bhopal (NGO Representative)",
+      "9425007263\n0755-2660332",
+      "[nityasevapipalner@gmail.com](mailto:nityasevapipalner@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Tulip Verma",
+      "Member",
+      "First Year UG",
+      "8349237607",
+      "[tulipverma595@gmail.com](mailto:tulipverma595@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Tarushi Rai",
+      "Member",
+      "Second Year UG",
+      "7898456962",
+      "[tarishirai08@gmail.com](mailto:tarishirai08@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Alimaa Pathak",
+      "Member",
+      "Pathology PG First Year",
+      "9455695379",
+      "[alimaapathak97@gmail.com](mailto:alimaapathak97@gmail.com)"
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "Anushka Tilwani",
+      "Member",
+      "Chartered Accountant, Non-teaching member",
+      "9977802062",
+      "[anushka.tilwani@gmail.com](mailto:anushka.tilwani@gmail.com)"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "id": "iec",
+   "title": "Institutional Ethics Committee (reconstituted 16 Sep 2025)",
+   "columns": [
+    "Sr. No.",
+    "Name & Designation",
+    "Committee Designation"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Advocate Ajay Gupta, High Court, Bhopal, Legal Expert",
+      "Chairman"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Dr. Anjali Kanhere, Prof. & Head, Obstetrics & Gynaecology",
+      "Member Secretary"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Dr. Saurabh G. Agarwal, Prof. & Head, Microbiology",
+      "Medical Scientist"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Dr. Tushar Baheti, Prof. & Head, Pharmacology",
+      "Medical Scientist"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Dr. Anil Jain, Prof. & Head, ENT",
+      "Clinician"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Dr. Khalid Khan, Prof. & Head, Ophthalmology",
+      "Clinician"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Dr. Garima Namdev, Professor, Community Medicine",
+      "Medical Scientist"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Mr. Vaibhav Dubey",
+      "Legal Expert"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Dr. Sangeeta Mahashabde",
+      "Social Scientist"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Mr. Anil Mudgal",
+      "Social Scientist"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Mr. Harish Udasi, Manager, Old Chirayu",
+      "Lay Person from the Community"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "id": "scientific",
+   "title": "Scientific Committee / Research Advisory Committee (09 May 2026)",
+   "columns": [
+    "S.No.",
+    "Name",
+    "Position in Research Committee",
+    "Designation",
+    "Department"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Dr. Ulka Srivastava",
+      "Chairman",
+      "Professor & Medical Superintendent",
+      "Ophthalmology"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Dr. Rashmi Jaiswal",
+      "Member Secretary",
+      "Professor",
+      "Anatomy"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Dr. Reeni Malik",
+      "Member",
+      "Professor & Dean Academics & Research",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Dr. Anjali Kanhere",
+      "Member",
+      "Professor & HOD",
+      "Obstetrics & Gynaecology"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Dr. Anil Kumar Jain",
+      "Member",
+      "Professor & HOD",
+      "Otorhinolaryngology"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Dr. Mohd. Elyas",
+      "Member",
+      "Professor & HOD",
+      "General Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Dr. Ashok Kumar Jain",
+      "Member",
+      "Professor & HOD",
+      "Forensic Medicine"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Dr. Farah Jalaly",
+      "Member",
+      "Professor & HOD",
+      "Pathology"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Dr. Jyoti Kumar",
+      "Member",
+      "Professor & HOD",
+      "Physiology"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Dr. Tushar Baheti",
+      "Member",
+      "Professor & HOD",
+      "Pharmacology"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Dr. Jaishree Ambhore",
+      "Member",
+      "Professor & HOD",
+      "Paediatrics"
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "Dr. Pravendra Singh Chahar",
+      "Member",
+      "Assistant Professor in Statistics",
+      "Community Medicine"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "id": "pharmacovigilance",
+   "title": "Pharmacovigilance Committee (09 May 2026)",
+   "columns": [
+    "S.No.",
+    "Faculty Name",
+    "Designation",
+    "Position"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Dr. Tushar Baheti",
+      "Prof. & HOD, Pharmacology",
+      "Chairperson"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Dr. Raj Kumar Sharma",
+      "Professor",
+      "Member Secretary & Coordinator"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Dr. Yogesh Jain",
+      "Assistant Professor",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Dr. Pritpal Singh",
+      "Assistant Professor",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Dr. Ulka Shrivastava",
+      "Medical Superintendent, Prof. & HOD, Ophthalmology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Dr. Garima",
+      "Prof. & HOD, PSM",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Dr. Anjali Kanhere",
+      "Prof. & HOD, Obst. & Gynae.",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Dr. Shyam G. Rathoriya",
+      "Prof. & HOD, Dermatology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Dr. Tarun Kumar Sainia",
+      "Prof. & HOD, G. Surgery",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Dr. Mohd. Elyas",
+      "Prof. & HOD, G. Medicine",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Dr. Iqbal Mohd. Ansari",
+      "Associate Professor, Paediatrics",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "Mrs. Kiren Desai",
+      "Chief Nursing Officer",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "13",
+      "Dr. S. N. Tiwari",
+      "Tutor, Pharmacology",
+      "Member"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "pv-resp",
+   "title": "Pharmacovigilance Committee — Responsibilities",
+   "body": "- Shall meet once in 3 months; responsible for planning, implementing and monitoring the activities of the Pharmacovigilance Programme of India (PvPI).\n- Designated persons are also responsible for sensitising faculty, resident doctors and students in the area of ADRs.\n- To carry out causality assessment of ADRs.\n- To undertake scientific and research activities pertaining to ADRs.\n- To take up activities to strengthen the ongoing National Pharmacovigilance Programme."
+  },
+  {
+   "type": "table",
+   "id": "disciplinary",
+   "title": "Disciplinary Committee (09 Jun 2025)",
+   "columns": [
+    "S.No.",
+    "Name of Member",
+    "Designation",
+    "Department",
+    "Position in Committee"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Dr. Prabhakar Hiwarkar",
+      "Dean",
+      "Administration",
+      "Chairperson"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Dr. Reeni Malik",
+      "Dean Academics & Research",
+      "Pathology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Dr. Ulka Srivastava",
+      "Medical Superintendent",
+      "Ophthalmology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Dr. M.P. Singh",
+      "Professor & HOD",
+      "Dentistry",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Dr. Anjali Kanhere",
+      "Professor & HOD",
+      "Obstetrics & Gynaecology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Dr. Ashok Kumar Jain",
+      "Professor & HOD",
+      "Forensic Medicine",
+      "Member Secretary"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Dr. Iqbal Mohammed Ansari",
+      "Associate Professor",
+      "Paediatrics",
+      "Member"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "disc-terms",
+   "title": "Disciplinary Committee — Terms",
+   "body": "- The committee hears cases or complaints against students, interns or staff related to disputes, misbehaviour or indiscipline that jeopardise the interest of the institution.\n- It decides on suitable action or punishment and makes recommendations to the higher authorities for execution.\n- It maintains a separate file for circulars, documents and updated records."
+  },
+  {
+   "type": "table",
+   "id": "election",
+   "title": "Election Committee for Student Council 2026 (23 Feb 2026)",
+   "columns": [
+    "Sr. No.",
+    "Name",
+    "Department",
+    "Position"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Dr. M. P. Singh",
+      "Dentistry",
+      "Chairman"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Dr. Ashok K. Jain",
+      "Forensic Medicine",
+      "Secretary"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Dr. Ulka Srivastava",
+      "Ophthalmology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Dr. Reeni Malik",
+      "Pathology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Dr. Bipin Khade",
+      "Anatomy",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Dr. Satyajit Bagudai",
+      "Physiology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Dr. Iqbal Mohd. Ansari",
+      "Paediatrics",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Dr. Farhan Alam Khan",
+      "ENT",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Dr. Mayank Gupta",
+      "Ophthalmology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Dr. Kuldeep Singh",
+      "Microbiology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Mr. Amit Dayma",
+      "Physiology",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "Dr. Divyanshi Singh",
+      "Community Medicine",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "13",
+      "Mr. Gagan Katare",
+      "Administrative Office",
+      "Member"
+     ]
+    },
+    {
+     "cells": [
+      "14",
+      "Mr. Karan Jatav",
+      "—",
+      "Office Coordinator"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "gallery",
+   "id": "student-council",
+   "title": "Student Council 2026",
+   "items": [
+    {
+     "img": "/assets/docs/msr/student-council-2026.jpg",
+     "caption": "Student Council 2026"
+    }
+   ]
+  }
+ ]
 }

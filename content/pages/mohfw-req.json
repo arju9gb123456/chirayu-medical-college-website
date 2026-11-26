@@ -1,122 +1,122 @@
 {
-  "title": "Details of College / Institute as per NMC Requirement",
-  "kicker": "IMP(NMC) Req",
-  "intro": "Information about Chirayu Medical College & Hospital published as required by the National Medical Commission.",
-  "updated": "08-08-2022",
-  "updatedBy": "CMCH Admin",
-  "banner": "",
-  "blocks": [
+ "title": "Details of College / Institute as per NMC Requirement",
+ "kicker": "IMP(NMC) Req",
+ "intro": "Information about Chirayu Medical College & Hospital published as required by the National Medical Commission.",
+ "updated": "08-08-2022",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "disclosures",
+   "id": "nmc",
+   "title": "Details of college / institute as per NMC requirement",
+   "items": [
     {
-      "type": "disclosures",
-      "id": "nmc",
-      "title": "Details of college / institute as per NMC requirement",
-      "items": [
-        {
-          "no": "a",
-          "title": "Details of Dean, Principal and Medical Supdt. including their name, qualification, complete address with telephone and STD code, fax and e-mail etc.",
-          "href": "/management-team/",
-          "updated": "",
-          "category": "Leadership & Staff"
-        },
-        {
-          "no": "b",
-          "title": "Teaching Staff List",
-          "href": "/departments/",
-          "updated": "",
-          "category": "Leadership & Staff"
-        },
-        {
-          "no": "·",
-          "title": "Non-Teaching Staff List",
-          "href": "/assets/docs/msr/non-teaching-staff.pdf",
-          "updated": "",
-          "category": "Leadership & Staff"
-        },
-        {
-          "no": "·",
-          "title": "Nursing Staff List",
-          "href": "/assets/docs/msr/nursing-staff.pdf",
-          "updated": "",
-          "category": "Leadership & Staff"
-        },
-        {
-          "no": "c",
-          "title": "Details of the sanctioned intake capacity of various courses UG as well as PG by the NMC",
-          "href": "https://www.cmchbhopal.com/goverment-permission/",
-          "updated": "",
-          "category": "Recognition & Intake"
-        },
-        {
-          "no": "d",
-          "title": "List of students admitted merit-wise, category-wise (UG & PG) for the current and previous year",
-          "href": "/students-admitted/",
-          "updated": "",
-          "category": "University & Students"
-        },
-        {
-          "no": "e",
-          "title": "Details of Research Publications",
-          "href": "/assets/docs/msr/research-publications.pdf",
-          "updated": "",
-          "category": "Research & Academics"
-        },
-        {
-          "no": "f",
-          "title": "Details of any CME programmes",
-          "href": "https://www.cmchbhopal.com/continuing-medical-education-cme/",
-          "updated": "",
-          "category": "Research & Academics"
-        },
-        {
-          "no": "·",
-          "title": "Conferences and/or any academic activities conducted by the institution",
-          "href": "/assets/docs/msr/cme-workshops-conferences.pdf",
-          "updated": "",
-          "category": "Research & Academics"
-        },
-        {
-          "no": "g",
-          "title": "Details of any awards and achievements received by the students or faculty",
-          "href": "/awards-and-achievements/",
-          "updated": "",
-          "category": "Research & Academics"
-        },
-        {
-          "no": "h",
-          "title": "Details of the affiliated university and its Vice-Chancellor and Registrars",
-          "href": "/university/",
-          "updated": "",
-          "category": "University & Students"
-        },
-        {
-          "no": "i",
-          "title": "Result of all the examinations of last one year",
-          "href": "https://www.cmchbhopal.com/examination-result/",
-          "updated": "",
-          "category": "University & Students"
-        },
-        {
-          "no": "j",
-          "title": "Detailed status of recognition of all the courses",
-          "href": "https://www.cmchbhopal.com/goverment-permission/",
-          "updated": "",
-          "category": "Recognition & Intake"
-        },
-        {
-          "no": "k",
-          "title": "Details of fees for various courses and other costs",
-          "href": "/assets/docs/msr/fees-and-costs.pdf",
-          "updated": "",
-          "category": "University & Students"
-        },
-        {
-          "no": "l",
-          "title": "Details of clinical material in the hospital",
-          "href": "https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf",
-          "updated": "",
-          "category": "Hospital & Clinical"
-        }
-      ]
+     "no": "a",
+     "title": "Details of Dean, Principal and Medical Supdt. including their name, qualification, complete address with telephone and STD code, fax and e-mail etc.",
+     "href": "/management-team/",
+     "updated": "",
+     "category": "Leadership & Staff"
+    },
+    {
+     "no": "b",
+     "title": "Teaching Staff List",
+     "href": "/departments/",
+     "updated": "",
+     "category": "Leadership & Staff"
+    },
+    {
+     "no": "·",
+     "title": "Non-Teaching Staff List",
+     "href": "/staff-information/#b-non-teaching",
+     "updated": "",
+     "category": "Leadership & Staff"
+    },
+    {
+     "no": "·",
+     "title": "Nursing Staff List",
+     "href": "/staff-information/#b-nursing",
+     "updated": "",
+     "category": "Leadership & Staff"
+    },
+    {
+     "no": "c",
+     "title": "Details of the sanctioned intake capacity of various courses UG as well as PG by the NMC",
+     "href": "https://www.cmchbhopal.com/goverment-permission/",
+     "updated": "",
+     "category": "Recognition & Intake"
+    },
+    {
+     "no": "d",
+     "title": "List of students admitted merit-wise, category-wise (UG & PG) for the current and previous year",
+     "href": "/students-admitted/",
+     "updated": "",
+     "category": "University & Students"
+    },
+    {
+     "no": "e",
+     "title": "Details of Research Publications",
+     "href": "/research-publications/",
+     "updated": "",
+     "category": "Research & Academics"
+    },
+    {
+     "no": "f",
+     "title": "Details of any CME programmes",
+     "href": "https://www.cmchbhopal.com/continuing-medical-education-cme/",
+     "updated": "",
+     "category": "Research & Academics"
+    },
+    {
+     "no": "·",
+     "title": "Conferences and/or any academic activities conducted by the institution",
+     "href": "/cme-programmes/",
+     "updated": "",
+     "category": "Research & Academics"
+    },
+    {
+     "no": "g",
+     "title": "Details of any awards and achievements received by the students or faculty",
+     "href": "/awards-and-achievements/",
+     "updated": "",
+     "category": "Research & Academics"
+    },
+    {
+     "no": "h",
+     "title": "Details of the affiliated university and its Vice-Chancellor and Registrars",
+     "href": "/university/",
+     "updated": "",
+     "category": "University & Students"
+    },
+    {
+     "no": "i",
+     "title": "Result of all the examinations of last one year",
+     "href": "https://www.cmchbhopal.com/examination-result/",
+     "updated": "",
+     "category": "University & Students"
+    },
+    {
+     "no": "j",
+     "title": "Detailed status of recognition of all the courses",
+     "href": "https://www.cmchbhopal.com/goverment-permission/",
+     "updated": "",
+     "category": "Recognition & Intake"
+    },
+    {
+     "no": "k",
+     "title": "Details of fees for various courses and other costs",
+     "href": "/fees/",
+     "updated": "",
+     "category": "University & Students"
+    },
+    {
+     "no": "l",
+     "title": "Details of clinical material in the hospital",
+     "href": "https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf",
+     "updated": "",
+     "category": "Hospital & Clinical"
     }
-  ]
+   ]
+  }
+ ]
 }

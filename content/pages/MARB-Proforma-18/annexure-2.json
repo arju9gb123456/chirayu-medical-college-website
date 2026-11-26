@@ -1,0 +1,1926 @@
+{
+ "title": "MARB Annexure II — Medical Education Training",
+ "kicker": "MARB Proforma-18",
+ "intro": "Basic Medical Education training and Basic Course in Biomedical Research Methodology completed by each faculty member.",
+ "updated": "05-10-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "table",
+   "id": "training",
+   "title": "Annexure II — Faculty Training",
+   "columns": [
+    "Sr. No.",
+    "Department",
+    "Name of Faculty",
+    "Designation",
+    "Basic Medical Education Training with Date",
+    "Basic Course in Biomedical Research Methodology with Date"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Anatomy",
+      "Dr. Bipinchandra Khade",
+      "Professor",
+      "RBCW:16-18 Apr. 2018, AETCOM 10 Jan. 2019 CISP-II, 28th -29th Oct 2020.",
+      "Basic Course in Biomedical Research, Dec. 2020"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Anatomy",
+      "Dr. Ashutosh Sudhakar Mangalgiri",
+      "Professor",
+      "1. BCW 09 to 11 Feb 2009 2. RBCW 28th feb - 1st March 2023. CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Anatomy",
+      "Dr. P.G. Khanwalkar",
+      "Professor",
+      "Revised Basic Course in Medical Education 25-27 Oct. 2021.",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Anatomy",
+      "Dr.Viveka S.",
+      "Professor",
+      "1. RBCW, 7th to 9th June 2016. 2. AT-COM) module, 10th June 2016 3. Advance Course in Medical Education 26th August 2017 4. CISP-I, 13th to 15th Feb. 2019.",
+      "Basic Course in Biomedical Research June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Anatomy",
+      "Dr. Rashmi Jaiswal",
+      "Associate Professor",
+      "1.RBCW, 16th -18th April, 2018. 2 .9th Advance Course in Medical Education (ACME 2019-B), 3. CISP-I, 6th -8th June, 2019, 4. CISP-II, 28th -29th October 2020, 5. RBCW 28th feb - 1st March, 2023 6. CISP - III SAIIMS Indore 21st- 22nd Dec 2023",
+      "Basic Course in Biomedical Research Dec. 2020"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Anatomy",
+      "Dr. Kanchan Bala Dogra",
+      "Assistant Professor",
+      "1. CISP-II (28th -29th October, 2020 2. RBCW 25 -27 March, 2021",
+      "Basic Course in Biomedical Research Dec. 2020"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Anatomy",
+      "Dr. Priyanka Mundra",
+      "Assistant Professor",
+      "1. RBCW & AETCOM 20th -22th January, 2022",
+      "Basic Course in Biomedical Research Dec. 2021"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Physiology",
+      "Dr. Jyoti Kumar",
+      "Professor",
+      "RBCW - 13 to 15 September 2017 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "9",
+      "Physiology",
+      "Dr. Satyajit Bagudai",
+      "Professor",
+      "RBCW - 1st-3rd September 2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic course in Biomedical Research, June-2021"
+     ]
+    },
+    {
+     "cells": [
+      "10",
+      "Physiology",
+      "Dr. Harinder Jaseja",
+      "Professor",
+      "BCW - 20-22 October 2011",
+      "Basic Course in Biomedical Research March-2022"
+     ]
+    },
+    {
+     "cells": [
+      "11",
+      "Physiology",
+      "Dr. Tanwir Alam",
+      "Professor",
+      "RBCW - 23- 25 November 2017",
+      "Basic Course in Biomedical Research November-2021"
+     ]
+    },
+    {
+     "cells": [
+      "12",
+      "Physiology",
+      "Dr. Maria Khatoon",
+      "Professor",
+      "BCW - 24-26 July 2014",
+      "Basic Course in Biomedical Research December-2023"
+     ]
+    },
+    {
+     "cells": [
+      "13",
+      "Physiology",
+      "Dr. Vijay Kumar Gupta",
+      "Associate Professor",
+      "RBCW- 24-26 Nov. 2021 CISP II- 7-8 Oct 2020",
+      "Basic Course in Biomedical Research Aug-Dec. 2020"
+     ]
+    },
+    {
+     "cells": [
+      "14",
+      "Physiology",
+      "Dr. Tanushree",
+      "Assistant Professor",
+      "RBCW - 12-14 July 2021",
+      "Basic Course in Biomedical Research April 2022"
+     ]
+    },
+    {
+     "cells": [
+      "15",
+      "Physiology",
+      "Dr. Prakhar Maru",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "16",
+      "Physiology",
+      "Dr. Vandini Singh",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "17",
+      "Biochemistry",
+      "Dr. Manishi Singh",
+      "Professor",
+      "RBCW & AETCOM 20 to 22 Feb. 2020 CISP 9 to 11 April 2019",
+      "Basic Course in Biomedical Research Dec. 2021"
+     ]
+    },
+    {
+     "cells": [
+      "18",
+      "Biochemistry",
+      "Dr. Satish Kumar Vardey",
+      "Professor",
+      "Basic Course Workshop in MET 9 to 11 Dec. 2014",
+      "Basic Course in Biomedical Research Dec. 2020"
+     ]
+    },
+    {
+     "cells": [
+      "19",
+      "Biochemistry",
+      "Dr. Surya S. Tiwari",
+      "Associate Professor",
+      "RBCW & AETCOM 25 to 27 March 2021 CISP-2 28 to 29 Oct. 2020",
+      "Basic Course in Biomedical Research June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "20",
+      "Biochemistry",
+      "Dr. Jyothi A. Natikar",
+      "Associate Professor",
+      "RBCW 11 to 13 June 2019",
+      "Basic Course in Biomedical Research Dec. 2020"
+     ]
+    },
+    {
+     "cells": [
+      "21",
+      "Biochemistry",
+      "Dr. Mahesh Kumar",
+      "Assistant Professor",
+      "RBCW & AETCOM 1 to 3 July 2021",
+      "Basic Course in Biomedical Research Dec. 2021"
+     ]
+    },
+    {
+     "cells": [
+      "22",
+      "Biochemistry",
+      "Dr. Divya Anand Jain",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "Basic Course in Biomedical Research Dec. 2019"
+     ]
+    },
+    {
+     "cells": [
+      "23",
+      "Biochemistry",
+      "Dr. Dharambeer Mahor",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "24",
+      "Pathology",
+      "Dr. Farah Jalaly",
+      "Professor",
+      "20th-22nd Feb 2020",
+      "Basic Course in Biomedical Research June 2020"
+     ]
+    },
+    {
+     "cells": [
+      "25",
+      "Pathology",
+      "Dr Rashmi Nichlani",
+      "Professor",
+      "CISP-II 28-29 Oct 2020",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "26",
+      "Pathology",
+      "Dr. Mahesh C. Patil",
+      "Professor",
+      "CISP-II 28-29 Oct 2020 Basic Course in Medical Education 14th to16th December 2023 RBCW 27 feb to 1 march 2023",
+      "Basic Course in Biomedical Research December2023"
+     ]
+    },
+    {
+     "cells": [
+      "27",
+      "Pathology",
+      "Dr. Atul Mujumdar",
+      "Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "28",
+      "Pathology",
+      "Dr. Naila Durrani",
+      "Associate Professor",
+      "25-27 September 2013",
+      "Basic Course in Biomedical Research December2020"
+     ]
+    },
+    {
+     "cells": [
+      "29",
+      "Pathology",
+      "Dr. Nipun Madhav",
+      "Assistant Professor",
+      "25-27 March 2021",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "30",
+      "Pathology",
+      "Dr. Anki Saluja",
+      "Assistant Professor",
+      "",
+      "Basic Course in Biomedical Research June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "31",
+      "Pathology",
+      "Dr. Naish Akhtar",
+      "Assistant Professor",
+      "---",
+      "Basic Course in Biomedical Research September 2019"
+     ]
+    },
+    {
+     "cells": [
+      "32",
+      "Pathology",
+      "Dr. Ritu Asnani",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research June 2020"
+     ]
+    },
+    {
+     "cells": [
+      "33",
+      "Pathology",
+      "Dr. Sushmita Tripathi",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research December 2019"
+     ]
+    },
+    {
+     "cells": [
+      "34",
+      "Immunoheamatolog Y & Blood Trasnfusion",
+      "Dr. Manal A.Ali.",
+      "Professor",
+      "16-18April 2018",
+      "Basic Course in Biomedical Research December2020"
+     ]
+    },
+    {
+     "cells": [
+      "35",
+      "Immunoheamatolog Y & Blood Trasnfusion",
+      "Dr. Neetu Kumar",
+      "Professor",
+      "1-3 July 2021",
+      "Basic Course in Biomedical Research April 2022"
+     ]
+    },
+    {
+     "cells": [
+      "36",
+      "Immunoheamatolog Y & Blood Trasnfusion",
+      "Dr. Ankita Pal",
+      "Assistant Professor",
+      "---",
+      "Basic Course in Biomedical Research June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "37",
+      "Immunoheamatolog Y & Blood Trasnfusion",
+      "Dr. Ladani Krutiben Pankajbhai",
+      "Senior Resident",
+      "",
+      "Basic Course in Biomedical Research June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "38",
+      "Microbiology",
+      "Dr . Saurabh G Agarwal",
+      "Professor",
+      "BCW:5th -7th Nov 2012 RBCW:20th -22nd Feb 2020 CISP:16th -18th April 2018",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "39",
+      "Microbiology",
+      "Dr. Jose Domingos Savio Dos Remedios Rodrigues",
+      "Professor",
+      "BCW:16-18 August 2021",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "40",
+      "Microbiology",
+      "Dr. Sanyogita Jain",
+      "Professor",
+      "BCW:10th -12th Sept 2012 RBCW:7th - 9th March 2018 CISP: 6th -8th June 2019",
+      "Basic Course in Biomedical Research June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "41",
+      "Microbiology",
+      "Mrs. Mamta Sarwariya",
+      "Assistant Professor",
+      "CISP: 28th -29th Oct 2020 RBCW:25th - 27th March 2021",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "42",
+      "Microbiology",
+      "Dr. Kuldeep Singh",
+      "Assistant Professor",
+      "RBCW: 1st -3rd July 2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "43",
+      "Microbiology",
+      "Dr. Saurabh Jayant",
+      "Assistant Professor",
+      "RBCW:06-08 Dec 2021",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "44",
+      "Microbiology",
+      "Dr. Rajedeep Paul",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "45",
+      "Microbiology",
+      "Dr. Namrata Nathani",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "46",
+      "Microbiology",
+      "Dr. Satakshi Manwani",
+      "Assistant Professor",
+      "---",
+      "Basic Course in Biomedical research June 2020"
+     ]
+    },
+    {
+     "cells": [
+      "47",
+      "Microbiology",
+      "Dr. Pratibha Singh",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "48",
+      "Microbiology",
+      "Dr. Samandeep Kaur",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical research June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "49",
+      "Pharmacology",
+      "Dr. R.K.Gupta",
+      "Professor",
+      "Basic course workshop on Medical technology, LML medical College, 06-08 Dec.2012",
+      "Basic Course in Biomedical Research, Jan 2021"
+     ]
+    },
+    {
+     "cells": [
+      "50",
+      "Pharmacology",
+      "Dr. Manohar M.Bende",
+      "Professor",
+      "RBCW -10-13 July 2018 C.I.S.P.-10-12 June 2019",
+      "NOT DONE"
+     ]
+    },
+    {
+     "cells": [
+      "51",
+      "Pharmacology",
+      "Dr. Sudha MJ",
+      "Professor",
+      "Basic Course in Medical Education 9th to11th Jan 2013",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "52",
+      "Pharmacology",
+      "Dr. Sunil Mahadeorao Mahakalkar",
+      "Professor",
+      "RCBW- 24-26 Aug 2021",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "53",
+      "Pharmacology",
+      "Dr. Dundesh Maled",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "54",
+      "Pharmacology",
+      "Dr. Somya Singh",
+      "Assistant Professor",
+      "",
+      "Basic Course in Biomedical Research, Dec 2020"
+     ]
+    },
+    {
+     "cells": [
+      "55",
+      "Forensic Medicine and Toxicology",
+      "Dr. Ashok Kumar Jain",
+      "Professor",
+      "Basic Course Workshop in Medical Education Technologies. From 5th to 7th Nov 2012 Basic Course Workshop in Medical Education Technologies. From 19th to 21st December 2012",
+      "Basic Course in Biomedical Research Dec 2020"
+     ]
+    },
+    {
+     "cells": [
+      "56",
+      "Forensic Medicine and Toxicology",
+      "Dr. Raghvendra K M",
+      "Professor",
+      "",
+      "Basic Course in Biomedical Research July 2023"
+     ]
+    },
+    {
+     "cells": [
+      "57",
+      "Forensic Medicine and Toxicology",
+      "Dr. Swapnil Paliwal",
+      "Associate Professor",
+      "Revised Basic Course Medical Education Technology. From 25th to 27th March 2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research march 2022"
+     ]
+    },
+    {
+     "cells": [
+      "58",
+      "Forensic Medicine and Toxicology",
+      "Dr. Sahajad Khilji",
+      "Assistant Professor",
+      "",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "59",
+      "Community Medicine",
+      "Dr. Prabhakar Atmaramji Hiwarkar",
+      "Professor",
+      "RBCW 29.07.2021 to 31.07.2021",
+      "Research Methodology workshop (9.9.2015 to 11.9.2015)"
+     ]
+    },
+    {
+     "cells": [
+      "60",
+      "Community Medicine",
+      "Dr. Garima Namdev",
+      "Professor",
+      "Basic course in MET (11.11.2014 to 13.11.2014) Basic Course in Medical Education 14th -16th Dec 2023",
+      "Basic Course in Biomedical Research, Dec 2021"
+     ]
+    },
+    {
+     "cells": [
+      "61",
+      "Community Medicine",
+      "Dr. Ashutosh Jain",
+      "Assistant Professor",
+      "1. RBCW + Training in AETCOM - 27.02.2023 to 01.03.2023 2. Training Learnng of AETCOM competencies in CBME - 07.04.2022",
+      "Basic Course in Biomedical Research, Sep to Dec 2021"
+     ]
+    },
+    {
+     "cells": [
+      "62",
+      "Community Medicine",
+      "Dr. Rituja Kaushal",
+      "Professor",
+      "RBCW -(7th to 9th March) - 2018",
+      "Basic Course in Biomedical Research, Dec 2020"
+     ]
+    },
+    {
+     "cells": [
+      "63",
+      "Community Medicine",
+      "Dr. Shubhankar Adhikari",
+      "Associate Professor",
+      "RBCW -(11th to 13th Oct) - 2022",
+      "Basic Course in Biomedical Research, June 2020"
+     ]
+    },
+    {
+     "cells": [
+      "64",
+      "General Medicine",
+      "Dr. Suresh Bhambhani",
+      "Professor",
+      "RBCW -(1 to 3 July) - 2021",
+      "Basic Course in Biomedical Research october-2022"
+     ]
+    },
+    {
+     "cells": [
+      "65",
+      "General Medicine",
+      "Dr. Parshuram Yugal",
+      "Professor",
+      "RBCW - 10-12 Jan 2013",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "66",
+      "General Medicine",
+      "Dr. Ananad Sagar",
+      "Associate Professor",
+      "RBCW -(8 to 10 Jan 2018)",
+      "Basic Course in Biomedical Research, Dec-2020"
+     ]
+    },
+    {
+     "cells": [
+      "67",
+      "General Medicine",
+      "Dr. Rajendra Jatav",
+      "Associate Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "68",
+      "General Medicine",
+      "Dr. Vaishali Bhalavi",
+      "Associate Professor",
+      "RBCW (20 to 22 Jan-2022)",
+      "Basic Course in Biomedical Research, March-22"
+     ]
+    },
+    {
+     "cells": [
+      "69",
+      "General Medicine",
+      "Dr. Khalid Mehdi",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "70",
+      "General Medicine",
+      "Dr. Shweta Gadekar",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "71",
+      "General Medicine",
+      "Dr. Amit Verma",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "72",
+      "General Medicine",
+      "Dr. Rupal Choudhary",
+      "Assistant Professor",
+      "---",
+      "Basic Course in Biomedical Research, March 2022"
+     ]
+    },
+    {
+     "cells": [
+      "73",
+      "General Medicine",
+      "Dr. Mohammed Imran",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, Dec 2019"
+     ]
+    },
+    {
+     "cells": [
+      "74",
+      "General Medicine",
+      "Dr. Shubham Garg",
+      "S E N IOR Resident",
+      "---",
+      "Basic Course in Biomedical Research June 2020"
+     ]
+    },
+    {
+     "cells": [
+      "75",
+      "General Medicine",
+      "Dr. Vaibhav Gupta",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical ResearchAugust-2022"
+     ]
+    },
+    {
+     "cells": [
+      "76",
+      "General Medicine",
+      "Dr. Aayush Malik",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research April-2022"
+     ]
+    },
+    {
+     "cells": [
+      "77",
+      "Respiratory Medicine",
+      "Dr. Kondala Rao Kola",
+      "Professor",
+      "RBCW - 29-31/08/2018",
+      "BCBR - 17/12/14"
+     ]
+    },
+    {
+     "cells": [
+      "78",
+      "Respiratory Medicine",
+      "Dr. Krishna G Singh",
+      "Associate Professor",
+      "RBCW - 25-27/03/2021, CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, July 2022"
+     ]
+    },
+    {
+     "cells": [
+      "79",
+      "Respiratory Medicine",
+      "Dr. Sheema Maqsood",
+      "Associate Professor",
+      "RBCW - 27 Feb-01 March 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "80",
+      "Respiratory Medicine",
+      "Dr. Ayush Pandey",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, March 2022"
+     ]
+    },
+    {
+     "cells": [
+      "81",
+      "Respiratory Medicine",
+      "Dr. Shraddha Tewari",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, June 2020"
+     ]
+    },
+    {
+     "cells": [
+      "82",
+      "Respiratory Medicine",
+      "Dr. Nilkumar Patel",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, Dec 2019"
+     ]
+    },
+    {
+     "cells": [
+      "83",
+      "Dermatology",
+      "Dr. Shyam Govind Rathoriya",
+      "Professor",
+      "BCW (26-28 Sep 2012) CISP (06-08 June 2019) RBCW( 20-22 Jan 2022",
+      "Basic Course in Biomedical Research, July 2023"
+     ]
+    },
+    {
+     "cells": [
+      "84",
+      "Dermatology",
+      "Dr. Rochit Singhal",
+      "Assistant Professor",
+      "CISP - 2 (29-30 Oct 2020) RBCW (25 - 27 Mar 2021)",
+      "Basic Course in Biomedical ResearchMarch 2022"
+     ]
+    },
+    {
+     "cells": [
+      "85",
+      "Dermatology",
+      "Dr. Vivek Choudhary",
+      "Assistant Professor",
+      "RBCW (25 to 27 Mar 2021) CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "86",
+      "Psychiatry",
+      "Dr. Manish Borasi",
+      "Professor",
+      "25.03.21 TO 27.03.21",
+      "Basic Course in Biomedical Research, March 2023"
+     ]
+    },
+    {
+     "cells": [
+      "87",
+      "Psychiatry",
+      "Dr. Ankit Chaudhary",
+      "Assistant Professor",
+      "01.07.21 TO 03.07.21",
+      "Basic Course in Biomedical Research, April 2022"
+     ]
+    },
+    {
+     "cells": [
+      "88",
+      "Psychiatry",
+      "Dr. Chirag Patel",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "89",
+      "Psychiatry",
+      "Dr. Sahar Khan",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, December 2019"
+     ]
+    },
+    {
+     "cells": [
+      "90",
+      "Psychiatry",
+      "Dr. Mallika Singh",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, December 2020"
+     ]
+    },
+    {
+     "cells": [
+      "91",
+      "Paediatrics",
+      "Dr. Jaishree Ambhore",
+      "Professor",
+      "BCME - (1st to 3 July)- 2021",
+      "Basic Course in Biomedical Research, Nov 2021"
+     ]
+    },
+    {
+     "cells": [
+      "92",
+      "Paediatrics",
+      "Dr. Saurabh Kumar",
+      "Professor",
+      "BCME - (20 to 22 Jan)2022 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "93",
+      "Paediatrics",
+      "Dr. Minhajuddin Ahmed",
+      "Professor",
+      "BCME -(16 - 18 April)2018",
+      "Basic Course in Biomedical Research, Dec2020"
+     ]
+    },
+    {
+     "cells": [
+      "94",
+      "Paediatrics",
+      "Dr. Nidhi Gupta",
+      "Associate Professor",
+      "BCME - (20 to 22 Jan)2022 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "95",
+      "Paediatrics",
+      "Dr. Priyanka Choudhari",
+      "Associate Professor",
+      "BCME -(1t to 3 July)- 2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "96",
+      "Paediatrics",
+      "Dr. Iqbal Mohammed Ansari",
+      "Associate Professor",
+      "BCME - (20 to 22 Jan)2022. CISP - III SAIIMS Indore 21st-22nd Dec 2023",
+      "Basic Course in Biomedical Research June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "97",
+      "Paediatrics",
+      "Dr. Yaqoob Ahmed",
+      "Associate Professor",
+      "BCME- Nov 2021",
+      "Basic Course in Biomedical Research, July 2021"
+     ]
+    },
+    {
+     "cells": [
+      "98",
+      "Paediatrics",
+      "Dr. Priya Sharma",
+      "Assistant Professor",
+      "BCME - (14 to 16 Mar)2023",
+      "Basic Course in Biomedical Research, July 2023"
+     ]
+    },
+    {
+     "cells": [
+      "99",
+      "Paediatrics",
+      "Dr. Pooja Rawat",
+      "Assistant Professor",
+      "",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "100",
+      "Paediatrics",
+      "Dr. Mrinal Sinha",
+      "Assistant Professor",
+      "",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "101",
+      "Paediatrics",
+      "Dr. Shailendra Pawar",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, Sep 2023"
+     ]
+    },
+    {
+     "cells": [
+      "102",
+      "Paediatrics",
+      "Dr. Gourav Gupta",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, Sep-Dec 2019"
+     ]
+    },
+    {
+     "cells": [
+      "103",
+      "General Surgery",
+      "Dr. Tarun Kumar Sainia",
+      "Professor",
+      "Revised Basic Cours Workshhop and Training in AETCOM Date - 07 to 09 October 2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "104",
+      "General Surgery",
+      "Dr. Arvind Joshi",
+      "Professor",
+      "Revised Basic Cours Workshhop and Training in AETCOM Date - 01 to 03 July 2021",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "105",
+      "General Surgery",
+      "Dr. T Badrinath",
+      "Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "106",
+      "General Surgery",
+      "Dr. Paladugu Srinivas Rao",
+      "Professor",
+      "",
+      "Basic Course in Biomedical Research, Feb- 2024"
+     ]
+    },
+    {
+     "cells": [
+      "107",
+      "General Surgery",
+      "Dr. Neeraj Kumar Jain",
+      "Associate Professor",
+      "Revised Basic Cours Workshhop and Training in AETCOMDate - 22 to 24 July 2021 Curriculum Implementation Support Program - II Date - 16 to 17 September 2020",
+      "Basic Course in Biomedical Research Date, June 2020"
+     ]
+    },
+    {
+     "cells": [
+      "108",
+      "General Surgery",
+      "Dr. Manohar Kumar Malviya",
+      "Associate Professor",
+      "Revised Basic Cours Workshhop and Training in AETCOM Date - 25 to 27 March 2021 Curriculum Implementation Support Program - II Date - 28 to 29 October 2020",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "109",
+      "General Surgery",
+      "Dr. Vishal Rampuri",
+      "Associate Professor",
+      "Revised Basic Cours Workshhop and Training in AETCOM Date - 20 to 22 January 2022",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "110",
+      "General Surgery",
+      "Dr. Sameer Soni",
+      "Associate Professor",
+      "Revised Basic Cours Workshhop and Training in AETCOM Date - 25 to 27 March 2021 Curriculum Implementation Support Program - II Date - 28 to 29 October 2020",
+      "Basic Course in Biomedical Research, March 2023"
+     ]
+    },
+    {
+     "cells": [
+      "111",
+      "General Surgery",
+      "Dr. Chandrashekhar Amb",
+      "Associate Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "Basic Course in Biomedical Research, April 2023"
+     ]
+    },
+    {
+     "cells": [
+      "112",
+      "General Surgery",
+      "Dr. Shikha Verma",
+      "Associate Professor",
+      "Revised Basic Cours Workshhop and Training in Medical Education Technology Date - 27 Feb to 27 March 2023",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "113",
+      "General Surgery",
+      "Dr. Aman Agarwal",
+      "Assistant Professor",
+      "Revised Basic Cours Workshhop and Training in AETCOM Date - 01 to 03 July 2021",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "114",
+      "General Surgery",
+      "Dr. Varun Singh Pendro",
+      "Assistant Professor",
+      "Mentorship Program for Endoscopic Spain Surgery 01 July to 04 July 2020",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "115",
+      "General Surgery",
+      "Dr. Deepak Kumar Bhajwani",
+      "Assistant Professor",
+      "Revised Basic Cours Workshhop and Training in AETCOM Date - 20 to 22 January 2022",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "116",
+      "General Surgery",
+      "Dr. Amar Jain",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      ""
+     ]
+    },
+    {
+     "cells": [
+      "117",
+      "General Surgery",
+      "Dr. Saurabh Rai",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "Basic Course in Biomedical Research, July 2023"
+     ]
+    },
+    {
+     "cells": [
+      "118",
+      "General Surgery",
+      "Dr. Saurabh Beedkar",
+      "Assistant Professor",
+      "",
+      "Basic Course in Biomedical Research, March 2022"
+     ]
+    },
+    {
+     "cells": [
+      "119",
+      "General Surgery",
+      "Dr. Ashay Rathore",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "120",
+      "General Surgery",
+      "Dr. Sachin Sharma",
+      "Assistant Professor",
+      "______________",
+      "Basic Course in Biomedical Research, February 2023"
+     ]
+    },
+    {
+     "cells": [
+      "121",
+      "General Surgery",
+      "Dr. Udit Bohare",
+      "Assistant Professor",
+      "",
+      "Basic Course in Biomedical Research, April 2023"
+     ]
+    },
+    {
+     "cells": [
+      "122",
+      "General Surgery",
+      "Dr. Abhishek Kumar Singh",
+      "Senior Resident",
+      "",
+      "Basic Course in Biomedical Research, April 2022"
+     ]
+    },
+    {
+     "cells": [
+      "123",
+      "General Surgery",
+      "Dr. Shashank Mishra",
+      "Senior Resident",
+      "",
+      "Basic Course in Biomedical Research, December 2022"
+     ]
+    },
+    {
+     "cells": [
+      "124",
+      "General Surgery",
+      "Dr. Kuldeep Singh Parmar",
+      "Senior Resident",
+      "",
+      "Basic Course in Biomedical Research, March 2022"
+     ]
+    },
+    {
+     "cells": [
+      "125",
+      "General Surgery",
+      "Dr. Kalaria Darshit",
+      "Senior Resident",
+      "",
+      "Basic Course in Biomedical Research, Dec 2019"
+     ]
+    },
+    {
+     "cells": [
+      "126",
+      "Orthopaedics",
+      "Dr Deepak Nadkarni",
+      "Professor",
+      "Basic Course 2008 Basic Course 2014 CISE III-24&25 Aug 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "127",
+      "Orthopaedics",
+      "Dr. Ambarish A Mathesul",
+      "Professor",
+      "",
+      "Basic Course in Biomedical Research, April 2023"
+     ]
+    },
+    {
+     "cells": [
+      "128",
+      "Orthopaedics",
+      "Dr Gourav Sharma",
+      "Associate Professor",
+      "RBCW 27/02/2023 to 01/03/2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "129",
+      "Orthopaedics",
+      "Dr Sandeep Kumar Gour",
+      "Associate Professor",
+      "RBCW 25/03/2021 to 27/03/2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, July 2023"
+     ]
+    },
+    {
+     "cells": [
+      "130",
+      "Orthopaedics",
+      "Dr Anchal Navneet Mishra",
+      "Assistant Professor",
+      "RBCW 25/03/2021 to 27/03/2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "131",
+      "Orthopaedics",
+      "Dr Ashish Singh",
+      "Assistant Professor",
+      "RBCW 13/03/2023 to 15/03/2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "132",
+      "Orthopaedics",
+      "Dr. Pawan Kumar Mishra",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "133",
+      "Orthopaedics",
+      "Dr. Puneet Kumar Acharya",
+      "Assistant Professor",
+      "___________",
+      "Basic Course in Biomedical Research, September 2023"
+     ]
+    },
+    {
+     "cells": [
+      "134",
+      "Orthopaedics",
+      "Dr. Mohit Dadlani",
+      "Assistant Professor",
+      "___________",
+      "Basic Course in Biomedical Research, December 2019"
+     ]
+    },
+    {
+     "cells": [
+      "135",
+      "Ent",
+      "Dr. Anil Kumar Jain",
+      "Professor",
+      "Revised Basic Course Workshop in Medical Education Technology. 27th Feb-1st March,2017 .",
+      "Basic Course in Biomedical Research, June, 2021"
+     ]
+    },
+    {
+     "cells": [
+      "136",
+      "Ent",
+      "Dr. Rakesh Maran",
+      "Professor",
+      "Revised Basic course in Medical Education Date 16-18 April 2018.",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "137",
+      "Ent",
+      "Dr. Ruchir Varshney",
+      "Associate Professor",
+      "Revised Basic Course Workshop (1-3 July 2021)",
+      "Basic Course in Biomedical Research, September 2022"
+     ]
+    },
+    {
+     "cells": [
+      "138",
+      "Ent",
+      "Dr. Anchal Kumar Jain",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "139",
+      "Ent",
+      "Dr. Aditya Goel",
+      "Assistant Professor",
+      "",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "140",
+      "Ent",
+      "Dr. Faran Alam Khan",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "141",
+      "Ent",
+      "Dr. Aarchy Jain",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, September 2022"
+     ]
+    },
+    {
+     "cells": [
+      "142",
+      "Ent",
+      "Dr. Vijay S Laungani",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, September- December 2022"
+     ]
+    },
+    {
+     "cells": [
+      "143",
+      "Ent",
+      "Dr. Vipul V Malviya",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, Mar-jun 2021"
+     ]
+    },
+    {
+     "cells": [
+      "144",
+      "Ophthalmology",
+      "Dr. Khalid Khan",
+      "Professor & HOD",
+      "BCME -26, 27 & 28 March 2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "145",
+      "Ophthalmology",
+      "Dr. Ulka Srivastava",
+      "Professor",
+      "BCME -27, 28 Feb & 01 March 2022 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "146",
+      "Ophthalmology",
+      "Dr. Mansi Kishnani",
+      "Assistant Professor",
+      "BCME -01, 02 & 03 July 2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research September 2022"
+     ]
+    },
+    {
+     "cells": [
+      "147",
+      "Ophthalmology",
+      "Dr. Anagha Chawhan",
+      "Assistant Professor",
+      "BCME -26, 27 & 28.03.2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, June 2022"
+     ]
+    },
+    {
+     "cells": [
+      "148",
+      "Ophthalmology",
+      "Dr. Akshita Jindal",
+      "Assistant Professor",
+      "BCME -27, 28 Feb & 01 March 2022",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "149",
+      "Ophthalmology",
+      "Dr. Mayank Gupta",
+      "Assistant Professor",
+      "Revised Basic Course in Medical Education 14th - 16th Dec 2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "150",
+      "Ophthalmology",
+      "Dr. Yuri Kashiv",
+      "Assistant Professor",
+      "….",
+      "Basic Course in Biomedical Research. December 2020"
+     ]
+    },
+    {
+     "cells": [
+      "151",
+      "Radio-diagnosis",
+      "Dr. Nitin Khantal",
+      "Professor",
+      "RBCW- 16-18 April 2018 AETCOM 1-3 July 2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "152",
+      "Radio-diagnosis",
+      "Dr Jyoti Valecha",
+      "Professor",
+      "RBCW - 16-18 Sept 2014 CISP Traning 6-8 June 2019",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "153",
+      "Radio-diagnosis",
+      "Dr. Niti Jain",
+      "Professor",
+      "Yes 01/03/2023",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "154",
+      "Radio-diagnosis",
+      "Dr. Laxman Ahirwar",
+      "Professor",
+      "RBCW 28th feb - 1st March 2023.",
+      "Basic Course in Biomedical Research. December 2023"
+     ]
+    },
+    {
+     "cells": [
+      "155",
+      "Radio-diagnosis",
+      "Dr. Sonika Rani",
+      "Professor",
+      "Basic Course in Medical Education 14th to16th December 2023 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "156",
+      "Radio-diagnosis",
+      "Dr. Arushi Kaushal Bang",
+      "Assistant Professor",
+      "…….",
+      "Basic Course in Biomedical Research. December 2019"
+     ]
+    },
+    {
+     "cells": [
+      "157",
+      "Radio-diagnosis",
+      "Dr. Anuj Bang",
+      "Senior Resident",
+      "……..",
+      "Basic Course in Biomedical Research. December 2019"
+     ]
+    },
+    {
+     "cells": [
+      "158",
+      "Radiation Oncology",
+      "DR. ANKIT AGARWAL",
+      "Associate Professor",
+      "YES (27.02.23 TO 01.03.23)",
+      "Basic Course in Biomedical Research, APRIL 2023"
+     ]
+    },
+    {
+     "cells": [
+      "159",
+      "Radiation Oncology",
+      "DR. DESH DEEPAK LADIA",
+      "Assistant Professor",
+      "YES (27.02.23 TO 01.03.23)",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "160",
+      "Anaesthesiology",
+      "Dr. Seema Gupta",
+      "Professor",
+      "Revised Basic Course Workshop in Medical Education Technology 25-03-2021 to 27.03.2021 CMCH CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, April 2022"
+     ]
+    },
+    {
+     "cells": [
+      "161",
+      "Anaesthesiology",
+      "Dr. Vijay Rambhauji Shrotey",
+      "Professor",
+      "Workshop in Medical Education Technology (25 to 27 Nov 2014)",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "162",
+      "Anaesthesiology",
+      "Dr, Damodar Sadashiv Patwardhan",
+      "Professor",
+      "Workshop in Medical Education Technology(October 2004)",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "163",
+      "Anaesthesiology",
+      "Dr. Pradeep Samuel Indurkar",
+      "Professor",
+      "Workshop in Medical Education Technology 25 to 27 july 2017",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "164",
+      "Anaesthesiology",
+      "Dr. Devashish Chakrawaty",
+      "Associate Professor",
+      "Revised Basic Course Workshop in Medical Education Technology (20/01/2022 to 22/01/2022)",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "165",
+      "Anaesthesiology",
+      "Dr. Tapan Kumar Sahoo",
+      "Associate Professor",
+      "Basic Course in Medical Education 14th to16th December 2023 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, July 2023"
+     ]
+    },
+    {
+     "cells": [
+      "166",
+      "Anaesthesiology",
+      "Dr. Sikha",
+      "Associate Professor",
+      "---",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "167",
+      "Anaesthesiology",
+      "Dr. Sudip Bhargava",
+      "Assistant Professor",
+      "Revised Basic Course Workshop in Medical Education Technology (27/02/2023 to 1/03/2023)",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "168",
+      "Anaesthesiology",
+      "Dr. Akansha Jain",
+      "Assistant Professor",
+      "Revised Basic Course Workshop in Medical Education Technology (20/01/2022 to 22/01/2022",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "169",
+      "Anaesthesiology",
+      "Dr. Abhinav Agarwal",
+      "Assistant Professor",
+      "Revised Basic Course Workshop in Medical Education Technology 20/01/2022 to 22/01/2022",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "170",
+      "Anaesthesiology",
+      "Dr. Veenashree Managavi",
+      "Assistant Professor",
+      "---",
+      "---"
+     ]
+    },
+    {
+     "cells": [
+      "171",
+      "Anaesthesiology",
+      "Dr. Hemendra Bhardwaj",
+      "Assistant Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "Basic Course in Biomedical Research, July 2023"
+     ]
+    },
+    {
+     "cells": [
+      "172",
+      "Anaesthesiology",
+      "Dr. Sushma Uikey",
+      "Assistant Professor",
+      "---",
+      "Basic Course in Biomedical Research, Dec 2020"
+     ]
+    },
+    {
+     "cells": [
+      "173",
+      "Anaesthesiology",
+      "Dr. Deepak Goyal",
+      "Senior Resident",
+      "---",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "174",
+      "Dentistry",
+      "Dr. Saket Kumar Jain",
+      "Associate Professor",
+      "Yes (27th Feb to 1st March 2023)",
+      "Basic Course in Biomedical Research, March 2022"
+     ]
+    },
+    {
+     "cells": [
+      "175",
+      "Obstetrics & Gynaecology",
+      "Dr. Anjali Kanhere",
+      "Professor & HOD",
+      "Basic Course in Medical Education Technologies PSMC MET, Karmsad Gujarat 16-19 Feb 2011. Student Assessment -OSCE mini CEX GMC Bhopal, 28.04.2012 . FAIMER GSMC, KEM MUMBAI 2011-2013 ACME Nodal Centre Karamsad 09-11- 2019 RBCW RTC, SAIMS Indore 27.02.17 -01.03.17 AETCOM RTC, SAIMS Indore 02.03.17 CISP-I Online June 2020 CISP - III SAIIMS Indore, 21st - 22nd Dec 2023",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "176",
+      "Obstetrics & Gynaecology",
+      "Dr. Sandhya Gadre",
+      "Professor",
+      "RBCW RTC, SAIMS, Indore 28.09.2015 to 30.09.2015. AETCOM RTC, SAIMS, Indore 11.10.2018. CISP- I, 11.03.2019 to 13.03.2019, RTC, SAIMS Indore CISP-II, 18.08.2020 to 19.08/.020. Online RTC, SAIMS Indore. ACME - Nodal Centre Karamsad, 2018",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "177",
+      "Obstetrics & Gynaecology",
+      "Dr. Hemlata Parashar",
+      "Professor",
+      "BCW in House CMCH, Bhopal, 2013. CISP-II, 18.08.2020 to 19.08.2020",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "178",
+      "Obstetrics & Gynaecology",
+      "Dr. Rupa Aherwar",
+      "Professor",
+      "RBCW in House CMCH, Bhopal 27, 28 Feb,1 March 2023",
+      "NO"
+     ]
+    },
+    {
+     "cells": [
+      "179",
+      "Obstetrics & Gynaecology",
+      "Dr. Ishrat Jahan",
+      "Professor",
+      "BCME, 16-18 Sept 2014",
+      "NO"
+     ]
+    },
+    {
+     "cells": [
+      "180",
+      "Obstetrics & Gynaecology",
+      "Dr. Sonal Jain",
+      "Associate Professor",
+      "RBCW in House CMCH, Bhopal, 25-27 March 2020",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "181",
+      "Obstetrics & Gynaecology",
+      "Dr. Anita Shrivastava",
+      "Associate Professor",
+      "RBCW in House CMCH, Bhopal, 16-18 April 2018",
+      "NO"
+     ]
+    },
+    {
+     "cells": [
+      "182",
+      "Obstetrics & Gynaecology",
+      "Dr. Akrati Jain",
+      "Associate Professor",
+      "RBCW in House CMCH, Bhopal. 25,26.27 march 2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "183",
+      "Obstetrics & Gynaecology",
+      "Dr. Sweta Agrawal",
+      "Assistant Professor",
+      "RBCW in House CMCH, Bhopal, 25,26.27 march 2021. CISP- II , 28,29,October 2020",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "184",
+      "Obstetrics & Gynaecology",
+      "Dr. Gunjan Chaudhary",
+      "Assistant Professor",
+      "RBCW in House CMCH, Bhopal, 1-3 July 2021 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, June 2021"
+     ]
+    },
+    {
+     "cells": [
+      "185",
+      "Obstetrics & Gynaecology",
+      "Dr. Satarupa Paul",
+      "Assistant Professor",
+      "RBCW in House CMCH, Bhopal, 27, 28 Feb & 1 march 2023 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "Basic Course in Biomedical Research, APR 2022"
+     ]
+    },
+    {
+     "cells": [
+      "186",
+      "Obstetrics & Gynaecology",
+      "Dr. Payal Raghuwanshi",
+      "Assistant Professor",
+      "Revised Basic Course in Medical Education 14th - 16th Dec 2023 CISP III CMCH Bhopal 22nd-23rd March 2024",
+      "NO"
+     ]
+    },
+    {
+     "cells": [
+      "187",
+      "Obstetrics & Gynaecology",
+      "Dr. Ankita Upadhyay",
+      "Assistant Professor",
+      "NO",
+      "Basic Course in Biomedical Research, Dec. 2022"
+     ]
+    },
+    {
+     "cells": [
+      "188",
+      "Obstetrics & Gynaecology",
+      "Dr. Mona Gupta",
+      "Assistant Professor",
+      "",
+      "Basic Course in Biomedical Research, Dec. 2022"
+     ]
+    },
+    {
+     "cells": [
+      "189",
+      "Emergency Medicine",
+      "Dr. Veerendra Singh Raghuwanshi",
+      "Professor",
+      "Revised Basic Course Workshop In Medical Education (16-18april 2018)",
+      "Basic Course in Biomedical Research, April 2022"
+     ]
+    },
+    {
+     "cells": [
+      "190",
+      "Emergency Medicine",
+      "Dr. Umang Agarwal",
+      "Professor",
+      "Basic Course in Medical Education 14th to16th December 2023",
+      "---"
+     ]
+    }
+   ],
+   "filterCol": 1
+  }
+ ]
+}
