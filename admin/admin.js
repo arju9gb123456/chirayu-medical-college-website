@@ -178,7 +178,7 @@
       desc: 'Which website design visitors see first, and the footer visitor counter.',
       groups: [
         { h: 'Website design', fields: [
-          { k: 'theme', l: 'Default design', t: 'select', opts: [['cinema', 'Cinematic dark'], ['classic', 'Original'], ['clean', 'Clean bright'], ['bold', 'Bold & energetic']], hint: 'Shown to visitors who have not picked a design themselves.' },
+          { k: 'theme', l: 'Default design', t: 'select', opts: [['medlab', 'Cinematic light · 3D (final)'], ['cinema', 'Cinematic dark'], ['classic', 'Original'], ['clean', 'Clean bright'], ['bold', 'Bold & energetic']], hint: 'Shown to visitors who have not picked a design themselves.' },
           { k: 'themeSwitcher', l: 'Show the design switcher in the top bar', t: 'check' } ] },
         { h: 'Visitor counter', fields: [{ k: 'visitorBase', l: 'Starting visitor count', t: 'number' }] }
       ] }
@@ -301,7 +301,7 @@
     c.footerCols.forEach(function (f) { if (!Array.isArray(f.links)) f.links = []; });
     if (!c.contact || typeof c.contact !== 'object') c.contact = {};
     if (typeof c.visitorBase !== 'number') c.visitorBase = parseInt(c.visitorBase, 10) || 0;
-    if (['classic', 'cinema', 'clean', 'bold'].indexOf(c.theme) < 0) c.theme = 'cinema';
+    if (['medlab', 'classic', 'cinema', 'clean', 'bold'].indexOf(c.theme) < 0) c.theme = 'medlab';
     if (typeof c.themeSwitcher !== 'boolean') c.themeSwitcher = true;
     return c;
   }

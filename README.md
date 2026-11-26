@@ -22,13 +22,14 @@ supabase/schema.sql     Database tables, security rules, storage bucket
 vercel.json             Static hosting config (no build step)
 ```
 
-## Four designs
+## Designs
 
-The site ships with four complete designs, switched with `data-theme` on `<html>`:
+The site ships with five complete designs, switched with `data-theme` on `<html>`:
 
 | Design | Look |
 |---|---|
-| `cinema` | **Cinematic** (default): dark full-screen photo slider, serif headings (Fraunces), teal glow |
+| `medlab` | **Cinematic Light · 3D** (final, default): bright tech-hospital look — blueprint grid, glass panels, HUD lines, and a live 3D scene of medical equipment (DNA, stethoscope, syringe, capsules, tablets, heart, cross) in the hero plus a beating 3D heart in the enquiry banner |
+| `cinema` | Cinematic dark: dark full-screen photo slider, serif headings (Fraunces), teal glow |
 | `classic` | Original: light hero, 3D coverflow photo cards, aurora glow, particles, Bricolage Grotesque |
 | `clean` | Clean bright: split hero with rounded photo, Plus Jakarta Sans, soft gradients |
 | `bold` | Bold & energetic: blob-framed photo, sticker, Unbounded, coral/yellow blocks |
@@ -36,6 +37,13 @@ The site ships with four complete designs, switched with `data-theme` on `<html>
 Visitors can switch from the **Design** control in the top bar (remembered in their browser).
 In the admin, **Design & settings** sets the default design and can hide the switcher once one is final.
 Fonts are self-hosted in `assets/fonts` (no Google Fonts request).
+
+### 3D scene (`medlab`)
+- Built from `tools/med3d/med3d.src.js` (three.js, everything modelled in code — no model files).
+  Rebuild after changing it: `cd tools/med3d && npm i && npm run build` → writes `assets/js/med3d.js`.
+- `main.js` loads it only after the page has loaded, only in the Light 3D design and only if WebGL works
+  (otherwise a flat SVG is shown). It pauses when off-screen, uses fewer objects on phones,
+  and shows a still frame for visitors who turn off motion.
 
 ## How content flows
 

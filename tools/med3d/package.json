@@ -1,0 +1,12 @@
+{
+  "name": "cmch-med3d",
+  "private": true,
+  "description": "Builds assets/js/med3d.js (3D medical scene) from med3d.src.js",
+  "scripts": {
+    "build": "esbuild med3d.src.js --bundle --minify --format=iife --target=es2018 --legal-comments=none --outfile=../../assets/js/med3d.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.0",
+    "three": "0.170.0"
+  }
+}

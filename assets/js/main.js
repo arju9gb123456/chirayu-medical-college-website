@@ -366,8 +366,8 @@
   }
 
   /* ---------------- Design (theme) switch ---------------- */
-  var THEMES = ['cinema', 'classic', 'clean', 'bold'];
-  var THEME_COLORS = { classic: '#0A8E97', cinema: '#06161C', clean: '#0A8E97', bold: '#FFC94A' };
+  var THEMES = ['medlab', 'cinema', 'classic', 'clean', 'bold'];
+  var THEME_COLORS = { medlab: '#F3F8FA', classic: '#0A8E97', cinema: '#06161C', clean: '#0A8E97', bold: '#FFC94A' };
   var themeUser = null;
   try { themeUser = localStorage.getItem('cmch_theme'); } catch (e) { /* storage blocked */ }
   if (THEMES.indexOf(themeUser) < 0) themeUser = null;
@@ -384,6 +384,7 @@
     var meta = $('meta[name="theme-color"]');
     if (meta) meta.setAttribute('content', THEME_COLORS[t]);
     syncSwitch();
+    try { window.dispatchEvent(new Event('cmch:theme')); } catch (e) { /* old browser */ }
     // let layout-dependent pieces (tab ink, parallax) re-measure
     setTimeout(function () { window.dispatchEvent(new Event('resize')); }, 80);
   }
@@ -931,6 +932,27 @@
       console.error('Homepage content could not load. Open the site through a web server (Vercel / VS Code Live Server), not as a file.', err);
       afterContent();
     });
+
+  /* ---------------- 3D medical scene (only in the "Light 3D" design) ----------------
+     assets/js/med3d.js (three.js, ~135 KB gzipped) is fetched only when it is needed:
+     after the page has loaded, when the Light 3D design is on and WebGL works. */
+  var med3dLoading = false;
+  function webgl() {
+    try { var c = document.createElement('canvas'); return !!(window.WebGLRenderingContext && (c.getContext('webgl2') || c.getContext('webgl'))); } catch (e) { return false; }
+  }
+  function loadMed3D() {
+    if (med3dLoading || currentTheme() !== 'medlab' || !$('[data-med3d]')) return;
+    if (!webgl()) { $$('[data-med3d]').forEach(function (el) { el.classList.add('is-fallback'); }); return; }
+    med3dLoading = true;
+    var s = document.createElement('script');
+    s.src = 'assets/js/med3d.js?v=20261126-m1';
+    s.async = true;
+    s.onerror = function () { $$('[data-med3d]').forEach(function (el) { el.classList.add('is-fallback'); }); };
+    document.body.appendChild(s);
+  }
+  window.addEventListener('cmch:theme', loadMed3D);
+  if (document.readyState === 'complete') setTimeout(loadMed3D, 200);
+  else window.addEventListener('load', function () { setTimeout(loadMed3D, 200); });
 
   initLenis();
   lazyScript('https://static.elfsight.com/platform/platform.js', $('.elfsight-wrap'));
