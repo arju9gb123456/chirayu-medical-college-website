@@ -107,6 +107,25 @@
   function titleFromSlug(s) {
     return String(s).split('/').pop().replace(/[-_]+/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
   }
+  function linkKind(u) {
+    if (/\.pdf(\?|#|$)/i.test(u)) return { k: 'pdf', label: 'PDF document', ic: 'file', cta: 'View PDF', ext: true };
+    if (/^tel:/i.test(u)) return { k: 'page', label: 'Phone', ic: 'phone', cta: 'Call', ext: false };
+    if (/^https?:/i.test(u)) return { k: 'ext', label: /cmchbhopal\.com/i.test(u) ? 'Website page' : 'External link', ic: 'link', cta: 'Open', ext: true };
+    return { k: 'page', label: 'Page', ic: 'college', cta: 'Open page', ext: false };
+  }
+  function niceDate(d) {
+    var m = String(d).match(/^(\d{1,2})[-\/.](\d{1,2})[-\/.](\d{4})$/), mo = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    return m && +m[2] >= 1 && +m[2] <= 12 ? (+m[1]) + ' ' + mo[+m[2] - 1] + ' ' + m[3] : d;
+  }
+  function catIcon(c) {
+    c = String(c).toLowerCase();
+    if (/staff|faculty|leader|dean|management/.test(c)) return 'college';
+    if (/student|universit|admission|exam|fee/.test(c)) return 'cap';
+    if (/ragging|safety|committee|harass/.test(c)) return 'shield';
+    if (/research|award|cme|academic/.test(c)) return 'award';
+    if (/hospital|clinical|bed/.test(c)) return 'bed';
+    return 'file';
+  }
   function initials(n) {
     return String(n || '').replace(/^(dr|prof|mr|mrs|ms|shri|col)\.?\s+/i, '').replace(/^(\(dr\.?\)|dr\.?)\s*/i, '').split(/\s+/).filter(function (w) { return /^[A-Za-z]/.test(w); }).slice(0, 2).map(function (w) { return w[0]; }).join('').toUpperCase();
   }
@@ -129,6 +148,13 @@
 
   /* Faculty pages: total + count per group, worked out from the blocks */
   function stats(p) {
+    var db = (p.blocks || []).filter(function (b) { return b.type === 'disclosures'; })[0];
+    if (db) {
+      var it = db.items || [], pdf = it.filter(function (x) { return linkKind(safeUrl(x.href)).k === 'pdf'; }).length, cats = {};
+      it.forEach(function (x) { cats[x.category || 'General'] = 1; });
+      return '<div class="phero__stats" data-in style="--d:3"><div><b>' + it.length + '</b><span>Disclosures</span></div><div><b>' + Object.keys(cats).length + '</b><span>Categories</span></div>' +
+        '<div><b>' + pdf + '</b><span>PDF documents</span></div><div><b>' + (it.length - pdf) + '</b><span>Linked pages</span></div></div>';
+    }
     var fb = (p.blocks || []).filter(function (b) { return b.type === 'faculty' && (b.items || []).length; });
     if (!fb.length) return '';
     var tot = fb.reduce(function (a, b) { return a + b.items.length; }, 0);
@@ -197,6 +223,33 @@
             '</article>';
         }).join('') + '</div><p class="pempty" hidden>No matching faculty.</p>';
     },
+    /* Disclosures: NMC / MSR list — grouped by category, filter chips, search */
+    disclosures: function (b) {
+      var items = b.items || [], cats = [];
+      items.forEach(function (it) { var c = it.category || 'General'; if (cats.indexOf(c) < 0) cats.push(c); });
+      var n = 0;
+      return '<div class="dsc">' +
+        '<div class="dsc__bar"><div class="dsc__chips" role="tablist" aria-label="Filter">' +
+          '<button type="button" class="dsc__chip is-on" data-cat="">All <i>' + items.length + '</i></button>' +
+          cats.map(function (c) { return '<button type="button" class="dsc__chip" data-cat="' + esc(c) + '">' + esc(c) + ' <i>' + items.filter(function (it) { return (it.category || 'General') === c; }).length + '</i></button>'; }).join('') +
+        '</div>' + searchBox('Search disclosures…') + '</div>' +
+        cats.map(function (c) {
+          var list = items.filter(function (it) { return (it.category || 'General') === c; });
+          return '<section class="dsc__group" data-group="' + esc(c) + '"><header class="dsc__gh" data-reveal><span class="dsc__gic">' + icon(catIcon(c)) + '</span><h3>' + esc(c) + '</h3><span class="dsc__gn">' + list.length + (list.length === 1 ? ' item' : ' items') + '</span></header>' +
+            '<div class="dsc__list">' + list.map(function (it) {
+              n++;
+              var u = safeUrl(it.href), kind = linkKind(u);
+              return '<a class="dsc__item" href="' + esc(u) + '"' + (kind.ext ? ' target="_blank" rel="noopener"' : '') + ' data-reveal data-cursor="Open">' +
+                '<span class="dsc__no">' + (it.no || (n < 10 ? '0' + n : n)) + '</span>' +
+                '<span class="dsc__body"><b>' + esc(it.title) + '</b><span class="dsc__meta">' +
+                  '<span class="dsc__tag dsc__tag--' + kind.k + '">' + icon(kind.ic) + kind.label + '</span>' +
+                  (it.updated ? '<span class="dsc__date">' + icon('bell') + 'Updated ' + esc(niceDate(it.updated)) + '</span>' : '') +
+                '</span></span>' +
+                '<span class="dsc__go"><span>' + kind.cta + '</span>' + icon('arrow') + '</span></a>';
+            }).join('') + '</div></section>';
+        }).join('') +
+        '<p class="pempty" hidden>No matching disclosures.</p></div>';
+    },
     /* Link cards: departments, sections of a page… */
     cards: function (b) {
       var items = b.items || [];
@@ -231,11 +284,12 @@
       return '<section class="pbody"><div class="wrap"><div class="pnotice" data-reveal>' +
         '<span class="pnotice__ic">' + icon('bell') + '</span><div><h2>Content is being updated</h2><p>This page will be filled from the admin panel soon.</p></div></div></div></section>';
     }
-    var toc = blocks.length > 1 ? '<aside class="toc" aria-label="On this page"><div class="toc__in"><b>On this page</b>' +
+    var wide = blocks[0].type === 'disclosures';
+    var toc = blocks.length > 1 && !wide ? '<aside class="toc" aria-label="On this page"><div class="toc__in"><b>On this page</b>' +
       blocks.map(function (b, i) { return '<a href="#' + blockId(b, i) + '">' + esc(b.title || b.label || 'Section ' + (i + 1)) + '</a>'; }).join('') + '</div></aside>' : '';
-    return '<section class="pbody"><div class="wrap pbody__grid' + (toc ? '' : ' pbody__grid--single') + '">' + toc + '<div class="pbody__main">' +
+    return '<section class="pbody' + (wide ? ' pbody--wide' : '') + '"><div class="wrap pbody__grid' + (toc ? '' : ' pbody__grid--single') + '">' + toc + '<div class="pbody__main">' +
       blocks.map(function (b, i) {
-        var showTitle = b.type !== 'button' && b.title;
+        var showTitle = b.type !== 'button' && b.type !== 'disclosures' && b.title;
         return '<section class="pblock pblock--' + b.type + '" id="' + blockId(b, i) + '" data-block="' + i + '">' +
           (showTitle ? '<div class="head"><div><div class="kick"><svg><use href="#i-ecg"/></svg> ' + esc(i + 1 < 10 ? '0' + (i + 1) : i + 1) + '</div><h2 class="head__title pblock__title" data-split>' + esc(b.title) + '</h2></div></div>' : '') +
           RENDER[b.type](b) + '</section>';
@@ -283,6 +337,7 @@
   /* search, show-more, lightbox */
   function wireBlocks(p) {
     $$('.pblock').forEach(function (sec) {
+      if ($('.dsc', sec)) return; // has its own filter (below)
       var input = $('.psearch input', sec), more = $('[data-more]', sec), count = $('.pcount', sec), empty = $('.pempty', sec);
       var rows = $$('.ptable tbody tr, .pfile, .fac, .pcard', sec), total = rows.length, unit = sec.classList.contains('pblock--files') ? 'documents' : sec.classList.contains('pblock--faculty') ? 'members' : sec.classList.contains('pblock--cards') ? 'items' : 'entries';
       if (input) {
@@ -299,6 +354,26 @@
         });
       }
       if (more) more.addEventListener('click', function () { sec.classList.add('is-expanded'); more.hidden = true; });
+    });
+
+    // disclosures: category chips + search
+    $$('.dsc').forEach(function (d) {
+      var chips = $$('.dsc__chip', d), input = $('.psearch input', d), empty = $('.pempty', d), cat = '';
+      function apply() {
+        var q = input ? input.value.trim().toLowerCase() : '', shown = 0;
+        $$('.dsc__group', d).forEach(function (g) {
+          var inCat = !cat || g.dataset.group === cat, any = 0;
+          $$('.dsc__item', g).forEach(function (a) {
+            var hit = inCat && (!q || a.textContent.toLowerCase().indexOf(q) > -1);
+            a.hidden = !hit; if (hit) { any++; a.classList.add('is-visible'); }
+          });
+          g.hidden = !any; shown += any;
+          if (any) $('.dsc__gh', g).classList.add('is-visible');
+        });
+        empty.hidden = shown > 0;
+      }
+      chips.forEach(function (c) { c.addEventListener('click', function () { chips.forEach(function (x) { x.classList.toggle('is-on', x === c); }); cat = c.dataset.cat; apply(); }); });
+      if (input) input.addEventListener('input', apply);
     });
 
     // faculty cards: tap / Enter toggles the details panel
@@ -493,7 +568,7 @@
     });
     if (!finePointer || reduce) return;
     document.addEventListener('mousemove', function (e) {
-      var t = e.target.closest && e.target.closest('.btn, .pfile, .pcta');
+      var t = e.target.closest && e.target.closest('.btn, .pfile, .pcta, .dsc__item');
       if (!t) return;
       var r = t.getBoundingClientRect();
       t.style.setProperty('--mx', (e.clientX - r.left) + 'px'); t.style.setProperty('--my', (e.clientY - r.top) + 'px');

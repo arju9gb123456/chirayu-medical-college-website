@@ -7,151 +7,128 @@
   "banner": "",
   "blocks": [
     {
-      "type": "table",
+      "type": "disclosures",
       "id": "msr",
       "title": "Information under MSR Clause B.1.11",
-      "columns": [
-        "Sr. No.",
-        "Details of Information",
-        "View",
-        "Last Updated on"
-      ],
-      "rows": [
+      "items": [
         {
-          "cells": [
-            "1",
-            "Details of Dean, Principal and Medical Supdt. including their name, qualification, complete address with telephone and STD code, fax and e-mail etc.",
-            "[View](/management-team/)",
-            "25-03-2022"
-          ]
+          "no": "01",
+          "title": "Details of Dean, Principal and Medical Supdt. including their name, qualification, complete address with telephone and STD code, fax and e-mail etc.",
+          "href": "/management-team/",
+          "updated": "25-03-2022",
+          "category": "Leadership & Staff"
         },
         {
-          "cells": [
-            "2",
-            "Teaching Staff List, Resident Doctor, Non-teaching staff, Technical staff, Nursing staff — (a) department and designation wise with joining date (b) unit wise faculty & resident list",
-            "[View](/staff-information/)",
-            "25-03-2022"
-          ]
+          "no": "02",
+          "title": "Teaching Staff List, Resident Doctor, Non-teaching staff, Technical staff, Nursing staff — (a) department and designation wise with joining date (b) unit wise faculty & resident list",
+          "href": "/staff-information/",
+          "updated": "25-03-2022",
+          "category": "Leadership & Staff"
         },
         {
-          "cells": [
-            "3",
-            "Details of affiliated university and its Vice-Chancellor and Registrars",
-            "[View](/university/)",
-            "25-03-2022"
-          ]
+          "no": "03",
+          "title": "Details of affiliated university and its Vice-Chancellor and Registrars",
+          "href": "/university/",
+          "updated": "25-03-2022",
+          "category": "University & Students"
         },
         {
-          "cells": [
-            "4",
-            "Citizen Charter",
-            "[View](https://www.cmchbhopal.com/pdf/nursing-list-2022.pdf)",
-            "25-03-2022"
-          ]
+          "no": "04",
+          "title": "Citizen Charter",
+          "href": "https://www.cmchbhopal.com/pdf/nursing-list-2022.pdf",
+          "updated": "25-03-2022",
+          "category": "Hospital & Clinical"
         },
         {
-          "cells": [
-            "5",
-            "Details of fees for various courses and other costs",
-            "[View](/assets/docs/msr/fees-and-costs.pdf)",
-            "25-03-2022"
-          ]
+          "no": "05",
+          "title": "Details of fees for various courses and other costs",
+          "href": "/assets/docs/msr/fees-and-costs.pdf",
+          "updated": "25-03-2022",
+          "category": "University & Students"
         },
         {
-          "cells": [
-            "6",
-            "List of students admitted merit-wise (UG & PG) for the current and previous year",
-            "[View](/students-admitted/)",
-            "25-03-2022"
-          ]
+          "no": "06",
+          "title": "List of students admitted merit-wise (UG & PG) for the current and previous year",
+          "href": "/students-admitted/",
+          "updated": "25-03-2022",
+          "category": "University & Students"
         },
         {
-          "cells": [
-            "7",
-            "Result of all the examinations of last one year",
-            "[View](https://www.cmchbhopal.com/examination-result/)",
-            "25-03-2022"
-          ]
+          "no": "07",
+          "title": "Result of all the examinations of last one year",
+          "href": "https://www.cmchbhopal.com/examination-result/",
+          "updated": "25-03-2022",
+          "category": "University & Students"
         },
         {
-          "cells": [
-            "8",
-            "Details of members of the Anti-Ragging Committee with contact details including landline phone, mobile, e-mail etc.",
-            "[View](/assets/docs/msr/anti-ragging-committee.pdf)",
-            "26-03-2022"
-          ]
+          "no": "08",
+          "title": "Details of members of the Anti-Ragging Committee with contact details including landline phone, mobile, e-mail etc.",
+          "href": "/assets/docs/msr/anti-ragging-committee.pdf",
+          "updated": "26-03-2022",
+          "category": "Anti-Ragging & Safety"
         },
         {
-          "cells": [
-            "9",
-            "Details of members of the Gender Harassment Committee with contact details including phone, mobile, e-mail etc.",
-            "[View](/assets/docs/msr/gender-harassment-committee.pdf)",
-            "26-03-2022"
-          ]
+          "no": "09",
+          "title": "Details of members of the Gender Harassment Committee with contact details including phone, mobile, e-mail etc.",
+          "href": "/assets/docs/msr/gender-harassment-committee.pdf",
+          "updated": "26-03-2022",
+          "category": "Anti-Ragging & Safety"
         },
         {
-          "cells": [
-            "10",
-            "Toll free number to report ragging",
-            "[View](/antiragging/)",
-            "25-03-2022"
-          ]
+          "no": "10",
+          "title": "Toll free number to report ragging",
+          "href": "/antiragging/",
+          "updated": "25-03-2022",
+          "category": "Anti-Ragging & Safety"
         },
         {
-          "cells": [
-            "11",
-            "Details of the sanctioned intake capacity of various courses UG as well as PG by the MCI (with the scan copies of permission letter)",
-            "[View](https://www.cmchbhopal.com/goverment-permission/index2.php)",
-            "25-03-2022"
-          ]
+          "no": "11",
+          "title": "Details of the sanctioned intake capacity of various courses UG as well as PG by the MCI (with the scan copies of permission letter)",
+          "href": "https://www.cmchbhopal.com/goverment-permission/index2.php",
+          "updated": "25-03-2022",
+          "category": "Recognition & Intake"
         },
         {
-          "cells": [
-            "12",
-            "Any research publication during the last one year",
-            "[View](/assets/docs/msr/research-publications.pdf)",
-            "25-03-2022"
-          ]
+          "no": "12",
+          "title": "Any research publication during the last one year",
+          "href": "/assets/docs/msr/research-publications.pdf",
+          "updated": "25-03-2022",
+          "category": "Research & Academics"
         },
         {
-          "cells": [
-            "13",
-            "Details of any CME programmes, conferences and/or any academic activities conducted by the institution",
-            "[View](/assets/docs/msr/cme-workshops-conferences.pdf)",
-            "25-03-2022"
-          ]
+          "no": "13",
+          "title": "Details of any CME programmes, conferences and/or any academic activities conducted by the institution",
+          "href": "/assets/docs/msr/cme-workshops-conferences.pdf",
+          "updated": "25-03-2022",
+          "category": "Research & Academics"
         },
         {
-          "cells": [
-            "14",
-            "Details of any awards and achievements received by the students or faculty",
-            "[View](/awards-and-achievements/)",
-            "25-03-2022"
-          ]
+          "no": "14",
+          "title": "Details of any awards and achievements received by the students or faculty",
+          "href": "/awards-and-achievements/",
+          "updated": "25-03-2022",
+          "category": "Research & Academics"
         },
         {
-          "cells": [
-            "15",
-            "Detailed status of recognition of all courses (with the scan copies of permission letter)",
-            "[View](https://www.cmchbhopal.com/goverment-permission/index2.php)",
-            "29-03-2022"
-          ]
+          "no": "15",
+          "title": "Detailed status of recognition of all courses (with the scan copies of permission letter)",
+          "href": "https://www.cmchbhopal.com/goverment-permission/index2.php",
+          "updated": "29-03-2022",
+          "category": "Recognition & Intake"
         },
         {
-          "cells": [
-            "16",
-            "Details of clinical material in the hospital",
-            "[View](https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf)",
-            "29-03-2022"
-          ]
+          "no": "16",
+          "title": "Details of clinical material in the hospital",
+          "href": "https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf",
+          "updated": "29-03-2022",
+          "category": "Hospital & Clinical"
         },
         {
-          "cells": [
-            "17",
-            "Unit / department wise beds distribution",
-            "[View](/assets/docs/msr/bed-distribution.pdf)",
-            "29-03-2022"
-          ]
+          "no": "17",
+          "title": "Unit / department wise beds distribution",
+          "href": "/assets/docs/msr/bed-distribution.pdf",
+          "updated": "29-03-2022",
+          "category": "Hospital & Clinical"
         }
       ]
     },

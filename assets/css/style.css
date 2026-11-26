@@ -1338,6 +1338,70 @@ html:not(.has-cursor) .cursor{display:none}
   .phero__stats b{font-size:22px}
 }
 
+/* ---------- Inner pages: modern sans headings (Light 3D) ---------- */
+[data-theme="medlab"] .phero__title,[data-theme="medlab"] .pblock .head__title.pblock__title{font-family:"Plus Jakarta Sans","Manrope",system-ui,sans-serif;font-weight:800;letter-spacing:-.035em}
+[data-theme="medlab"] .phero__title{font-size:clamp(34px,4.6vw,66px);line-height:1.04;max-width:22ch}
+[data-theme="medlab"] .pblock .head__title.pblock__title{font-size:clamp(24px,2.4vw,36px)}
+[data-theme="medlab"] .crumbs b{font-weight:700}
+[data-theme="medlab"] .phero__stats b{font-family:"Plus Jakarta Sans","Manrope",sans-serif;font-weight:800;letter-spacing:-.03em}
+.pbody--wide .pblock+.pblock{margin-top:clamp(50px,6vw,90px)}
+
+/* ---------- Disclosures (NMC / MSR list) ---------- */
+.dsc{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(30px,4vw,54px)}
+.dsc__group,.dsc__bar{min-width:0}
+.dsc__bar{position:sticky;top:calc(var(--header-h) + 12px);z-index:20;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;padding:10px;border-radius:20px;background:rgba(255,255,255,.82);border:1px solid var(--line);box-shadow:0 20px 40px -30px rgba(4,52,64,.45);-webkit-backdrop-filter:blur(14px) saturate(1.4);backdrop-filter:blur(14px) saturate(1.4)}
+.dsc__chips{display:flex;flex-wrap:wrap;gap:6px}
+.dsc__chip{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border-radius:999px;font-size:13.5px;font-weight:700;color:var(--text);background:transparent;transition:background .25s,color .25s,box-shadow .25s}
+.dsc__chip i{font-style:normal;display:grid;place-items:center;min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:var(--surface-2);color:var(--muted);font-size:11.5px;transition:inherit}
+.dsc__chip:hover{background:var(--surface-2)}
+.dsc__chip.is-on{background:linear-gradient(135deg,var(--accent),var(--accent-d));color:#fff;box-shadow:0 10px 22px -12px rgba(10,156,163,.9)}
+.dsc__chip.is-on i{background:rgba(255,255,255,.22);color:#fff}
+.dsc .psearch{flex:0 1 300px;margin:0}
+.dsc__group[hidden],.dsc__item[hidden]{display:none!important}
+.dsc__gh{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.dsc__gh::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.dsc__gic{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:linear-gradient(140deg,var(--accent),var(--accent-d));color:#fff;box-shadow:0 14px 26px -14px rgba(10,156,163,.9)}
+.dsc__gic svg{width:22px;height:22px}
+.dsc__gh h3{font-family:"Plus Jakarta Sans","Manrope",sans-serif;font-size:clamp(19px,1.7vw,24px);font-weight:800;letter-spacing:-.02em;color:var(--heading)}
+.dsc__gn{padding:4px 10px;border-radius:999px;background:var(--tag-bg);color:var(--tag-text);font-size:12px;font-weight:700;white-space:nowrap}
+.dsc__list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.dsc__item{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:20px;padding:22px 22px 22px 20px;border-radius:20px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);overflow:hidden;isolation:isolate;transition:transform .45s var(--ease),box-shadow .45s var(--ease),border-color .3s}
+.dsc__item::before{content:"";position:absolute;left:0;top:18%;bottom:18%;width:4px;border-radius:0 4px 4px 0;background:linear-gradient(180deg,var(--accent-l),var(--accent-2));transition:top .45s var(--ease),bottom .45s var(--ease)}
+.dsc__item::after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(420px circle at var(--mx,90%) var(--my,50%),rgba(94,214,211,.16),transparent 60%);opacity:0;transition:opacity .4s}
+.dsc__item:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover);border-color:rgba(10,156,163,.35)}
+.dsc__item:hover::before{top:0;bottom:0}
+.dsc__item:hover::after{opacity:1}
+.dsc__no{font-family:"Plus Jakarta Sans","Manrope",sans-serif;font-size:40px;font-weight:800;line-height:1;letter-spacing:-.05em;min-width:1.5em;color:transparent;-webkit-text-stroke:1.5px rgba(10,156,163,.45);transition:color .35s,-webkit-text-stroke-color .35s}
+.dsc__item:hover .dsc__no{color:var(--accent);-webkit-text-stroke-color:var(--accent)}
+.dsc__body{display:grid;gap:10px;min-width:0}
+.dsc__body b{font-size:15.5px;font-weight:700;line-height:1.45;color:var(--heading)}
+.dsc__meta{display:flex;flex-wrap:wrap;gap:8px}
+.dsc__tag,.dsc__date{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;font-size:11.5px;font-weight:700;letter-spacing:.01em}
+.dsc__tag svg,.dsc__date svg{width:13px;height:13px}
+.dsc__tag--pdf{background:#FDE8E9;color:#C2343A}
+.dsc__tag--page{background:var(--tag-bg);color:var(--tag-text)}
+.dsc__tag--ext{background:#E7EEFF;color:#2A52C9}
+.dsc__date{background:var(--surface-2);color:var(--muted)}
+.dsc__go{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:700;color:var(--accent-d);white-space:nowrap}
+.dsc__go svg{display:block;box-sizing:content-box;width:16px;height:16px;padding:11px;border-radius:50%;border:1px solid var(--line);transition:all .35s var(--ease)}
+.dsc__go span{max-width:0;overflow:hidden;opacity:0;transition:max-width .45s var(--ease),opacity .3s}
+.dsc__item:hover .dsc__go span{max-width:90px;opacity:1}
+.dsc__item:hover .dsc__go svg{background:var(--accent);border-color:var(--accent);color:#fff;transform:rotate(-45deg)}
+@media (max-width:1080px){.dsc__list{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){
+  .dsc__bar{position:static;padding:8px;border-radius:16px}
+  .dsc__chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;width:100%;min-width:0}
+  .dsc__body b{font-size:14.5px}
+  .phero__stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .dsc__chip{flex-shrink:0;padding:8px 12px}
+  .dsc .psearch{flex:1 1 100%}
+  .dsc__item{grid-template-columns:auto minmax(0,1fr);gap:14px;padding:16px}
+  .dsc__no{font-size:30px}
+  .dsc__go{grid-column:2;justify-self:start}
+  .dsc__go span{max-width:90px;opacity:1}
+  .dsc__go svg{padding:8px}
+}
+
 /* =========================================================
    Responsive
    ========================================================= */
