@@ -447,20 +447,7 @@
     {
       "label": "Contact",
       "href": "contact/",
-      "children": [
-        {
-          "label": "Details of Dean, Principal and Medical Superintendent",
-          "href": "management-team/"
-        },
-        {
-          "label": "Location Map",
-          "href": "location-map/"
-        },
-        {
-          "label": "Hospital Enquiry",
-          "href": "hospital-enquiry/"
-        }
-      ]
+      "children": []
     }
   ],
   "footerCols": [
