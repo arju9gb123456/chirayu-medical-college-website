@@ -1,0 +1,26 @@
+{
+  "title": "Bed Distribution",
+  "kicker": "IMP(NMC) Req",
+  "intro": "Unit and department wise distribution of beds at Chirayu Medical College & Hospital.",
+  "updated": "07-12-2024",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "button",
+      "id": "beds",
+      "title": "Bed distribution",
+      "label": "Unit / department wise beds distribution (PDF)",
+      "href": "/assets/docs/msr/bed-distribution.pdf",
+      "note": "Updated December 2024"
+    },
+    {
+      "type": "button",
+      "id": "clinical",
+      "title": "Clinical material",
+      "label": "Details of clinical material in the hospital (PDF)",
+      "href": "https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf",
+      "note": "June 2024"
+    }
+  ]
+}

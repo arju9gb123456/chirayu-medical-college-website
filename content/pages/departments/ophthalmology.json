@@ -1,0 +1,343 @@
+{
+  "title": "Department of Ophthalmology",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/ophthalmology/001.webp",
+          "name": "Dr. Khalid Khan",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "16 Years",
+          "aebas": "52866525",
+          "regNo": "No. MP-5437",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/002.webp",
+          "name": "Dr. Ulka Shrivastav",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "38 Years",
+          "aebas": "97954595",
+          "regNo": "MPMC-3639",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/ophthalmology/003.webp",
+          "name": "Dr. Anagha Chawhan",
+          "designation": "Associate Professor",
+          "qualification": "MBBS DNB",
+          "experience": "10 Years",
+          "aebas": "98363694",
+          "regNo": "MMC- 2010/05/1935",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/004.webp",
+          "name": "Dr. Pragya Jain",
+          "designation": "Associate Professor",
+          "qualification": "MBBS DO DNB",
+          "experience": "13 Years",
+          "aebas": "21005788",
+          "regNo": "MP-11303",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/005.webp",
+          "name": "Chandra Shekhar Sharma",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MS",
+          "experience": "18 Years",
+          "aebas": "98281503",
+          "regNo": "7020 Government Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/006.webp",
+          "name": "Dr. Mansi Kishnani",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MS",
+          "experience": "10 Years",
+          "aebas": "42562080",
+          "regNo": "MP-3175",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/007.webp",
+          "name": "Dr. Mayank Gupta",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MS",
+          "experience": "9 Years",
+          "aebas": "39289171",
+          "regNo": "MP-15429",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/ophthalmology/008.webp",
+          "name": "Dr. Shubhangi Dubey",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "6 Years",
+          "aebas": "52567266",
+          "regNo": "MP-16744",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/009.webp",
+          "name": "Dr. Yuri Kashiv",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "8 Years",
+          "aebas": "36839449",
+          "regNo": "MP-17646",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/010.webp",
+          "name": "Dr. Syed Mohd Bilal",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "6 Years",
+          "aebas": "91254180",
+          "regNo": "MP-21856",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/011.webp",
+          "name": "Dr. Prakhar Singhai",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "5 Years",
+          "aebas": "98050664",
+          "regNo": "MP-12174",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/012.webp",
+          "name": "Dr. Bharti Shivnani",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DNB",
+          "experience": "5 Years",
+          "aebas": "62263889",
+          "regNo": "MP-15448",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/013.webp",
+          "name": "Dr. Aiswarya Singh Raghuvanshi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DNB",
+          "experience": "5 Years",
+          "aebas": "53532690",
+          "regNo": "MP-20783",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/014.webp",
+          "name": "Dr. Sumita Chaturvedi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "4 Years",
+          "aebas": "71427918",
+          "regNo": "MP-25759",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/ophthalmology/015.webp",
+          "name": "Dr. Aashish Kumar Gangrade",
+          "designation": "Senior Resident",
+          "qualification": "MBBS DNB",
+          "experience": "4 Years",
+          "aebas": "65348466",
+          "regNo": "MP-19353",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/016.webp",
+          "name": "Dr. Anshul Shukla",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "5 Years",
+          "aebas": "11894925",
+          "regNo": "MP-11527",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/017.webp",
+          "name": "Dr. Zainab Parveen",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "4 Years",
+          "aebas": "01111970",
+          "regNo": "MP-26250",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/018.webp",
+          "name": "Dr. Devashish Dubey",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "13297944",
+          "regNo": "DLH 2015 0000328 KTK Karnataka Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "junior-resident",
+      "title": "Junior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/ophthalmology/019.webp",
+          "name": "Dr. Kriti Tiwari",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "3272209",
+          "regNo": "MP-34592",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/020.webp",
+          "name": "Dr. Deepanshi Agrawal",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "9 Years",
+          "aebas": "82933306",
+          "regNo": "MP-32434",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/021.webp",
+          "name": "Dr. Ayusha Khatediya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "81382271",
+          "regNo": "MP-37176",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/022.webp",
+          "name": "Dr. Sobit Goyal",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "64229384",
+          "regNo": "MP-26506",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/023.webp",
+          "name": "Dr. Shivani Yadav",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "92254391",
+          "regNo": "MP-71057",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/024.webp",
+          "name": "Dr. Salila Pandey",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "08114697",
+          "regNo": "MP-35354",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/025.webp",
+          "name": "Dr. Chhaya Yadav",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "36064121",
+          "regNo": "MP-38123",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/026.webp",
+          "name": "Dr. Jahanvi Aryan",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "05481494",
+          "regNo": "MP-188698",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/027.webp",
+          "name": "Dr. Nirvesh Dave",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "64582151",
+          "regNo": "MP-44804",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/028.webp",
+          "name": "Dr. Shaurya Singh",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "72750208",
+          "regNo": "MP-31325",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/ophthalmology/029.webp",
+          "name": "Dr. Aditi Shakya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "35228434",
+          "regNo": "MP-32067",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Ophthalmology faculty list",
+      "href": "/assets/docs/msr/faculty-lists/ophthalmology.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

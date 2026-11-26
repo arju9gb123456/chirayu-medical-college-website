@@ -349,6 +349,10 @@
           "href": "min-req-clause/"
         },
         {
+          "label": "Department wise Faculty",
+          "href": "departments/"
+        },
+        {
           "label": "MARB",
           "href": "MARB-Proforma-18/"
         },

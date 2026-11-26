@@ -1,0 +1,85 @@
+{
+  "title": "Affiliating University",
+  "kicker": "Information under MSR",
+  "intro": "Affiliated to Chirayu University, Bhopal (as a constituent college) from the admission session 2023-24 onwards.",
+  "updated": "27-10-2023",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "people",
+      "id": "chirayu-university",
+      "title": "Chirayu University, Bhopal (from session 2023-24)",
+      "items": [
+        {
+          "img": "/assets/docs/msr/vchancellor.jpg",
+          "name": "Prof. (Dr.) Sudesh Kumar Sohani",
+          "role": "Hon'ble Vice Chancellor",
+          "details": "Email: [vc@chirayuuniversity.ac.in](mailto:vc@chirayuuniversity.ac.in)\nMobile: [9826289796](tel:9826289796)\nPhone: [0755 2709352](tel:07552709352)"
+        },
+        {
+          "img": "",
+          "name": "Dr. Narendra K. Lariya",
+          "role": "Registrar",
+          "details": "Email: [registrar@chirayuuniversity.ac.in](mailto:registrar@chirayuuniversity.ac.in)\nMobile: [9522708498](tel:9522708498)\nPhone: [0755 2709352](tel:07552709352)"
+        },
+        {
+          "img": "/assets/docs/msr/unilogo.jpg",
+          "name": "Chirayu University, Bhopal",
+          "role": "University",
+          "details": "[info@chirayuuniversity.ac.in](mailto:info@chirayuuniversity.ac.in)\n[registrar@chirayuuniversity.ac.in](mailto:registrar@chirayuuniversity.ac.in)\nWebsite: [chirayuuniversity.ac.in](http://chirayuuniversity.ac.in/)"
+        }
+      ]
+    },
+    {
+      "type": "people",
+      "id": "mpmsu",
+      "title": "Madhya Pradesh Medical Science University, Jabalpur (sessions 2014-15 to 2022-23)",
+      "items": [
+        {
+          "img": "",
+          "name": "Shri B. Chandrashekar",
+          "role": "Hon'ble Vice Chancellor",
+          "details": "[vcmpmsu@mp.gov.in](mailto:vcmpmsu@mp.gov.in)\nContact: 9827066012, 0761-2670340"
+        },
+        {
+          "img": "",
+          "name": "Dr. Prabhat Kumar Budholia",
+          "role": "Registrar",
+          "details": "[registrarmpmsu@mp.gov.in](mailto:registrarmpmsu@mp.gov.in)\nContact: 0761-2670332"
+        },
+        {
+          "img": "https://www.cmchbhopal.com/images/MS.png",
+          "name": "MP Medical Science University",
+          "role": "Helpdesk",
+          "details": "info@mpmsu.edu.in, mpmsuregistrar@gail.com\nHelpdesk: 0761-2670339\nWebsite: [mpmsu.edu.in](http://www.mpmsu.edu.in/)"
+        }
+      ]
+    },
+    {
+      "type": "people",
+      "id": "barkatullah",
+      "title": "Barkatullah University, Bhopal (batches admitted before 2014-15)",
+      "items": [
+        {
+          "img": "",
+          "name": "Prof. R.J. Rao",
+          "role": "Hon'ble Vice-Chancellor",
+          "details": "[buvcmp@nic.in](mailto:buvcmp@nic.in)\nContact: +91-755 2517001, 2517002"
+        },
+        {
+          "img": "",
+          "name": "Shri Ajit Shrivastav",
+          "role": "Deputy Registrar",
+          "details": "registrarmpmsu@mp.gov.in\nContact: +91-755-2517013"
+        },
+        {
+          "img": "https://www.cmchbhopal.com/images/bulogo.png",
+          "name": "Barkatullah University",
+          "role": "Helpdesk",
+          "details": "buregistrar@yahoo.co.in\nHelpdesk: 0755-2517100, 2517200\nWebsite: [bubhopal.ac.in](http://www.bubhopal.ac.in/1068/Home)"
+        }
+      ]
+    }
+  ]
+}

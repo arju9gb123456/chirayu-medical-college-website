@@ -1,0 +1,263 @@
+{
+  "title": "Department of Psychiatry",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/psychiatry/001.webp",
+          "name": "Dr. Manish Borasi",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "13 Years",
+          "aebas": "39889587",
+          "regNo": "MP-12370",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/002.webp",
+          "name": "Dr. Shreyas S. Pendharkar",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "12 Years",
+          "aebas": "82365883",
+          "regNo": "MP-17850",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/psychiatry/003.webp",
+          "name": "Dr. Chirag Patel",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MD",
+          "experience": "7 Years",
+          "aebas": "40490827",
+          "regNo": "MP-13120",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/psychiatry/004.webp",
+          "name": "Dr. Shivam Bhandari",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "47736171",
+          "regNo": "MP-26946",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/005.webp",
+          "name": "Dr. Shruti Rajendra",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "68494648",
+          "regNo": "2018/09/4747",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/006.webp",
+          "name": "Dr. Mallika Singh",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "77313620",
+          "regNo": "G-65609",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/007.webp",
+          "name": "Dr. Akhil Joshi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "04398074",
+          "regNo": "2021/05/4217 Maharashtra Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/psychiatry/008.webp",
+          "name": "Dr. Surbhi Anand",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "25539256",
+          "regNo": "MP-11891",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/009.webp",
+          "name": "Dr. Aman Dubey",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "87147644",
+          "regNo": "MP-22908",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/010.webp",
+          "name": "Dr. Ashish Mishra",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "65656652",
+          "regNo": "MP-51490",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "junior-resident",
+      "title": "Junior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/psychiatry/011.webp",
+          "name": "Dr. Shubham Pahariya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "3 Years",
+          "aebas": "04235159",
+          "regNo": "MP-29453",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/012.webp",
+          "name": "Dr. Paridhi Shukla",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "3 Years",
+          "aebas": "59699250",
+          "regNo": "MP-22497",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/013.webp",
+          "name": "Dr. Pranshi Agrawal",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "3 Years",
+          "aebas": "15479800",
+          "regNo": "MP-31581",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/014.webp",
+          "name": "Dr. Sana Ali",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "43763662",
+          "regNo": "MP-24509",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/015.webp",
+          "name": "Dr. Niharika Dubey",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "46588038",
+          "regNo": "MP-34598",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/016.webp",
+          "name": "Dr. Skand Sharma",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "15441171",
+          "regNo": "MP-35932",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/017.webp",
+          "name": "Dr. Sameeksha Singh",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "12404147",
+          "regNo": "MP-29480",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/018.webp",
+          "name": "Dr. Muskan Nenwani",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "29664991",
+          "regNo": "MP-38235",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/019.webp",
+          "name": "Dr. Sanchit Sharma",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "98318403",
+          "regNo": "54472 Punjab Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/020.webp",
+          "name": "Dr. Kabir Tetarwal",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "83397479",
+          "regNo": "RMC-80122 RAJASTHAN MEDICAL COUNCIL",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/psychiatry/021.webp",
+          "name": "Dr. Anvit Sudhakar Dupare",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "58442652",
+          "regNo": "RMC-55834 Rajasthan Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Psychiatry faculty list",
+      "href": "/assets/docs/msr/faculty-lists/psychiatry.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

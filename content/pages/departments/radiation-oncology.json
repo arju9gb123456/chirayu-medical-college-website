@@ -1,0 +1,203 @@
+{
+  "title": "Department of Radiation Oncology",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/radiation-oncology/001.webp",
+          "name": "Dr. Virendra J. Vyas",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "23 Years",
+          "aebas": "31197677",
+          "regNo": "58615",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/radiation-oncology/002.webp",
+          "name": "Dr. Ankit Agarwal",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "13 Years",
+          "aebas": "87693489",
+          "regNo": "MP-23813",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/radiation-oncology/003.webp",
+          "name": "Dr. Desh Deepak Ladia",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MD",
+          "experience": "18 Years",
+          "aebas": "23095828",
+          "regNo": "MP-10427",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/radiation-oncology/004.webp",
+          "name": "Dr. Anand Lodhi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "14269125",
+          "regNo": "MP-16840",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/radiation-oncology/005.webp",
+          "name": "Dr. Ami Vyas",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "39397042",
+          "regNo": "MP-19370",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/radiation-oncology/006.webp",
+          "name": "Dr. Rashmi Sarawagi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "15023157",
+          "regNo": "DMC/R/31616 Delhi Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/radiation-oncology/007.webp",
+          "name": "Dr. Utpal Shivram Gaikwad",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "80390334",
+          "regNo": "2021/10/7671",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/radiation-oncology/008.webp",
+          "name": "Dr. Parikshit Narayan Thakur",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "93862514",
+          "regNo": "2011/08/2679 Maharashtra Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "junior-resident",
+      "title": "Junior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/radiation-oncology/009.webp",
+          "name": "Dr. Sakshi Adana",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "00879227",
+          "regNo": "MP-30932",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/radiation-oncology/010.webp",
+          "name": "Dr. Shweta Malik",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "02717090",
+          "regNo": "MP-29317",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/radiation-oncology/011.webp",
+          "name": "Dr. Sajal Gupta",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "60631623",
+          "regNo": "MP-36355",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/radiation-oncology/012.webp",
+          "name": "Dr. Adya Singh",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "45666135",
+          "regNo": "2022/05/1748 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/radiation-oncology/013.webp",
+          "name": "Dr. Siraj Ahmad",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "21318128",
+          "regNo": "MP-21761",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/radiation-oncology/014.webp",
+          "name": "Dr. Shailendri Singh",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "88110117",
+          "regNo": "MP-9824",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/radiation-oncology/015.webp",
+          "name": "Dr. Khushi Jain",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "62776346",
+          "regNo": "MP-38468",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Radiation Oncology faculty list",
+      "href": "/assets/docs/msr/faculty-lists/radiation-oncology.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

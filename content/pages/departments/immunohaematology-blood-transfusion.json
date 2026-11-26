@@ -1,0 +1,116 @@
+{
+  "title": "Department of Immunohaematology & Blood Transfusion",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/immunohaematology-blood-transfusion/001.webp",
+          "name": "Dr. Manal Ashraf Ali",
+          "designation": "Professor",
+          "qualification": "MBBS DCP DNB",
+          "experience": "17 Years",
+          "aebas": "90335239",
+          "regNo": "No. MP-19938",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/immunohaematology-blood-transfusion/002.webp",
+          "name": "Dr. Neetu Kumar",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "12 Years",
+          "aebas": "15798784",
+          "regNo": "MP-14300",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/immunohaematology-blood-transfusion/003.webp",
+          "name": "Dr. Avadh Kishore Tyagi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "64537777",
+          "regNo": "MP-13075",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/immunohaematology-blood-transfusion/004.webp",
+          "name": "Dr. Pooja Shrivastava",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "49845819",
+          "regNo": "MP-18748",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/immunohaematology-blood-transfusion/005.webp",
+          "name": "Dr. Mohit Kumar",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "53817062",
+          "regNo": "MP- 30440",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "tutor",
+      "title": "Tutors",
+      "items": [
+        {
+          "photo": "/assets/faculty/immunohaematology-blood-transfusion/006.webp",
+          "name": "Dr. Adeeti Shrivastava",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "23298130",
+          "regNo": "MP-41638",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/immunohaematology-blood-transfusion/007.webp",
+          "name": "Dr. Raz Ritwik",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "76753553",
+          "regNo": "61115 Bihar Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Immunohaematology & Blood Transfusion faculty list",
+      "href": "/assets/docs/msr/faculty-lists/immunohaematology-blood-transfusion.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

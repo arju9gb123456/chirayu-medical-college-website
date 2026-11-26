@@ -1,0 +1,127 @@
+{
+  "title": "Details of College / Institute as per NMC Requirement",
+  "kicker": "IMP(NMC) Req",
+  "intro": "Information about Chirayu Medical College & Hospital published as required by the National Medical Commission.",
+  "updated": "08-08-2022",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "table",
+      "id": "nmc",
+      "title": "Details of college / institute as per NMC requirement",
+      "columns": [
+        "Sr. No.",
+        "Details",
+        "View"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "a",
+            "Details of Dean, Principal and Medical Supdt. including their name, qualification, complete address with telephone and STD code, fax and e-mail etc.",
+            "[View](/management-team/)"
+          ]
+        },
+        {
+          "cells": [
+            "b",
+            "Teaching Staff List",
+            "[View](/departments/)"
+          ]
+        },
+        {
+          "cells": [
+            "",
+            "Non-Teaching Staff List",
+            "[View](/assets/docs/msr/non-teaching-staff.pdf)"
+          ]
+        },
+        {
+          "cells": [
+            "",
+            "Nursing Staff List",
+            "[View](/assets/docs/msr/nursing-staff.pdf)"
+          ]
+        },
+        {
+          "cells": [
+            "c",
+            "Details of the sanctioned intake capacity of various courses UG as well as PG by the NMC",
+            "[View](https://www.cmchbhopal.com/goverment-permission/)"
+          ]
+        },
+        {
+          "cells": [
+            "d",
+            "List of students admitted merit-wise, category-wise (UG & PG) for the current and previous year",
+            "[View](/students-admitted/)"
+          ]
+        },
+        {
+          "cells": [
+            "e",
+            "Details of Research Publications",
+            "[View](/assets/docs/msr/research-publications.pdf)"
+          ]
+        },
+        {
+          "cells": [
+            "f",
+            "Details of any CME programmes",
+            "[View](https://www.cmchbhopal.com/continuing-medical-education-cme/)"
+          ]
+        },
+        {
+          "cells": [
+            "",
+            "Conferences and/or any academic activities conducted by the institution",
+            "[View](/assets/docs/msr/cme-workshops-conferences.pdf)"
+          ]
+        },
+        {
+          "cells": [
+            "g",
+            "Details of any awards and achievements received by the students or faculty",
+            "[View](/awards-and-achievements/)"
+          ]
+        },
+        {
+          "cells": [
+            "h",
+            "Details of the affiliated university and its Vice-Chancellor and Registrars",
+            "[View](/university/)"
+          ]
+        },
+        {
+          "cells": [
+            "i",
+            "Result of all the examinations of last one year",
+            "[View](https://www.cmchbhopal.com/examination-result/)"
+          ]
+        },
+        {
+          "cells": [
+            "j",
+            "Detailed status of recognition of all the courses",
+            "[View](https://www.cmchbhopal.com/goverment-permission/)"
+          ]
+        },
+        {
+          "cells": [
+            "k",
+            "Details of fees for various courses and other costs",
+            "[View](/assets/docs/msr/fees-and-costs.pdf)"
+          ]
+        },
+        {
+          "cells": [
+            "l",
+            "Details of clinical material in the hospital",
+            "[View](https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf)"
+          ]
+        }
+      ]
+    }
+  ]
+}

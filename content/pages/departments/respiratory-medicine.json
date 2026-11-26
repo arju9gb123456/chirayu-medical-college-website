@@ -1,0 +1,173 @@
+{
+  "title": "Department of Respiratory Medicine",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/respiratory-medicine/001.webp",
+          "name": "Dr. Anjali Ghare",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "17 Years",
+          "aebas": "52266474",
+          "regNo": "MH-82643",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/respiratory-medicine/002.webp",
+          "name": "Dr. Krishna Gopal Singh",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "12 Years",
+          "aebas": "01694679",
+          "regNo": "MP-12950",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/respiratory-medicine/003.webp",
+          "name": "Dr. Ashtekar Amol Anilrao",
+          "designation": "Associate Professor",
+          "qualification": "MBBS, DNB",
+          "experience": "9 Years",
+          "aebas": "42147134",
+          "regNo": "2010/05/1672 Maharashtra Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/respiratory-medicine/004.webp",
+          "name": "Dr. Shraddha Tewari",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS, MD",
+          "experience": "7 Years",
+          "aebas": "67708407",
+          "regNo": "G-60959",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/respiratory-medicine/005.webp",
+          "name": "Dr. Mohammed Hamza Hanfe",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS, MD",
+          "experience": "3 Years",
+          "aebas": "95284199",
+          "regNo": "MP-22329",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/respiratory-medicine/006.webp",
+          "name": "Dr. Nasir Khan",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS, MD",
+          "experience": "4 Years",
+          "aebas": "53085313",
+          "regNo": "MP-20329",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/respiratory-medicine/007.webp",
+          "name": "Dr. Atul Singhai",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS, DTDC",
+          "experience": "15 Years",
+          "aebas": "84088780",
+          "regNo": "MP-4318",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/respiratory-medicine/008.webp",
+          "name": "Dr. Surabhi Vaidya",
+          "designation": "Senior Resident",
+          "qualification": "MBBS, MD",
+          "experience": "3 Years",
+          "aebas": "12096776",
+          "regNo": "MP-27451",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "junior-resident",
+      "title": "Junior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/respiratory-medicine/009.webp",
+          "name": "Dr. Ajay Kumar Patel",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "85746979",
+          "regNo": "MP-39348",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/respiratory-medicine/010.webp",
+          "name": "Dr. Divyanshi Mamta Mishra",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "98798295",
+          "regNo": "MP-32958",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/respiratory-medicine/011.webp",
+          "name": "Dr. Vishal Karode",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "00473284",
+          "regNo": "MP-31638",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/respiratory-medicine/012.webp",
+          "name": "Dr. Vaishali Gupta",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "59545739",
+          "regNo": "DMCR40596 MPMC",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Respiratory Medicine faculty list",
+      "href": "/assets/docs/msr/faculty-lists/respiratory-medicine.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

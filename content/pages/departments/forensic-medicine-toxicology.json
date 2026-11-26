@@ -1,0 +1,179 @@
+{
+  "title": "Department of Forensic Medicine & Toxicology",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/001.webp",
+          "name": "Dr. Swapnil Paliwal",
+          "designation": "Professor",
+          "qualification": "n MBBS MD",
+          "experience": "11 Years",
+          "aebas": "27519667",
+          "regNo": "No. MP-17055",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/002.webp",
+          "name": "Dr. Sahajad Khilji",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "6 Years",
+          "aebas": "63749480",
+          "regNo": "MP-20325",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/003.webp",
+          "name": "Dr. Amit Mahadeorao Thamke",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "6 Years",
+          "aebas": "31568218",
+          "regNo": "2002/02/619 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/004.webp",
+          "name": "Dr. Sweekriti Sahu",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "6 Years",
+          "aebas": "53518067",
+          "regNo": "MP-25814",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "tutor",
+      "title": "Tutors",
+      "items": [
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/005.webp",
+          "name": "Dr. Abhay Kumar Mishra",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "4 Years",
+          "aebas": "15881610",
+          "regNo": "MP-17016",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/006.webp",
+          "name": "Dr. Faraz Ali Khan",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "4 Years",
+          "aebas": "01608685",
+          "regNo": "MP-19735",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/007.webp",
+          "name": "Dr. Shubham Kumar",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "3 Years",
+          "aebas": "37351630",
+          "regNo": "MP-26007",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/008.webp",
+          "name": "Dr. Shekhar Gupta",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "57296732",
+          "regNo": "DMC/R/38193",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/009.webp",
+          "name": "Dr. Vikash Baghel",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "83242657",
+          "regNo": "MP-31303",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/010.webp",
+          "name": "Dr. Syed Zainul Hasan",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "94786710",
+          "regNo": "MP-31215",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/011.webp",
+          "name": "Dr. Nandan Tripathi",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "4 Months",
+          "aebas": "54777776",
+          "regNo": "MP-45211",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/012.webp",
+          "name": "Dr. Mekal Choudhary",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "4 Months",
+          "aebas": "61538076",
+          "regNo": "MP-40460",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/013.webp",
+          "name": "Dr. Yogendra Singh Panwar",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "3 Months",
+          "aebas": "46440971",
+          "regNo": "MP-45072",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/forensic-medicine-toxicology/014.webp",
+          "name": "Dr. Shamaila Kokab",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "2 Months",
+          "aebas": "96458585",
+          "regNo": "MP-44206",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Forensic Medicine & Toxicology faculty list",
+      "href": "/assets/docs/msr/faculty-lists/forensic-medicine-toxicology.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

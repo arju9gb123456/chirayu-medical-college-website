@@ -1,0 +1,743 @@
+{
+  "title": "Department of General Surgery",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/general-surgery/001.webp",
+          "name": "Dr. Tarun Kumar Sainia",
+          "designation": "Professor",
+          "qualification": "on MBBS MS",
+          "experience": "21 Years",
+          "aebas": "59907168",
+          "regNo": "MP-6988",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/002.webp",
+          "name": "Dr. Abhijeet Deshmukh",
+          "designation": "Professor",
+          "qualification": "MBBS",
+          "experience": "18 Years",
+          "aebas": "06654269",
+          "regNo": "MP-11649",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/003.webp",
+          "name": "Dr. T. Badrinath",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "14 Years",
+          "aebas": "91199018",
+          "regNo": "AMC-18604",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/004.webp",
+          "name": "Dr. Neelam Rajendra Charles",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "33 Years",
+          "aebas": "74113709",
+          "regNo": "13501 Govement Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/005.webp",
+          "name": "Dr. Shikha Verma",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "14 Years",
+          "aebas": "90038414",
+          "regNo": "MP-10822",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/006.webp",
+          "name": "Dr. Devendra Singh Dhaker",
+          "designation": "Professor",
+          "qualification": "MBBS MS MCH",
+          "experience": "16 Years",
+          "aebas": "70495039",
+          "regNo": "MP-10267",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/007.webp",
+          "name": "Dr. Sudhir Kumar Lokwani",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "13 Years",
+          "aebas": "65631743",
+          "regNo": "10749",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/008.webp",
+          "name": "Dr. Paladugu Srnivas Rao",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "13 Years",
+          "aebas": "19950524",
+          "regNo": "43764 KMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/009.webp",
+          "name": "Dr. Apoorva Pandey",
+          "designation": "Professor",
+          "qualification": "MBBS MS MCH",
+          "experience": "16 Years",
+          "aebas": "80162496",
+          "regNo": "MP-31587",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/010.webp",
+          "name": "Dr. Pradeep Saxena",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "20 Years",
+          "aebas": "08882689",
+          "regNo": "7085 Medical Council Government",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/011.webp",
+          "name": "Dr. Sameer Soni",
+          "designation": "Professor",
+          "qualification": "MBBS DNB",
+          "experience": "14 Years",
+          "aebas": "77589720",
+          "regNo": "57848 Delhi Medical Concil",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/012.webp",
+          "name": "Dr. Nagendr A. Rao",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "14 Years",
+          "aebas": "94524311",
+          "regNo": "HMC12688",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/general-surgery/013.webp",
+          "name": "Dr. Deepak Kumar Bhojwani",
+          "designation": "Associate Professor",
+          "qualification": "MBBS- DNB DNB",
+          "experience": "19 Years",
+          "aebas": "72167580",
+          "regNo": "MP-19209",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/014.webp",
+          "name": "Dr. Abida Sabreen",
+          "designation": "Associate Professor",
+          "qualification": "MBBS DNB",
+          "experience": "9 Years",
+          "aebas": "73494512",
+          "regNo": "MP--33184",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/015.webp",
+          "name": "Dr. Varun Singh Pendro",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MS MCH",
+          "experience": "14 Years",
+          "aebas": "40538848",
+          "regNo": "MP-11128",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/general-surgery/016.webp",
+          "name": "Dr. Ashay Rathore",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "9 Years",
+          "aebas": "90723119",
+          "regNo": "MP-21356",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/017.webp",
+          "name": "Dr. Sanish Philips",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "7 Years",
+          "aebas": "12361414",
+          "regNo": "PMC-43515",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/018.webp",
+          "name": "Dr. Puneet Agrawal",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "6 Years",
+          "aebas": "64539899",
+          "regNo": "MP-22466",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/019.webp",
+          "name": "Dr. Shashank Singh",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS MCH",
+          "experience": "10 Years",
+          "aebas": "53254293",
+          "regNo": "MP-17402",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/020.webp",
+          "name": "Dr. Deepak Arunkumar Tiwari",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "8 Years",
+          "aebas": "94831955",
+          "regNo": "MP-25358",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/021.webp",
+          "name": "Dr. Saurabh Jain",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "5 Years",
+          "aebas": "80948040",
+          "regNo": "MP-7078",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/022.webp",
+          "name": "Dr. Sourabh Singh Raghuwanshi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "6 Years",
+          "aebas": "13559995",
+          "regNo": "MP-23370",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/023.webp",
+          "name": "Dr. Saurabh Nanda",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "11 Years",
+          "aebas": "94356752",
+          "regNo": "MP-35800",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/024.webp",
+          "name": "Dr. Sourabh Beedkar",
+          "designation": "Assistant Professor",
+          "qualification": "` MBBS DNB MCH",
+          "experience": "11 Years",
+          "aebas": "97292335",
+          "regNo": "MMC-2007/05/1339",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/025.webp",
+          "name": "Dr. Madhumita Tripathi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS MCH",
+          "experience": "7 Years",
+          "aebas": "02026218",
+          "regNo": "MP-8781",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/general-surgery/026.webp",
+          "name": "Dr. Sumit Awasarmol Sahebrao",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "90495700",
+          "regNo": "2011/05/1245 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/027.webp",
+          "name": "Dr. Rita Mulani",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "17 Years",
+          "aebas": "63735355",
+          "regNo": "MP-7366 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/028.webp",
+          "name": "Dr. Dhawalbhai Aajambhai Rathwa",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "6 Years",
+          "aebas": "77825292",
+          "regNo": "G-61206",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/029.webp",
+          "name": "Dr. Asif Ahmed Khan Abdullah",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "22123958",
+          "regNo": "MP-24536",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/030.webp",
+          "name": "Dr. Mahendra Kondiba Barge",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "5 Years",
+          "aebas": "98873018",
+          "regNo": "2012/09/2633 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/031.webp",
+          "name": "Dr. Dhansagar Uttamrao Wakle",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "03041453",
+          "regNo": "2014/05/1930",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/032.webp",
+          "name": "Dr. Inas Naqvi",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "80591078",
+          "regNo": "MP-15883",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/033.webp",
+          "name": "Dr. Kartik Chandrakant Gupta",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "4 Years",
+          "aebas": "55863021",
+          "regNo": "2016/08/3179 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/034.webp",
+          "name": "Dr. Avi Nimesh Shah",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "86255103",
+          "regNo": "2021/04/3551",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/035.webp",
+          "name": "Dr. Nitin Negi",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS MCH",
+          "experience": "6 Years",
+          "aebas": "20234114",
+          "regNo": "024036 Rajasthan Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/036.webp",
+          "name": "Dr. Kalyani Ravindra Sontakke",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "85369672",
+          "regNo": "2020/03/1578 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/037.webp",
+          "name": "Maddula Krishna Bhargav",
+          "designation": "Senior Resident",
+          "qualification": "MBBS DNB",
+          "experience": "3 Years",
+          "aebas": "91060168",
+          "regNo": "APMXC/FMR/87971 Andra Pradesh Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/038.webp",
+          "name": "Shivansh Pratap Singh",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "62402877",
+          "regNo": "118696 Delhi Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/039.webp",
+          "name": "Dr. Arun Jhade",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "35103148",
+          "regNo": "MP-15947",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/040.webp",
+          "name": "Dr. Sahil Malik",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "70207302",
+          "regNo": "NH-018597",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "junior-resident",
+      "title": "Junior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/general-surgery/041.webp",
+          "name": "Dr. Nirjara Jain",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "73880570",
+          "regNo": "MP-28115",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/042.webp",
+          "name": "Dr. Nrapendra Singh Rajput",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "31503081",
+          "regNo": "MP-27827",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/043.webp",
+          "name": "Dr. Prateek Shrivastava",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "43012891",
+          "regNo": "MP-28493",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/044.webp",
+          "name": "Dr. Abhishek Kumar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "41837389",
+          "regNo": "MP-30510",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/045.webp",
+          "name": "Dr. Pooja Mangrolia",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "24078637",
+          "regNo": "MP-20080",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/046.webp",
+          "name": "Dr. Sejal Jain",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "39995353",
+          "regNo": "G-90416 The Gujarat Medical Coucil",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/047.webp",
+          "name": "Dr. Manasvi Gera",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "09890340",
+          "regNo": "12781 Uttrakhand Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/048.webp",
+          "name": "Dr. Priyanka Rameshbhai Gorasiya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "49802168",
+          "regNo": "MP-35644",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/049.webp",
+          "name": "Dr. Kuhoo Chouhan",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "51066874",
+          "regNo": "MP-25954",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/050.webp",
+          "name": "Dr. Vishal Sahu",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "42225783",
+          "regNo": "MP-38628",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/051.webp",
+          "name": "Dr. Chandra Prakash Patidar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "80970009",
+          "regNo": "MP-35545",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/052.webp",
+          "name": "Dr. Pragati Mishra",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "36918327",
+          "regNo": "MP-32455",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/053.webp",
+          "name": "Dr. Vyankatesh Vinaymohan Pashine",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "25183989",
+          "regNo": "2020/07/5051 Maharashtra Medical Council Mumbai",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/054.webp",
+          "name": "Dr. Kartikeya Chhetri",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "67945739",
+          "regNo": "MP-34415",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/055.webp",
+          "name": "Dr. Yash Johri",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "84593006",
+          "regNo": "165691",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/056.webp",
+          "name": "Dr. Yash Kamlesh Majithia",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "30564771",
+          "regNo": "2024/08/6758 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/057.webp",
+          "name": "Dr. Neeraj Oberai",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "15445059",
+          "regNo": "MP-39943",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/058.webp",
+          "name": "Dr. Sumit Parashar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "73353659",
+          "regNo": "MP-44443",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/059.webp",
+          "name": "Dr. Kritika Shrivastava",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "38221293",
+          "regNo": "MP-32983",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/060.webp",
+          "name": "Dr. Shreya Malvi",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "46263110",
+          "regNo": "MP-39896",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/061.webp",
+          "name": "Dr. Ram Krishna Patel",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "79220849",
+          "regNo": "MP-23409",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/062.webp",
+          "name": "Dr. Harikrishna Golla",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "77898660",
+          "regNo": "APMC/FMR/1 34468 Andhra Pradesh Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/063.webp",
+          "name": "Dr. Purva Verma",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "81287707",
+          "regNo": "MP-45883",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/064.webp",
+          "name": "D. R. Gauri D. Pandey",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "73923210",
+          "regNo": "MP-36872",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/065.webp",
+          "name": "Dr. Shaniya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "82655973",
+          "regNo": "14505/2024 Chhattisgarh Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/066.webp",
+          "name": "Dr. Aman Prajapati",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "83106505",
+          "regNo": "MP-36874",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/067.webp",
+          "name": "Dr. Sourbh Devanda",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "88012197",
+          "regNo": "MP-31185",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/068.webp",
+          "name": "Dr. Jayesh Vishnu",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "15648249",
+          "regNo": "MP-34286",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/general-surgery/069.webp",
+          "name": "Dr. Naman Jain",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "46019094",
+          "regNo": "MP-34614",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the General Surgery faculty list",
+      "href": "/assets/docs/msr/faculty-lists/general-surgery.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

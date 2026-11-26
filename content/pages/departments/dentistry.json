@@ -1,0 +1,109 @@
+{
+  "title": "Department of Dentistry",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/dentistry/001.webp",
+          "name": "Dr. Mahesh Pratap Singh",
+          "designation": "Professor",
+          "qualification": "BDS MDS",
+          "experience": "36 Years",
+          "aebas": "64210028",
+          "regNo": "MP-A-281",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dentistry/002.webp",
+          "name": "Dr. Nikita Agarwal",
+          "designation": "Professor",
+          "qualification": "BDS MDS",
+          "experience": "14 Years",
+          "aebas": "54446371",
+          "regNo": "MP-A-1701",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dentistry/003.webp",
+          "name": "Dr. Saket Kumar Jain",
+          "designation": "Professor",
+          "qualification": "BDS MDS",
+          "experience": "10 Years",
+          "aebas": "00819434",
+          "regNo": "MP-A-3260",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/dentistry/004.webp",
+          "name": "Dr. Rishibh Giri",
+          "designation": "Assistant Professor",
+          "qualification": "BDS MDS",
+          "experience": "7 Years",
+          "aebas": "84175536",
+          "regNo": "RMC-A-5961",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/dentistry/005.webp",
+          "name": "Dr. Sangeeta Raghuwanshi",
+          "designation": "Senior Resident",
+          "qualification": "BDS",
+          "experience": "16 Years",
+          "aebas": "93586669",
+          "regNo": "MP-A-1288",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dentistry/006.webp",
+          "name": "Dr. Saurabh Sathe",
+          "designation": "Senior Resident",
+          "qualification": "BDS MDS",
+          "experience": "3 Years",
+          "aebas": "70527320",
+          "regNo": "A-3513",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dentistry/007.webp",
+          "name": "Dr. Kavita Sharma",
+          "designation": "Senior Resident",
+          "qualification": "BDS MDS",
+          "experience": "3 Years",
+          "aebas": "98604317",
+          "regNo": "A-08835",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Dentistry faculty list",
+      "href": "/assets/docs/msr/faculty-lists/dentistry.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

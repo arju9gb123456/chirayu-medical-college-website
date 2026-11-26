@@ -189,18 +189,30 @@
     files: { label: 'Documents list', icon: 'file', sub: 'items', subLabel: 'document', hint: 'PDFs or links with a download button. Visitors can search the list.' },
     gallery: { label: 'Photo gallery', icon: 'image', sub: 'items', subLabel: 'photo', hint: 'Certificates or photos; click opens a full-size viewer.' },
     text: { label: 'Text', icon: 'news', hint: 'Paragraphs. Formatting: **bold**, [link text](https://…), lines starting with "- " become bullets.' },
-    button: { label: 'Button', icon: 'ext', hint: 'One big button to a page, PDF or form.' }
+    button: { label: 'Button', icon: 'ext', hint: 'One big button to a page, PDF or form.' },
+    faculty: { label: 'Faculty', icon: 'users', sub: 'items', subLabel: 'member', hint: 'Photo cards for one group (e.g. Professors). Visitors tap a card to see AEBAS ID, registration and employment.' },
+    cards: { label: 'Link cards', icon: 'grid', sub: 'items', subLabel: 'card', hint: 'Grid of cards that open a page or PDF (e.g. the list of departments).' },
+    people: { label: 'People', icon: 'users', sub: 'items', subLabel: 'person', hint: 'Profile cards with photo, role and contact details (Dean, Vice-Chancellor, Registrar…).' }
   };
   var BLOCK_FIELDS = {
     table: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'columns', l: 'Column names (separate with | )', t: 'csv', wide: 1, hint: 'e.g. Permissions | Date of Application / Permission' }],
     files: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
     gallery: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
     text: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'body', l: 'Text', t: 'textarea', wide: 1, rows: 8 }],
+    faculty: [{ k: 'title', l: 'Group heading', t: 'text', wide: 1, hint: 'e.g. Professors, Assistant Professors, Senior Residents' }],
+    cards: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'unit', l: 'Counter word', t: 'text', hint: 'Shown as "31 departments"' }],
+    people: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
     button: [{ k: 'title', l: 'Name in "On this page" list', t: 'text' }, { k: 'label', l: 'Button text', t: 'text', req: 1 }, { k: 'href', l: 'Link or PDF', t: 'link', req: 1, wide: 1 }, { k: 'note', l: 'Small note under the text (optional)', t: 'text', wide: 1 }]
   };
   var SUB_FIELDS = {
     files: [{ k: 'title', l: 'Document name', t: 'text', req: 1, wide: 1 }, { k: 'href', l: 'PDF or link', t: 'link', req: 1, wide: 1 }, { k: 'date', l: 'Date / note (optional)', t: 'text' }],
     gallery: [{ k: 'img', l: 'Photo', t: 'image', req: 1, wide: 1 }, { k: 'caption', l: 'Caption', t: 'text', wide: 1 }],
+    faculty: [{ k: 'photo', l: 'Photo', t: 'image', wide: 1 }, { k: 'name', l: 'Name', t: 'text', req: 1 }, { k: 'designation', l: 'Designation', t: 'text' },
+      { k: 'qualification', l: 'Qualification', t: 'text' }, { k: 'experience', l: 'Experience', t: 'text', hint: 'e.g. 12 Years' },
+      { k: 'aebas', l: 'AEBAS ID', t: 'text' }, { k: 'regNo', l: 'Med. Reg. No.', t: 'text' }, { k: 'employment', l: 'Employment', t: 'text', hint: 'e.g. Permanent' }],
+    cards: [{ k: 'title', l: 'Title', t: 'text', req: 1 }, { k: 'note', l: 'Small line under it', t: 'text' }, { k: 'href', l: 'Page or PDF', t: 'link', req: 1, wide: 1 }, { k: 'img', l: 'Icon / photo (optional)', t: 'image', wide: 1 }],
+    people: [{ k: 'img', l: 'Photo / logo', t: 'image', wide: 1 }, { k: 'name', l: 'Name', t: 'text', req: 1 }, { k: 'role', l: 'Role', t: 'text' },
+      { k: 'details', l: 'Details (one per line; [text](link) for email/phone links)', t: 'textarea', rows: 5, wide: 1 }],
     menulink: [{ k: 'label', l: 'Name', t: 'text', req: 1 }, { k: 'heading', l: 'Small heading, not a link', t: 'check' }, { k: 'href', l: 'Link or PDF', t: 'link', wide: 1 }],
     footlink: [{ k: 'label', l: 'Name', t: 'text', req: 1 }, { k: 'href', l: 'Link or PDF', t: 'link', wide: 1 }]
   };
@@ -212,7 +224,7 @@
   function newBlock(type) {
     var b = { type: type, id: type + '-' + Date.now().toString(36), title: '' };
     if (type === 'table') { b.columns = ['Particulars', 'Details']; b.rows = [{ cells: ['', ''] }]; }
-    if (type === 'files' || type === 'gallery') b.items = [];
+    if (type === 'files' || type === 'gallery' || type === 'faculty' || type === 'cards' || type === 'people') b.items = [];
     if (type === 'text') b.body = '';
     if (type === 'button') { b.label = ''; b.href = ''; }
     return b;
@@ -282,7 +294,7 @@
         if (!Array.isArray(b.rows)) b.rows = [];
         b.rows.forEach(function (r) { if (!Array.isArray(r.cells)) r.cells = []; });
       }
-      if ((b.type === 'files' || b.type === 'gallery') && !Array.isArray(b.items)) b.items = [];
+      if (['files', 'gallery', 'faculty', 'cards', 'people'].indexOf(b.type) > -1 && !Array.isArray(b.items)) b.items = [];
     });
     return c;
   }

@@ -1,0 +1,86 @@
+{
+  "title": "Department of Plastic & Reconstructive Surgery",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/plastic-reconstructive-surgery/001.webp",
+          "name": "Dr. Vishal Rampuri",
+          "designation": "Professor",
+          "qualification": "MBBS, MS, MCH",
+          "experience": "15 Years",
+          "aebas": "18586864",
+          "regNo": "MP-9632",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/plastic-reconstructive-surgery/002.webp",
+          "name": "Dr. Manohar Kumar Malviya",
+          "designation": "Associate Professor",
+          "qualification": "MBBS, MS, MCH",
+          "experience": "18 Years",
+          "aebas": "31111242",
+          "regNo": "MP-7498",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/plastic-reconstructive-surgery/003.webp",
+          "name": "Dr. Chaitanya Pradeep Pathak",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS, DNB",
+          "experience": "7 Years",
+          "aebas": "03192210",
+          "regNo": "2013/06/2018",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/plastic-reconstructive-surgery/004.webp",
+          "name": "Dr. Hina Khan",
+          "designation": "Senior Resident",
+          "qualification": "MBBS, MS",
+          "experience": "6 Years",
+          "aebas": "76822305",
+          "regNo": "MP-20532",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Plastic & Reconstructive Surgery faculty list",
+      "href": "/assets/docs/msr/faculty-lists/plastic-reconstructive-surgery.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

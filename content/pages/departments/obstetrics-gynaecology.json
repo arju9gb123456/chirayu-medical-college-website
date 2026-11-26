@@ -1,0 +1,573 @@
+{
+  "title": "Department of Obstetrics & Gynaecology",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/001.webp",
+          "name": "Dr. Anjali Kanhere",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "32 Years",
+          "aebas": "89621506",
+          "regNo": "No. MP-9682 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/002.webp",
+          "name": "Dr. Sandhya Gadre",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "21 Years",
+          "aebas": "16819066",
+          "regNo": "MP-5616 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/003.webp",
+          "name": "Dr. Hemlata Parashar",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "17 Years",
+          "aebas": "89406040",
+          "regNo": "MP-11991 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/004.webp",
+          "name": "Dr. Rupa Ahirwar",
+          "designation": "Professor",
+          "qualification": "MBBS DGO DNB",
+          "experience": "16 Years",
+          "aebas": "61172198",
+          "regNo": "MP- 8549 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/005.webp",
+          "name": "Dr. Ishrat Zuber",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "17 Years",
+          "aebas": "27305984",
+          "regNo": "MP-8414 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/006.webp",
+          "name": "Dr. Anita Shrivastav",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "18 Years",
+          "aebas": "42902969",
+          "regNo": "MP-10809 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/007.webp",
+          "name": "Dr. Garima Maheshwari",
+          "designation": "Professor",
+          "qualification": "MBBS MS",
+          "experience": "12 Years",
+          "aebas": "65111397",
+          "regNo": "MP-9154 MPMC",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/008.webp",
+          "name": "Dr. Sweta Agarwal",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MS",
+          "experience": "10 Years",
+          "aebas": "65743292",
+          "regNo": "MP-21708 MPMC",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/009.webp",
+          "name": "Dr. Satarupa Paul",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DNB",
+          "experience": "8 Years",
+          "aebas": "50302779",
+          "regNo": "MP-30659 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/010.webp",
+          "name": "Dr. Ankita Upadhyay",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DGO DNB",
+          "experience": "6 Years",
+          "aebas": "49668418",
+          "regNo": "MP-18305 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/011.webp",
+          "name": "Dr. Sakshi Sharma",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "8 Years",
+          "aebas": "74694170",
+          "regNo": "MP-22249 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/012.webp",
+          "name": "Dr. Sneha Goenka",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "6 Years",
+          "aebas": "25058724",
+          "regNo": "MP-41480",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/013.webp",
+          "name": "Dr. Mona Gupta",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "6 Years",
+          "aebas": "03430608",
+          "regNo": "MP-19386 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/014.webp",
+          "name": "Dr. Kajal Krishna",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "8 Years",
+          "aebas": "68701889",
+          "regNo": "MP-13137 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/015.webp",
+          "name": "Dr. Vini Gupta",
+          "designation": "Assistant Professor",
+          "qualification": "MBSBSSSS DOGS MS",
+          "experience": "10 Years",
+          "aebas": "98692148",
+          "regNo": "MP-17777 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/016.webp",
+          "name": "Dr. Baishali Jain",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS DNB",
+          "experience": "6 Years",
+          "aebas": "50589457",
+          "regNo": "MP-15810",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/017.webp",
+          "name": "Dr. Pooja Chotrani",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS DNB",
+          "experience": "6 Years",
+          "aebas": "97390647",
+          "regNo": "MP-20885",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/018.webp",
+          "name": "Dr. Annesha Ganguly",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "5 Years",
+          "aebas": "24974379",
+          "regNo": "MP-41265",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/019.webp",
+          "name": "Dr. Parul Shukla",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "6 Years",
+          "aebas": "63240831",
+          "regNo": "MP-19391",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/020.webp",
+          "name": "Dr. Pooja Savalkardeo",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "6 Years",
+          "aebas": "70693613",
+          "regNo": "MMC- 2014/06/3005",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/021.webp",
+          "name": "Dr. Shaihniza Javed",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "5 Years",
+          "aebas": "59718900",
+          "regNo": "MP-20314",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/022.webp",
+          "name": "Dr. Mahendra Kumar",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "4 Years",
+          "aebas": "40872124",
+          "regNo": "MP-13403",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/023.webp",
+          "name": "Dr. Padma Gandham",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DGO",
+          "experience": "9 Years",
+          "aebas": "05524619",
+          "regNo": "02324 Telangana State Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/024.webp",
+          "name": "Dr. Divya Dixit",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "4 Years",
+          "aebas": "72170234",
+          "regNo": "MP-41589",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/025.webp",
+          "name": "Dr. Preeti Pawar",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DNB DGO",
+          "experience": "4 Years",
+          "aebas": "33723583",
+          "regNo": "MP-13445",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/026.webp",
+          "name": "Dr. Prachi Pathak",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MS",
+          "experience": "4 Years",
+          "aebas": "41726434",
+          "regNo": "MP-17778",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/027.webp",
+          "name": "Dr. Champa",
+          "designation": "Senior Resident",
+          "qualification": "MBBS",
+          "experience": "13 Years",
+          "aebas": "70329497",
+          "regNo": "MP-12641 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/028.webp",
+          "name": "Dr. Rashi Koria",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "5 Years",
+          "aebas": "10329940",
+          "regNo": "MP-23041",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/029.webp",
+          "name": "Dr. Oas Kothari",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "4 Years",
+          "aebas": "67788314",
+          "regNo": "MP-35503",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/030.webp",
+          "name": "Dr. Shubhi Joshi",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "45612207",
+          "regNo": "MP-30478",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/031.webp",
+          "name": "Dr. Rutuja Namdeo Gajbhiye",
+          "designation": "Senior Resident",
+          "qualification": "MBBS DNB",
+          "experience": "3 Years",
+          "aebas": "02702693",
+          "regNo": "MP-22318",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/032.webp",
+          "name": "Dr. Shashi Shrivastava",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "4 Years",
+          "aebas": "44073588",
+          "regNo": "MP-24530",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/033.webp",
+          "name": "Dr. Balasubraman Ian R.",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "84681886",
+          "regNo": "MP- 43314",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/034.webp",
+          "name": "Dr. Yashasvini Mishra",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "54010020",
+          "regNo": "MP-27369",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/035.webp",
+          "name": "Dr. Ananya Nikita Raghuwanshi",
+          "designation": "Senior Resident",
+          "qualification": "MBBS DGO DNB",
+          "experience": "3 Years",
+          "aebas": "34627944",
+          "regNo": "107134",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/036.webp",
+          "name": "Dr. Pragya Tiwari",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "89878468",
+          "regNo": "MP-32486",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/037.webp",
+          "name": "Dr. Shivangi Gupta",
+          "designation": "Senior Resident",
+          "qualification": "MBBS DNB",
+          "experience": "3 Years",
+          "aebas": "85729089",
+          "regNo": "MP-45924",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/038.webp",
+          "name": "Dr. Ojasvitha Gaikwad",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "3 Years",
+          "aebas": "88690174",
+          "regNo": "MP-44876",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/039.webp",
+          "name": "Dr. Manoo Agrawal",
+          "designation": "Senior Resident",
+          "qualification": "MBBS DGO DNB",
+          "experience": "3 Years",
+          "aebas": "32324439",
+          "regNo": "MP-16316",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "junior-resident",
+      "title": "Junior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/040.webp",
+          "name": "Dr. Swati Gupta",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "73102883",
+          "regNo": "MP-33967",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/041.webp",
+          "name": "Saba Mazhar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "52264580",
+          "regNo": "MP-23541",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/042.webp",
+          "name": "Dr. Divya Panwar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "52288426",
+          "regNo": "MP-27606",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/043.webp",
+          "name": "Dr. Pragya Shahji",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "08936389",
+          "regNo": "MP-38217",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/044.webp",
+          "name": "Dr. Tuba Mehboob",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "41701120",
+          "regNo": "MP-40828",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/045.webp",
+          "name": "Dr. Twinkle Jitendra Soni",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "07092591",
+          "regNo": "MP-23541",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/046.webp",
+          "name": "Dr. Muskan Singh Senger",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "35089629",
+          "regNo": "115430 Delhi Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/047.webp",
+          "name": "Dr. Sakshi S. Gedam",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "34233788",
+          "regNo": "MP-40463",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/048.webp",
+          "name": "Dr. Ruchika Joshi",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "61134210",
+          "regNo": "MP-44547",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/049.webp",
+          "name": "Dr. Priyanshi Tomar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "75548816",
+          "regNo": "MP-38372",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/050.webp",
+          "name": "Dr. Varsha Patidar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "49040456",
+          "regNo": "MP-36303",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/051.webp",
+          "name": "Dr. Pinki Dodwani",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "37604639",
+          "regNo": "MP-38265",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/obstetrics-gynaecology/052.webp",
+          "name": "Dr. Kashish Agrawal",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "76874114",
+          "regNo": "2024/06/418 3 Maharashtra Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Obstetrics & Gynaecology faculty list",
+      "href": "/assets/docs/msr/faculty-lists/obstetrics-gynaecology.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

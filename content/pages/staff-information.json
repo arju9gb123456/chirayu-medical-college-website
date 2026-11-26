@@ -1,0 +1,33 @@
+{
+  "title": "Staff Information",
+  "kicker": "Information under MSR",
+  "intro": "Department wise teaching faculty, non-teaching staff and nursing staff of Chirayu Medical College & Hospital.",
+  "updated": "06-02-2025",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "cards",
+      "id": "staff",
+      "title": "Staff lists",
+      "unit": "lists",
+      "items": [
+        {
+          "title": "Department wise Faculty Information",
+          "note": "31 departments · photos and details",
+          "href": "/departments/"
+        },
+        {
+          "title": "Non-Teaching Staff",
+          "note": "PDF",
+          "href": "/assets/docs/msr/non-teaching-staff.pdf"
+        },
+        {
+          "title": "Nursing Staff",
+          "note": "PDF",
+          "href": "/assets/docs/msr/nursing-staff.pdf"
+        }
+      ]
+    }
+  ]
+}

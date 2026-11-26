@@ -1,0 +1,107 @@
+{
+  "title": "Details of Dean, Principal and Medical Superintendent",
+  "kicker": "Information under MSR",
+  "intro": "Particulars of the institution, its Chairman, Dean and Medical Superintendent, and of the affiliating university.",
+  "updated": "27-10-2023",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "people",
+      "id": "institution",
+      "title": "A. Particulars of the Institution / College",
+      "items": [
+        {
+          "img": "/assets/docs/msr/cmdsir.webp",
+          "name": "Dr. Ajay Goenka",
+          "role": "Chairman",
+          "details": "A-01, Chirayu Medical College & Hospital Campus, Bhopal, Madhya Pradesh – 462030\n(O) [0755-2709306](tel:07552709306) · (F) 0755-2709230\nMobile: [9826040230](tel:9826040230)\nEmail: [cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
+        },
+        {
+          "img": "/assets/docs/msr/deansir.jpg",
+          "name": "Dr. Manohar M. Bende",
+          "role": "Dean / Principal",
+          "details": "A-104 Block, Chirayu Medical College & Hospital Campus, Bhopal, Madhya Pradesh – 462030\n(O) [0755-2709258](tel:07552709258)\nMobile: [9425724977](tel:9425724977)\nEmail: [cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
+        },
+        {
+          "img": "/assets/docs/msr/dr-ulka.jpg",
+          "name": "Dr. Ulka Srivastava",
+          "role": "Medical Superintendent",
+          "details": "A-103 Block, Chirayu Medical College & Hospital Campus, Bhopal, Madhya Pradesh – 462030\n(O) [0755-2709132](tel:07552709132) · (F) 0755-2709132\nMobile: [9827274427](tel:9827274427)\nEmail: [cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "college",
+      "title": "Institution",
+      "columns": [
+        "Particulars",
+        "Details"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Name",
+            "Chirayu Medical College & Hospital"
+          ]
+        },
+        {
+          "cells": [
+            "Address",
+            "Bhopal-Indore Highway, Near Bairagarh, Bhopal"
+          ]
+        },
+        {
+          "cells": [
+            "State",
+            "Madhya Pradesh"
+          ]
+        },
+        {
+          "cells": [
+            "Pin Code",
+            "462030"
+          ]
+        },
+        {
+          "cells": [
+            "Phone",
+            "(O) 0755-2709258 · (F) 0755-2709269"
+          ]
+        },
+        {
+          "cells": [
+            "E-mail",
+            "[cmchbhopal@gmail.com](mailto:cmchbhopal@gmail.com)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "people",
+      "id": "university",
+      "title": "B. Particulars of the Affiliating University",
+      "items": [
+        {
+          "img": "/assets/docs/msr/unilogo.jpg",
+          "name": "Chirayu University, Bhopal",
+          "role": "University",
+          "details": "Bhopal-Indore Highway, Bhaisakhedi, Near Bairagarh, Bhopal, Madhya Pradesh – 462030\nPhone: [0755 2709352](tel:07552709352)\nEmail: [info@chirayuuniversity.ac.in](mailto:info@chirayuuniversity.ac.in)"
+        },
+        {
+          "img": "/assets/docs/msr/vchancellor.jpg",
+          "name": "Dr. Sudesh Kumar Sohani",
+          "role": "Vice Chancellor",
+          "details": "Bhopal-Indore Highway, Bhaisakhedi, Near Bairagarh, Bhopal – 462030\nPhone: [0755 2709352](tel:07552709352)\nEmail: [vc@chirayuuniversity.ac.in](mailto:vc@chirayuuniversity.ac.in)"
+        },
+        {
+          "img": "",
+          "name": "Col. Anil Bhargav",
+          "role": "Registrar",
+          "details": "Bhopal-Indore Highway, Bhaisakhedi, Near Bairagarh, Bhopal – 462030\nPhone: [0755 2709352](tel:07552709352)\nEmail: [registrar@chirayuuniversity.ac.in](mailto:registrar@chirayuuniversity.ac.in)"
+        }
+      ]
+    }
+  ]
+}

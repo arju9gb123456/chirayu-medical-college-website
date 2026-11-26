@@ -1,0 +1,68 @@
+{
+  "title": "Committees",
+  "kicker": "IMP(NMC) Req",
+  "intro": "Statutory and academic committees of Chirayu Medical College & Hospital with their members.",
+  "updated": "25-05-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "files",
+      "id": "committees",
+      "title": "College committees",
+      "items": [
+        {
+          "title": "Anti-Ragging Committee",
+          "href": "/assets/docs/msr/anti-ragging-committee.pdf",
+          "date": "May 2026"
+        },
+        {
+          "title": "Gender Harassment Committee",
+          "href": "/assets/docs/msr/gender-harassment-committee.pdf",
+          "date": "May 2026"
+        },
+        {
+          "title": "Institutional Ethics Committee (Revised)",
+          "href": "/assets/docs/msr/institutional-ethics-committee.pdf",
+          "date": "May 2026"
+        },
+        {
+          "title": "Scientific Committee",
+          "href": "/assets/docs/msr/scientific-committee.pdf",
+          "date": "May 2026"
+        },
+        {
+          "title": "Pharmacovigilance Committee",
+          "href": "/assets/docs/msr/pharmacovigilance-committee.pdf",
+          "date": "May 2026"
+        },
+        {
+          "title": "Disciplinary Committee",
+          "href": "/assets/docs/msr/disciplinary-committee.pdf",
+          "date": "May 2026"
+        },
+        {
+          "title": "Election Committee",
+          "href": "/assets/docs/msr/election-committee.pdf",
+          "date": "May 2026"
+        },
+        {
+          "title": "Other College Committees",
+          "href": "/assets/docs/msr/committees.pdf",
+          "date": "May 2026"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "student-council",
+      "title": "Student Council 2026",
+      "items": [
+        {
+          "img": "/assets/docs/msr/student-council-2026.jpg",
+          "caption": "Student Council 2026"
+        }
+      ]
+    }
+  ]
+}

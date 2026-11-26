@@ -1,0 +1,293 @@
+{
+  "title": "Department of Dermatology, Venereology & Leprosy",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/001.webp",
+          "name": "Dr. Meenakshi Tandon",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "28 Years",
+          "aebas": "95029204",
+          "regNo": "No. MP-3230",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/002.webp",
+          "name": "Dr. Shyam Govind Rathoriya",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "16 Years",
+          "aebas": "56307479",
+          "regNo": "MP-8794",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/003.webp",
+          "name": "Dr. Rochit Singhal",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MD",
+          "experience": "11 Years",
+          "aebas": "60938104",
+          "regNo": "MP-26025",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/004.webp",
+          "name": "Dr. Prerna Sharma",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MD",
+          "experience": "9 Years",
+          "aebas": "74084367",
+          "regNo": "MP-13236",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/005.webp",
+          "name": "Dr. Dhruv Mishra",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "17263398",
+          "regNo": "MP-25025",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/006.webp",
+          "name": "Dr. Arpita Mishra",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "6 Years",
+          "aebas": "58300558",
+          "regNo": "MP-20261",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/007.webp",
+          "name": "Dr. Adhyatm Bhandari",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "7 Years",
+          "aebas": "77278289",
+          "regNo": "MP-17604",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/008.webp",
+          "name": "Dr. Shubhang Jain",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "6 Years",
+          "aebas": "05592922",
+          "regNo": "MP-16731",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/009.webp",
+          "name": "Dr. Megha Goyal",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "83022255",
+          "regNo": "9217",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/010.webp",
+          "name": "Dr. Sagar Nawani",
+          "designation": "Senior Resident",
+          "qualification": "MBBS DIPLOMA DNB",
+          "experience": "5 Years",
+          "aebas": "88752429",
+          "regNo": "MP-20799",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/011.webp",
+          "name": "Dr. Mahima Sharma",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "28851429",
+          "regNo": "MP-26916",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/012.webp",
+          "name": "Dr. Radhika Thakur",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "88003131",
+          "regNo": "MP-25963",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/013.webp",
+          "name": "Dr. Tejaswani Patel",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "38124530",
+          "regNo": "MP-38303",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "junior-resident",
+      "title": "Junior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/014.webp",
+          "name": "Dr. Isha Khandelw Al",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "27124560",
+          "regNo": "MP-32649",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/015.webp",
+          "name": "Dr. Srishti Nidariya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "01920087",
+          "regNo": "MP-33154",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/016.webp",
+          "name": "Dr. Pooja Yadav",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "56712390",
+          "regNo": "RMC-58163",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/017.webp",
+          "name": "Dr. Yogesh Patidar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "65883242",
+          "regNo": "MP-28997",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/018.webp",
+          "name": "Dr. Srishti Beri",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "66412460",
+          "regNo": "MP-38165",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/019.webp",
+          "name": "Dr. Rajul Yadav",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "63046536",
+          "regNo": "2021/02/0918 Maharashtra Medical Council, Mumbai",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/020.webp",
+          "name": "Dr. Ankita Gour",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "19435005",
+          "regNo": "MP-36964",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/021.webp",
+          "name": "Dr. Navya Sehgal",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "86054306",
+          "regNo": "HN-27868 Haryana Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/022.webp",
+          "name": "Dr. Srishti Arora",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "54858795",
+          "regNo": "92200 Delhi Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/023.webp",
+          "name": "Dr. Shreya Teniwar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "40182089",
+          "regNo": "MP-40435",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/dermatology-venereology-leprosy/024.webp",
+          "name": "Dr. Mansi Manoj Daspute",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "17452474",
+          "regNo": "G-98072 GUJARAT MEDICAL COUNCIL",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Dermatology, Venereology & Leprosy faculty list",
+      "href": "/assets/docs/msr/faculty-lists/dermatology-venereology-leprosy.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

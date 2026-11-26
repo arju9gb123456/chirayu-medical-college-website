@@ -1,0 +1,41 @@
+{
+  "title": "Anti-Ragging",
+  "kicker": "IMP(NMC) Req",
+  "intro": "Ragging is a criminal offence and is strictly prohibited at Chirayu Medical College & Hospital.",
+  "updated": "27-10-2023",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "text",
+      "id": "helpline",
+      "title": "National Anti-Ragging Helpline",
+      "body": "The **National Anti-Ragging Help Line** is available 24×7.\n\n**Toll free number: [1800-180-5522](tel:18001805522)**\n\nStudents can also report ragging to any member of the college Anti-Ragging Committee listed below."
+    },
+    {
+      "type": "button",
+      "id": "call",
+      "title": "Call the helpline",
+      "label": "Call 1800-180-5522 (toll free, 24×7)",
+      "href": "tel:18001805522",
+      "note": "National Anti-Ragging Help Line"
+    },
+    {
+      "type": "files",
+      "id": "committee",
+      "title": "Committees",
+      "items": [
+        {
+          "title": "Anti-Ragging Committee — members and contact details",
+          "href": "/assets/docs/msr/anti-ragging-committee.pdf",
+          "date": ""
+        },
+        {
+          "title": "Gender Harassment Committee — members and contact details",
+          "href": "/assets/docs/msr/gender-harassment-committee.pdf",
+          "date": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,803 @@
+{
+  "title": "Department of Anaesthesiology",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/anaesthesiology/001.webp",
+          "name": "Dr. Tapan Kumar Sahoo",
+          "designation": "Professor",
+          "qualification": "on MBBS MD DNB DM",
+          "experience": "19 Years",
+          "aebas": "15075032",
+          "regNo": "OCMR-9586",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/002.webp",
+          "name": "Dr. Damodar Sadashiv Patwardhan",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "32 Years",
+          "aebas": "61729364",
+          "regNo": "MMC- 2007/06/2539",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/003.webp",
+          "name": "Dr. Wasudeo Barsagade",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "37 Years",
+          "aebas": "28511571",
+          "regNo": "52579 MMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/004.webp",
+          "name": "Dr. Umashankar Rout",
+          "designation": "Professor",
+          "qualification": "MBBS DNB",
+          "experience": "13 Years",
+          "aebas": "46289704",
+          "regNo": "14987 OMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/005.webp",
+          "name": "Dr. Devashish Chakrawarty",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "16 Years",
+          "aebas": "27170319",
+          "regNo": "MP-5370",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/006.webp",
+          "name": "Dr. Harsha Gupta",
+          "designation": "Professor",
+          "qualification": "MBBS DNB",
+          "experience": "12 Years",
+          "aebas": "51552893",
+          "regNo": "MP-9435",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/007.webp",
+          "name": "Dr. Nellikondi Kishor Goud",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "13 Years",
+          "aebas": "17204113",
+          "regNo": "57289 Telangana Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/008.webp",
+          "name": "Sunil Kumar Ganti",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "14 Years",
+          "aebas": "91241290",
+          "regNo": "14483 State Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/anaesthesiology/009.webp",
+          "name": "Dr. Sravanthi Parusha",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MD",
+          "experience": "8 Years",
+          "aebas": "99353744",
+          "regNo": "48507 Telangana Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/010.webp",
+          "name": "Dr. Sudip Bhargava",
+          "designation": "Associate Professor",
+          "qualification": "MBBS DA DNB",
+          "experience": "15 Years",
+          "aebas": "60219285",
+          "regNo": "MP-10778",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/011.webp",
+          "name": "Dr. Akansha Jain",
+          "designation": "Associate Professor",
+          "qualification": "MBBS- MD",
+          "experience": "8 Years",
+          "aebas": "23821186",
+          "regNo": "MP-19477",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/012.webp",
+          "name": "Dr. Rishikesh Mahendra Awode",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MD",
+          "experience": "8 Years",
+          "aebas": "00367141",
+          "regNo": "MP-18093",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/anaesthesiology/013.webp",
+          "name": "Dr. Shilpi Singh",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS",
+          "experience": "5 Years",
+          "aebas": "82636788",
+          "regNo": "MP-20565",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/014.webp",
+          "name": "Dr. Veenashree Managavi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "7 Years",
+          "aebas": "93245793",
+          "regNo": "MP- 30739",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/015.webp",
+          "name": "Dr. Rajeev Rai",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "8 Years",
+          "aebas": "47444132",
+          "regNo": "MP-13784",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/016.webp",
+          "name": "Dr. Aarti",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "6 Years",
+          "aebas": "55576121",
+          "regNo": "UP-96242",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/017.webp",
+          "name": "Dr. Saad Aslam Khan",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DA DNB",
+          "experience": "9 Years",
+          "aebas": "13298175",
+          "regNo": "MP-17896",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/018.webp",
+          "name": "Dr. Aradhna Chourasiya",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "63052974",
+          "regNo": "MP-20242",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/019.webp",
+          "name": "Dr. Sushma Uikey",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "40549095",
+          "regNo": "MP-20772",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/020.webp",
+          "name": "Dr. Neetu Singh Batham",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "44652173",
+          "regNo": "MP-27705",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/021.webp",
+          "name": "Dr. Mohamma D. Faisal",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "21455126",
+          "regNo": "2019/06/5176",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/022.webp",
+          "name": "Dr. Shaifali Jain",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "7 Years",
+          "aebas": "74979678",
+          "regNo": "MP-24783",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/023.webp",
+          "name": "Dr. Abhishek Singhal",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DA",
+          "experience": "13 Years",
+          "aebas": "54457803",
+          "regNo": "MP-11296",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/024.webp",
+          "name": "Dr. Harsh Kumar Soni",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "14358010",
+          "regNo": "16417",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/025.webp",
+          "name": "Dr. Soveer Dhakad",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "7 Years",
+          "aebas": "76386428",
+          "regNo": "MP-20072",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/026.webp",
+          "name": "Dr. Ankit Maurya",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DNB",
+          "experience": "6 Years",
+          "aebas": "4547452",
+          "regNo": "MP-20103",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/027.webp",
+          "name": "Azad Kumar Kachhwaha",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DNB",
+          "experience": "6 Years",
+          "aebas": "92970433",
+          "regNo": "MP- 19859",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/028.webp",
+          "name": "Dr. Annu Singh",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DNB",
+          "experience": "7 Years",
+          "aebas": "65330350",
+          "regNo": "TSMC/FMR/ 08202 Telangana State Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/029.webp",
+          "name": "Dr. Deepak Goyal",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "6 Years",
+          "aebas": "59169446",
+          "regNo": "MP-23578",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/030.webp",
+          "name": "Dr. Twinkle Kewalramani",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "98412518",
+          "regNo": "MP-24249",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/031.webp",
+          "name": "Nishant Dohare",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD DA",
+          "experience": "6 Years",
+          "aebas": "40464146",
+          "regNo": "MP-10579",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/032.webp",
+          "name": "Dr. Priyanka Singh Thakur",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "83574362",
+          "regNo": "MP-22280",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/anaesthesiology/033.webp",
+          "name": "Dr. Chandrabhan Singh Thakur",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "77309932",
+          "regNo": "MP-19420",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/034.webp",
+          "name": "Dr. Abhay Kumar Lodhi",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "57356571",
+          "regNo": "MP-27079",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/035.webp",
+          "name": "Dr. Abeeha Farheen Beg",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "02156812",
+          "regNo": "MP-17295",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/036.webp",
+          "name": "Dr. Chetan Choudhary",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "74031527",
+          "regNo": "MP-28261",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/037.webp",
+          "name": "Dr. Aakriti Gupta",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "76812299",
+          "regNo": "MP-26648",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/038.webp",
+          "name": "Dr. Shah Vihar Pauravbhai",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "86365109",
+          "regNo": "G-59121 The Gujarat Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/039.webp",
+          "name": "Dr. Jatva Mihikumar Garvarsing",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "49095898",
+          "regNo": "G-78522 The Gujarat Medical",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/040.webp",
+          "name": "Dr. Farheen Ali",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "78321772",
+          "regNo": "MP-25694",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/041.webp",
+          "name": "Dr. Samiksha Beri",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "80668657",
+          "regNo": "MP-22866",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/042.webp",
+          "name": "Dr. Alfiya Khan",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "05498003",
+          "regNo": "MP-29930",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/043.webp",
+          "name": "Dr. Srishti Jain",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "64929947",
+          "regNo": "MP-33806",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "junior-resident",
+      "title": "Junior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/anaesthesiology/044.webp",
+          "name": "Dr. Akansha Tiwari",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "98882616",
+          "regNo": "MP-20374",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/045.webp",
+          "name": "Dr. Wagmode Smita Appasaheb",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "37360628",
+          "regNo": "MMC- 2018/10/5367",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/046.webp",
+          "name": "Dr. Supriya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "15502637",
+          "regNo": "DMC/R/37642",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/047.webp",
+          "name": "Dr. Taniya Jain",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "41645557",
+          "regNo": "MP-29705",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/048.webp",
+          "name": "Dr. Shivangi Jagani",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "63444326",
+          "regNo": "MP-29338",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/049.webp",
+          "name": "Dr. Mayur Masani",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "50424095",
+          "regNo": "MP-32941",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/050.webp",
+          "name": "Dr. Vikas Raghuvanshi",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "96729431",
+          "regNo": "MP-40790",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/051.webp",
+          "name": "Dr. Smriti Singh",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "00549018",
+          "regNo": "MP-25289",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/052.webp",
+          "name": "Dr. Prateek Mittal",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "08164405",
+          "regNo": "MP-21568",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/053.webp",
+          "name": "Dr. Aayushi Saxena",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "08920223",
+          "regNo": "MP-34796",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/054.webp",
+          "name": "Dr. Shatrughan Kumar Vaishnav",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "00849884",
+          "regNo": "MP-25630",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/055.webp",
+          "name": "Dr. Saumya Mahodaya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "77164337",
+          "regNo": "MP-41027",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/056.webp",
+          "name": "Dr. Rohit Kumar Pandey",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "58050347",
+          "regNo": "MP-31316",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/057.webp",
+          "name": "Dr. Pankaj Tripathi",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "13619777",
+          "regNo": "MP-30261",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/058.webp",
+          "name": "Dr. Muskan Gupta",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "03692517",
+          "regNo": "MP-36424",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/059.webp",
+          "name": "Dr. Gokul Patidar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "82517323",
+          "regNo": "MP-33205",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/060.webp",
+          "name": "Dr. Harshal Tilgota",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "13523805",
+          "regNo": "MP-38816",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/061.webp",
+          "name": "Dr. Meenal Joshi",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "66339019",
+          "regNo": "MP-31279",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/062.webp",
+          "name": "Dr. Vishal",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "3 Months",
+          "aebas": "75787269",
+          "regNo": "MP-28416",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/063.webp",
+          "name": "Dr. Sachora Mahammad Avesh Habibbhai",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "82777926",
+          "regNo": "MP-26729",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/064.webp",
+          "name": "Dr. Rashi Tiwari",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "85092450",
+          "regNo": "MP-34624",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/065.webp",
+          "name": "Dr. Ankit Kumar Acharya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "80842472",
+          "regNo": "MP-31931",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/066.webp",
+          "name": "Dr. Abhijeet Singh Lakhera",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "09765714",
+          "regNo": "2025/05/03777 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/067.webp",
+          "name": "Dr. Anvesha Gupta",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "91231790",
+          "regNo": "MP-27648",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/068.webp",
+          "name": "Dr. Amar Jaiswal",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "93156075",
+          "regNo": "CGMC- 16688/2025 Chhattisgarh Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/069.webp",
+          "name": "Dr. Patel Henil Girishkumar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "62354371",
+          "regNo": "G-88260 The Gujarat Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/070.webp",
+          "name": "Dr. Mahima Rathod",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "81624532",
+          "regNo": "FMGG92497 The Gujarat Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/071.webp",
+          "name": "Dr. Rakesh Kumar Sharma",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "67397338",
+          "regNo": "MP-14064",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/072.webp",
+          "name": "Dr. Arunendra Pratap Singh",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "36264388",
+          "regNo": "MP-37785",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/073.webp",
+          "name": "Dr. Siddhant Chakravarty",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "65395218",
+          "regNo": "MP-33462",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/074.webp",
+          "name": "Dr. Aashu Rajput",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "06342265",
+          "regNo": "MP-33962",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/anaesthesiology/075.webp",
+          "name": "Dr. Prince Singh",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "61655827",
+          "regNo": "MP-26348",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Anaesthesiology faculty list",
+      "href": "/assets/docs/msr/faculty-lists/anaesthesiology.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

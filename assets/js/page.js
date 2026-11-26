@@ -107,6 +107,9 @@
   function titleFromSlug(s) {
     return String(s).split('/').pop().replace(/[-_]+/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
   }
+  function initials(n) {
+    return String(n || '').replace(/^(dr|prof|mr|mrs|ms|shri|col)\.?\s+/i, '').replace(/^(\(dr\.?\)|dr\.?)\s*/i, '').split(/\s+/).filter(function (w) { return /^[A-Za-z]/.test(w); }).slice(0, 2).map(function (w) { return w[0]; }).join('').toUpperCase();
+  }
   function blockId(b, i) { return 'b-' + String(b.id || b.title || i).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'b-' + i; }
 
   function renderHero(p) {
@@ -117,12 +120,21 @@
       '<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a>' + icon('right') + (p.kicker ? '<span>' + esc(p.kicker) + '</span>' + icon('right') : '') + '<b aria-current="page">' + esc(p.title) + '</b></nav>' +
       '<h1 class="phero__title" data-split>' + esc(p.title) + '</h1>' +
       (p.intro ? '<p class="phero__intro" data-in style="--d:3">' + esc(p.intro) + '</p>' : '') +
+      stats(p) +
       ((p.updated || p.updatedBy) ? '<div class="phero__meta" data-in style="--d:4">' +
         (p.updated ? '<span>' + icon('file') + ' Last updated on <b>' + esc(p.updated) + '</b></span>' : '') +
         (p.updatedBy ? '<span>by <b>' + esc(p.updatedBy) + '</b></span>' : '') + '</div>' : '') +
       '</div></section>';
   }
 
+  /* Faculty pages: total + count per group, worked out from the blocks */
+  function stats(p) {
+    var fb = (p.blocks || []).filter(function (b) { return b.type === 'faculty' && (b.items || []).length; });
+    if (!fb.length) return '';
+    var tot = fb.reduce(function (a, b) { return a + b.items.length; }, 0);
+    return '<div class="phero__stats" data-in style="--d:3"><div><b>' + tot + '</b><span>Faculty members</span></div>' +
+      fb.slice(0, 5).map(function (b) { return '<div><b>' + b.items.length + '</b><span>' + esc(b.title || '') + '</span></div>'; }).join('') + '</div>';
+  }
   function searchBox(label) {
     return '<label class="psearch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
       '<input type="search" placeholder="' + esc(label) + '" aria-label="' + esc(label) + '"></label>';
@@ -132,12 +144,18 @@
     table: function (b) {
       var cols = b.columns && b.columns.length ? b.columns : ['', ''];
       var rows = b.rows || [];
+      // short columns (Sr. No., View, dates) stay narrow so the text column gets the room
+      var narrow = cols.map(function (c, k) {
+        return String(c).length <= 16 && rows.every(function (r) { return plain(((r && r.cells) || [])[k]).length <= 16; });
+      });
+      if (narrow.every(Boolean)) narrow = narrow.map(function () { return false; });
+      function cls(k) { return narrow[k] ? ' class="c-narrow"' : ''; }
       return '<div class="pblock__bar">' + (rows.length > 8 ? searchBox('Search in this table') : '') + '<span class="pcount">' + rows.length + ' entries</span></div>' +
-        '<div class="ptable-wrap"><table class="ptable"><thead><tr>' + cols.map(function (c) { return '<th scope="col">' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+        '<div class="ptable-wrap"><table class="ptable"><thead><tr>' + cols.map(function (c, k) { return '<th scope="col"' + cls(k) + '>' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>' +
         rows.map(function (r) {
           var cells = (r && r.cells) || [];
           return '<tr data-reveal>' + cols.map(function (c, k) {
-            return (k === 0 ? '<th scope="row"' : '<td') + ' data-label="' + esc(c) + '">' + rich(cells[k]) + (k === 0 ? '</th>' : '</td>');
+            return (k === 0 ? '<th scope="row"' : '<td') + cls(k) + ' data-label="' + esc(c) + '">' + rich(cells[k]) + (k === 0 ? '</th>' : '</td>');
           }).join('') + '</tr>';
         }).join('') + '</tbody></table>' +
         '<p class="pempty" hidden>No matching entries.</p></div>';
@@ -163,6 +181,44 @@
       }).join('') + '</div>';
     },
     text: function (b) { return '<div class="ptext">' + rich(b.body) + '</div>'; },
+    /* Faculty: photo cards; tap / hover shows AEBAS ID, registration, employment */
+    faculty: function (b) {
+      var items = b.items || [];
+      return '<div class="pblock__bar">' + (items.length > 8 ? searchBox('Search by name, qualification…') : '') + '<span class="pcount">' + items.length + (items.length === 1 ? ' member' : ' members') + '</span></div>' +
+        '<div class="pfac">' + items.map(function (f) {
+          var rows = [['Designation', f.designation], ['Qualification', f.qualification], ['Experience', f.experience], ['AEBAS ID', f.aebas], ['Med. Reg. No.', f.regNo], ['Employment', f.employment]]
+            .filter(function (r) { return r[1]; });
+          return '<article class="fac" tabindex="0" data-reveal data-cursor="Details">' +
+            '<div class="fac__photo">' + (f.photo ? '<img src="' + esc(f.photo) + '" alt="' + esc(f.name) + '" loading="lazy" decoding="async">' : '<span class="fac__ph">' + esc(initials(f.name)) + '</span>') +
+            (f.designation ? '<span class="fac__badge">' + esc(f.designation) + '</span>' : '') + '</div>' +
+            '<div class="fac__body"><h3>' + esc(f.name) + '</h3>' + (f.qualification ? '<p>' + esc(f.qualification) + '</p>' : '') +
+            (f.experience ? '<span class="fac__exp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>' + esc(f.experience) + '</span>' : '') + '</div>' +
+            '<div class="fac__more" aria-hidden="true"><b>' + esc(f.name) + '</b><dl>' + rows.map(function (r) { return '<dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd>'; }).join('') + '</dl></div>' +
+            '</article>';
+        }).join('') + '</div><p class="pempty" hidden>No matching faculty.</p>';
+    },
+    /* Link cards: departments, sections of a page… */
+    cards: function (b) {
+      var items = b.items || [];
+      return '<div class="pblock__bar">' + (items.length > 9 ? searchBox('Search…') : '') + '<span class="pcount">' + items.length + ' ' + esc(b.unit || 'items') + '</span></div>' +
+        '<div class="pcards">' + items.map(function (it, i) {
+          var u = safeUrl(it.href), ext = /^https?:|\.pdf(\?|#|$)/i.test(u);
+          return '<a class="pcard" href="' + esc(u) + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + ' data-reveal data-cursor="Open">' +
+            '<span class="pcard__ic">' + (it.img ? '<img src="' + esc(it.img) + '" alt="" loading="lazy">' : esc(initials(it.title))) + '</span>' +
+            '<span class="pcard__t"><b>' + esc(it.title) + '</b>' + (it.note ? '<small>' + esc(it.note) + '</small>' : '') + '</span>' +
+            '<span class="pcard__go">' + icon('arrow') + '</span><span class="pcard__n">' + (i + 1 < 10 ? '0' : '') + (i + 1) + '</span></a>';
+        }).join('') + '</div><p class="pempty" hidden>Nothing matches.</p>';
+    },
+    /* People: Dean, Vice-Chancellor, Registrar… with contact details */
+    people: function (b) {
+      var items = b.items || [];
+      return '<div class="ppeople">' + items.map(function (it) {
+        return '<article class="person" data-reveal>' +
+          '<div class="person__photo">' + (it.img ? '<img src="' + esc(it.img) + '" alt="' + esc(it.name) + '" loading="lazy">' : '<span>' + esc(initials(it.name)) + '</span>') + '</div>' +
+          '<div class="person__body">' + (it.role ? '<span class="person__role">' + esc(it.role) + '</span>' : '') +
+          '<h3>' + esc(it.name) + '</h3><div class="person__info">' + rich(it.details) + '</div></div></article>';
+      }).join('') + '</div>';
+    },
     button: function (b) {
       return '<a class="pcta" href="' + esc(safeUrl(b.href)) + '" target="_blank" rel="noopener" data-reveal><span class="pcta__ic">' + icon('file') + '</span>' +
         '<span class="pcta__t"><b>' + esc(b.label || b.title) + '</b>' + (b.note ? '<small>' + esc(b.note) + '</small>' : '') + '</span><span class="pcta__go">' + icon('arrow') + '</span></a>';
@@ -228,7 +284,7 @@
   function wireBlocks(p) {
     $$('.pblock').forEach(function (sec) {
       var input = $('.psearch input', sec), more = $('[data-more]', sec), count = $('.pcount', sec), empty = $('.pempty', sec);
-      var rows = $$('.ptable tbody tr, .pfile', sec), total = rows.length, unit = sec.classList.contains('pblock--files') ? 'documents' : 'entries';
+      var rows = $$('.ptable tbody tr, .pfile, .fac, .pcard', sec), total = rows.length, unit = sec.classList.contains('pblock--files') ? 'documents' : sec.classList.contains('pblock--faculty') ? 'members' : sec.classList.contains('pblock--cards') ? 'items' : 'entries';
       if (input) {
         input.addEventListener('input', function () {
           var q = input.value.trim().toLowerCase(), shown = 0;
@@ -243,6 +299,13 @@
         });
       }
       if (more) more.addEventListener('click', function () { sec.classList.add('is-expanded'); more.hidden = true; });
+    });
+
+    // faculty cards: tap / Enter toggles the details panel
+    $$('.fac').forEach(function (c) {
+      function t() { var on = !c.classList.contains('is-open'); $$('.fac.is-open').forEach(function (o) { o.classList.remove('is-open'); }); c.classList.toggle('is-open', on); }
+      c.addEventListener('click', t);
+      c.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); t(); } });
     });
 
     // lightbox for galleries

@@ -1,0 +1,106 @@
+{
+  "title": "List of Students Admitted Merit-Wise (UG & PG)",
+  "kicker": "Information under MSR",
+  "intro": "Merit-wise and category-wise lists of students admitted to MBBS (UG) and MD/MS (PG) courses, year by year.",
+  "updated": "12-05-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "files",
+      "id": "ug",
+      "title": "Under Graduation (MBBS) — Regular Admission",
+      "items": [
+        {
+          "title": "Admission Batch 2025",
+          "href": "/assets/docs/msr/ug-batch-2025.pdf",
+          "date": ""
+        },
+        {
+          "title": "Admission Batch 2024",
+          "href": "/assets/docs/msr/ug-batch-2024.pdf",
+          "date": ""
+        },
+        {
+          "title": "Admission Batch 2023",
+          "href": "/assets/docs/msr/ug-batch-2023.pdf",
+          "date": ""
+        },
+        {
+          "title": "Admission Batch 2022",
+          "href": "/assets/docs/msr/ug-batch-2022.pdf",
+          "date": ""
+        },
+        {
+          "title": "Admission Batch 2021",
+          "href": "https://www.cmchbhopal.com/pdf/UG_2021-22.pdf",
+          "date": ""
+        },
+        {
+          "title": "Admission Batch 2020",
+          "href": "https://www.cmchbhopal.com/pdf/UG_2020-21.pdf",
+          "date": ""
+        },
+        {
+          "title": "Admission Batch 2019",
+          "href": "https://www.cmchbhopal.com/pdf/UG_2019.pdf",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "type": "files",
+      "id": "ug-realloc",
+      "title": "Under Graduation — Reallocated Admission",
+      "items": [
+        {
+          "title": "Batch 2016-17",
+          "href": "https://www.cmchbhopal.com/pdf/Reallocation-circular.pdf",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "type": "files",
+      "id": "pg",
+      "title": "Post Graduation (MD / MS) — Regular Admission",
+      "items": [
+        {
+          "title": "Batch 2023-24",
+          "href": "/assets/docs/msr/pg-batch-2023-24.pdf",
+          "date": ""
+        },
+        {
+          "title": "Batch 2022-23",
+          "href": "/assets/docs/msr/pg-batch-2022-23.pdf",
+          "date": ""
+        },
+        {
+          "title": "Batch 2021-22",
+          "href": "https://www.cmchbhopal.com/pdf/PG_2021-22.pdf",
+          "date": ""
+        },
+        {
+          "title": "Batch 2020-21",
+          "href": "https://www.cmchbhopal.com/pdf/PG_2020-21.pdf",
+          "date": ""
+        },
+        {
+          "title": "Batch 2019-20",
+          "href": "https://www.cmchbhopal.com/pdf/PG_2019.pdf",
+          "date": ""
+        },
+        {
+          "title": "Batch 2018-19",
+          "href": "https://www.cmchbhopal.com/pdf/List-of-student-pg-18-19.pdf",
+          "date": ""
+        },
+        {
+          "title": "Batch 2017-18",
+          "href": "https://www.cmchbhopal.com/pdf/pg-students-2017-18.pdf",
+          "date": ""
+        }
+      ]
+    }
+  ]
+}

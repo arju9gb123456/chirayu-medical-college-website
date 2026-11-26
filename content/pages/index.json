@@ -1,12 +1,180 @@
 {
   "pages": [
     {
+      "slug": "university",
+      "title": "Affiliating University"
+    },
+    {
+      "slug": "antiragging",
+      "title": "Anti-Ragging"
+    },
+    {
+      "slug": "awards-and-achievements",
+      "title": "Awards & Achievements"
+    },
+    {
+      "slug": "bed-distribution",
+      "title": "Bed Distribution"
+    },
+    {
+      "slug": "committees",
+      "title": "Committees"
+    },
+    {
+      "slug": "departments/anaesthesiology",
+      "title": "Department of Anaesthesiology"
+    },
+    {
+      "slug": "departments/anatomy",
+      "title": "Department of Anatomy"
+    },
+    {
+      "slug": "departments/biochemistry",
+      "title": "Department of Biochemistry"
+    },
+    {
+      "slug": "departments/cardiology",
+      "title": "Department of Cardiology"
+    },
+    {
+      "slug": "departments/community-medicine",
+      "title": "Department of Community Medicine"
+    },
+    {
+      "slug": "departments/critical-care-medicine",
+      "title": "Department of Critical Care Medicine"
+    },
+    {
+      "slug": "departments/dentistry",
+      "title": "Department of Dentistry"
+    },
+    {
+      "slug": "departments/dermatology-venereology-leprosy",
+      "title": "Department of Dermatology, Venereology & Leprosy"
+    },
+    {
+      "slug": "departments/emergency-medicine",
+      "title": "Department of Emergency Medicine"
+    },
+    {
+      "slug": "departments/forensic-medicine-toxicology",
+      "title": "Department of Forensic Medicine & Toxicology"
+    },
+    {
+      "slug": "departments/general-medicine",
+      "title": "Department of General Medicine"
+    },
+    {
+      "slug": "departments/general-surgery",
+      "title": "Department of General Surgery"
+    },
+    {
+      "slug": "departments/immunohaematology-blood-transfusion",
+      "title": "Department of Immunohaematology & Blood Transfusion"
+    },
+    {
+      "slug": "departments/interventional-radiology",
+      "title": "Department of Interventional Radiology"
+    },
+    {
+      "slug": "departments/medical-oncology",
+      "title": "Department of Medical Oncology"
+    },
+    {
+      "slug": "departments/microbiology",
+      "title": "Department of Microbiology"
+    },
+    {
+      "slug": "departments/nephrology",
+      "title": "Department of Nephrology"
+    },
+    {
+      "slug": "departments/obstetrics-gynaecology",
+      "title": "Department of Obstetrics & Gynaecology"
+    },
+    {
+      "slug": "departments/ophthalmology",
+      "title": "Department of Ophthalmology"
+    },
+    {
+      "slug": "departments/orthopaedics",
+      "title": "Department of Orthopaedics"
+    },
+    {
+      "slug": "departments/oto-rhino-laryngology-ent",
+      "title": "Department of Oto-Rhino-Laryngology (ENT)"
+    },
+    {
+      "slug": "departments/paediatrics",
+      "title": "Department of Paediatrics"
+    },
+    {
+      "slug": "departments/pathology",
+      "title": "Department of Pathology"
+    },
+    {
+      "slug": "departments/pharmacology",
+      "title": "Department of Pharmacology"
+    },
+    {
+      "slug": "departments/physiology",
+      "title": "Department of Physiology"
+    },
+    {
+      "slug": "departments/plastic-reconstructive-surgery",
+      "title": "Department of Plastic & Reconstructive Surgery"
+    },
+    {
+      "slug": "departments/psychiatry",
+      "title": "Department of Psychiatry"
+    },
+    {
+      "slug": "departments/radiation-oncology",
+      "title": "Department of Radiation Oncology"
+    },
+    {
+      "slug": "departments/radiodiagnosis",
+      "title": "Department of Radiodiagnosis"
+    },
+    {
+      "slug": "departments/respiratory-medicine",
+      "title": "Department of Respiratory Medicine"
+    },
+    {
+      "slug": "departments/urology",
+      "title": "Department of Urology"
+    },
+    {
+      "slug": "mohfw-req",
+      "title": "Details of College / Institute as per NMC Requirement"
+    },
+    {
+      "slug": "management-team",
+      "title": "Details of Dean, Principal and Medical Superintendent"
+    },
+    {
+      "slug": "min-req-clause",
+      "title": "Information under MSR Clause B.1.11"
+    },
+    {
       "slug": "license-certificate",
       "title": "Licence & Certification"
     },
     {
+      "slug": "students-admitted",
+      "title": "List of Students Admitted Merit-Wise (UG & PG)"
+    },
+    {
       "slug": "nabh-iso-certificatation",
       "title": "NABH & ISO Certifications"
+    },
+    {
+      "slug": "departments",
+      "title": "Our Departments & Faculty"
+    },
+    {
+      "slug": "staff-information",
+      "title": "Staff Information"
     }
   ]
 }

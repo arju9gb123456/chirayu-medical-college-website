@@ -1,0 +1,323 @@
+{
+  "title": "Department of Community Medicine",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/community-medicine/001.webp",
+          "name": "Dr. Garima Namdev",
+          "designation": "Professor",
+          "qualification": "MBBS- MD",
+          "experience": "13 Years",
+          "aebas": "95426530",
+          "regNo": "MP-9154 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/002.webp",
+          "name": "Dr. Prabhakar Hiwarkar",
+          "designation": "Professor",
+          "qualification": "MBBS- MD",
+          "experience": "45 Years",
+          "aebas": "74157987",
+          "regNo": "MMC-49971",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/003.webp",
+          "name": "Dr. Parvinder Madan Singh",
+          "designation": "Professor",
+          "qualification": "MBBS- MD",
+          "experience": "21 Years",
+          "aebas": "52981131",
+          "regNo": "2012/03/0665",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/004.webp",
+          "name": "Dr. Shubhankar Adhikari",
+          "designation": "Professor",
+          "qualification": "MBBS- MD",
+          "experience": "7 Years",
+          "aebas": "86582319",
+          "regNo": "109580 Karnataka Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/community-medicine/005.webp",
+          "name": "Dr. Trapti Manish Saxena",
+          "designation": "Associate Professor",
+          "qualification": "MBBS- MD",
+          "experience": "12 Years",
+          "aebas": "34428446",
+          "regNo": "80983",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/006.webp",
+          "name": "Dr. Amit Malviya",
+          "designation": "Associate Professor",
+          "qualification": "MBBS- MD",
+          "experience": "22 Years",
+          "aebas": "83194415",
+          "regNo": "MP-8282",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/community-medicine/007.webp",
+          "name": "Dr. Aditya Dhonde",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS- MD",
+          "experience": "6 Years",
+          "aebas": "75497629",
+          "regNo": "MP-26031 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/008.webp",
+          "name": "Dr. Vivek Raghunath Pardeshi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD DNB",
+          "experience": "4 Years",
+          "aebas": "54993956",
+          "regNo": "68078 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/009.webp",
+          "name": "Dr. Swarna Abhiman Ramteke",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "64350200",
+          "regNo": "2012/07/2234",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/010.webp",
+          "name": "Dr. Abhinav Pravinchand Ra Kadia",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "64645029",
+          "regNo": "G-44489",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/011.webp",
+          "name": "Dr. Siddharth Singh",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "54973819",
+          "regNo": "MP-29657",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/012.webp",
+          "name": "Dr. Amrutha R.",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "96241556",
+          "regNo": "67407 THE TRAVANCORE- COCHIN COUNCIL",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/013.webp",
+          "name": "Dr. Sapna Tiwari",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "90331759",
+          "regNo": "MP-19722",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "tutor",
+      "title": "Tutors",
+      "items": [
+        {
+          "photo": "/assets/faculty/community-medicine/014.webp",
+          "name": "Dr. Divyanshi Singh",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "82865208",
+          "regNo": "MP-40793",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/015.webp",
+          "name": "Dr. Monesh Verma",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "12237060",
+          "regNo": "MP-26124",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/016.webp",
+          "name": "Dr. Palash Saraf",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "67317742",
+          "regNo": "MP-22299",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/017.webp",
+          "name": "Dr. Sumit Shrivastava",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "61161856",
+          "regNo": "MP-19916",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/018.webp",
+          "name": "Dr. Arpit Singh Raghuwanshi",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "08035997",
+          "regNo": "MP-33975",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/019.webp",
+          "name": "Dr. Ankit Singh",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "2 Years",
+          "aebas": "75444923",
+          "regNo": "MP-35816",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/020.webp",
+          "name": "Dr. Chandramoha N. Mishra",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "4 Years",
+          "aebas": "82255690",
+          "regNo": "MP-27020",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/021.webp",
+          "name": "Dr. Utkarsh Tiwari",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "4 Years",
+          "aebas": "55405523",
+          "regNo": "MP-23648",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/022.webp",
+          "name": "Dr. Anubhav Gupta",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "4 Years",
+          "aebas": "15477528",
+          "regNo": "MP-28306",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/023.webp",
+          "name": "Dr. Prakriti Shrivastava",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "29073286",
+          "regNo": "MP-23613",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/024.webp",
+          "name": "Dr. Ihit Batra",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "93291355",
+          "regNo": "MP-19936",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/025.webp",
+          "name": "Dr. Vikas Dhakad",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "39147982",
+          "regNo": "MP-43617",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/community-medicine/026.webp",
+          "name": "Dr. Sachin Patidar",
+          "designation": "Tutor",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "40895044",
+          "regNo": "MP-47815",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "statistician",
+      "title": "Statisticians",
+      "items": [
+        {
+          "photo": "/assets/faculty/community-medicine/027.webp",
+          "name": "Dr. Pravendra Singh Chahar",
+          "designation": "Statistician",
+          "qualification": "MSC PHD",
+          "experience": "18 Years",
+          "aebas": "54122224",
+          "regNo": "Nil",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Community Medicine faculty list",
+      "href": "/assets/docs/msr/faculty-lists/community-medicine.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

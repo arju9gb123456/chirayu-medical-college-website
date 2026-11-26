@@ -1,0 +1,523 @@
+{
+  "title": "Department of Paediatrics",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/paediatrics/001.webp",
+          "name": "Dr. Jaishree Ambhore",
+          "designation": "Professor",
+          "qualification": "on MBBS MD",
+          "experience": "14 Years",
+          "aebas": "99592329",
+          "regNo": "MP-13440",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/002.webp",
+          "name": "Dr. Rakesh Mishra",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "22 Years",
+          "aebas": "29015459",
+          "regNo": "MP-3289",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/003.webp",
+          "name": "Dr. Minhajuddin Ahmed",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "16 Years",
+          "aebas": "63744882",
+          "regNo": "MP-14956 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/004.webp",
+          "name": "Dr. Nidhi Gupta",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "12 Years",
+          "aebas": "37282499",
+          "regNo": "MP-10356",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/005.webp",
+          "name": "Dr. Priyanka Choudhary",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "11 Years",
+          "aebas": "69451044",
+          "regNo": "MP-12772",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/006.webp",
+          "name": "Dr. Iqbal Mohammed Ansari",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "10 Years",
+          "aebas": "86123586",
+          "regNo": "MP-41034",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/paediatrics/007.webp",
+          "name": "Dr. Shweta Gautam",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MD",
+          "experience": "13 Years",
+          "aebas": "68082263",
+          "regNo": "MP-11082",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/008.webp",
+          "name": "Dr. Priya Sharma",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MD",
+          "experience": "10 Years",
+          "aebas": "07370898",
+          "regNo": "UP-63239",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/paediatrics/009.webp",
+          "name": "Dr. Asad Khan",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "7 Years",
+          "aebas": "00960870",
+          "regNo": "MP-15126",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/010.webp",
+          "name": "Dr. Nasif Ahmend Hashmi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "7 Years",
+          "aebas": "89456142",
+          "regNo": "MP-20869",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/011.webp",
+          "name": "Dr. Mrinal Sinha",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "9 Years",
+          "aebas": "22253955",
+          "regNo": "MP-18795",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/012.webp",
+          "name": "Dr. Vikrant Singh Raghuvanshi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "10 Years",
+          "aebas": "83993389",
+          "regNo": "DMC-73409",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/013.webp",
+          "name": "Dr. Trupti Rathi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "42125602",
+          "regNo": "2023/07/2490 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/014.webp",
+          "name": "Dr. Pramod Kumar Chaturvedi",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "7 Years",
+          "aebas": "69739341",
+          "regNo": "MP-3485",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/015.webp",
+          "name": "Dr. Naresh Grower",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DCH",
+          "experience": "15 Years",
+          "aebas": "58687290",
+          "regNo": "MP-1463",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/016.webp",
+          "name": "Dr. Shailendra Pawar",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS DCH DNB",
+          "experience": "9 Years",
+          "aebas": "91461068",
+          "regNo": "MP-13828",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/017.webp",
+          "name": "Dr. Disha Pandya",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "4 Years",
+          "aebas": "10377053",
+          "regNo": "MP-23249",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/paediatrics/018.webp",
+          "name": "Dr. Gourav Gupta",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "5 Years",
+          "aebas": "27232910",
+          "regNo": "MP-21149 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/019.webp",
+          "name": "Dr. Sumit Bhagchand Ajmera",
+          "designation": "Senior Resident",
+          "qualification": "MBBS D.C.H.",
+          "experience": "5 Years",
+          "aebas": "10526894",
+          "regNo": "MCI/11-39215 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/020.webp",
+          "name": "Dr. Yalavarthi Mani Kiran Reddy",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "84156488",
+          "regNo": "APMC/FMR/979 94",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/021.webp",
+          "name": "Dr. Vinay Gahlot",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD",
+          "experience": "3 Years",
+          "aebas": "76634190",
+          "regNo": "DMC/R/20890",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/022.webp",
+          "name": "Dr. Arsheena Athar",
+          "designation": "Senior Resident",
+          "qualification": "MBBS DIPLOM A DNB",
+          "experience": "3 Years",
+          "aebas": "17418630",
+          "regNo": "87817",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "junior-resident",
+      "title": "Junior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/paediatrics/023.webp",
+          "name": "Dr. Nirmala Choudhary",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "3 Years",
+          "aebas": "94287438",
+          "regNo": "MP-29144",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/024.webp",
+          "name": "Dr. Surabhi Tomar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "3 Years",
+          "aebas": "13543612",
+          "regNo": "MP-29483",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/025.webp",
+          "name": "Dr. Riya Singh",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "3 Years",
+          "aebas": "31945051",
+          "regNo": "MP-31815",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/026.webp",
+          "name": "Dr. Nishant Mitharwal",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "3 Years",
+          "aebas": "49276485",
+          "regNo": "DMC-102831",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/027.webp",
+          "name": "Dr. Anuj Arya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "13993970",
+          "regNo": "HN-23699 Haryana Medical Coucil",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/028.webp",
+          "name": "Dr. Pragati Pandey",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "36674857",
+          "regNo": "2023/09/6108 Maharashtra Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/029.webp",
+          "name": "Dr. Skina Saify",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "23459360",
+          "regNo": "MP-40773",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/030.webp",
+          "name": "Dr. Devan Sharma",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "87907465",
+          "regNo": "9360/2023 MPMC",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/031.webp",
+          "name": "Dr. Rupesh Dwivedi",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "32105432",
+          "regNo": "MP-36746",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/032.webp",
+          "name": "Dr. Harsh Gupta",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "12645813",
+          "regNo": "MP-36954",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/033.webp",
+          "name": "Dr. Sanupriya Patidar",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "30668301",
+          "regNo": "MP-31415",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/034.webp",
+          "name": "Dr. Deependra Rithauiya",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "64545030",
+          "regNo": "MP-36091",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/035.webp",
+          "name": "Dr. Naman Mishra",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "38103047",
+          "regNo": "MP-36906",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/036.webp",
+          "name": "Dr. Atul Nayak",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "32989473",
+          "regNo": "MP-35955",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/037.webp",
+          "name": "Dr. Sakshi Singh",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "31366536",
+          "regNo": "MP-34608",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/038.webp",
+          "name": "Dr. Anshul Sharma",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "51351086",
+          "regNo": "MP-35973",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/039.webp",
+          "name": "Dr. Raja Ram",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "83384564",
+          "regNo": "MP-36145",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/040.webp",
+          "name": "Dr. Vivek Patel",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "11782363",
+          "regNo": "MP-41054",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/041.webp",
+          "name": "Dr. Parinay Anilkumar Gupta",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "36480147",
+          "regNo": "2015/08/4608",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/042.webp",
+          "name": "Dr. Vaishnavi Kurhade",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "86018334",
+          "regNo": "9683/2023",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/043.webp",
+          "name": "Dr. Omshankar Kori",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "16663442",
+          "regNo": "MP-39125",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/044.webp",
+          "name": "Dr. Mohammad Munaaf Usmani",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "61434757",
+          "regNo": "MP-38963",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/045.webp",
+          "name": "Dr. Akanksha Rathore",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "72379238",
+          "regNo": "121451 Delhi Medical Council",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/046.webp",
+          "name": "Dr. Shashank Singh",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "39354161",
+          "regNo": "MP-45202",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/paediatrics/047.webp",
+          "name": "Dr. Navneet Raj",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "23497275",
+          "regNo": "JMC-8307 Jharkhand Medical Council",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Paediatrics faculty list",
+      "href": "/assets/docs/msr/faculty-lists/paediatrics.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

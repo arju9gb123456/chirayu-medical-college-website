@@ -1,0 +1,173 @@
+{
+  "title": "Department of Emergency Medicine",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/emergency-medicine/001.webp",
+          "name": "Dr. Veerendra Singh Raghuwanshi",
+          "designation": "Professor",
+          "qualification": "MBBS MD",
+          "experience": "19 Years",
+          "aebas": "08770198",
+          "regNo": "MP-8096",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "associate-professor",
+      "title": "Associate Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/emergency-medicine/002.webp",
+          "name": "Dr. Amit Karna",
+          "designation": "Associate Professor",
+          "qualification": "MBBS MD",
+          "experience": "9 Years",
+          "aebas": "25972197",
+          "regNo": "MP-26061",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/emergency-medicine/003.webp",
+          "name": "Dr. Devendra Kumar Chandwari",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "10 Years",
+          "aebas": "56410943",
+          "regNo": "MP-4360",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/emergency-medicine/004.webp",
+          "name": "Dr. Shailesh Sahu",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD",
+          "experience": "6 Years",
+          "aebas": "84582962",
+          "regNo": "MP-9909",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "senior-resident",
+      "title": "Senior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/emergency-medicine/005.webp",
+          "name": "Dr. Akhil Chouhan",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MS",
+          "experience": "7 Years",
+          "aebas": "83027283",
+          "regNo": "MP-41366",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/emergency-medicine/006.webp",
+          "name": "Dr. Sanket Vasudeo Agrawal",
+          "designation": "Senior Resident",
+          "qualification": "MBBS MD DIP",
+          "experience": "5 Years",
+          "aebas": "69335854",
+          "regNo": "2017/05/2174",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/emergency-medicine/007.webp",
+          "name": "Dr. Shubhangi Jain",
+          "designation": "Senior Resident",
+          "qualification": "MBBS DNB DIP",
+          "experience": "4 Years",
+          "aebas": "50186406",
+          "regNo": "MP-15834",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "junior-resident",
+      "title": "Junior Residents",
+      "items": [
+        {
+          "photo": "/assets/faculty/emergency-medicine/008.webp",
+          "name": "Dr. Priya Gupta",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "3 Years",
+          "aebas": "78194505",
+          "regNo": "MMC- 2022/06/3582",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/emergency-medicine/009.webp",
+          "name": "Dr. Shubham Sahu",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Year",
+          "aebas": "18083021",
+          "regNo": "MP-28235",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/emergency-medicine/010.webp",
+          "name": "Dr. Sanjay Kumar Jat",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "08180186",
+          "regNo": "MP-30506",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/emergency-medicine/011.webp",
+          "name": "Dr. Annu Raghuwanshi",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "13412684",
+          "regNo": "MP-36075",
+          "employment": "Permanent"
+        },
+        {
+          "photo": "/assets/faculty/emergency-medicine/012.webp",
+          "name": "Dr. Pradhumn Soni",
+          "designation": "Junior Resident",
+          "qualification": "MBBS",
+          "experience": "1 Month",
+          "aebas": "45463892",
+          "regNo": "MP-31348",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Emergency Medicine faculty list",
+      "href": "/assets/docs/msr/faculty-lists/emergency-medicine.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

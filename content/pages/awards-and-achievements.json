@@ -1,0 +1,248 @@
+{
+  "title": "Awards & Achievements",
+  "kicker": "Information under MSR",
+  "intro": "Awards and achievements received by the students and faculty of Chirayu Medical College & Hospital.",
+  "updated": "07-05-2022",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "text",
+      "id": "highlights",
+      "title": "Highlights",
+      "body": "- **Dr. Ashutosh Mangalgiri**, Medical Superintendent — international award in the healthcare sphere, \"Best Hospital\". [View certificate](https://www.cmchbhopal.com/images/achievement-images/convert-certificate.jpg)\n- **Dr. Rashmi Jaiswal**, Associate Professor, Department of Anatomy — recognised as an editor in \"Advance Research\". [View](https://www.cmchbhopal.com/images/achievement-images/drrashmi-achievement.png)\n- **Dr. Bipin Khade**, Associate Professor, Anatomy — achievement recognised by CMCH. [View](https://www.cmchbhopal.com/images/achievement-images/drbipin_achmnt.jpg)"
+    },
+    {
+      "type": "table",
+      "id": "faculty-awards",
+      "title": "Faculty — Awards",
+      "columns": [
+        "Name",
+        "Department",
+        "Prize",
+        "Event"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Dr Zeeshanuddin Ahmad",
+            "General Surgery",
+            "1st Prize In Oral Presentation",
+            "Mid Term Annual Conference Of Indian Association Of Surgical Oncology 2022"
+          ]
+        },
+        {
+          "cells": [
+            "Dr Sonal Jain",
+            "General Surgery",
+            "3rd Prize In Poster Presentation",
+            "AICOGG 2022"
+          ]
+        },
+        {
+          "cells": [
+            "Dr Richa Sharma (2nd Year PG)",
+            "General Surgery",
+            "1st Prize",
+            "AICOGG 2022"
+          ]
+        },
+        {
+          "cells": [
+            "Dr Nikita Tiwari",
+            "General Surgery",
+            "2nd Prize",
+            "AICOGG 2022"
+          ]
+        },
+        {
+          "cells": [
+            "Dr Madhurima Singh",
+            "Pathology",
+            "2nd Prize Oral Presentation",
+            "Dr J.N Mongra Oration & Cme 27th March 2022"
+          ]
+        },
+        {
+          "cells": [
+            "Dr Farah Jalaly",
+            "Pathology",
+            "1st Prize In Poster Prentation",
+            "12th Iapm, Mp Chapter 2019"
+          ]
+        },
+        {
+          "cells": [
+            "Dr Madhurima Singh",
+            "Pathology",
+            "2nd Prize Poster Presentation",
+            "13th Iapm, Mp Chapter 2019"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "students",
+      "title": "Students",
+      "body": "**Chirayu Medical College and Hospital Top Ten List** — [View PDF](https://www.cmchbhopal.com/pdf/Top-10.pdf)\n- Dr. Devyani Patel — NEET Rank 79 → M.D. (Radiology)\n- Dr. Kapil Patel — NEET → M.S. (Ortho), M.A.M.C. (Delhi)\n\n**Chirayu Medical College and Hospital Academic Award 2021** — [View PDF](https://www.cmchbhopal.com/pdf/Academic-Award-Batch-List-26-Dec-2021.pdf)\n- Ishita Kanna topped the all MP students quiz.\n- Monica Sonyre topped the all MP students quiz.\n- 33 distinctions in Anatomy.\n- Students topped the state psychology quiz.\n- First 8 positions in MPMS University, Jabalpur in the university exam."
+    },
+    {
+      "type": "table",
+      "id": "fellowships",
+      "title": "Faculty — Conferences, Fellowships & Awards",
+      "columns": [
+        "Name",
+        "Department",
+        "Designation",
+        "Fellowship / Conference / Award"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Dr D K Mendiratta",
+            "Department of Microbiology",
+            "Professor & Head",
+            "[Details](https://www.cmchbhopal.com/pdf/Mendiratta_Awards.pdf)"
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Punit Tiwari",
+            "Department of Urology & Nephrology",
+            "Assistant Professor",
+            "selected by Indian society of Organ Transplant for Astella International Travelling Fellowship for learning advancement in Cadaveric organ transplant and dialysis vascular access techniques at St Louis, MO, USA from 20th Sept to 25th Oct 2014."
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Krishnanand",
+            "Department of Surgery",
+            "Associate Professor",
+            "was conferred FIAGES fellowship in Minimal Access Surgery on Feb 14th 2014 at Chennai.\nattended 11th Biennial National Conference of Indian Association of Gastrointerstinal Endo Surgeons on 13-16th Feb 2014 at Chennai."
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Shweta Anand",
+            "Department of Paediatrics",
+            "Associate Professor",
+            "NRP (Neonatal resuscitation programme) instructor.\nPALS (Pediatric advance life support) instructor."
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Shyam Govind Rathoriya",
+            "Department of Dermatology",
+            "Assistant Professor",
+            "Won 3rd prize in Young Turk Scientific Meet, organized by M.P. Dermatology Society (IADVL M.P. Branch) in 2013"
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Krishnanand",
+            "Department of Surgery",
+            "Associate Professor",
+            "Admitted as fellow of The Association of Minimal Access Surgeons of India-FMAS on 24th Aug 2013"
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Pradip Bhattacharya",
+            "Department of Anesthesiology",
+            "Assistant Professor",
+            "Fellowship of Indian College of Critical Care Medicine — To be held on 1st March, 2013 during Criticare 2013, Kolkata — Elected to receive the award “Fellow of Indian College of Critical Care Medicine” during the second convocation ceremony."
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Krishnanand",
+            "Department of Surgery",
+            "Associate Professor",
+            "Has participated in 26th AMASI SKILL COURSE — 18th to 20th January 2013, New Delhi"
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Krishnanand",
+            "Department of Surgery",
+            "Associate Professor",
+            "Has attended 5th National Conference and Live Operative Workshop of India Hernia Society (IHSCON-2012) — 22nd and 23rd September 2012, Gwalior — Chaired the Operative Session."
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Abhishek Sharma",
+            "",
+            "Assistant Professor",
+            ""
+          ]
+        },
+        {
+          "cells": [
+            "Dr. (Mrs) Archana Tripathi",
+            "Department of Obstetrics & Gynaecoalogy",
+            "Assistant Professor",
+            "56th All India Congress of Obstetrics Gynecology (AICOG) — 16th to 20th January 2013, Mumbai — Participated as Faculty.\nIndian College of Obstetricians & Gynaecologists — 19th January 2013, Mumbai — Elected as Member."
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Virendra Mohan",
+            "Department of Community Medicine",
+            "Professor",
+            "Fellowship -Indian Association of Preventive and Social Medicine (FIAPSM)- 2001"
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Urmil Mohan",
+            "Department of Microbiology",
+            "Professor",
+            "[Details](https://www.cmchbhopal.com/pdf/drurmilamohan.pdf)\nCommon wealth Medical Fellowship- 1987"
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Sushila Gaur",
+            "Department of Physiology",
+            "Professor",
+            "[Details](https://www.cmchbhopal.com/pdf/drsushilagour.pdf)"
+          ]
+        },
+        {
+          "cells": [
+            "Dr. A.S. Mangalgiri",
+            "Department of Anatomy",
+            "Professor",
+            "[Details](https://www.cmchbhopal.com/pdf/drmangalgiri.pdf)"
+          ]
+        },
+        {
+          "cells": [
+            "Dr. V.H. Bhavsar",
+            "Department of Pharmacology",
+            "Professor",
+            "Indian Academy of Neurology — 2010,13(3),180-183 — Effect of antihypertensive therapy on cognitive functions of patients with hypertension Annals."
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Sweta Anand",
+            "Department of Paediatrics",
+            "Assistant Professor",
+            "[Details](https://www.cmchbhopal.com/pdf/drshwetagoyal.pdf)"
+          ]
+        },
+        {
+          "cells": [
+            "Dr. Sonali B. Rode",
+            "Department of Pharmacology",
+            "Assistant Professor",
+            "Indian Council of Medical Research (ICMR) — May-2008 — Recieved research funding for the research project “Effect of propofol on seizure activity and its interactions with antiepileptic drugs in rats”"
+          ]
+        }
+      ]
+    }
+  ]
+}

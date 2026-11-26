@@ -1,0 +1,52 @@
+{
+  "title": "Department of Cardiology",
+  "kicker": "Faculty Directory",
+  "intro": "Meet our faculty members dedicated to excellence in education, patient care and research at Chirayu Medical College & Hospital, Bhopal.",
+  "updated": "12-06-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "faculty",
+      "id": "professor",
+      "title": "Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/cardiology/001.webp",
+          "name": "Dr. Vikas Goyal",
+          "designation": "Professor",
+          "qualification": "MBBS MD DM",
+          "experience": "23 Years",
+          "aebas": "28749726",
+          "regNo": "MP-3961 MPMC",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "faculty",
+      "id": "assistant-professor",
+      "title": "Assistant Professors",
+      "items": [
+        {
+          "photo": "/assets/faculty/cardiology/002.webp",
+          "name": "Dr. Nitesh Arora",
+          "designation": "Assistant Professor",
+          "qualification": "MBBS MD DM",
+          "experience": "7 Years",
+          "aebas": "81398064",
+          "regNo": "MP-20269",
+          "employment": "Permanent"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "id": "pdf",
+      "title": "Faculty list (PDF)",
+      "label": "Download the Cardiology faculty list",
+      "href": "/assets/docs/msr/faculty-lists/cardiology.pdf",
+      "note": "AEBAS ID, registration number, qualification and experience as submitted to NMC"
+    }
+  ]
+}

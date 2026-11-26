@@ -1,0 +1,197 @@
+{
+  "title": "Information under MSR Clause B.1.11",
+  "kicker": "NMC Info",
+  "intro": "Mandatory disclosures of Chirayu Medical College & Hospital under the Minimum Standard Requirements (MSR), Clause B.1.11 of the National Medical Commission.",
+  "updated": "05-03-2024",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "table",
+      "id": "msr",
+      "title": "Information under MSR Clause B.1.11",
+      "columns": [
+        "Sr. No.",
+        "Details of Information",
+        "View",
+        "Last Updated on"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1",
+            "Details of Dean, Principal and Medical Supdt. including their name, qualification, complete address with telephone and STD code, fax and e-mail etc.",
+            "[View](/management-team/)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "2",
+            "Teaching Staff List, Resident Doctor, Non-teaching staff, Technical staff, Nursing staff — (a) department and designation wise with joining date (b) unit wise faculty & resident list",
+            "[View](/staff-information/)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "3",
+            "Details of affiliated university and its Vice-Chancellor and Registrars",
+            "[View](/university/)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "4",
+            "Citizen Charter",
+            "[View](https://www.cmchbhopal.com/pdf/nursing-list-2022.pdf)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "5",
+            "Details of fees for various courses and other costs",
+            "[View](/assets/docs/msr/fees-and-costs.pdf)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "6",
+            "List of students admitted merit-wise (UG & PG) for the current and previous year",
+            "[View](/students-admitted/)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "7",
+            "Result of all the examinations of last one year",
+            "[View](https://www.cmchbhopal.com/examination-result/)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "8",
+            "Details of members of the Anti-Ragging Committee with contact details including landline phone, mobile, e-mail etc.",
+            "[View](/assets/docs/msr/anti-ragging-committee.pdf)",
+            "26-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "9",
+            "Details of members of the Gender Harassment Committee with contact details including phone, mobile, e-mail etc.",
+            "[View](/assets/docs/msr/gender-harassment-committee.pdf)",
+            "26-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "10",
+            "Toll free number to report ragging",
+            "[View](/antiragging/)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "11",
+            "Details of the sanctioned intake capacity of various courses UG as well as PG by the MCI (with the scan copies of permission letter)",
+            "[View](https://www.cmchbhopal.com/goverment-permission/index2.php)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "12",
+            "Any research publication during the last one year",
+            "[View](/assets/docs/msr/research-publications.pdf)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "13",
+            "Details of any CME programmes, conferences and/or any academic activities conducted by the institution",
+            "[View](/assets/docs/msr/cme-workshops-conferences.pdf)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "14",
+            "Details of any awards and achievements received by the students or faculty",
+            "[View](/awards-and-achievements/)",
+            "25-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "15",
+            "Detailed status of recognition of all courses (with the scan copies of permission letter)",
+            "[View](https://www.cmchbhopal.com/goverment-permission/index2.php)",
+            "29-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "16",
+            "Details of clinical material in the hospital",
+            "[View](https://www.cmchbhopal.com/pdf/CLINICAL_MATERIAL_JUNE_2024.pdf)",
+            "29-03-2022"
+          ]
+        },
+        {
+          "cells": [
+            "17",
+            "Unit / department wise beds distribution",
+            "[View](/assets/docs/msr/bed-distribution.pdf)",
+            "29-03-2022"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "quick",
+      "title": "Quick access",
+      "unit": "sections",
+      "items": [
+        {
+          "title": "Department wise Faculty",
+          "note": "31 departments · 781 faculty members",
+          "href": "/departments/"
+        },
+        {
+          "title": "Dean, Principal & Medical Supdt.",
+          "note": "Institutional information",
+          "href": "/management-team/"
+        },
+        {
+          "title": "Affiliating University",
+          "note": "Vice-Chancellor & Registrar",
+          "href": "/university/"
+        },
+        {
+          "title": "Students Admitted (UG & PG)",
+          "note": "Merit-wise lists, year-wise",
+          "href": "/students-admitted/"
+        },
+        {
+          "title": "Committees",
+          "note": "Anti-Ragging, IEC, Scientific…",
+          "href": "/committees/"
+        },
+        {
+          "title": "Awards & Achievements",
+          "note": "Students and faculty",
+          "href": "/awards-and-achievements/"
+        }
+      ]
+    }
+  ]
+}
