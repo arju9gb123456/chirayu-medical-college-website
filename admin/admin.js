@@ -190,6 +190,7 @@
     gallery: { label: 'Photo gallery', icon: 'image', sub: 'items', subLabel: 'photo', hint: 'Certificates or photos; click opens a full-size viewer.' },
     text: { label: 'Text', icon: 'news', hint: 'Paragraphs. Formatting: **bold**, [link text](https://…), lines starting with "- " become bullets.' },
     button: { label: 'Button', icon: 'ext', hint: 'One big button to a page, PDF or form.' },
+    contact: { label: 'Contact (campuses, map, form)', icon: 'pin', sub: 'campuses', subLabel: 'campus', hint: 'Campus cards with phone / email, a live Google map and the enquiry form. Messages from the form are saved in Supabase → contact_messages.' },
     disclosures: { label: 'Disclosures list', icon: 'file', sub: 'items', subLabel: 'item', hint: 'NMC / MSR style list: numbered items grouped by category, with filter chips and search. Shows type (PDF / page) and last-updated date.' },
     facts: { label: 'Information tiles', icon: 'hash', sub: 'items', subLabel: 'tile', hint: 'Numbered label + value tiles (e.g. MARB proforma). Long values take the full width.' },
     courses: { label: 'Courses', icon: 'cap', sub: 'items', subLabel: 'course', hint: 'One card per course with year and student numbers.' },
@@ -203,6 +204,7 @@
     files: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
     gallery: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
     text: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'body', l: 'Text', t: 'textarea', wide: 1, rows: 8 }],
+    contact: [{ k: 'mapQuery', l: 'Map location (as you would search it on Google Maps)', t: 'text', wide: 1 }],
     disclosures: [{ k: 'title', l: 'Heading (used in the page list)', t: 'text', wide: 1 }],
     facts: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
     courses: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
@@ -215,6 +217,9 @@
   var SUB_FIELDS = {
     files: [{ k: 'title', l: 'Document name', t: 'text', req: 1, wide: 1 }, { k: 'href', l: 'PDF or link', t: 'link', req: 1, wide: 1 }, { k: 'date', l: 'Date / note (optional)', t: 'text' }],
     gallery: [{ k: 'img', l: 'Photo', t: 'image', req: 1, wide: 1 }, { k: 'caption', l: 'Caption', t: 'text', wide: 1 }],
+    contact: [{ k: 'kicker', l: 'Small label', t: 'text', hint: 'e.g. Nursing' }, { k: 'name', l: 'Campus name', t: 'text', req: 1 }, { k: 'address', l: 'Address', t: 'textarea', rows: 2, wide: 1 },
+      { k: 'phones', l: 'Phone numbers (one per line; "Dean: +91…" adds a label)', t: 'textarea', rows: 4 }, { k: 'emails', l: 'Emails (one per line)', t: 'textarea', rows: 3 },
+      { k: 'icon', l: 'Icon', t: 'select', opts: [['hosp', 'Hospital'], ['heart', 'Heart'], ['college', 'College'], ['cap', 'Graduation cap']] }],
     disclosures: [{ k: 'no', l: 'No.', t: 'text', hint: 'e.g. 01 or a' }, { k: 'category', l: 'Category', t: 'text', hint: 'Items with the same category are grouped together' },
       { k: 'title', l: 'Details of information', t: 'textarea', rows: 2, req: 1, wide: 1 }, { k: 'href', l: 'Page or PDF', t: 'link', req: 1, wide: 1 }, { k: 'updated', l: 'Last updated on', t: 'text', hint: 'e.g. 25-03-2022' }],
     facts: [{ k: 'no', l: 'No.', t: 'text' }, { k: 'label', l: 'Information', t: 'text', req: 1, wide: 1 }, { k: 'value', l: 'Details (new line = separate value; [text](link) for links)', t: 'textarea', rows: 2, wide: 1 }],
@@ -237,6 +242,7 @@
   function newBlock(type) {
     var b = { type: type, id: type + '-' + Date.now().toString(36), title: '' };
     if (type === 'table') { b.columns = ['Particulars', 'Details']; b.rows = [{ cells: ['', ''] }]; }
+    if (type === 'contact') { b.campuses = []; b.quick = [{ type: 'phone', label: 'Hospital enquiry', value: '+91-755-2709100' }, { type: 'mail', label: 'Email', value: 'info@cmchbhopal.com' }, { type: 'map', label: 'Visit us', value: 'Get directions' }]; }
     if (type === 'files' || type === 'gallery' || type === 'disclosures' || type === 'stats' || type === 'facts' || type === 'courses' || type === 'faculty' || type === 'cards' || type === 'people') b.items = [];
     if (type === 'text') b.body = '';
     if (type === 'button') { b.label = ''; b.href = ''; }

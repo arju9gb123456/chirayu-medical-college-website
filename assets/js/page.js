@@ -290,6 +290,47 @@
             '<span class="pcourse__bar"><i style="width:' + Math.round(cur / max * 100) + '%"></i></span></article>';
         }).join('') + '</div><p class="pempty" hidden>No matching course.</p>';
     },
+    /* Contact: campus cards, quick actions, live map, enquiry form */
+    contact: function (b) {
+      var lines = function (v) { return Array.isArray(v) ? v : String(v || '').split('\n').map(function (x) { return x.trim(); }).filter(Boolean); };
+      var camps = (b.campuses || []).map(function (c) { return Object.assign({}, c, { phones: lines(c.phones), emails: lines(c.emails) }); }), tel = function (n) { return 'tel:' + String(n).replace(/[^\d+]/g, ''); };
+      var q = encodeURIComponent(b.mapQuery || 'Chirayu Medical College and Hospital, Bhopal');
+      return '<div class="ct">' +
+        '<div class="ct__quick">' + (b.quick || []).map(function (x) {
+          var href = x.type === 'mail' ? 'mailto:' + x.value : x.type === 'map' ? 'https://www.google.com/maps/dir/?api=1&destination=' + q : tel(x.value);
+          return '<a class="ct__q" href="' + esc(href) + '"' + (x.type === 'map' ? ' target="_blank" rel="noopener"' : '') + ' data-reveal data-cursor="' + (x.type === 'mail' ? 'Email' : x.type === 'map' ? 'Go' : 'Call') + '">' +
+            '<span class="ct__qic">' + icon(x.type === 'mail' ? 'mail' : x.type === 'map' ? 'pin' : 'phone') + '</span><span><small>' + esc(x.label) + '</small><b>' + esc(x.value) + '</b></span></a>';
+        }).join('') + '</div>' +
+        '<div class="ct__camps">' + camps.map(function (c, i) {
+          return '<article class="ct__camp" data-reveal style="--i:' + i + '"><span class="ct__glow" aria-hidden="true"></span>' +
+            '<header><span class="ct__cic">' + icon(c.icon || 'college') + '</span><div><span class="ct__kick">' + esc(c.kicker || 'Campus') + '</span><h3>' + esc(c.name) + '</h3></div></header>' +
+            '<p class="ct__addr">' + icon('pin') + '<span>' + esc(c.address) + '</span></p>' +
+            (c.phones && c.phones.length ? '<div class="ct__row"><span class="ct__lbl">' + icon('phone') + 'Phone</span><div class="ct__chips">' + c.phones.map(function (n) {
+              var m = String(n).match(/^(.*?):-?\s*(.+)$/), lab = m ? m[1].trim() : '', num = m ? m[2].trim() : n;
+              return '<a class="ct__chip" href="' + esc(tel(num)) + '">' + (lab ? '<i>' + esc(lab) + '</i>' : '') + esc(num) + '</a>';
+            }).join('') + '</div></div>' : '') +
+            (c.emails && c.emails.length ? '<div class="ct__row"><span class="ct__lbl">' + icon('mail') + 'Email</span><div class="ct__chips">' + c.emails.map(function (e) {
+              return '<a class="ct__chip ct__chip--mail" href="mailto:' + esc(e) + '">' + esc(e) + '</a>';
+            }).join('') + '</div></div>' : '') +
+            '</article>';
+        }).join('') + '</div>' +
+        '<div class="ct__split">' +
+          '<div class="ct__map" data-reveal><iframe title="Map — ' + esc(b.mapQuery || 'Chirayu') + '" src="https://maps.google.com/maps?q=' + q + '&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>' +
+            '<a class="ct__mapbtn" href="https://www.google.com/maps/dir/?api=1&destination=' + q + '" target="_blank" rel="noopener">' + icon('pin') + 'Get directions</a></div>' +
+          '<form class="ct__form" data-reveal novalidate><span class="kick">' + icon('ecg') + ' Leave a reply</span><h3>Send us a message</h3><p>We usually reply within one working day.</p>' +
+            '<div class="ct__grid">' +
+              field('name', 'Your name', 'text', 'name', true) + field('email', 'Email', 'email', 'email', true) +
+              field('phone', 'Phone (optional)', 'tel', 'tel', false) +
+              '<label class="ct__f"><select name="campus">' + ['General enquiry'].concat(camps.map(function (c) { return c.name; })).map(function (o) { return '<option>' + esc(o) + '</option>'; }).join('') + '</select><span>Campus</span></label>' +
+              '<label class="ct__f ct__f--wide"><textarea name="message" rows="5" placeholder=" " required minlength="5" maxlength="3000"></textarea><span>Message</span></label>' +
+            '</div>' +
+            '<input type="text" name="website" tabindex="-1" autocomplete="off" class="ct__hp" aria-hidden="true">' +
+            '<button class="btn ct__send" type="submit"><span>Send message</span>' + icon('arrow') + '</button><p class="ct__status" role="status" aria-live="polite"></p></form>' +
+        '</div></div>';
+      function field(n, l, t, ac, req) {
+        return '<label class="ct__f"><input name="' + n + '" type="' + t + '" autocomplete="' + ac + '" placeholder=" "' + (req ? ' required' : '') + (n === 'name' ? ' minlength="2" maxlength="120"' : n === 'phone' ? ' maxlength="20"' : ' maxlength="200"') + '><span>' + l + '</span></label>';
+      }
+    },
     /* Key figures: big numbers with a label */
     stats: function (b) {
       var items = b.items || [];
@@ -332,12 +373,12 @@
       return '<section class="pbody"><div class="wrap"><div class="pnotice" data-reveal>' +
         '<span class="pnotice__ic">' + icon('bell') + '</span><div><h2>Content is being updated</h2><p>This page will be filled from the admin panel soon.</p></div></div></div></section>';
     }
-    var wide = blocks[0].type === 'disclosures' || blocks.some(function (b) { return b.type === 'table' && (b.columns || []).length > 6; });
+    var wide = blocks[0].type === 'disclosures' || blocks[0].type === 'contact' || blocks.some(function (b) { return b.type === 'table' && (b.columns || []).length > 6; });
     var toc = blocks.length > 1 && !wide ? '<aside class="toc" aria-label="On this page"><div class="toc__in"><b>On this page</b>' +
       blocks.map(function (b, i) { return '<a href="#' + blockId(b, i) + '">' + esc(b.title || b.label || 'Section ' + (i + 1)) + '</a>'; }).join('') + '</div></aside>' : '';
     return '<section class="pbody' + (wide ? ' pbody--wide' : '') + '"><div class="wrap pbody__grid' + (toc ? '' : ' pbody__grid--single') + '">' + toc + '<div class="pbody__main">' +
       blocks.map(function (b, i) {
-        var showTitle = b.type !== 'button' && b.type !== 'disclosures' && b.title;
+        var showTitle = b.type !== 'button' && b.type !== 'disclosures' && b.type !== 'contact' && b.title;
         return '<section class="pblock pblock--' + b.type + '" id="' + blockId(b, i) + '" data-block="' + i + '">' +
           (showTitle && b.type === 'facts' ? '<header class="dsc__gh pfacts__gh" data-reveal><span class="dsc__gic">' + icon(b.icon || catIcon(b.title)) + '</span><h2 class="pblock__title2">' + esc(b.title) + '</h2><span class="dsc__gn">' + (b.items || []).length + ' items</span></header>' :
            showTitle ? '<div class="head"><div><div class="kick"><svg><use href="#i-ecg"/></svg> ' + esc(i + 1 < 10 ? '0' + (i + 1) : i + 1) + '</div><h2 class="head__title pblock__title" data-split>' + esc(b.title) + '</h2></div></div>' : '') +
@@ -467,6 +508,28 @@
         });
       }
       if (more) more.addEventListener('click', function () { sec.classList.add('is-expanded'); more.hidden = true; });
+    });
+
+    // contact form → Supabase contact_messages (insert-only), mailto as fallback
+    $$('.ct__form').forEach(function (f) {
+      var st = $('.ct__status', f), btn = $('.ct__send', f);
+      f.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (f.website.value) return; // bot
+        if (!f.checkValidity()) { f.classList.add('was-checked'); st.textContent = 'Please fill in your name, a valid email and a message.'; st.className = 'ct__status is-err'; return; }
+        var body = { name: f.name.value.trim(), email: f.email.value.trim(), phone: f.phone.value.trim() || null, campus: f.campus.value, message: f.message.value.trim() };
+        btn.disabled = true; f.classList.add('is-sending'); st.textContent = 'Sending…'; st.className = 'ct__status';
+        fetch(CFG.supabaseUrl.replace(/\/$/, '') + '/rest/v1/contact_messages', {
+          method: 'POST', headers: { apikey: CFG.supabaseAnonKey, 'Content-Type': 'application/json', Prefer: 'return=minimal' }, body: JSON.stringify(body)
+        }).then(function (r) {
+          if (!r.ok) throw new Error(r.status);
+          f.reset(); f.classList.remove('was-checked'); f.classList.add('is-sent');
+          st.textContent = 'Thank you! Your message has been sent.'; st.className = 'ct__status is-ok';
+        }).catch(function () {
+          st.innerHTML = 'Could not send right now. Please email us at <a href="mailto:info@cmchbhopal.com?subject=' + encodeURIComponent('Website enquiry — ' + body.name) + '&body=' + encodeURIComponent(body.message) + '">info@cmchbhopal.com</a>.';
+          st.className = 'ct__status is-err';
+        }).then(function () { btn.disabled = false; f.classList.remove('is-sending'); setTimeout(function () { f.classList.remove('is-sent'); }, 2500); });
+      });
     });
 
     // disclosures: category chips + search

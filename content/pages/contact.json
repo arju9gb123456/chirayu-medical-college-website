@@ -1,0 +1,64 @@
+{
+ "title": "Contact Us",
+ "kicker": "Get in touch",
+ "intro": "Chirayu Medical College & Hospital, Chirayu College of Nursing and Chirayu Paramedical College — Bhainsakhedi, near Bairagarh, on the Bhopal–Indore Highway. Call, email, visit or send us a message.",
+ "updated": "26-11-2026",
+ "updatedBy": "CMCH Admin",
+ "banner": "",
+ "blocks": [
+  {
+   "type": "contact",
+   "id": "contact",
+   "title": "Contact",
+   "mapQuery": "Chirayu Medical College and Hospital, Bhainsakhedi, Bhopal",
+   "quick": [
+    {
+     "type": "phone",
+     "label": "Hospital enquiry",
+     "value": "+91-755-2709100"
+    },
+    {
+     "type": "phone",
+     "label": "Dean office",
+     "value": "+91-755-2709258"
+    },
+    {
+     "type": "mail",
+     "label": "Email",
+     "value": "info@cmchbhopal.com"
+    },
+    {
+     "type": "map",
+     "label": "Visit us",
+     "value": "Get directions"
+    }
+   ],
+   "campuses": [
+    {
+     "kicker": "Medical College & Hospital",
+     "name": "Chirayu Medical College & Hospital",
+     "icon": "hosp",
+     "address": "Bhainsakhedi, Near Bairagarh (Bhopal-Indore Highway), Bhopal, M.P. – 462030",
+     "phones": "+91-755-2709100\n+91-755-2709101\n+91-755-2709102\n+91-755-2709103\nDean: +91-755-2709258\nMD: +91-755-2709132",
+     "emails": "info@cmchbhopal.com\ndean@cmchbhopal.com"
+    },
+    {
+     "kicker": "Nursing",
+     "name": "Chirayu College of Nursing",
+     "icon": "heart",
+     "address": "Bhainsakhedi, Near Bairagarh (Bhopal-Indore Highway), Bhopal, M.P. – 462030",
+     "phones": "+91 8889580002",
+     "emails": "ccon@cmchbhopal.com"
+    },
+    {
+     "kicker": "Paramedical",
+     "name": "Chirayu Paramedical College",
+     "icon": "college",
+     "address": "Bhainsakhedi, Near Bairagarh (Bhopal-Indore Highway), Bhopal, M.P. – 462030",
+     "phones": "+91 9644009610\n+91-755-6679000\n+91-755-6679101\n+91-755-6679102\n+91-755-6679103\n+91-755-6679132",
+     "emails": "paramedical@cmchbhopal.com"
+    }
+   ]
+  }
+ ]
+}
