@@ -191,6 +191,7 @@
     text: { label: 'Text', icon: 'news', hint: 'Paragraphs. Formatting: **bold**, [link text](https://…), lines starting with "- " become bullets.' },
     button: { label: 'Button', icon: 'ext', hint: 'One big button to a page, PDF or form.' },
     disclosures: { label: 'Disclosures list', icon: 'file', sub: 'items', subLabel: 'item', hint: 'NMC / MSR style list: numbered items grouped by category, with filter chips and search. Shows type (PDF / page) and last-updated date.' },
+    stats: { label: 'Key figures', icon: 'hash', sub: 'items', subLabel: 'figure', hint: 'Big numbers with a label (beds, seats, OPD…).' },
     faculty: { label: 'Faculty', icon: 'users', sub: 'items', subLabel: 'member', hint: 'Photo cards for one group (e.g. Professors). Visitors tap a card to see AEBAS ID, registration and employment.' },
     cards: { label: 'Link cards', icon: 'grid', sub: 'items', subLabel: 'card', hint: 'Grid of cards that open a page or PDF (e.g. the list of departments).' },
     people: { label: 'People', icon: 'users', sub: 'items', subLabel: 'person', hint: 'Profile cards with photo, role and contact details (Dean, Vice-Chancellor, Registrar…).' }
@@ -201,6 +202,7 @@
     gallery: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
     text: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'body', l: 'Text', t: 'textarea', wide: 1, rows: 8 }],
     disclosures: [{ k: 'title', l: 'Heading (used in the page list)', t: 'text', wide: 1 }],
+    stats: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'note', l: 'Note under the figures', t: 'text', wide: 1 }],
     faculty: [{ k: 'title', l: 'Group heading', t: 'text', wide: 1, hint: 'e.g. Professors, Assistant Professors, Senior Residents' }],
     cards: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }, { k: 'unit', l: 'Counter word', t: 'text', hint: 'Shown as "31 departments"' }],
     people: [{ k: 'title', l: 'Heading', t: 'text', wide: 1 }],
@@ -211,6 +213,7 @@
     gallery: [{ k: 'img', l: 'Photo', t: 'image', req: 1, wide: 1 }, { k: 'caption', l: 'Caption', t: 'text', wide: 1 }],
     disclosures: [{ k: 'no', l: 'No.', t: 'text', hint: 'e.g. 01 or a' }, { k: 'category', l: 'Category', t: 'text', hint: 'Items with the same category are grouped together' },
       { k: 'title', l: 'Details of information', t: 'textarea', rows: 2, req: 1, wide: 1 }, { k: 'href', l: 'Page or PDF', t: 'link', req: 1, wide: 1 }, { k: 'updated', l: 'Last updated on', t: 'text', hint: 'e.g. 25-03-2022' }],
+    stats: [{ k: 'value', l: 'Number', t: 'text', req: 1 }, { k: 'label', l: 'Label', t: 'text', req: 1 }, { k: 'note', l: 'Small note', t: 'text', wide: 1 }],
     faculty: [{ k: 'photo', l: 'Photo', t: 'image', wide: 1 }, { k: 'name', l: 'Name', t: 'text', req: 1 }, { k: 'designation', l: 'Designation', t: 'text' },
       { k: 'qualification', l: 'Qualification', t: 'text' }, { k: 'experience', l: 'Experience', t: 'text', hint: 'e.g. 12 Years' },
       { k: 'aebas', l: 'AEBAS ID', t: 'text' }, { k: 'regNo', l: 'Med. Reg. No.', t: 'text' }, { k: 'employment', l: 'Employment', t: 'text', hint: 'e.g. Permanent' }],
@@ -228,7 +231,7 @@
   function newBlock(type) {
     var b = { type: type, id: type + '-' + Date.now().toString(36), title: '' };
     if (type === 'table') { b.columns = ['Particulars', 'Details']; b.rows = [{ cells: ['', ''] }]; }
-    if (type === 'files' || type === 'gallery' || type === 'disclosures' || type === 'faculty' || type === 'cards' || type === 'people') b.items = [];
+    if (type === 'files' || type === 'gallery' || type === 'disclosures' || type === 'stats' || type === 'faculty' || type === 'cards' || type === 'people') b.items = [];
     if (type === 'text') b.body = '';
     if (type === 'button') { b.label = ''; b.href = ''; }
     return b;
@@ -298,7 +301,7 @@
         if (!Array.isArray(b.rows)) b.rows = [];
         b.rows.forEach(function (r) { if (!Array.isArray(r.cells)) r.cells = []; });
       }
-      if (['files', 'gallery', 'disclosures', 'faculty', 'cards', 'people'].indexOf(b.type) > -1 && !Array.isArray(b.items)) b.items = [];
+      if (['files', 'gallery', 'disclosures', 'stats', 'faculty', 'cards', 'people'].indexOf(b.type) > -1 && !Array.isArray(b.items)) b.items = [];
     });
     return c;
   }

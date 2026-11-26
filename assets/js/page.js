@@ -250,6 +250,14 @@
         }).join('') +
         '<p class="pempty" hidden>No matching disclosures.</p></div>';
     },
+    /* Key figures: big numbers with a label */
+    stats: function (b) {
+      var items = b.items || [];
+      var n = items.length, cols = n <= 4 ? n : (n % 3 === 0 ? 3 : 4);
+      return '<div class="pstats" style="--cols:' + cols + '">' + items.map(function (it) {
+        return '<div class="pstat" data-reveal><b>' + esc(it.value) + '</b><span>' + esc(it.label) + '</span>' + (it.note ? '<small>' + esc(it.note) + '</small>' : '') + '</div>';
+      }).join('') + '</div>' + (b.note ? '<p class="pstats__note">' + esc(b.note) + '</p>' : '');
+    },
     /* Link cards: departments, sections of a page… */
     cards: function (b) {
       var items = b.items || [];

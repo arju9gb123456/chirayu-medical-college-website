@@ -5,5 +5,40 @@
   "updated": "04-02-2021",
   "updatedBy": "CMCH Admin",
   "banner": "",
-  "blocks": []
+  "blocks": [
+    {
+      "type": "stats",
+      "id": "nabh-figures",
+      "title": "Accreditation",
+      "note": "",
+      "items": [
+        {
+          "value": "NABH",
+          "label": "Accredited hospital",
+          "note": "National Accreditation Board for Hospitals & Healthcare Providers"
+        },
+        {
+          "value": "1300",
+          "label": "Bed hospital",
+          "note": "Chirayu Medical College & Hospital"
+        },
+        {
+          "value": "1992",
+          "label": "Serving since",
+          "note": "From a 20-bed hospital"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "certificates",
+      "title": "Certificates",
+      "items": [
+        {
+          "img": "https://cmchbhopal.com/images/nabh.jpg",
+          "caption": "NABH Accreditation Certificate"
+        }
+      ]
+    }
+  ]
 }

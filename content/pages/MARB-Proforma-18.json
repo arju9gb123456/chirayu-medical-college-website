@@ -1,0 +1,520 @@
+{
+  "title": "MARB Proforma-18 — College Information",
+  "kicker": "NMC Info",
+  "intro": "Annexure-III: Pro-forma for display of information on the college website, as required by the Medical Assessment and Rating Board (MARB), NMC.",
+  "updated": "05-10-2026",
+  "updatedBy": "CMCH Admin",
+  "banner": "",
+  "blocks": [
+    {
+      "type": "stats",
+      "id": "figures",
+      "title": "At a glance",
+      "note": "* Data as per records updated on 05.10.2026. Patient figures are for October 2026.",
+      "items": [
+        {
+          "value": "1141",
+          "label": "Hospital beds",
+          "note": "30 emergency beds"
+        },
+        {
+          "value": "250",
+          "label": "MBBS seats",
+          "note": "Recognized 150 · Permitted 250"
+        },
+        {
+          "value": "161",
+          "label": "MD / MS students",
+          "note": "Admitted this session"
+        },
+        {
+          "value": "75,425",
+          "label": "Outpatients",
+          "note": "October 2026"
+        },
+        {
+          "value": "7,687",
+          "label": "Inpatients",
+          "note": "October 2026"
+        },
+        {
+          "value": "417",
+          "label": "Births reported",
+          "note": "October 2026"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "college",
+      "title": "Information of the Medical College / Institution",
+      "columns": [
+        "S.No.",
+        "Information",
+        "Details"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1",
+            "Name",
+            "Chirayu Medical College and Hospital"
+          ]
+        },
+        {
+          "cells": [
+            "2",
+            "Address with pin code",
+            "Bhopal – Indore Highway, Near Bairgarh, Bhopal (M.P.) - 462030"
+          ]
+        },
+        {
+          "cells": [
+            "3",
+            "University address with pin code",
+            "Chirayu University, Bhopal - 462030"
+          ]
+        },
+        {
+          "cells": [
+            "4",
+            "Official website",
+            "[www.cmchbhopal.com](https://www.cmchbhopal.com)"
+          ]
+        },
+        {
+          "cells": [
+            "5",
+            "Dean / Principal / Director",
+            "Dr. Prabhakar Hiwarkar"
+          ]
+        },
+        {
+          "cells": [
+            "6",
+            "Mobile Number",
+            "[9425724977](tel:+919425724977)"
+          ]
+        },
+        {
+          "cells": [
+            "7",
+            "Email ID of Dean",
+            "[cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
+          ]
+        },
+        {
+          "cells": [
+            "8",
+            "Hospital",
+            "Chirayu Medical College and Hospital"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "hospital",
+      "title": "Hospital, Permission & Admissions",
+      "columns": [
+        "S.No.",
+        "Information",
+        "Details"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "9",
+            "Date and Year of Registration of the Hospital (DD/MM/YYYY)",
+            "14.06.2010"
+          ]
+        },
+        {
+          "cells": [
+            "10",
+            "Number of Beds",
+            "1141"
+          ]
+        },
+        {
+          "cells": [
+            "11",
+            "Number of Beds for emergency",
+            "30"
+          ]
+        },
+        {
+          "cells": [
+            "12",
+            "Date of the First Letter of Permission (LoP) of MBBS (DD/MM/YYYY) & number of seats",
+            "08/06/2011 ; 150 Seats\n13/07/2023 ; 250 Seats"
+          ]
+        },
+        {
+          "cells": [
+            "13",
+            "Status of Recognition",
+            "Recognized (150 Seats)\nPermitted (250 Seats)"
+          ]
+        },
+        {
+          "cells": [
+            "14",
+            "Number of MBBS and PG broad specialty and super specialty students admitted in this session*",
+            "MBBS: 250\nMD/MS: 161\nDM/MCh: NA"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "records",
+      "title": "Patient, Birth & Death Records (previous month)",
+      "columns": [
+        "S.No.",
+        "Information",
+        "Details"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "15",
+            "Inpatients registered and admitted (Previous month record)",
+            "October 2026: 7687"
+          ]
+        },
+        {
+          "cells": [
+            "16",
+            "Outpatients registered (Previous month record)",
+            "October 2026: 75425"
+          ]
+        },
+        {
+          "cells": [
+            "17",
+            "Number of Deaths reported to the Municipality / village register (month-wise) (Previous month record)",
+            "October 2026: 170"
+          ]
+        },
+        {
+          "cells": [
+            "18",
+            "Address and pin code of the Corporation / Village where the Death records are reported",
+            "Registrar Office in front of Collectrate Office Kohefiza, Bhopal (M.P.) - 462001"
+          ]
+        },
+        {
+          "cells": [
+            "19",
+            "Website link / email ID / hyperlink of the corporation in case Death Records are reported",
+            "[crsorgi.gov.in](https://crsorgi.gov.in)"
+          ]
+        },
+        {
+          "cells": [
+            "20",
+            "Number of Births reported (Month-wise)",
+            "October 2026: 417"
+          ]
+        },
+        {
+          "cells": [
+            "21",
+            "Address and pin code of the Corporation / village where the Birth records are reported",
+            "Registrar Office in front of Collectrate Office Kohefiza, Bhopal (M.P.) - 462001"
+          ]
+        },
+        {
+          "cells": [
+            "22",
+            "Website link / email ID / hyperlink of the corporation in case Birth Records are reported",
+            "[crsorgi.gov.in](https://crsorgi.gov.in)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "hostel",
+      "title": "Hostels",
+      "columns": [
+        "S.No.",
+        "Information",
+        "Details"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "23",
+            "Number of Rooms in Men's Hostel and students accommodated",
+            "400 / 250"
+          ]
+        },
+        {
+          "cells": [
+            "24",
+            "Total Number of Rooms in Women's Hostel and students accommodated",
+            "500 / 318"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "grievance",
+      "title": "Grievance Redressal",
+      "columns": [
+        "S.No.",
+        "Information",
+        "Details"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "25",
+            "Name of the Grievance Redressal Officer (PIO & CPIO)",
+            "Dr. Prabhakar Hiwarkar"
+          ]
+        },
+        {
+          "cells": [
+            "26",
+            "Address with PIN code",
+            "A-104, Chirayu Medical College Campus, Bhopal (M.P.) - 462030"
+          ]
+        },
+        {
+          "cells": [
+            "27",
+            "Telephone Number / Email Id",
+            "[0755-2709258](tel:07552709258)\n[cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
+          ]
+        },
+        {
+          "cells": [
+            "28",
+            "Grievances reported (Previous month record)",
+            "Nil"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "pg-courses",
+      "title": "29. Details of Post-Graduation Courses Offered",
+      "columns": [
+        "S.No.",
+        "Course",
+        "Year of Commencement",
+        "Students Currently Pursuing",
+        "Students Admitted"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1",
+            "MD Anatomy",
+            "2016",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "cells": [
+            "2",
+            "MD Physiology",
+            "2016",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "cells": [
+            "3",
+            "MD Biochemistry",
+            "2016",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "cells": [
+            "4",
+            "MD Pathology",
+            "2016",
+            "11",
+            "8"
+          ]
+        },
+        {
+          "cells": [
+            "5",
+            "MD Microbiology",
+            "2016",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "cells": [
+            "6",
+            "MD Pharmacology",
+            "2016",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "cells": [
+            "7",
+            "MD Community Medicine",
+            "2016",
+            "4",
+            "4"
+          ]
+        },
+        {
+          "cells": [
+            "8",
+            "MD General Medicine",
+            "2020",
+            "25",
+            "8"
+          ]
+        },
+        {
+          "cells": [
+            "9",
+            "MD Psychiatry",
+            "2020",
+            "9",
+            "3"
+          ]
+        },
+        {
+          "cells": [
+            "10",
+            "MD Dermatology Venereology & Leprosy",
+            "2020",
+            "9",
+            "3"
+          ]
+        },
+        {
+          "cells": [
+            "11",
+            "MD Paediatrics",
+            "2020",
+            "12",
+            "4"
+          ]
+        },
+        {
+          "cells": [
+            "12",
+            "MS General Surgery",
+            "2020",
+            "15",
+            "5"
+          ]
+        },
+        {
+          "cells": [
+            "13",
+            "MS Orthopaedics",
+            "2020",
+            "12",
+            "4"
+          ]
+        },
+        {
+          "cells": [
+            "14",
+            "MS Otorhinolaryngology (ENT)",
+            "2020",
+            "6",
+            "2"
+          ]
+        },
+        {
+          "cells": [
+            "15",
+            "MS Ophthalmology",
+            "2020",
+            "6",
+            "2"
+          ]
+        },
+        {
+          "cells": [
+            "16",
+            "MS Obstetrics & Gynaecology",
+            "2020",
+            "9",
+            "3"
+          ]
+        },
+        {
+          "cells": [
+            "17",
+            "MD Radiodiagnosis",
+            "2020",
+            "12",
+            "4"
+          ]
+        },
+        {
+          "cells": [
+            "18",
+            "MD Anaesthesiology",
+            "2020",
+            "18",
+            "6"
+          ]
+        },
+        {
+          "cells": [
+            "19",
+            "MD Radiation Oncology",
+            "2020",
+            "6",
+            "2"
+          ]
+        },
+        {
+          "cells": [
+            "20",
+            "MD Emergency Medicine",
+            "2022",
+            "2",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "files",
+      "id": "documents",
+      "title": "30. Faculty List & Annexures",
+      "items": [
+        {
+          "title": "30. Department wise list of Faculty Members",
+          "href": "/assets/docs/marb/department-wise-faculty-list.pdf",
+          "date": "22 pages"
+        },
+        {
+          "title": "Annexure I — Publications of faculty (Vancouver style)",
+          "href": "/assets/docs/marb/annexure-1-publications.pdf",
+          "date": "91 pages"
+        },
+        {
+          "title": "Annexure II — Faculty list with designation",
+          "href": "/assets/docs/marb/annexure-2.pdf",
+          "date": "12 pages"
+        }
+      ]
+    }
+  ]
+}

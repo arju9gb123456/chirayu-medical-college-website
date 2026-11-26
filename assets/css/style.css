@@ -1402,6 +1402,18 @@ html:not(.has-cursor) .cursor{display:none}
   .dsc__go svg{padding:8px}
 }
 
+/* ---------- Key figures ---------- */
+.pstats{display:grid;grid-template-columns:repeat(var(--cols,3),minmax(0,1fr));gap:14px}
+@media (max-width:900px){.pstats{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.pstat{position:relative;display:grid;gap:4px;padding:22px 20px;border-radius:20px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);overflow:hidden;isolation:isolate;transition:transform .4s var(--ease),box-shadow .4s}
+.pstat::after{content:"";position:absolute;right:-30px;top:-30px;width:110px;height:110px;border-radius:50%;background:radial-gradient(closest-side,rgba(94,214,211,.28),transparent);z-index:-1}
+.pstat:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover)}
+.pstat b{font-family:"Plus Jakarta Sans","Manrope",sans-serif;font-size:clamp(28px,2.6vw,38px);font-weight:800;letter-spacing:-.04em;line-height:1;background:linear-gradient(120deg,var(--accent-d),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.pstat span{font-size:13.5px;font-weight:700;color:var(--heading)}
+.pstat small{font-size:12px;color:var(--muted)}
+.pstats__note{margin-top:12px;font-size:13px;color:var(--muted)}
+@media (max-width:640px){.pstats{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.pstat{padding:16px 14px}}
+
 /* =========================================================
    Responsive
    ========================================================= */
@@ -1674,7 +1686,7 @@ html:not(.has-cursor) .cursor{display:none}
   radial-gradient(900px 520px at 0% 100%,rgba(94,214,211,.25),transparent 60%),
   radial-gradient(700px 400px at 100% 0%,rgba(47,107,255,.10),transparent 60%),#F3F8FA}
 [data-theme="medlab"] .phero__intro{color:var(--muted)}
-[data-theme="medlab"] .ptable thead th{background:#04323C;color:#fff}
+[data-theme="medlab"] .ptable thead th{background:#04323C;color:#fff;font-family:"Plus Jakarta Sans","Manrope",sans-serif;font-weight:700;font-size:13.5px;letter-spacing:.02em}
 
 /* CTA 3D heart */
 [data-theme="medlab"] .cta .med3d{inset:auto;left:42%;top:50%;width:min(23%,270px);aspect-ratio:1;translate:0 -50%;z-index:-1}
