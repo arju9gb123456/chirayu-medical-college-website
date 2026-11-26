@@ -123,7 +123,10 @@
     if (/student|universit|admission|exam|fee/.test(c)) return 'cap';
     if (/ragging|safety|committee|harass/.test(c)) return 'shield';
     if (/research|award|cme|academic/.test(c)) return 'award';
-    if (/hospital|clinical|bed/.test(c)) return 'bed';
+    if (/hostel/.test(c)) return 'college';
+    if (/hospital|clinical|bed|patient|birth|death|record/.test(c)) return 'bed';
+    if (/grievance/.test(c)) return 'bell';
+    if (/college|institution/.test(c)) return 'college';
     return 'file';
   }
   function initials(n) {
@@ -250,6 +253,31 @@
         }).join('') +
         '<p class="pempty" hidden>No matching disclosures.</p></div>';
     },
+    /* Facts: numbered information tiles (MARB proforma etc.) */
+    facts: function (b) {
+      var items = b.items || [];
+      return '<div class="pfacts">' + items.map(function (it) {
+        var v = String(it.value || ''), lines = v.split('\n').filter(Boolean), long = plain(v).length > 140;
+        return '<div class="pfact' + (long ? ' pfact--wide' : '') + '" data-reveal>' +
+          (it.no ? '<span class="pfact__no">' + esc(it.no) + '</span>' : '') +
+          '<span class="pfact__l">' + esc(it.label) + '</span>' +
+          '<div class="pfact__v' + (lines.length > 1 && lines.some(function (l) { return plain(l).length > 16; }) ? ' pfact__v--stack' : '') + '">' + lines.map(function (l) { return '<span>' + inline(l) + '</span>'; }).join('') + '</div></div>';
+      }).join('') + '</div>';
+    },
+    /* Courses: one card per course with seats / students */
+    courses: function (b) {
+      var items = b.items || [], max = Math.max.apply(null, items.map(function (c) { return +c.current || 0; }).concat([1]));
+      return '<div class="pblock__bar">' + (items.length > 8 ? searchBox('Search courses…') : '') + '<span class="pcount">' + items.length + ' courses</span></div>' +
+        '<div class="pcourses">' + items.map(function (c) {
+          var deg = (String(c.name).match(/^(MD|MS|DM|MCh|DNB|MBBS)\b/i) || [, ''])[1], nm = String(c.name).replace(/^(MD|MS|DM|MCh|DNB)\s+/i, '');
+          var cur = +c.current || 0;
+          return '<article class="pcourse" data-reveal><div class="pcourse__top"><span class="pcourse__deg">' + esc(deg || 'PG') + '</span>' +
+            (c.year ? '<span class="pcourse__yr">Since ' + esc(c.year) + '</span>' : '') + '</div>' +
+            '<h3>' + esc(nm) + '</h3>' +
+            '<div class="pcourse__nums"><div><b>' + esc(c.current) + '</b><span>Currently pursuing</span></div><div><b>' + esc(c.admitted) + '</b><span>Admitted</span></div></div>' +
+            '<span class="pcourse__bar"><i style="width:' + Math.round(cur / max * 100) + '%"></i></span></article>';
+        }).join('') + '</div><p class="pempty" hidden>No matching course.</p>';
+    },
     /* Key figures: big numbers with a label */
     stats: function (b) {
       var items = b.items || [];
@@ -299,7 +327,8 @@
       blocks.map(function (b, i) {
         var showTitle = b.type !== 'button' && b.type !== 'disclosures' && b.title;
         return '<section class="pblock pblock--' + b.type + '" id="' + blockId(b, i) + '" data-block="' + i + '">' +
-          (showTitle ? '<div class="head"><div><div class="kick"><svg><use href="#i-ecg"/></svg> ' + esc(i + 1 < 10 ? '0' + (i + 1) : i + 1) + '</div><h2 class="head__title pblock__title" data-split>' + esc(b.title) + '</h2></div></div>' : '') +
+          (showTitle && b.type === 'facts' ? '<header class="dsc__gh pfacts__gh" data-reveal><span class="dsc__gic">' + icon(b.icon || catIcon(b.title)) + '</span><h2 class="pblock__title2">' + esc(b.title) + '</h2><span class="dsc__gn">' + (b.items || []).length + ' items</span></header>' :
+           showTitle ? '<div class="head"><div><div class="kick"><svg><use href="#i-ecg"/></svg> ' + esc(i + 1 < 10 ? '0' + (i + 1) : i + 1) + '</div><h2 class="head__title pblock__title" data-split>' + esc(b.title) + '</h2></div></div>' : '') +
           RENDER[b.type](b) + '</section>';
       }).join('') + '</div></div></section>';
   }
@@ -347,7 +376,7 @@
     $$('.pblock').forEach(function (sec) {
       if ($('.dsc', sec)) return; // has its own filter (below)
       var input = $('.psearch input', sec), more = $('[data-more]', sec), count = $('.pcount', sec), empty = $('.pempty', sec);
-      var rows = $$('.ptable tbody tr, .pfile, .fac, .pcard', sec), total = rows.length, unit = sec.classList.contains('pblock--files') ? 'documents' : sec.classList.contains('pblock--faculty') ? 'members' : sec.classList.contains('pblock--cards') ? 'items' : 'entries';
+      var rows = $$('.ptable tbody tr, .pfile, .fac, .pcard, .pcourse', sec), total = rows.length, unit = sec.classList.contains('pblock--files') ? 'documents' : sec.classList.contains('pblock--faculty') ? 'members' : sec.classList.contains('pblock--cards') ? 'items' : 'entries';
       if (input) {
         input.addEventListener('input', function () {
           var q = input.value.trim().toLowerCase(), shown = 0;

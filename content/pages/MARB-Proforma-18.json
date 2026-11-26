@@ -45,452 +45,304 @@
       ]
     },
     {
-      "type": "table",
+      "type": "facts",
       "id": "college",
       "title": "Information of the Medical College / Institution",
-      "columns": [
-        "S.No.",
-        "Information",
-        "Details"
-      ],
-      "rows": [
+      "items": [
         {
-          "cells": [
-            "1",
-            "Name",
-            "Chirayu Medical College and Hospital"
-          ]
+          "no": "1",
+          "label": "Name",
+          "value": "Chirayu Medical College and Hospital"
         },
         {
-          "cells": [
-            "2",
-            "Address with pin code",
-            "Bhopal – Indore Highway, Near Bairgarh, Bhopal (M.P.) - 462030"
-          ]
+          "no": "2",
+          "label": "Address with pin code",
+          "value": "Bhopal – Indore Highway, Near Bairgarh, Bhopal (M.P.) - 462030"
         },
         {
-          "cells": [
-            "3",
-            "University address with pin code",
-            "Chirayu University, Bhopal - 462030"
-          ]
+          "no": "3",
+          "label": "University address with pin code",
+          "value": "Chirayu University, Bhopal - 462030"
         },
         {
-          "cells": [
-            "4",
-            "Official website",
-            "[www.cmchbhopal.com](https://www.cmchbhopal.com)"
-          ]
+          "no": "4",
+          "label": "Official website",
+          "value": "[www.cmchbhopal.com](https://www.cmchbhopal.com)"
         },
         {
-          "cells": [
-            "5",
-            "Dean / Principal / Director",
-            "Dr. Prabhakar Hiwarkar"
-          ]
+          "no": "5",
+          "label": "Dean / Principal / Director",
+          "value": "Dr. Prabhakar Hiwarkar"
         },
         {
-          "cells": [
-            "6",
-            "Mobile Number",
-            "[9425724977](tel:+919425724977)"
-          ]
+          "no": "6",
+          "label": "Mobile Number",
+          "value": "[9425724977](tel:+919425724977)"
         },
         {
-          "cells": [
-            "7",
-            "Email ID of Dean",
-            "[cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
-          ]
+          "no": "7",
+          "label": "Email ID of Dean",
+          "value": "[cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
         },
         {
-          "cells": [
-            "8",
-            "Hospital",
-            "Chirayu Medical College and Hospital"
-          ]
+          "no": "8",
+          "label": "Hospital",
+          "value": "Chirayu Medical College and Hospital"
         }
       ]
     },
     {
-      "type": "table",
+      "type": "facts",
       "id": "hospital",
       "title": "Hospital, Permission & Admissions",
-      "columns": [
-        "S.No.",
-        "Information",
-        "Details"
-      ],
-      "rows": [
+      "items": [
         {
-          "cells": [
-            "9",
-            "Date and Year of Registration of the Hospital (DD/MM/YYYY)",
-            "14.06.2010"
-          ]
+          "no": "9",
+          "label": "Date and Year of Registration of the Hospital (DD/MM/YYYY)",
+          "value": "14.06.2010"
         },
         {
-          "cells": [
-            "10",
-            "Number of Beds",
-            "1141"
-          ]
+          "no": "10",
+          "label": "Number of Beds",
+          "value": "1141"
         },
         {
-          "cells": [
-            "11",
-            "Number of Beds for emergency",
-            "30"
-          ]
+          "no": "11",
+          "label": "Number of Beds for emergency",
+          "value": "30"
         },
         {
-          "cells": [
-            "12",
-            "Date of the First Letter of Permission (LoP) of MBBS (DD/MM/YYYY) & number of seats",
-            "08/06/2011 ; 150 Seats\n13/07/2023 ; 250 Seats"
-          ]
+          "no": "12",
+          "label": "Date of the First Letter of Permission (LoP) of MBBS (DD/MM/YYYY) & number of seats",
+          "value": "08/06/2011 ; 150 Seats\n13/07/2023 ; 250 Seats"
         },
         {
-          "cells": [
-            "13",
-            "Status of Recognition",
-            "Recognized (150 Seats)\nPermitted (250 Seats)"
-          ]
+          "no": "13",
+          "label": "Status of Recognition",
+          "value": "Recognized (150 Seats)\nPermitted (250 Seats)"
         },
         {
-          "cells": [
-            "14",
-            "Number of MBBS and PG broad specialty and super specialty students admitted in this session*",
-            "MBBS: 250\nMD/MS: 161\nDM/MCh: NA"
-          ]
+          "no": "14",
+          "label": "Number of MBBS and PG broad specialty and super specialty students admitted in this session*",
+          "value": "MBBS: 250\nMD/MS: 161\nDM/MCh: NA"
         }
       ]
     },
     {
-      "type": "table",
+      "type": "facts",
       "id": "records",
       "title": "Patient, Birth & Death Records (previous month)",
-      "columns": [
-        "S.No.",
-        "Information",
-        "Details"
-      ],
-      "rows": [
+      "items": [
         {
-          "cells": [
-            "15",
-            "Inpatients registered and admitted (Previous month record)",
-            "October 2026: 7687"
-          ]
+          "no": "15",
+          "label": "Inpatients registered and admitted (Previous month record)",
+          "value": "October 2026: 7687"
         },
         {
-          "cells": [
-            "16",
-            "Outpatients registered (Previous month record)",
-            "October 2026: 75425"
-          ]
+          "no": "16",
+          "label": "Outpatients registered (Previous month record)",
+          "value": "October 2026: 75425"
         },
         {
-          "cells": [
-            "17",
-            "Number of Deaths reported to the Municipality / village register (month-wise) (Previous month record)",
-            "October 2026: 170"
-          ]
+          "no": "17",
+          "label": "Number of Deaths reported to the Municipality / village register (month-wise) (Previous month record)",
+          "value": "October 2026: 170"
         },
         {
-          "cells": [
-            "18",
-            "Address and pin code of the Corporation / Village where the Death records are reported",
-            "Registrar Office in front of Collectrate Office Kohefiza, Bhopal (M.P.) - 462001"
-          ]
+          "no": "18",
+          "label": "Address and pin code of the Corporation / Village where the Death records are reported",
+          "value": "Registrar Office in front of Collectrate Office Kohefiza, Bhopal (M.P.) - 462001"
         },
         {
-          "cells": [
-            "19",
-            "Website link / email ID / hyperlink of the corporation in case Death Records are reported",
-            "[crsorgi.gov.in](https://crsorgi.gov.in)"
-          ]
+          "no": "19",
+          "label": "Website link / email ID / hyperlink of the corporation in case Death Records are reported",
+          "value": "[crsorgi.gov.in](https://crsorgi.gov.in)"
         },
         {
-          "cells": [
-            "20",
-            "Number of Births reported (Month-wise)",
-            "October 2026: 417"
-          ]
+          "no": "20",
+          "label": "Number of Births reported (Month-wise)",
+          "value": "October 2026: 417"
         },
         {
-          "cells": [
-            "21",
-            "Address and pin code of the Corporation / village where the Birth records are reported",
-            "Registrar Office in front of Collectrate Office Kohefiza, Bhopal (M.P.) - 462001"
-          ]
+          "no": "21",
+          "label": "Address and pin code of the Corporation / village where the Birth records are reported",
+          "value": "Registrar Office in front of Collectrate Office Kohefiza, Bhopal (M.P.) - 462001"
         },
         {
-          "cells": [
-            "22",
-            "Website link / email ID / hyperlink of the corporation in case Birth Records are reported",
-            "[crsorgi.gov.in](https://crsorgi.gov.in)"
-          ]
+          "no": "22",
+          "label": "Website link / email ID / hyperlink of the corporation in case Birth Records are reported",
+          "value": "[crsorgi.gov.in](https://crsorgi.gov.in)"
         }
       ]
     },
     {
-      "type": "table",
+      "type": "facts",
       "id": "hostel",
       "title": "Hostels",
-      "columns": [
-        "S.No.",
-        "Information",
-        "Details"
-      ],
-      "rows": [
+      "items": [
         {
-          "cells": [
-            "23",
-            "Number of Rooms in Men's Hostel and students accommodated",
-            "400 / 250"
-          ]
+          "no": "23",
+          "label": "Number of Rooms in Men's Hostel and students accommodated",
+          "value": "400 / 250"
         },
         {
-          "cells": [
-            "24",
-            "Total Number of Rooms in Women's Hostel and students accommodated",
-            "500 / 318"
-          ]
+          "no": "24",
+          "label": "Total Number of Rooms in Women's Hostel and students accommodated",
+          "value": "500 / 318"
         }
       ]
     },
     {
-      "type": "table",
+      "type": "facts",
       "id": "grievance",
       "title": "Grievance Redressal",
-      "columns": [
-        "S.No.",
-        "Information",
-        "Details"
-      ],
-      "rows": [
+      "items": [
         {
-          "cells": [
-            "25",
-            "Name of the Grievance Redressal Officer (PIO & CPIO)",
-            "Dr. Prabhakar Hiwarkar"
-          ]
+          "no": "25",
+          "label": "Name of the Grievance Redressal Officer (PIO & CPIO)",
+          "value": "Dr. Prabhakar Hiwarkar"
         },
         {
-          "cells": [
-            "26",
-            "Address with PIN code",
-            "A-104, Chirayu Medical College Campus, Bhopal (M.P.) - 462030"
-          ]
+          "no": "26",
+          "label": "Address with PIN code",
+          "value": "A-104, Chirayu Medical College Campus, Bhopal (M.P.) - 462030"
         },
         {
-          "cells": [
-            "27",
-            "Telephone Number / Email Id",
-            "[0755-2709258](tel:07552709258)\n[cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
-          ]
+          "no": "27",
+          "label": "Telephone Number / Email Id",
+          "value": "[0755-2709258](tel:07552709258)\n[cmchdean@gmail.com](mailto:cmchdean@gmail.com)"
         },
         {
-          "cells": [
-            "28",
-            "Grievances reported (Previous month record)",
-            "Nil"
-          ]
+          "no": "28",
+          "label": "Grievances reported (Previous month record)",
+          "value": "Nil"
         }
       ]
     },
     {
-      "type": "table",
+      "type": "courses",
       "id": "pg-courses",
-      "title": "29. Details of Post-Graduation Courses Offered",
-      "columns": [
-        "S.No.",
-        "Course",
-        "Year of Commencement",
-        "Students Currently Pursuing",
-        "Students Admitted"
-      ],
-      "rows": [
+      "title": "29. Post-Graduation Courses Offered",
+      "items": [
         {
-          "cells": [
-            "1",
-            "MD Anatomy",
-            "2016",
-            "0",
-            "0"
-          ]
+          "name": "MD Anatomy",
+          "year": "2016",
+          "current": "0",
+          "admitted": "0"
         },
         {
-          "cells": [
-            "2",
-            "MD Physiology",
-            "2016",
-            "0",
-            "0"
-          ]
+          "name": "MD Physiology",
+          "year": "2016",
+          "current": "0",
+          "admitted": "0"
         },
         {
-          "cells": [
-            "3",
-            "MD Biochemistry",
-            "2016",
-            "2",
-            "2"
-          ]
+          "name": "MD Biochemistry",
+          "year": "2016",
+          "current": "2",
+          "admitted": "2"
         },
         {
-          "cells": [
-            "4",
-            "MD Pathology",
-            "2016",
-            "11",
-            "8"
-          ]
+          "name": "MD Pathology",
+          "year": "2016",
+          "current": "11",
+          "admitted": "8"
         },
         {
-          "cells": [
-            "5",
-            "MD Microbiology",
-            "2016",
-            "2",
-            "2"
-          ]
+          "name": "MD Microbiology",
+          "year": "2016",
+          "current": "2",
+          "admitted": "2"
         },
         {
-          "cells": [
-            "6",
-            "MD Pharmacology",
-            "2016",
-            "1",
-            "1"
-          ]
+          "name": "MD Pharmacology",
+          "year": "2016",
+          "current": "1",
+          "admitted": "1"
         },
         {
-          "cells": [
-            "7",
-            "MD Community Medicine",
-            "2016",
-            "4",
-            "4"
-          ]
+          "name": "MD Community Medicine",
+          "year": "2016",
+          "current": "4",
+          "admitted": "4"
         },
         {
-          "cells": [
-            "8",
-            "MD General Medicine",
-            "2020",
-            "25",
-            "8"
-          ]
+          "name": "MD General Medicine",
+          "year": "2020",
+          "current": "25",
+          "admitted": "8"
         },
         {
-          "cells": [
-            "9",
-            "MD Psychiatry",
-            "2020",
-            "9",
-            "3"
-          ]
+          "name": "MD Psychiatry",
+          "year": "2020",
+          "current": "9",
+          "admitted": "3"
         },
         {
-          "cells": [
-            "10",
-            "MD Dermatology Venereology & Leprosy",
-            "2020",
-            "9",
-            "3"
-          ]
+          "name": "MD Dermatology Venereology & Leprosy",
+          "year": "2020",
+          "current": "9",
+          "admitted": "3"
         },
         {
-          "cells": [
-            "11",
-            "MD Paediatrics",
-            "2020",
-            "12",
-            "4"
-          ]
+          "name": "MD Paediatrics",
+          "year": "2020",
+          "current": "12",
+          "admitted": "4"
         },
         {
-          "cells": [
-            "12",
-            "MS General Surgery",
-            "2020",
-            "15",
-            "5"
-          ]
+          "name": "MS General Surgery",
+          "year": "2020",
+          "current": "15",
+          "admitted": "5"
         },
         {
-          "cells": [
-            "13",
-            "MS Orthopaedics",
-            "2020",
-            "12",
-            "4"
-          ]
+          "name": "MS Orthopaedics",
+          "year": "2020",
+          "current": "12",
+          "admitted": "4"
         },
         {
-          "cells": [
-            "14",
-            "MS Otorhinolaryngology (ENT)",
-            "2020",
-            "6",
-            "2"
-          ]
+          "name": "MS Otorhinolaryngology (ENT)",
+          "year": "2020",
+          "current": "6",
+          "admitted": "2"
         },
         {
-          "cells": [
-            "15",
-            "MS Ophthalmology",
-            "2020",
-            "6",
-            "2"
-          ]
+          "name": "MS Ophthalmology",
+          "year": "2020",
+          "current": "6",
+          "admitted": "2"
         },
         {
-          "cells": [
-            "16",
-            "MS Obstetrics & Gynaecology",
-            "2020",
-            "9",
-            "3"
-          ]
+          "name": "MS Obstetrics & Gynaecology",
+          "year": "2020",
+          "current": "9",
+          "admitted": "3"
         },
         {
-          "cells": [
-            "17",
-            "MD Radiodiagnosis",
-            "2020",
-            "12",
-            "4"
-          ]
+          "name": "MD Radiodiagnosis",
+          "year": "2020",
+          "current": "12",
+          "admitted": "4"
         },
         {
-          "cells": [
-            "18",
-            "MD Anaesthesiology",
-            "2020",
-            "18",
-            "6"
-          ]
+          "name": "MD Anaesthesiology",
+          "year": "2020",
+          "current": "18",
+          "admitted": "6"
         },
         {
-          "cells": [
-            "19",
-            "MD Radiation Oncology",
-            "2020",
-            "6",
-            "2"
-          ]
+          "name": "MD Radiation Oncology",
+          "year": "2020",
+          "current": "6",
+          "admitted": "2"
         },
         {
-          "cells": [
-            "20",
-            "MD Emergency Medicine",
-            "2022",
-            "2",
-            "1"
-          ]
+          "name": "MD Emergency Medicine",
+          "year": "2022",
+          "current": "2",
+          "admitted": "1"
         }
       ]
     },
