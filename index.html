@@ -68,7 +68,7 @@ document.documentElement.classList.add('js');
 <link rel="preload" href="assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" type="image/svg+xml" href="assets/img/emblem.svg">
 <link rel="apple-touch-icon" href="assets/img/emblem.svg">
-<link rel="stylesheet" href="assets/css/style.css?v=20261126-m2">
+<link rel="stylesheet" href="assets/css/style.css?v=20261126-m3">
 </head>
 <body>
 
@@ -210,19 +210,12 @@ document.documentElement.classList.add('js');
     </div>
 
     <div class="hero__visual" data-in style="--d:2">
-      <div class="med3d" data-med3d="hero" aria-hidden="true">
-        <canvas></canvas><span class="med3d__fb"></span>
-        <div class="hud">
-          <span class="hud__ring"></span><span class="hud__scan"></span>
-          <span class="hud__corner hud__corner--tl"></span><span class="hud__corner hud__corner--tr"></span><span class="hud__corner hud__corner--bl"></span><span class="hud__corner hud__corner--br"></span>
-          <span class="hud__label hud__label--top"><i></i> CMCH · Med-Lab 3D</span>
-          <span class="hud__label hud__label--bot">NABH · 1300 Beds · Since 1992</span>
-          <span class="hud__vitals">Heart rate<b>72<small>BPM</small></b><svg viewBox="0 0 120 26"><path d="M0 14h30l4-4 4 4h6l4 7 6-19 6 22 4-10h10l6-4 6 4h30"/></svg></span>
-          <span class="hud__tag" data-tag="dna" style="left:0;top:0">Research</span>
-          <span class="hud__tag" data-tag="steth" style="left:0;top:0">Diagnostics</span>
-          <span class="hud__tag" data-tag="syringe" style="left:0;top:0">Pharmacy</span>
-          <span class="hud__tag" data-tag="heart" style="left:0;top:0">Cardiac care</span>
-        </div>
+      <div class="hframe" aria-hidden="true">
+        <span class="hud__ring"></span>
+        <span class="hframe__back"></span><span class="hframe__dots"></span>
+        <span class="hud__corner hud__corner--tl"></span><span class="hud__corner hud__corner--tr"></span><span class="hud__corner hud__corner--bl"></span><span class="hud__corner hud__corner--br"></span>
+        <span class="hud__label hud__label--top"><i></i> Chirayu · Bhopal</span>
+        <span class="hud__label hud__label--bot">NABH · 1300 Beds · Since 1992</span>
       </div>
       <div class="hero__media" data-bind="hero-media" aria-hidden="true"></div>
       <div class="hero__shade" aria-hidden="true"></div>
@@ -568,6 +561,6 @@ document.documentElement.classList.add('js');
 <script src="assets/js/config.js?v=20261025-t3"></script>
 <script src="assets/vendor/lenis.min.js?v=1.1.13" defer></script>
 <script src="assets/js/chrome.js?v=20261026-c1" defer></script>
-<script src="assets/js/main.js?v=20261126-m2" defer></script>
+<script src="assets/js/main.js?v=20261126-m3" defer></script>
 </body>
 </html>
